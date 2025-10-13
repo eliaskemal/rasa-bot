@@ -1,0 +1,78 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ministry_Revenue_general_en
+  examples: |
+    - About Ministry of Revenue Service in general
+    - about Ministry of Revenue service time, fee and document requirement
+    - Ministry of Revenue Service time, fee and document requirement
+    - Ministry of Revenue Service in general 
+    - About  Revenue Service in general
+    - about  Revenue service time, fee and document requirement
+    - Revenue Service time, fee and document requirement
+    - Revenue Service in general 
+    - Can you give me full details about the services of the Ministry of Revenue, including required documents, processing time, and fees?
+    - I want to know everything about Ministry of Revenue services, documents needed, how long it takes, and how much it costs.
+    - Please explain the Ministry of Revenue services along with necessary documents, time required, and charges.
+    - What are the services provided by the Ministry of Revenue and what documents, time, and fees are involved?
+    - Give me complete information about Ministry of Revenue services, including documents to bring, processing duration, and payment amount.
+    - Could you tell me all details about Revenue Ministry services, required paperwork, timing, and cost?
+    - I need to know Ministry of Revenue services and also what documents I should prepare, how much time it takes, and the service fee.
+    - Provide a full guide on Ministry of Revenue services with document requirements, service timeline, and fees.
+    - What services does the Ministry of Revenue offer, and what documents are needed, how long it takes, and what is the fee?
+    - Share detailed information about Ministry of Revenue services, including required documents, time to complete, and total charges.
+
+- intent: ask_about_Ministry_Revenue_service_en
+  examples: |
+    - information about Ministry of Revenue services
+    - Ministry of Revenue service details
+    - Ministry of Revenue service information
+    - details on services provided by the Ministry of Revenue
+    - available services at Ministry of Revenue
+    - What services does the Ministry of Revenue provide?
+    - Can you list the services offered by the Ministry of Revenue?
+    - What are the available services at the Ministry of Revenue?
+    - Which services can I get from the Ministry of Revenue?
+    - Tell me about the services provided by Revenue office
+    - What facilities are available at the Revenue office?
+    - Can you explain the services under Ministry of Revenue?
+    - What services are included in the Revenue department?
+    - What are the key services provided by the Ministry of Revenue?
+
+- intent: ask_about_Ministry_Revenue_Doc_en
+  examples: |
+    - documents needed for Ministry of Revenue services
+    - What documents are required at the Ministry of Revenue services
+    - Which papers do I need for Revenue services?
+    - Documents needed for Ministry of Revenue
+    - list of documents needed at Ministry of Revenue
+    - documents required for Ministry of Revenue
+    - Ministry of Revenue required documents list
+    - required papers for Ministry of Revenue services
+    - Required files for Revenue office processing
+    - What should I bring to the Ministry of Revenue?
+
+- intent: ask_about_Ministry_Revenue_time_en
+  examples: |
+    - What are the service hours of the Ministry of Revenue?
+    - Service time for Revenue 
+    - service time for Ministry of Revenue
+    - how long does service take at Ministry of Revenue
+    - Ministry of Revenue service time schedule
+    - Ministry of Revenue service duration
+    - Ministry of Revenue service time frame
+    
+
+- intent: ask_about_Ministry_Revenue_fee_en
+  examples: |
+    - What is the service fee at the Ministry of Revenue?
+    - How much does Revenue office charge?
+    - Fee for the service processing at Ministry of Revenue
+    - Service charge for Revenue services
+    - service fee at Ministry of Revenue
+    - fees for Ministry of Revenue services
+    - cost of services at Ministry of Revenue
+    - Price of Ministry of Revenue services
+    - charges for Ministry of Revenue services
+    - Ministry of Revenue documents and fees
+    - details about Ministry of Revenue fees

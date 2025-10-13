@@ -1,0 +1,15 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ministry_Labor_Skills_service_en
+  examples: |
+    - What services does the Ministry of Labor and Skills provide?
+    - Can you list the services offered by the Ministry of Labor and Skills?
+    - What are the available services at the Ministry of Labor and Skills?
+    - Which services can I get from the Ministry of Labor and Skills?
+    - Tell me about the services provided by Labor and Skills ministry
+    - What kind of help can I get from the Ministry of Labor and Skills?
+    - Which programs are available under the Ministry of Labor and Skills?
+    - Can you explain the services under Labor and Skills ministry?
+    - What are the main functions of the Ministry of Labor and Skills?
+    - What services are included in the Ministry of Labor and Skills department?

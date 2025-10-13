@@ -1,0 +1,893 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ethiopian_Environmental_Protection_Authority_general_en
+  examples: |
+    - Ethiopian Environmental Protection Authority
+    - everything about Ethiopian Environmental Protection Authority
+    - Ethiopian Environmental Protection Authority in mesob
+    - Ethiopian Environmental Protection Authority in general
+    - general information about Ethiopian Environmental Protection Authority
+    - general overview of Ethiopian Environmental Protection Authority
+    - can u tell me general information about Ethiopian Environmental Protection Authority
+    - can u give me general information about Ethiopian Environmental Protection Authority
+    - give me general information about Ethiopian Environmental Protection Authority
+    - provide me general information about Ethiopian Environmental Protection Authority
+    - send me general information about Ethiopian Environmental Protection Authority
+    - tell me general information about Ethiopian Environmental Protection Authority
+    - What does the Ethiopian Environmental Protection Authority do?
+    - explain what the Ethiopian Environmental Protection Authority is?
+    - Ethiopian Environmental Protection Authority do?
+    - Ethiopian Environmental Protection Authority information
+    - information about Ethiopian Environmental Protection Authority
+    - information on Ethiopian Environmental Protection Authority
+    - Need information on Ethiopian Environmental Protection Authority
+    - What is Ethiopian Environmental Protection Authority?
+    - Ethiopian Environmental Protection Authority details
+    - details about Ethiopian Environmental Protection Authority
+    - overview of Ethiopian Environmental Protection Authority
+    - Ethiopian Environmental Protection Authority overview
+    - Ethiopian Environmental Protection Authority purpose
+    - purpose of Ethiopian Environmental Protection Authority
+    - Ethiopian Environmental Protection Authority help
+    - can u give me help with Ethiopian Environmental Protection Authority
+    - help me with Ethiopian Environmental Protection Authority
+    - Ethiopian Environmental Protection Authority assistance
+    - assistance with Ethiopian Environmental Protection Authority
+    - need help with Ethiopian Environmental Protection Authority
+    - tell me about Ethiopian Environmental Protection Authority
+    - What does the Ethiopian Environmental Protection Authority do, and what do I need?
+    - Ethiopian Environmental Protection Authority responsibilities
+    - What's the Ethiopian Environmental Protection Authority's job?
+    - What functions does the Ethiopian Environmental Protection Authority perform
+    - what are the services and requirements of the Ethiopian Environmental Protection Authority?
+    - What services does the Ethiopian Environmental Protection Authority offer and what documents do I need?
+    - Can you tell me about the Ethiopian Environmental Protection Authority's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ethiopian Environmental Protection Authority.
+    - What documents are needed for services at the Ethiopian Environmental Protection Authority and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ethiopian Environmental Protection Authority.
+    - How much does it cost and what documents are required for Ethiopian Environmental Protection Authority services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ethiopian Environmental Protection Authority?
+    - What do I need to apply for services at the Ethiopian Environmental Protection Authority, including time and fees?
+    - Tell me about the Ethiopian Environmental Protection Authority services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ethiopian Environmental Protection Authority?
+    - Ethiopian Environmental Protection Authority services and requirements?
+    - Ethiopian Environmental Protection Authority fees and steps?
+    - How much Ethiopian Environmental Protection Authority services cost?
+    - cost for Ethiopian Environmental Protection Authority?
+    - fee for Ethiopian Environmental Protection Authority?
+    - how long does it take for Ethiopian Environmental Protection Authority?
+    - time for Ethiopian Environmental Protection Authority?
+    - What documents do I need for Ethiopian Environmental Protection Authority?
+    - What documents are needed for Ethiopian Environmental Protection Authority?
+    - What do I need for Ethiopian Environmental Protection Authority services?
+    - What papers do I need for Ethiopian Environmental Protection Authority?
+    - What documents are required for Ethiopian Environmental Protection Authority?
+    - What papers are needed for Ethiopian Environmental Protection Authority?
+    - What documents are required for Ethiopian Environmental Protection Authority services?
+    - can you send me general information about Ethiopian Environmental Protection Authority
+    - Can you tell me the documents needed for Ethiopian Environmental Protection Authority services?
+    - How long does it take to get service at Ethiopian Environmental Protection Authority?
+    - What fees are charged for services at Ethiopian Environmental Protection Authority?
+    - I want information on the services and required documents at Ethiopian Environmental Protection Authority.
+    - Could you explain the processing time and fees for Ethiopian Environmental Protection Authority services?
+    - What do I need to bring to access services at Ethiopian Environmental Protection Authority?
+    - Tell me about the service duration and fees at Ethiopian Environmental Protection Authority.
+    - What are the available services and related fees at Ethiopian Environmental Protection Authority?
+    - Please provide details about Ethiopian Environmental Protection Authority's service process, required documents, time, and fees.
+    - What services does the Ethiopian Environmental Protection Authority offer, and what documents do I need?
+    - Can you tell me about the service duration and fees for the Environmental Protection Authority services?
+    - What are the required documents, fees, and expected time for environmental service applications?
+    - How long does it take to get services from the Ethiopian Environmental Protection Authority, and what do I need to provide?
+    - Could you explain the fees and paperwork needed for environmental protection services?
+    - What documents are necessary, how much does it cost, and how long will the environmental service take?
+    - Tell me about the services, their processing times, and required documents at the Environmental Protection Authority.
+    - What is the service fee and time, and what documents should I prepare for environmental services?
+    - Can you provide details on environmental services, including required documents, fees, and time frame?
+    - What do I need to apply for environmental protection services, and how long will it take? Also, what are the fees?
+
+
+- intent: ethiopian_environmental_protection_authority_service_en
+  examples: |
+    - Ethiopian Environmental Protection Authority services
+    - service of Ethiopian Environmental Protection Authority in mesob
+    - sercices of Ethiopian Environmental Protection Authority
+    - services by Ethiopian Environmental Protection Authority
+    - Ethiopian Environmental Protection Authority utilities
+    - utility of Ethiopian Environmental Protection Authority
+    - give me services of Ethiopian Environmental Protection Authority
+    - list services of Ethiopian Environmental Protection Authority in mesob
+    - list services by Ethiopian Environmental Protection Authority
+    - list out Ethiopian Environmental Protection Authority services
+    - list of services by Ethiopian Environmental Protection Authority
+    - tell me services by Ethiopian Environmental Protection Authority
+    - tell me list of services by Ethiopian Environmental Protection Authority
+    - tell me list of services of Ethiopian Environmental Protection Authority
+    - tell me the services of Ethiopian Environmental Protection Authority
+    - telm me about the services of Ethiopian Environmental Protection Authority
+    - can you tell me about Ethiopian Environmental Protection Authority services
+    - can you  list the services of Ethiopian Environmental Protection Authority
+    - can you list services by Ethiopian Environmental Protection Authority
+    - What kind of support does the Ethiopian Environmental Protection Authority give?
+    - support from Ethiopian Environmental Protection Authority
+    - what services does Ethiopian Environmental Protection Authority support?
+    - list support by Ethiopian Environmental Protection Authority
+    - tell me support of Ethiopian Environmental Protection Authority
+    - tell me about the support of Ethiopian Environmental Protection Authority
+    - What services does the Ethiopian Environmental Protection Authority provide?
+    - What services are provided by the Ethiopian Environmental Protection Authority?
+    - list services provided by  Ethiopian Environmental Protection Authority 
+    - Ethiopian Environmental Protection Authority provide?
+    - services provided by Ethiopian Environmental Protection Authority
+    - list services which Ethiopian Environmental Protection Authority provides 
+    - list the services which Ethiopian Environmental Protection Authority provides
+    - list of services which Ethiopian Environmental Protection Authority provides
+    - can u tell me the services which Ethiopian Environmental Protection Authority provides
+    - tell me the services which Ethiopian Environmental Protection Authority provides
+    - list of services provided by Ethiopian Environmental Protection Authority
+    - list the services provided by Ethiopian Environmental Protection Authority
+    - list services provided by Ethiopian Environmental Protection Authority
+    - can u list the services provided by Ethiopian Environmental Protection Authority
+    - can u tell me the services provided by Ethiopian Environmental Protection Authority
+    - can you tell me the services which Ethiopian Environmental Protection Authority provides
+    - can you tell me the services provided by Ethiopian Environmental Protection Authority
+    - What services does the Ethiopian Environmental Protection Authority offer?
+    - What are the services that the Ethiopian Environmental Protection Authority offers?
+    - Ethiopian Environmental Protection Authority offers? 
+    - What does the Ethiopian Environmental Protection Authority offer?
+    - list the services that Ethiopian Environmental Protection Authority offers
+    - list the services offered by Ethiopian Environmental Protection Authority
+    - list of services offered by Ethiopian Environmental Protection Authority
+    - can you list services offered by Ethiopian Environmental Protection Authority
+    - What services are offered by the Ethiopian Environmental Protection Authority?
+    - tell me services offered by Ethiopian Environmental Protection Authority
+    - can you tell me services offered by Ethiopian Environmental Protection Authority
+    - What services are available at the Ethiopian Environmental Protection Authority?
+    - what are the available services at Ethiopian Environmental Protection Authority
+    - available services at Ethiopian Environmental Protection Authority
+    - tell me available services of Ethiopian Environmental Protection Authority
+    - list of available services at Ethiopian Environmental Protection Authority
+    - list available services by Ethiopian Environmental Protection Authority
+    - list the available services of Ethiopian Environmental Protection Authority
+    - list the services that are  available at Ethiopian Environmental Protection Authority
+    - can u list available services at Ethiopian Environmental Protection Authority
+    - can you tell me available services at Ethiopian Environmental Protection Authority
+    - what servies are given by Ethiopian Environmental Protection Authority
+    - What services does the Ethiopian Environmental Protection Authority give?
+    - tell me what services Ethiopian Environmental Protection Authority gives
+    - tell me what services are given by Ethiopian Environmental Protection Authority
+    - can you list the services that Ethiopian Environmental Protection Authority gives
+    - can you tell me the services that Ethiopian Environmental Protection Authority gives
+    - can you tell me what services Ethiopian Environmental Protection Authority gives
+    - can u tell me what sevices can I get from Ethiopian Environmental Protection Authority
+    - Ethiopian Environmental Protection Authority gives services?
+    - what services can I get from Ethiopian Environmental Protection Authority?
+    - What services can I access at the Ethiopian Environmental Protection Authority?
+    - What are the main tasks of the Ethiopian Environmental Protection Authority
+    - What services can I access at the Ethiopian Environmental Protection Authority?
+    - main tasks of Ethiopian Environmental Protection Authority
+    - can u tell me the tasks of Ethiopian Environmental Protection Authority
+    - tasks of Ethiopian Environmental Protection Authority
+    - Tell me Ethiopian Environmental Protection Authority services
+    - services by Ethiopian Environmental Protection Authority
+    - Ethiopian Environmental Protection Authority services list 
+    - list of Ethiopian Environmental Protection Authority services
+    - tell me the lists of Ethiopian Environmental Protection Authority services
+    - Ethiopian Environmental Protection Authority services list 
+    - Role of the Ethiopian Environmental Protection Authority?
+    - What roles does the Ethiopian Environmental Protection Authority play?
+    - Ethiopian Environmental Protection Authority roles
+    - What roles does the Ethiopian Environmental Protection Authority have?
+    - What does the Ethiopian Environmental Protection Authority do
+    - Can you list the services offered by the Environmental Protection Authority?
+    - Which services are available at the Ethiopian Environmental Protection Authority?
+    - Tell me about the services of the Environmental Protection Authority
+    - What help can I get from the Ethiopian Environmental Protection Authority?
+    - Can you explain the services under Ethiopian Environmental Protection Authority?
+    - can you list the services of the Ethiopian Environmental Protection Authority?
+    - can you tell me about the services of the Ethiopian Environmental Protection Authority?
+    - please tell me the services of the Ethiopian Environmental Protection Authority?
+    - What services are included in the Ethiopian Environmental Protection Authority?
+    - give me the services of the Ethiopian Environmental Protection Authority
+    - give me the list of services of the Ethiopian Environmental Protection Authority
+    - give me the list of services provided by the Ethiopian Environmental Protection Authority
+    - send me the services of the Ethiopian Environmental Protection Authority
+    - send me the list of services of the Ethiopian Environmental Protection Authority
+    - send me the list of services provided by the Ethiopian Environmental Protection Authority
+    - provide me the services of the Ethiopian Environmental Protection Authority
+    - provide me the list of services of the Ethiopian Environmental Protection Authority
+    - provide me the list of services provided by the Ethiopian Environmental Protection Authority
+
+- intent: new_license_organizations_en
+  examples: |
+    - How can organizations get a new license?
+    - I want a new license for my organization
+    - Steps to obtain an organizational license
+    - Apply for a new organization license
+    - Guide to getting a new license for a company
+    - How do organizations register for a license?
+    - Procedure for organizational licensing
+    - Help me with a new license for organizations
+    - How to get organizational permit?
+    - Requirements for new license for organizations
+
+- intent: license_renewal_organizations_en
+  examples: |
+    - How to renew an organization's license?
+    - I want to renew my organization license
+    - Steps for organization license renewal
+    - Renewal of organizational permit
+    - Extend organization license
+    - Organization license renewal process
+    - How do I renew my company's license?
+    - Company license extension steps
+    - Guide for renewing an organizational license
+    - Organization license validity renewal
+
+- intent: license_upgrade_organizations_en
+  examples: |
+    - Upgrade organization license process
+    - How can an organization upgrade its license?
+    - Steps to upgrade a company's license
+    - Apply for license upgrade for organizations
+    - Increase level of organizational license
+    - Requirements to upgrade organization license
+    - Company license improvement process
+    - Can I upgrade my organization license?
+    - Guide for organizational license upgrade
+    - Organization permit upgrade steps
+    - How to apply for organization license upgrade?
+    - How do I apply to upgrade my organization license?
+    - How to get upgraded organization license?
+    - How can I upgrade the organization license?
+    - Can you tell me how to upgrade organization license?
+    - Tell me about organization license upgrade
+    - Explain the upgrade of organization license
+    - What is organization license upgrade?
+    - Info on upgrading organization license
+    - Overview of organizational license upgrade
+    - Organizational license upgrade details
+    - What are the details of upgrading an organization license
+    - List the steps for organization license upgrade
+    - What is the process to upgrade organization license?
+    - Organization license upgrade procedures
+    - Application procedure for organizational license upgrade
+    - Where to apply for organization license upgrade?
+    - Provide information on how to upgrade an organization's license
+    - How does the organizational license upgrade work?
+    - Organization license upgrade works?
+    - What are the requirements for upgrading an organization's license?
+    - Requirements for organization license upgrade service
+    - What documents are needed for organization license upgrade?
+    - Documents required for organization license upgrade
+    - List of documents for organization license upgrade
+    - Required paperwork for organization license upgrade
+    - Provide documents needed for upgrading organization license
+    - What papers do I need to upgrade an organization license?
+    - Can you give me the documents list for upgrading organizational license?
+    - Application steps for organization license upgrade
+    - Process to apply for upgrading an organization license
+    - How do I apply for upgrading a company license?
+    - Application procedure for organizational license improvement
+    - Where to apply for organization license upgrade?
+    - How long does it take to upgrade an organization license?
+    - Processing time for organization license upgrade?
+    - Service time for upgrading organization license?
+    - Time needed for organization license approval?
+    - Duration for organization license upgrade service?
+    - Waiting period for organization license upgrade?
+    - Organization license upgrade time frame?
+    - How much does organization license upgrade cost?
+    - Fee for upgrading organization license?
+    - Service cost for organizational license upgrade?
+    - Payment for upgrading organization license?
+    - How much is the organizational license upgrade fee?
+    - Charges for upgrading organization license?
+    - Price for organizational license upgrade?
+    - Organization license upgrade cost breakdown?
+    - Tell me about organization license upgrade with time, fee, and documents
+    - Give me details on organization license upgrade with documents, cost, and time
+    - Explain organization license upgrade with documents, fee, and processing duration
+    - What are the documents, fee, and service time for organizational license upgrade?
+    - I need info on organization license upgrade documents, fee, and time
+    - Required documents, cost, and time for organization license upgrade?
+    - What is the duration, price, and paperwork needed for organizational license upgrade?
+    - How can I access the organization license upgrade service?
+    - Assistance with upgrading organization license
+    - Help with organization license upgrade process
+    - Need help with organization license upgrade
+    - Can you help me with organization license upgrade?
+    - Support for upgrading organization license
+    - What are the steps to get an upgraded organization license?
+    - Eligibility criteria for upgrading organization license
+    - Conditions for using the organization license upgrade service
+    - Organization license upgrade procedures
+    - How to request organization license upgrade?
+    - Can you explain the process for upgrading organization license?
+    - How is the organization license upgrade process?
+    - What is the procedure for organization license upgrade?
+    - Steps for organization license upgrade?
+    - Can you list the process of organization license upgrade?
+    - What is required for organization license upgrade?
+    - What are the needed documents for organization license upgrade?
+    - Which papers are necessary for organization license upgrade?
+    - How can I submit the application for organization license upgrade?
+    - Where can I apply for upgrading organization license?
+    - What's the cost for organization license upgrade?
+    - What does organization license upgrade cost?
+    - Breakdown of cost for organization license upgrade?
+    - How long will it take to get upgraded organization license?
+    - What’s the waiting time for organization license upgrade?
+    - Can you list the documents, fee, and duration for upgrading organization license?
+    - Fee, time, and document details for organization license upgrade?
+    - Upgrade organization license process
+    - How can an organization upgrade its license?
+    - Steps to upgrade a company's license
+    - Apply for license upgrade for organizations
+    - Increase level of organizational license
+    - Requirements to upgrade organization license
+    - Company license improvement process
+    - Can I upgrade my organization license?
+    - Guide for organizational license upgrade
+    - Organization permit upgrade steps
+
+- intent: license_replacement_organizations_en
+  examples: |
+    - Replace lost organization license
+    - I lost my organization license, what to do?
+    - Get a duplicate organization license
+    - Apply for license replacement for company
+    - How can we replace a damaged organization license?
+    - Organization license lost replacement
+    - Steps to reissue an organization license
+    - Process for getting new copy of company license
+    - Duplicate organizational permit application
+    - Organization license recovery process
+    - How to get a replacement for organization license?
+    - How can I get a duplicate organization license?
+    - Replacing an organization’s license
+    - What is the process for replacing organization license?
+    - Process to replace organization license
+    - How do I replace my organization license?
+    - Organization license replacement steps
+    - What are the steps to get a new organization license?
+    - How to request replacement of organization license?
+    - Where to apply for organization license replacement?
+    - Application procedure for organization license replacement
+    - Requirements for organization license replacement
+    - What are the requirements for replacing an organization license?
+    - What documents are needed to replace an organization license?
+    - Documents required for organization license replacement
+    - List of documents for organization license replacement
+    - Provide paperwork needed to replace organization license
+    - Replacement documents for organization license?
+    - Can you list the required documents to replace an organization license?
+    - What papers do I need to apply for a replacement organization license?
+    - How long does it take to replace organization license?
+    - Time needed for organization license replacement?
+    - Processing time for duplicate organization license?
+    - Duration for getting replacement company license?
+    - Waiting time for organization license replacement?
+    - How much does it cost to replace an organization license?
+    - Fee for organization license replacement?
+    - Cost of duplicate organization license?
+    - Payment for replacing company license?
+    - Charges for organization license replacement?
+    - Price for duplicate company license?
+    - Organization license replacement cost breakdown?
+    - Tell me about organization license replacement with time, fee, and documents
+    - Give me details on organization license replacement with documents, cost, and time
+    - Explain organization license replacement with documents, fee, and processing duration
+    - What are the documents, fee, and service time for replacing organization license?
+    - I need info on organization license replacement documents, fee, and time
+    - Required documents, cost, and time for replacing organization license?
+    - What is the duration, price, and paperwork needed for replacing organization license?
+    - How can I access organization license replacement service?
+    - Assistance with replacing organization license
+    - Help with organization license replacement process
+    - Need help with organization license replacement
+    - Can you help me with organization license replacement?
+    - Support for organization license replacement
+    - What are the steps to get a replacement organization license?
+    - Eligibility criteria for replacing organization license
+    - Conditions for using organization license replacement service
+    - Organization license replacement procedures
+    - How to request a new copy of an organization license?
+    - Can you explain the process for organization license replacement?
+    - How is the organization license replacement process?
+    - What is the procedure for organization license replacement?
+    - Steps for organization license replacement?
+    - Can you list the process of replacing organization license?
+    - What is required for organization license replacement?
+    - What are the needed documents for organization license replacement?
+    - Which papers are necessary for replacing an organization license?
+    - How can I submit the application for organization license replacement?
+    - Where can I apply for replacement of organization license?
+    - What's the cost for organization license replacement?
+    - What does organization license replacement cost?
+    - Breakdown of cost for organization license replacement?
+    - How long will it take to get a duplicate organization license?
+    - What’s the waiting time for organization license replacement?
+    - Can you list the documents, fee, and duration for organization license replacement?
+    - Fee, time, and document details for organization license replacement?
+    - Replace lost organization license
+    - I lost my organization license, what to do?
+    - Get a duplicate organization license
+    - Apply for license replacement for company
+    - How can we replace a damaged organization license?
+    - Organization license lost replacement
+    - Steps to reissue an organization license
+    - Process for getting new copy of company license
+    - Duplicate organizational permit application
+    - Organization license recovery process
+
+- intent: new_license_individuals_en
+  examples: |
+    - How can individuals apply for a new license?
+    - I want to get a new license as an individual
+    - Steps to obtain personal license
+    - New license for individuals process
+    - How to register as an individual for license?
+    - Apply for individual license
+    - Procedure for personal license issuance
+    - Guide to get individual permit
+    - Requirements for new license for a person
+    - Individual licensing steps
+    - How do I apply for a new individual license?
+    - New license registration for individuals
+    - What is the process to get an individual license?
+    - How to get a new license as a person?
+    - New license for person
+    - Getting a new personal license
+    - Steps to get a new license for individuals
+    - Tell me how to get an individual license
+    - Explain new license process for individuals
+    - Info on new individual license
+    - Information about new license for a person
+    - How to obtain individual license?
+    - What is the procedure for new license for individuals?
+    - Application for new license as an individual
+    - Where can I apply for new individual license?
+    - How to start individual license application?
+    - What are the requirements for new personal license?
+    - What documents are needed for new individual license?
+    - Documents required for personal license
+    - Required paperwork for new individual license
+    - List of documents for new personal license
+    - Provide documents needed for individual license
+    - What papers do I need for personal license application?
+    - Can you give me the documents list for new individual license?
+    - How long does it take to get a new individual license?
+    - Processing time for new personal license?
+    - Service time for new individual license?
+    - Time needed to get individual license?
+    - Duration for new individual license service?
+    - Waiting period for new individual license?
+    - Individual license processing timeframe?
+    - How much does it cost to get a new individual license?
+    - Fee for new personal license?
+    - Service cost for new individual license?
+    - Payment for new personal license?
+    - How much is the individual license fee?
+    - Charges for new individual license?
+    - Price for individual license?
+    - Individual license cost breakdown?
+    - Tell me about new individual license with time, fee, and documents
+    - Give me details on new individual license with documents, cost, and time
+    - Explain new individual license with documents, fee, and processing duration
+    - What are the documents, fee, and service time for new individual license?
+    - I need info on new individual license documents, fee, and time
+    - Required documents, cost, and time for new individual license?
+    - What is the duration, price, and paperwork needed for new individual license?
+    - How can I access the individual license service?
+    - Assistance with new individual license
+    - Help with personal license application
+    - Need help with new individual license
+    - Can you help me with new individual license?
+    - Support for new individual license
+    - What are the steps to get a new individual license?
+    - Eligibility criteria for new individual license
+    - Conditions for getting a new personal license
+    - New individual license procedures
+    - How to request new personal license?
+    - Can you explain the process for new individual license?
+    - How is the individual license application process?
+    - What is the procedure for new personal license?
+    - Steps for getting new individual license?
+    - Can you list the process of getting individual license?
+    - What is required for new individual license?
+    - What are the needed documents for new individual license?
+    - Which papers are necessary for personal license application?
+    - How can I submit the application for individual license?
+    - Where can I apply for new personal license?
+    - What's the cost for new individual license?
+    - What does new individual license cost?
+    - Breakdown of cost for individual license?
+    - How long will it take to get a personal license?
+    - What’s the waiting time for new individual license?
+    - Can you list the documents, fee, and duration for personal license?
+    - Fee, time, and document details for new individual license?
+    - How can individuals apply for a new license?
+    - I want to get a new license as an individual
+    - Steps to obtain personal license
+    - New license for individuals process
+    - How to register as an individual for license?
+    - Apply for individual license
+    - Procedure for personal license issuance
+    - Guide to get individual permit
+    - Requirements for new license for a person
+    - Individual licensing steps
+
+- intent: license_upgrade_individuals_en
+  examples: |
+    - Upgrade individual license
+    - How can a person upgrade their license?
+    - Steps to upgrade personal license
+    - Apply for license upgrade as an individual
+    - Increase level of my personal license
+    - Requirements to upgrade individual permit
+    - Personal license improvement process
+    - Can I upgrade my own license?
+    - Guide for upgrading an individual's license
+    - License upgrade for personal use
+    - How to apply for individual license upgrade?
+    - How do I upgrade my personal license?
+    - How to get upgraded individual license?
+    - How can I upgrade my license as a person?
+    - Can you tell me how to upgrade an individual license?
+    - Tell me about individual license upgrade
+    - Explain the upgrade of individual license
+    - What is individual license upgrade?
+    - Info on upgrading personal license
+    - Overview of personal license upgrade
+    - Individual license upgrade details
+    - What are the details of upgrading personal license?
+    - List the steps for individual license upgrade
+    - What is the process to upgrade personal license?
+    - Individual license upgrade procedures
+    - Application procedure for individual license upgrade
+    - Where to apply for personal license upgrade?
+    - Provide information on how to upgrade an individual's license
+    - How does the individual license upgrade work?
+    - Individual license upgrade works?
+    - What are the requirements for upgrading an individual license?
+    - Requirements for personal license upgrade service
+    - What documents are needed for personal license upgrade?
+    - Documents required for individual license upgrade
+    - List of documents for individual license upgrade
+    - Required paperwork for upgrading personal license
+    - Provide documents needed for individual license upgrade
+    - What papers do I need to upgrade my license?
+    - Can you give me the documents list for personal license upgrade?
+    - Application steps for individual license upgrade
+    - Process to apply for upgrading personal license
+    - How do I apply for upgrading my license?
+    - Application procedure for personal license improvement
+    - Where to apply for personal license upgrade?
+    - How long does it take to upgrade personal license?
+    - Processing time for individual license upgrade?
+    - Service time for upgrading personal license?
+    - Time needed for personal license approval?
+    - Duration for individual license upgrade service?
+    - Waiting period for personal license upgrade?
+    - Personal license upgrade time frame?
+    - How much does personal license upgrade cost?
+    - Fee for upgrading personal license?
+    - Service cost for individual license upgrade?
+    - Payment for upgrading personal license?
+    - How much is the individual license upgrade fee?
+    - Charges for upgrading personal license?
+    - Price for individual license upgrade?
+    - Individual license upgrade cost breakdown?
+    - Tell me about individual license upgrade with time, fee, and documents
+    - Give me details on personal license upgrade with documents, cost, and time
+    - Explain individual license upgrade with documents, fee, and processing duration
+    - What are the documents, fee, and service time for upgrading personal license?
+    - I need info on personal license upgrade documents, fee, and time
+    - Required documents, cost, and time for individual license upgrade?
+    - What is the duration, price, and paperwork needed for personal license upgrade?
+    - How can I access personal license upgrade service?
+    - Assistance with upgrading personal license
+    - Help with individual license upgrade process
+    - Need help with personal license upgrade
+    - Can you help me with individual license upgrade?
+    - Support for personal license upgrade
+    - What are the steps to get an upgraded personal license?
+    - Eligibility criteria for upgrading personal license
+    - Conditions for using individual license upgrade service
+    - Individual license upgrade procedures
+    - How to request individual license upgrade?
+    - Can you explain the process for individual license upgrade?
+    - How is the personal license upgrade process?
+    - What is the procedure for upgrading individual license?
+    - Steps for personal license upgrade?
+    - Can you list the process of upgrading personal license?
+    - What is required for individual license upgrade?
+    - What are the needed documents for personal license upgrade?
+    - Which papers are necessary for personal license upgrade?
+    - How can I submit the application for individual license upgrade?
+    - Where can I apply for upgrading my license?
+    - What's the cost for personal license upgrade?
+    - What does individual license upgrade cost?
+    - Breakdown of cost for personal license upgrade?
+    - How long will it take to get an upgraded personal license?
+    - What’s the waiting time for individual license upgrade?
+    - Can you list the documents, fee, and duration for personal license upgrade?
+    - Fee, time, and document details for upgrading individual license?
+
+- intent: license_renewal_individuals_en
+  examples: |
+    - How to renew personal license?
+    - Renew my individual license
+    - Steps for individual license renewal
+    - Renewal of my license as a person
+    - Extend my license
+    - Personal license renewal process
+    - How do I renew my personal permit?
+    - License extension steps for individual
+    - Guide for renewing my license
+    - Individual permit validity renewal
+    - How can I renew my personal license?
+    - Renewal process for individual license
+    - How to apply for personal license renewal?
+    - Renew individual license procedure
+    - What is the process to renew my license?
+    - Tell me how to renew individual license
+    - Explain the renewal of personal license
+    - Info on renewing individual license
+    - Overview of personal license renewal
+    - Individual license renewal details
+    - What are the details of individual license renewal?
+    - List the steps for personal license renewal
+    - What is the procedure for renewing individual license?
+    - Application procedure for personal license renewal
+    - Where to apply for individual license renewal?
+    - Provide information on how to renew personal license
+    - How does personal license renewal work?
+    - Personal license renewal works?
+    - What are the requirements for individual license renewal?
+    - Requirements for personal license renewal service
+    - What documents are needed for personal license renewal?
+    - Documents required for individual license renewal
+    - List of documents for personal license renewal
+    - Required paperwork for renewing individual license
+    - Provide documents needed for personal license renewal
+    - What papers do I need for license renewal?
+    - Can you give me the documents list for individual license renewal?
+    - Application steps for personal license renewal
+    - Process to apply for individual license renewal
+    - How do I apply for license renewal as an individual?
+    - Application procedure for renewing my personal license
+    - Where to apply for personal license renewal?
+    - How long does it take to renew individual license?
+    - Processing time for personal license renewal?
+    - Service time for individual license renewal?
+    - Time needed for personal license renewal approval?
+    - Duration for individual license renewal service?
+    - Waiting period for personal license renewal?
+    - Personal license renewal time frame?
+    - How much does personal license renewal cost?
+    - Fee for individual license renewal?
+    - Service cost for personal license renewal?
+    - Payment for individual license renewal?
+    - How much is the fee for renewing my license?
+    - Charges for personal license renewal?
+    - Price for individual license renewal?
+    - Personal license renewal cost breakdown?
+    - Tell me about individual license renewal with time, fee, and documents
+    - Give me details on personal license renewal with documents, cost, and time
+    - Explain individual license renewal with documents, fee, and processing duration
+    - What are the documents, fee, and service time for personal license renewal?
+    - I need info on individual license renewal documents, fee, and time
+    - Required documents, cost, and time for personal license renewal?
+    - What is the duration, price, and paperwork needed for individual license renewal?
+    - How can I access the personal license renewal service?
+    - Assistance with individual license renewal
+    - Help with personal license renewal process
+    - Need help with individual license renewal
+    - Can you help me with personal license renewal?
+    - Support for individual license renewal
+    - What are the steps to renew my personal license?
+    - Eligibility criteria for individual license renewal
+    - Conditions for renewing personal license
+    - Personal license renewal procedures
+    - How to request renewal of personal license?
+    - Can you explain the process for individual license renewal?
+    - How is the personal license renewal process?
+    - What is the procedure for renewing personal license?
+    - Steps for personal license renewal?
+    - Can you list the process of renewing individual license?
+    - What is required for personal license renewal?
+    - What are the needed documents for individual license renewal?
+    - Which papers are necessary for personal license renewal?
+    - How can I submit the application for personal license renewal?
+    - Where can I apply for renewing my individual license?
+    - What's the cost for personal license renewal?
+    - What does individual license renewal cost?
+    - Breakdown of cost for personal license renewal?
+    - How long will it take to renew my individual license?
+    - What’s the waiting time for personal license renewal?
+    - Can you list the documents, fee, and duration for individual license renewal?
+    - Fee, time, and document details for personal license renewal?
+    - How to renew personal license?
+    - Renew my individual license
+    - Steps for individual license renewal
+    - Renewal of my license as a person
+    - Extend my license
+    - Personal license renewal process
+    - How do I renew my personal permit?
+    - License extension steps for individual
+    - Guide for renewing my license
+    - Individual permit validity renewal
+
+- intent: license_replacement_individuals_en
+  examples: |
+    - Replace my lost individual license
+    - I lost my personal license
+    - Get a duplicate personal license
+    - Apply for replacement of individual license
+    - How to replace damaged personal license?
+    - Lost individual permit replacement
+    - Steps to reissue my license
+    - Process for getting new copy of my license
+    - Duplicate license for individual application
+    - Personal license recovery process
+    - How can I replace my lost personal license?
+    - What to do if I lost my individual license?
+    - Procedure to get a duplicate individual license
+    - Apply for reissuing my personal license
+    - Replacement process for lost individual license
+    - How to get a new copy of my personal license?
+    - Lost license replacement for individuals
+    - Steps to recover personal license
+    - How do I get a duplicate license for individual use?
+    - Can I get a replacement for damaged personal license?
+    - Guide for replacing lost individual license
+    - Tell me about personal license replacement
+    - Explain the process for license replacement for individuals
+    - Info on reissuing lost individual license
+    - Overview of individual license replacement
+    - What are the details of personal license replacement?
+    - List the steps for individual license replacement
+    - What is the procedure to replace lost individual license?
+    - Application procedure for individual license replacement
+    - Where to apply for replacement of personal license?
+    - Provide information on how to replace lost individual license
+    - How does individual license replacement work?
+    - Personal license replacement works?
+    - What are the requirements for replacing lost individual license?
+    - Requirements for individual license replacement service
+    - What documents are needed for personal license replacement?
+    - Documents required for individual license replacement
+    - List of documents for personal license replacement
+    - Required paperwork for replacing individual license
+    - Provide documents needed for license replacement
+    - What papers do I need for replacing my lost license?
+    - Can you give me the documents list for individual license replacement?
+    - Application steps for personal license replacement
+    - Process to apply for replacing lost individual license
+    - How do I apply for personal license replacement?
+    - Application procedure for reissuing my lost license
+    - Where to apply for personal license replacement?
+    - How long does it take to replace lost individual license?
+    - Processing time for personal license replacement?
+    - Service time for individual license replacement?
+    - Time needed for personal license replacement approval?
+    - Duration for individual license replacement service?
+    - Waiting period for personal license replacement?
+    - Individual license replacement time frame?
+    - How much does personal license replacement cost?
+    - Fee for replacing lost individual license?
+    - Service cost for individual license replacement?
+    - Payment for personal license replacement?
+    - How much is the fee for individual license replacement?
+    - Charges for personal license replacement?
+    - Price for individual license replacement?
+    - Individual license replacement cost breakdown?
+    - Tell me about individual license replacement with time, fee, and documents
+    - Give me details on personal license replacement with documents, cost, and time
+    - Explain individual license replacement with documents, fee, and processing duration
+    - What are the documents, fee, and service time for personal license replacement?
+    - I need info on individual license replacement documents, fee, and time
+    - Required documents, cost, and time for personal license replacement?
+    - What is the duration, price, and paperwork needed for individual license replacement?
+    - How can I access the personal license replacement service?
+    - Assistance with individual license replacement
+    - Help with personal license replacement process
+    - Need help with individual license replacement
+    - Can you help me with personal license replacement?
+    - Support for individual license replacement
+    - What are the steps to get a replacement individual license?
+    - Eligibility criteria for personal license replacement
+    - Conditions for replacing lost individual license
+    - Personal license replacement procedures
+    - How to request individual license replacement?
+    - Can you explain the process for individual license replacement?
+    - How is the personal license replacement process?
+    - What is the procedure for replacing lost personal license?
+    - Steps for individual license replacement?
+    - Can you list the process of personal license replacement?
+    - What is required for individual license replacement?
+    - What are the needed documents for personal license replacement?
+    - Which papers are necessary for individual license replacement?
+    - How can I submit the application for replacing lost personal license?
+    - Where can I apply for personal license replacement?
+    - What's the cost for individual license replacement?
+    - What does personal license replacement cost?
+    - Breakdown of cost for individual license replacement?
+    - How long will it take to replace my lost individual license?
+    - What’s the waiting time for personal license replacement?
+    - Can you list the documents, fee, and duration for personal license replacement?
+    - Fee, time, and document details for individual license replacement?
+    - Replace my lost individual license
+    - I lost my personal license
+    - Get a duplicate personal license
+    - Apply for replacement of individual license
+    - How to replace damaged personal license?
+    - Lost individual permit replacement
+    - Steps to reissue my license
+    - Process for getting new copy of my license
+    - Duplicate license for individual application
+    - Personal license recovery process
+- intent: gmo_free_live_organism_certification_en
+  examples: |
+    - What is GMO-Free live organism certification?
+    - How do I get GMO-Free certification?
+    - Steps to certify a live organism as GMO-Free
+    - How to apply for GMO-Free organism certificate
+    - Certification process for GMO-Free live organisms
+    - What are the requirements for GMO-Free certification?
+    - Explain GMO-Free organism certification
+    - Procedure to get non-GMO certification
+    - How can I certify organisms as GMO-Free?
+    - Guide for GMO-Free organism certification
+    - Can you explain the GMO-Free certification process?
+    - How does the GMO-Free certification work?
+    - What is the procedure for GMO-Free live organism certification?
+    - Steps involved in GMO-Free organism certification
+    - Can you list the process of GMO-Free certification?
+    - What documents are required for GMO-Free certification?
+    - Which papers do I need for GMO-Free organism certification?
+    - How to submit an application for GMO-Free certification?
+    - Where can I apply for GMO-Free live organism certification?
+    - What is the cost for GMO-Free certification?
+    - How much does GMO-Free organism certification cost?
+    - Fee structure for GMO-Free live organism certification
+    - What is the processing time for GMO-Free certification?
+    - How long does it take to get GMO-Free certification?
+    - What is the waiting period for GMO-Free organism certification?
+    - Can you provide details on the time required for GMO-Free certification?
+    - What are the steps to get a GMO-Free live organism certificate?
+    - What eligibility criteria are there for GMO-Free certification?
+    - What conditions must be met for GMO-Free organism certification?
+    - How to request GMO-Free live organism certification?
+    - Can you help me with GMO-Free certification application?
+    - Assistance for GMO-Free organism certificate process
+    - Support for GMO-Free live organism certification
+    - What paperwork is needed for GMO-Free certification?
+    - List of documents required for GMO-Free certification
+    - What is the procedure to apply for GMO-Free certification?
+    - How do I apply for GMO-Free organism certification?
+    - Are there any fees for GMO-Free certification?
+    - Details about the fee for GMO-Free live organism certificate
+    - What is the price of GMO-Free certification?
+    - Breakdown of costs for GMO-Free live organism certification
+    - How long does the GMO-Free certification process take?
+    - Duration to obtain GMO-Free live organism certification
+    - What is the turnaround time for GMO-Free certification?
+    - How to get a GMO-Free live organism certificate quickly?
+    - What are the requirements to certify a live organism as GMO-Free?
+    - Tell me about the GMO-Free certification with fee, documents, and time
+    - Give me details on GMO-Free certification including cost, process, and time
+    - Explain the GMO-Free certification process with documents, fees, and duration
+    - What documents, fees, and time are needed for GMO-Free certification?
+    - What is GMO-Free live organism certification?
+    - How to get GMO-Free certification?
+    - Steps to certify live organism as GMO-Free
+    - Apply for GMO-Free organism certificate
+    - Certification process for GMO-Free organisms
+    - Requirements for GMO-Free certification
+    - Explain GMO-Free organism certificate
+    - Procedure for non-GMO certification
+    - How can I certify organisms as GMO-Free?
+    - GMO-Free organism certification guide

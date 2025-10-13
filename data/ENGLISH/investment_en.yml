@@ -1,0 +1,457 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ethiopian_Investment_Commission_general_en
+  examples: |
+    - Ethiopian Investment Commission
+    - everything about Ethiopian Investment Commission
+    - Ethiopian Investment Commission in mesob
+    - Ethiopian Investment Commission in general
+    - general information about Ethiopian Investment Commission
+    - general overview of Ethiopian Investment Commission
+    - can u tell me general information about Ethiopian Investment Commission
+    - can u give me general information about Ethiopian Investment Commission
+    - give me general information about Ethiopian Investment Commission
+    - provide me general information about Ethiopian Investment Commission
+    - send me general information about Ethiopian Investment Commission
+    - tell me general information about Ethiopian Investment Commission
+    - What does the Ethiopian Investment Commission do?
+    - explain what the Ethiopian Investment Commission is?
+    - Ethiopian Investment Commission do?
+    - Ethiopian Investment Commission information
+    - information about Ethiopian Investment Commission
+    - information on Ethiopian Investment Commission
+    - Need information on Ethiopian Investment Commission
+    - What is Ethiopian Investment Commission?
+    - Ethiopian Investment Commission details
+    - details about Ethiopian Investment Commission
+    - overview of Ethiopian Investment Commission
+    - Ethiopian Investment Commission overview
+    - Ethiopian Investment Commission purpose
+    - purpose of Ethiopian Investment Commission
+    - Ethiopian Investment Commission help
+    - can u give me help with Ethiopian Investment Commission
+    - help me with Ethiopian Investment Commission
+    - Ethiopian Investment Commission assistance
+    - assistance with Ethiopian Investment Commission
+    - need help with Ethiopian Investment Commission
+    - tell me about Ethiopian Investment Commission
+    - What does the Ethiopian Investment Commission do, and what do I need?
+    - Ethiopian Investment Commission responsibilities
+    - What's the Ethiopian Investment Commission's job?
+    - What functions does the Ethiopian Investment Commission perform
+    - what are the services and requirements of the Ethiopian Investment Commission?
+    - What services does the Ethiopian Investment Commission offer and what documents do I need?
+    - Can you tell me about the Ethiopian Investment Commission's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ethiopian Investment Commission.
+    - What documents are needed for services at the Ethiopian Investment Commission and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ethiopian Investment Commission.
+    - How much does it cost and what documents are required for Ethiopian Investment Commission services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ethiopian Investment Commission?
+    - What do I need to apply for services at the Ethiopian Investment Commission, including time and fees?
+    - Tell me about the Ethiopian Investment Commission services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ethiopian Investment Commission?
+    - Ethiopian Investment Commission services and requirements?
+    - Ethiopian Investment Commission fees and steps?
+    - How much Ethiopian Investment Commission services cost?
+    - cost for Ethiopian Investment Commission?
+    - fee for Ethiopian Investment Commission?
+    - how long does it take for Ethiopian Investment Commission?
+    - time for Ethiopian Investment Commission?
+    - What documents do I need for Ethiopian Investment Commission?
+    - What documents are needed for Ethiopian Investment Commission?
+    - What do I need for Ethiopian Investment Commission services?
+    - What papers do I need for Ethiopian Investment Commission?
+    - What documents are required for Ethiopian Investment Commission?
+    - What papers are needed for Ethiopian Investment Commission?
+    - What documents are required for Ethiopian Investment Commission services?
+    - can you send me general information about Ethiopian Investment Commission
+    - Can you tell me the documents needed for Ethiopian Investment Commission services?
+    - How long does it take to get service at Ethiopian Investment Commission?
+    - What fees are charged for services at Ethiopian Investment Commission?
+    - I want information on the services and required documents at Ethiopian Investment Commission.
+    - Could you explain the processing time and fees for Ethiopian Investment Commission services?
+    - What do I need to bring to access services at Ethiopian Investment Commission?
+    - Tell me about the service duration and fees at Ethiopian Investment Commission.
+    - What are the available services and related fees at Ethiopian Investment Commission?
+    - Please provide details about Ethiopian Investment Commission's service process, required documents, time, and fees.
+    - What services does the Ethiopian Investment Commission offer?
+    - Can you tell me the documents needed for investment services in Ethiopia?
+    - How long does it take to complete an investment application process?
+    - What are the fees associated with investment services in Ethiopia?
+    - Could you explain the general procedure for applying through the Investment Commission?
+    - What documents should I prepare for registering an investment?
+    - How much time is required to get approval from the Investment Commission?
+    - Are there any costs or fees involved in investment registration?
+    - What services can I access at the Ethiopian Investment Commission?
+    - Can you give me an overview of the investment process and related fees?
+
+
+- intent: ask_EIC_service_en
+  examples: |
+    - Ethiopian Investment Commission services
+    - service of Ethiopian Investment Commission in mesob
+    - sercices of Ethiopian Investment Commission
+    - services by Ethiopian Investment Commission
+    - Ethiopian Investment Commission utilities
+    - utility of Ethiopian Investment Commission
+    - give me services of Ethiopian Investment Commission
+    - list services of Ethiopian Investment Commission in mesob
+    - list services by Ethiopian Investment Commission
+    - list out Ethiopian Investment Commission services
+    - list of services by Ethiopian Investment Commission
+    - tell me services by Ethiopian Investment Commission
+    - tell me list of services by Ethiopian Investment Commission
+    - tell me list of services of Ethiopian Investment Commission
+    - tell me the services of Ethiopian Investment Commission
+    - telm me about the services of Ethiopian Investment Commission
+    - can you tell me about Ethiopian Investment Commission services
+    - can you  list the services of Ethiopian Investment Commission
+    - can you list services by Ethiopian Investment Commission
+    - What kind of support does the Ethiopian Investment Commission give?
+    - support from Ethiopian Investment Commission
+    - what services does Ethiopian Investment Commission support?
+    - list support by Ethiopian Investment Commission
+    - tell me support of Ethiopian Investment Commission
+    - tell me about the support of Ethiopian Investment Commission
+    - What services does the Ethiopian Investment Commission provide?
+    - What services are provided by the Ethiopian Investment Commission?
+    - list services provided by  Ethiopian Investment Commission 
+    - Ethiopian Investment Commission provide?
+    - services provided by Ethiopian Investment Commission
+    - list services which Ethiopian Investment Commission provides 
+    - list the services which Ethiopian Investment Commission provides
+    - list of services which Ethiopian Investment Commission provides
+    - can u tell me the services which Ethiopian Investment Commission provides
+    - tell me the services which Ethiopian Investment Commission provides
+    - list of services provided by Ethiopian Investment Commission
+    - list the services provided by Ethiopian Investment Commission
+    - list services provided by Ethiopian Investment Commission
+    - can u list the services provided by Ethiopian Investment Commission
+    - can u tell me the services provided by Ethiopian Investment Commission
+    - can you tell me the services which Ethiopian Investment Commission provides
+    - can you tell me the services provided by Ethiopian Investment Commission
+    - What services does the Ethiopian Investment Commission offer?
+    - What are the services that the Ethiopian Investment Commission offers?
+    - Ethiopian Investment Commission offers? 
+    - What does the Ethiopian Investment Commission offer?
+    - list the services that Ethiopian Investment Commission offers
+    - list the services offered by Ethiopian Investment Commission
+    - list of services offered by Ethiopian Investment Commission
+    - can you list services offered by Ethiopian Investment Commission
+    - What services are offered by the Ethiopian Investment Commission?
+    - tell me services offered by Ethiopian Investment Commission
+    - can you tell me services offered by Ethiopian Investment Commission
+    - What services are available at the Ethiopian Investment Commission?
+    - what are the available services at Ethiopian Investment Commission
+    - available services at Ethiopian Investment Commission
+    - tell me available services of Ethiopian Investment Commission
+    - list of available services at Ethiopian Investment Commission
+    - list available services by Ethiopian Investment Commission
+    - list the available services of Ethiopian Investment Commission
+    - list the services that are  available at Ethiopian Investment Commission
+    - can u list available services at Ethiopian Investment Commission
+    - can you tell me available services at Ethiopian Investment Commission
+    - what servies are given by Ethiopian Investment Commission
+    - What services does the Ethiopian Investment Commission give?
+    - tell me what services Ethiopian Investment Commission gives
+    - tell me what services are given by Ethiopian Investment Commission
+    - can you list the services that Ethiopian Investment Commission gives
+    - can you tell me the services that Ethiopian Investment Commission gives
+    - can you tell me what services Ethiopian Investment Commission gives
+    - can u tell me what sevices can I get from Ethiopian Investment Commission
+    - Ethiopian Investment Commission gives services?
+    - what services can I get from Ethiopian Investment Commission?
+    - What services can I access at the Ethiopian Investment Commission?
+    - What are the main tasks of the Ethiopian Investment Commission
+    - What services can I access at the Ethiopian Investment Commission?
+    - main tasks of Ethiopian Investment Commission
+    - can u tell me the tasks of Ethiopian Investment Commission
+    - tasks of Ethiopian Investment Commission
+    - Tell me Ethiopian Investment Commission services
+    - services by Ethiopian Investment Commission
+    - Ethiopian Investment Commission services list 
+    - list of Ethiopian Investment Commission services
+    - tell me the lists of Ethiopian Investment Commission services
+    - Ethiopian Investment Commission services list 
+    - Role of the Ethiopian Investment Commission?
+    - What roles does the Ethiopian Investment Commission play?
+    - Ethiopian Investment Commission roles
+    - What roles does the Ethiopian Investment Commission have?
+    - What does the Ethiopian Investment Commission do
+    - Can you list the services offered by the Ethiopian Investment Commission?
+    - Which services are available at the Ethiopian Investment Commission?
+    - Tell me about the services of the Ethiopian Investment Commission
+    - What help can I get from the Ethiopian Investment Commission?
+    - Can you explain the services under Ethiopian Investment Commission?
+    - can you list the services of the Ethiopian Investment Commission?
+    - can you tell me about the services of the Ethiopian Investment Commission?
+    - please tell me the services of the Ethiopian Investment Commission?
+    - What services are included in the Ethiopian Investment Commission?
+    - give me the services of the Ethiopian Investment Commission
+    - give me the list of services of the Ethiopian Investment Commission
+    - give me the list of services provided by the Ethiopian Investment Commission
+    - send me the services of the Ethiopian Investment Commission
+    - send me the list of services of the Ethiopian Investment Commission
+    - send me the list of services provided by the Ethiopian Investment Commission
+    - provide me the services of the Ethiopian Investment Commission
+    - provide me the list of services of the Ethiopian Investment Commission
+    - provide me the list of services provided by the Ethiopian Investment Commission
+
+- intent: ask_about_New_Investment_Permit_Application_doc_en
+  examples: |
+    - capital registration documents
+    - documents required for capital registration service
+    - required documents for capital registration
+    - what documents are required for capital registration service?
+    - which papers do I need for capital registration?
+    - list the required documents for capital registration
+    - documents needed for capital registration service
+    - tell me the papers required for capital registration
+    - what forms should I bring for capital registration?
+    - can you specify the documents needed for capital registration?
+    - what documents must be submitted for capital registration?
+    - which files are mandatory for capital registration service?
+    - provide the required documentation for capital registration
+    - what paperwork is necessary for capital registration?
+    - what should I bring for capital registration?
+    - needed documents for investment permit application
+    - what are the documents needed for capital registration?
+    - what documents are necessary to apply for capital registration?
+    - required files for new investment permit application
+    - tell me the documents I need to apply for capital registration
+    - what documents do I need to get a new investment permit?
+    - list the documentation needed for capital registration service
+    - which documents are required to register capital?
+    - explain the required documents for investment permit application
+    - what legal documents are needed for capital registration?
+    - what documents should I prepare for new investment application?
+    - can you list the documents required for registering capital?
+    - what supporting documents are required for capital registration?
+    - required paperwork for new investment permit registration
+    - documents to apply for capital registration service
+    - which IDs or forms are necessary for capital registration?
+    - what files should I prepare for capital registration process?
+    - what do I need to submit for capital registration?
+    - tell me the documentation required for registering capital
+    - what forms and documents are needed for investment permit?
+    - what official documents must be presented for capital registration?
+    - documents required to initiate a capital registration
+    - list the papers required to apply for an investment permit
+    - what are the formal requirements for capital registration service?
+    - can you provide the list of documents for capital registration?
+    - which supporting papers should I bring for investment permit application?
+    - what documents must I provide for capital registration?
+    - which documents should be submitted for new investment permit?
+    - documents needed to register capital with the authority
+    - what paperwork do I need for the capital registration process?
+    - tell me the required documents for capital registration procedure
+    - what are the document requirements for investment permit application?
+    - provide all necessary documents for capital registration
+
+- intent: ask_about_New_Investment_Permit_Application_fee_en  # new and capital, new and extension fee
+  examples: |
+    - What are the working hours for Capital Registration Service?
+    - When is the Capital Registration office open?
+    - Service time for Capital Registration
+    - Tell me the operating hours of capital registration
+    - Opening and closing time for capital registration service
+    - At what time can I visit the capital registration office?
+    - What time does capital registration service operate?
+    - Capital registration working schedule
+    - Service timing for capital registration office
+    - When can I access capital registration services?
+
+- intent: ask_about_Capital_registration_Service_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+    - How much should I pay for capital registration?
+    - Capital registration service charges
+    - What is the fee structure for capital registration service?
+
+- intent: ask_about_Capital_registration_Service_fee_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+
+- intent: ask_about_New_Technology_Transfer_Agreement_Registration_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+    - How much should I pay for capital registration?
+    - Capital registration service charges
+    - What is the fee structure for capital registration service?
+    
+
+- intent: ask_about_New_Technology_Transfer_Agreement_Registration_fee_en
+  examples: |
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+    - How much should I pay for capital registration?
+    - Capital registration service charges
+    - What is the fee structure for capital registration service?
+    
+
+- intent: ask_about_Extension_Technology_Transfer_Agreement_Registration_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+    - How much should I pay for capital registration?
+    - Capital registration service charges
+    - What is the fee structure for capital registration service?
+
+- intent: ask_about_Extension_Technology_Transfer_Agreement_Registration_fee_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+
+- intent: ask_about_Bill_Quantity_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+
+- intent: ask_about_Bill_Quantity_fee_en      # bill spare raw fee
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+
+- intent: ask_about_Spare_parts_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+
+- intent: ask_about_Spare_parts_fee_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+
+- intent: ask_about_Raw_Materials_commissioning_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+
+- intent: ask_about_Raw_Materials_commissioning_fee_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+
+- intent: ask_about_Income_Tax_Holiday_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+
+- intent: ask_about_Income_Tax_Holiday_fee_en      # income add tax loss fee
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+
+- intent: ask_about_Additional_Income_Tax_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+
+- intent: ask_about_Additional_Income_Tax_fee_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+
+- intent: ask_about_Tax_Holiday_Expansion_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+
+- intent: ask_about_Tax_Holiday_Expansion_fee_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+
+
+- intent: ask_about_Loss_Carried_Forward_doc_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration
+    - Cost of using capital registration service
+    - What payment is required for capital registration?
+    - Price of capital registration service
+    
+- intent: ask_about_Loss_Carried_Forward_fee_en
+  examples: |
+    - What is the service fee for Capital Registration?
+    - How much does capital registration cost?
+    - Tell me the charges for capital registration service
+    - Fee for capital registration

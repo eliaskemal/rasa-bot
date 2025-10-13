@@ -1,0 +1,230 @@
+version: "3.1"
+
+nlu:
+- intent: bad_words_en
+  examples: |
+      - Ass
+      - Bastard
+      - Bitch
+      - Piss
+      - Bloody
+      - Bollocks
+      - arse
+      - arsehead
+      - arsehole
+      - asshole
+      - brotherfucker
+      - bugger
+      - bullshit
+      - child-fucker
+      - Christ on a bike
+      - Christ on a cracker
+      - clit
+      - clitoris
+      - cock
+      - cocksucker
+      - crap
+      - cunt
+      - cyka blyat
+      - Damn
+      - damn it
+      - dick
+      - dickhead
+      - dyke
+      - fatherfucker
+      - frigger
+      - fuck
+      - fuck you
+      - goddamn
+      - godsdamn
+      - hell
+      - holy shit
+      - horseshit
+      - in shit
+      - kike
+      - kill
+      - motherfucker
+      - nigga
+      - nigra
+      - pigfucker
+      - piss
+      - prick
+      - pussy
+      - puta
+      - Shit
+      - shit ass
+      - shite
+      - sisterfucker
+      - slut
+      - son of a whore
+      - son of a bitch
+      - spastic
+      - sweet Jesus
+      - turd
+      - twat
+      - wanker
+      - xxx
+      - yyy
+
+- intent: greet_en
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hola
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - good morning
+    - good evening
+    - good afternoon
+
+- intent: goodbye_en
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm_en
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny_en
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great_en
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy_en
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge_en
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - who are you
+    - am I talking to a bot?
+    - am I talking to a human?
+    - I want to know about you?
+    - Is this interaction with a bot?
+    - am i interacting with a bot?
+
+- intent: abusive_language_en
+  examples: |
+      - You suck!
+      - This bot is useless!
+      - Go away!
+      - I hate you!
+      - You're terrible at your job!
+      - Shut up!
+      - You're so dumb!
+      - You're incompetent!
+      - You're a waste of time!
+      - You're worthless!
+      - You're a failure!
+      - You're a joke!
+      - You're pathetic!
+      - You're an idiot!
+      - You're so annoying!
+      - You're clueless!
+      - You're a moron!
+      - You're garbage!
+      - You're a disgrace!
+      - You're a loser!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

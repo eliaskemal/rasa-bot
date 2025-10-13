@@ -1,0 +1,2235 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ethiopian_Customs_Commission_general_en
+  examples: |
+    - Ethiopian Customs Commission
+    - everything about Ethiopian Customs Commission
+    - Ethiopian Customs Commission in mesob
+    - Ethiopian Customs Commission in general
+    - general information about Ethiopian Customs Commission
+    - general overview of Ethiopian Customs Commission
+    - can u tell me general information about Ethiopian Customs Commission
+    - can u give me general information about Ethiopian Customs Commission
+    - give me general information about Ethiopian Customs Commission
+    - provide me general information about Ethiopian Customs Commission
+    - send me general information about Ethiopian Customs Commission
+    - tell me general information about Ethiopian Customs Commission
+    - What does the Ethiopian Customs Commission do?
+    - explain what the Ethiopian Customs Commission is?
+    - Ethiopian Customs Commission do?
+    - Ethiopian Customs Commission information
+    - information about Ethiopian Customs Commission
+    - information on Ethiopian Customs Commission
+    - Need information on Ethiopian Customs Commission
+    - What is Ethiopian Customs Commission?
+    - Ethiopian Customs Commission details
+    - details about Ethiopian Customs Commission
+    - overview of Ethiopian Customs Commission
+    - Ethiopian Customs Commission overview
+    - Ethiopian Customs Commission purpose
+    - purpose of Ethiopian Customs Commission
+    - Ethiopian Customs Commission help
+    - can u give me help with Ethiopian Customs Commission
+    - help me with Ethiopian Customs Commission
+    - Ethiopian Customs Commission assistance
+    - assistance with Ethiopian Customs Commission
+    - need help with Ethiopian Customs Commission
+    - tell me about Ethiopian Customs Commission
+    - What does the Ethiopian Customs Commission do, and what do I need?
+    - Ethiopian Customs Commission responsibilities
+    - What's the Ethiopian Customs Commission's job?
+    - What functions does the Ethiopian Customs Commission perform
+    - what are the services and requirements of the Ethiopian Customs Commission?
+    - What services does the Ethiopian Customs Commission offer and what documents do I need?
+    - Can you tell me about the Ethiopian Customs Commission's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ethiopian Customs Commission.
+    - What documents are needed for services at the Ethiopian Customs Commission and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ethiopian Customs Commission.
+    - How much does it cost and what documents are required for Ethiopian Customs Commission services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ethiopian Customs Commission?
+    - What do I need to apply for services at the Ethiopian Customs Commission, including time and fees?
+    - Tell me about the Ethiopian Customs Commission services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ethiopian Customs Commission?
+    - Ethiopian Customs Commission services and requirements?
+    - Ethiopian Customs Commission fees and steps?
+    - How much Ethiopian Customs Commission services cost?
+    - cost for Ethiopian Customs Commission?
+    - fee for Ethiopian Customs Commission?
+    - how long does it take for Ethiopian Customs Commission?
+    - time for Ethiopian Customs Commission?
+    - What documents do I need for Ethiopian Customs Commission?
+    - What documents are needed for Ethiopian Customs Commission?
+    - What do I need for Ethiopian Customs Commission services?
+    - What papers do I need for Ethiopian Customs Commission?
+    - What documents are required for Ethiopian Customs Commission?
+    - What papers are needed for Ethiopian Customs Commission?
+    - What documents are required for Ethiopian Customs Commission services?
+    - can you send me general information about Ethiopian Customs Commission
+    - Can you tell me the documents needed for Ethiopian Customs Commission services?
+    - How long does it take to get service at Ethiopian Customs Commission?
+    - What fees are charged for services at Ethiopian Customs Commission?
+    - I want information on the services and required documents at Ethiopian Customs Commission.
+    - Could you explain the processing time and fees for Ethiopian Customs Commission services?
+    - What do I need to bring to access services at Ethiopian Customs Commission?
+    - Tell me about the service duration and fees at Ethiopian Customs Commission.
+    - What are the available services and related fees at Ethiopian Customs Commission?
+    - Please provide details about Ethiopian Customs Commission's service process, required documents, time, and fees.
+    - What services does the Ethiopian Customs Commission provide, and what documents do I need to apply?
+    - Can you tell me the required documents, service duration, and fees for customs services in Ethiopia?
+    - What is the usual processing time and cost for Ethiopian Customs Commission services along with the necessary paperwork?
+    - I want to know about Ethiopian Customs Commission services, required documents, fees, and how long it takes.
+    - Please provide details on customs services, document requirements, service fees, and estimated service time.
+    - What documents do I need, how much does it cost, and how long does it take for Ethiopian Customs Commission services?
+    - Can you explain the Ethiopian Customs services, including necessary documents, service fees, and expected processing time?
+    - Tell me about the customs services offered, what documents are needed, how long it takes, and the fees involved.
+    - I need information on Ethiopian Customs Commission service types, required documents, fees, and service duration.
+    - What is included in Ethiopian Customs services, the documents needed, service fee, and processing time?
+
+- intent: ask_about_Ethiopian_Customs_Commission_service_en
+  examples: |
+      - Ethiopian Customs Commission services
+      - service of Ethiopian Customs Commission in mesob
+      - sercices of Ethiopian Customs Commission
+      - services by Ethiopian Customs Commission
+      - Ethiopian Customs Commission utilities
+      - utility of Ethiopian Customs Commission
+      - give me services of Ethiopian Customs Commission
+      - list services of Ethiopian Customs Commission in mesob
+      - list services by Ethiopian Customs Commission
+      - list out Ethiopian Customs Commission services
+      - list of services by Ethiopian Customs Commission
+      - tell me services by Ethiopian Customs Commission
+      - tell me list of services by Ethiopian Customs Commission
+      - tell me list of services of Ethiopian Customs Commission
+      - tell me the services of Ethiopian Customs Commission
+      - telm me about the services of Ethiopian Customs Commission
+      - can you tell me about Ethiopian Customs Commission services
+      - can you  list the services of Ethiopian Customs Commission
+      - can you list services by Ethiopian Customs Commission
+      - What kind of support does the Ethiopian Customs Commission give?
+      - support from Ethiopian Customs Commission
+      - what services does Ethiopian Customs Commission support?
+      - list support by Ethiopian Customs Commission
+      - tell me support of Ethiopian Customs Commission
+      - tell me about the support of Ethiopian Customs Commission
+      - What services does the Ethiopian Customs Commission provide?
+      - What services are provided by the Ethiopian Customs Commission?
+      - list services provided by  Ethiopian Customs Commission 
+      - Ethiopian Customs Commission provide?
+      - services provided by Ethiopian Customs Commission
+      - list services which Ethiopian Customs Commission provides 
+      - list the services which Ethiopian Customs Commission provides
+      - list of services which Ethiopian Customs Commission provides
+      - can u tell me the services which Ethiopian Customs Commission provides
+      - tell me the services which Ethiopian Customs Commission provides
+      - list of services provided by Ethiopian Customs Commission
+      - list the services provided by Ethiopian Customs Commission
+      - list services provided by Ethiopian Customs Commission
+      - can u list the services provided by Ethiopian Customs Commission
+      - can u tell me the services provided by Ethiopian Customs Commission
+      - can you tell me the services which Ethiopian Customs Commission provides
+      - can you tell me the services provided by Ethiopian Customs Commission
+      - What services does the Ethiopian Customs Commission offer?
+      - What are the services that the Ethiopian Customs Commission offers?
+      - Ethiopian Customs Commission offers? 
+      - What does the Ethiopian Customs Commission offer?
+      - list the services that Ethiopian Customs Commission offers
+      - list the services offered by Ethiopian Customs Commission
+      - list of services offered by Ethiopian Customs Commission
+      - can you list services offered by Ethiopian Customs Commission
+      - What services are offered by the Ethiopian Customs Commission?
+      - tell me services offered by Ethiopian Customs Commission
+      - can you tell me services offered by Ethiopian Customs Commission
+      - What services are available at the Ethiopian Customs Commission?
+      - what are the available services at Ethiopian Customs Commission
+      - available services at Ethiopian Customs Commission
+      - tell me available services of Ethiopian Customs Commission
+      - list of available services at Ethiopian Customs Commission
+      - list available services by Ethiopian Customs Commission
+      - list the available services of Ethiopian Customs Commission
+      - list the services that are  available at Ethiopian Customs Commission
+      - can u list available services at Ethiopian Customs Commission
+      - can you tell me available services at Ethiopian Customs Commission
+      - what servies are given by Ethiopian Customs Commission
+      - What services does the Ethiopian Customs Commission give?
+      - tell me what services Ethiopian Customs Commission gives
+      - tell me what services are given by Ethiopian Customs Commission
+      - can you list the services that Ethiopian Customs Commission gives
+      - can you tell me the services that Ethiopian Customs Commission gives
+      - can you tell me what services Ethiopian Customs Commission gives
+      - can u tell me what sevices can I get from Ethiopian Customs Commission
+      - Ethiopian Customs Commission gives services?
+      - what services can I get from Ethiopian Customs Commission?
+      - What services can I access at the Ethiopian Customs Commission?
+      - What are the main tasks of the Ethiopian Customs Commission
+      - What services can I access at the Ethiopian Customs Commission?
+      - main tasks of Ethiopian Customs Commission
+      - can u tell me the tasks of Ethiopian Customs Commission
+      - tasks of Ethiopian Customs Commission
+      - Tell me Ethiopian Customs Commission services
+      - services by Ethiopian Customs Commission
+      - Ethiopian Customs Commission services list 
+      - list of Ethiopian Customs Commission services
+      - tell me the lists of Ethiopian Customs Commission services
+      - Ethiopian Customs Commission services list 
+      - Role of the Ethiopian Customs Commission?
+      - What roles does the Ethiopian Customs Commission play?
+      - Ethiopian Customs Commission roles
+      - What roles does the Ethiopian Customs Commission have?
+      - What does the Ethiopian Customs Commission do
+      - Can you list the services offered by the Customs Commission?
+      - Which services are available at the Ethiopian Customs Commission?
+      - Tell me about the services of the Customs Commission
+      - What help can I get from the Ethiopian Customs Commission?
+      - Can you explain the services under Ethiopian Customs Commission?
+      - can you list the services of the Ethiopian Customs Commission?
+      - can you tell me about the services of the Ethiopian Customs Commission?
+      - please tell me the services of the Ethiopian Customs Commission?
+      - What services are included in the Ethiopian Customs Commission?
+      - give me the services of the Ethiopian Customs Commission
+      - give me the list of services of the Ethiopian Customs Commission
+      - give me the list of services provided by the Ethiopian Customs Commission
+      - send me the services of the Ethiopian Customs Commission
+      - send me the list of services of the Ethiopian Customs Commission
+      - send me the list of services provided by the Ethiopian Customs Commission
+      - provide me the services of the Ethiopian Customs Commission
+      - provide me the list of services of the Ethiopian Customs Commission
+      - provide me the list of services provided by the Ethiopian Customs Commission 
+
+- intent: ask_about_Temporary_Bonded_Customs_Warehouse_en
+  examples: | 
+    - Temporary Bonded Customs Warehouse
+    - Explain about Temporary Bonded Customs Warehouse
+    - How Temporary Bonded Customs Warehouse?
+    - How to get Temporary Bonded Customs Warehouse
+    - How can I get Temporary Bonded Customs Warehouse?
+    - Can you tell me about Temporary Bonded Customs Warehouse?
+    - Tell me about Temporary Bonded Customs Warehouse
+    - Give me information about Temporary Bonded Customs Warehouse
+    - Info on Temporary Bonded Customs Warehouse
+    - Tell me the details of Temporary Bonded Customs Warehouse
+    - What are the details of Temporary Bonded Customs Warehouse
+    - Temporary Bonded Customs Warehouse details
+    - Temporary Bonded Customs Warehouse overview
+    - Overview of Temporary Bonded Customs Warehouse
+    - Give me an overview for what Temporary Bonded Customs Warehouse do
+    - Tell me an overview of Temporary Bonded Customs Warehouse
+    - What is the process for Temporary Bonded Customs Warehouse?
+    - Process of Temporary Bonded Customs Warehouse
+    - Tell me the process for Temporary Bonded Customs Warehouse
+    - Give me information on how is the process for Temporary Bonded Customs Warehouse
+    - How does Temporary Bonded Customs Warehouse work?
+    - Temporary Bonded Customs Warehouse works ?
+    - What are the requirements for Temporary Bonded Customs Warehouse?
+    - Requirements for Temporary Bonded Customs Warehouse service
+    - What documents are needed for Temporary Bonded Customs Warehouse?
+    - Documents required for Temporary Bonded Customs Warehouse
+    - List of documents for Temporary Bonded Customs Warehouse
+    - Required paperwork for Temporary Bonded Customs Warehouse
+    - Provide documents needed for Temporary Bonded Customs Warehouse
+    - What papers do I need for Temporary Bonded Customs Warehouse?
+    - Can you give me the documents list for Temporary Bonded Customs Warehouse?
+    - Application steps for Temporary Bonded Customs Warehouse
+    - Process to apply for Temporary Bonded Customs Warehouse
+    - How do I apply for Temporary Bonded Customs Warehouse?
+    - Application procedure for Temporary Bonded Customs Warehouse
+    - How long does it take to get Temporary Bonded Customs Warehouse?
+    - Processing time for Temporary Bonded Customs Warehouse?
+    - Service time for Temporary Bonded Customs Warehouse?
+    - Time needed for Temporary Bonded Customs Warehouse approval?
+    - Duration for Temporary Bonded Customs Warehouse service?
+    - Waiting period for Temporary Bonded Customs Warehouse?
+    - Temporary Bonded Customs Warehouse time frame?
+    - How much does Temporary Bonded Customs Warehouse cost?
+    - Fee for Temporary Bonded Customs Warehouse?
+    - Service cost for Temporary Bonded Customs Warehouse?
+    - Payment for Temporary Bonded Customs Warehouse?
+    - How much is the Temporary Bonded Customs Warehouse fee?
+    - Charges for Temporary Bonded Customs Warehouse?
+    - Price for Temporary Bonded Customs Warehouse?
+    - Temporary Bonded Customs Warehouse cost breakdown?
+    - Tell me about Temporary Bonded Customs Warehouse with time, fee, and documents
+    - Give me details on Temporary Bonded Customs Warehouse with documents, cost, and time
+    - Explain Temporary Bonded Customs Warehouse with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Temporary Bonded Customs Warehouse?
+    - I need info on Temporary Bonded Customs Warehouse documents, fee, and time
+    - Required documents, cost, and time for Temporary Bonded Customs Warehouse?
+    - What is the duration, price, and paperwork needed for Temporary Bonded Customs Warehouse?
+    - How can I access Temporary Bonded Customs Warehouse service?
+    - Assistance with Temporary Bonded Customs Warehouse
+    - Help with Temporary Bonded Customs Warehouse process
+    - Need help with Temporary Bonded Customs Warehouse
+    - Can you help me with Temporary Bonded Customs Warehouse?
+    - Support for Temporary Bonded Customs Warehouse
+    - What are the steps to get Temporary Bonded Customs Warehouse?
+    - Eligibility criteria for Temporary Bonded Customs Warehouse
+    - Conditions for using Temporary Bonded Customs Warehouse
+    - Temporary Bonded Customs Warehouse procedures
+    - Can you explain the process for Temporary Bonded Customs Warehouse?
+    - How is the Temporary Bonded Customs Warehouse process?
+    - What is the procedure for Temporary Bonded Customs Warehouse?
+    - Steps for Temporary Bonded Customs Warehouse?
+    - Can you list the process of Temporary Bonded Customs Warehouse?
+    - What is required for Temporary Bonded Customs Warehouse?
+    - What are the needed documents for Temporary Bonded Customs Warehouse?
+    - Which papers are necessary for Temporary Bonded Customs Warehouse?
+    - How can I submit the application for Temporary Bonded Customs Warehouse?
+    - Where can I apply for Temporary Bonded Customs Warehouse?
+    - What's the cost for Temporary Bonded Customs Warehouse?
+    - What does Temporary Bonded Customs Warehouse cost?
+    - Breakdown of cost for Temporary Bonded Customs Warehouse?
+    - How long will it take to get Temporary Bonded Customs Warehouse?
+    - What’s the waiting time for Temporary Bonded Customs Warehouse?
+    - Can you list the documents, fee, and duration for Temporary Bonded Customs Warehouse?
+    - Fee, time, and document details for Temporary Bonded Customs Warehouse?
+    - information about Bonded Customs Warehouse
+    - details on Bonded Customs Warehouse services
+    - What is a Bonded Customs Warehouse?
+    - Can you explain Bonded Customs Warehouse?
+    - How does a Bonded Customs Warehouse work?
+    - Purpose of Bonded Customs Warehouse
+    - Services offered in Bonded Customs Warehouse
+    - Benefits of using a Bonded Customs Warehouse
+    - When to use a Bonded Customs Warehouse
+    - Bonded Customs Warehouse meaning
+
+
+- intent: ask_about_Bonded_Customs_Warehouse_en
+  examples: |
+    - information about Bonded Customs Warehouse
+    - details on Bonded Customs Warehouse services
+    - What is a Bonded Customs Warehouse?
+    - Can you explain Bonded Customs Warehouse?
+    - How does a Bonded Customs Warehouse work?
+    - Purpose of Bonded Customs Warehouse
+    - Services offered in Bonded Customs Warehouse
+    - Benefits of using a Bonded Customs Warehouse
+    - When to use a Bonded Customs Warehouse
+    - Bonded Customs Warehouse meaning
+
+- intent: ask_about_Private_Temporary_Customs_Warehouse_en
+  examples: |
+    - Private Temporary Customs Warehouse
+    - Explain about Private Temporary Customs Warehouse
+    - How Private Temporary Customs Warehouse?
+    - How to get Private Temporary Customs Warehouse
+    - How can I get Private Temporary Customs Warehouse?
+    - Can you tell me about Private Temporary Customs Warehouse?
+    - Tell me about Private Temporary Customs Warehouse
+    - Give me information about Private Temporary Customs Warehouse
+    - Info on Private Temporary Customs Warehouse
+    - Tell me the details of Private Temporary Customs Warehouse
+    - What are the details of Private Temporary Customs Warehouse
+    - Private Temporary Customs Warehouse details
+    - Private Temporary Customs Warehouse overview
+    - Overview of Private Temporary Customs Warehouse
+    - Give me an overview for what Private Temporary Customs Warehouse do
+    - Tell me an overview of Private Temporary Customs Warehouse
+    - Purpose of Private Temporary Customs Warehouse
+    - What are the purpose of Private Temporary Customs Warehouse
+    - List the purpose of Private Temporary Customs Warehouse
+    - What is the process for Private Temporary Customs Warehouse?
+    - Process of Private Temporary Customs Warehouse
+    - Tell me the process for Private Temporary Customs Warehouse
+    - Give me information on how is the process for Private Temporary Customs Warehouse
+    - How does Private Temporary Customs Warehouse work?
+    - Private Temporary Customs Warehouse works ?
+    - What are the requirements for Private Temporary Customs Warehouse?
+    - Requirements for Private Temporary Customs Warehouse service
+    - What documents are needed for Private Temporary Customs Warehouse?
+    - Documents required for Private Temporary Customs Warehouse
+    - List of documents for Private Temporary Customs Warehouse
+    - Required paperwork for Private Temporary Customs Warehouse
+    - Provide documents needed for Private Temporary Customs Warehouse
+    - What papers do I need for Private Temporary Customs Warehouse?
+    - Can you give me the documents list for Private Temporary Customs Warehouse?
+    - Application steps for Private Temporary Customs Warehouse
+    - Process to apply for Private Temporary Customs Warehouse
+    - How do I apply for Private Temporary Customs Warehouse?
+    - Application procedure for Private Temporary Customs Warehouse
+    - Where to apply for Private Temporary Customs Warehouse?
+    - How long does it take to get Private Temporary Customs Warehouse?
+    - Processing time for Private Temporary Customs Warehouse?
+    - Service time for Private Temporary Customs Warehouse?
+    - Time needed for Private Temporary Customs Warehouse approval?
+    - Duration for Private Temporary Customs Warehouse service?
+    - Waiting period for Private Temporary Customs Warehouse?
+    - Private Temporary Customs Warehouse time frame?
+    - How much does Private Temporary Customs Warehouse cost?
+    - Fee for Private Temporary Customs Warehouse?
+    - Service cost for Private Temporary Customs Warehouse?
+    - Payment for Private Temporary Customs Warehouse?
+    - How much is the Private Temporary Customs Warehouse fee?
+    - Charges for Private Temporary Customs Warehouse?
+    - Price for Private Temporary Customs Warehouse?
+    - Private Temporary Customs Warehouse cost breakdown?
+    - Tell me about Private Temporary Customs Warehouse with time, fee, and documents
+    - Give me details on Private Temporary Customs Warehouse with documents, cost, and time
+    - Explain Private Temporary Customs Warehouse with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Private Temporary Customs Warehouse?
+    - I need info on Private Temporary Customs Warehouse documents, fee, and time
+    - Required documents, cost, and time for Private Temporary Customs Warehouse?
+    - What is the duration, price, and paperwork needed for Private Temporary Customs Warehouse?
+    - How can I access Private Temporary Customs Warehouse service?
+    - Assistance with Private Temporary Customs Warehouse
+    - Help with Private Temporary Customs Warehouse process
+    - Need help with Private Temporary Customs Warehouse
+    - Can you help me with Private Temporary Customs Warehouse?
+    - Support for Private Temporary Customs Warehouse
+    - What are the steps to get Private Temporary Customs Warehouse?
+    - Eligibility criteria for Private Temporary Customs Warehouse
+    - Conditions for using Private Temporary Customs Warehouse
+    - Private Temporary Customs Warehouse procedures
+    - How to request Private Temporary Customs Warehouse?
+    - Can you explain the process for Private Temporary Customs Warehouse?
+    - How is the Private Temporary Customs Warehouse process?
+    - What is the procedure for Private Temporary Customs Warehouse?
+    - Steps for Private Temporary Customs Warehouse?
+    - Can you list the process of Private Temporary Customs Warehouse?
+    - What is required for Private Temporary Customs Warehouse?
+    - What are the needed documents for Private Temporary Customs Warehouse?
+    - Which papers are necessary for Private Temporary Customs Warehouse?
+    - How can I submit the application for Private Temporary Customs Warehouse?
+    - Where can I apply for Private Temporary Customs Warehouse?
+    - What's the cost for Private Temporary Customs Warehouse?
+    - What does Private Temporary Customs Warehouse cost?
+    - Breakdown of cost for Private Temporary Customs Warehouse?
+    - How long will it take to get Private Temporary Customs Warehouse?
+    - What’s the waiting time for Private Temporary Customs Warehouse?
+    - Can you list the documents, fee, and duration for Private Temporary Customs Warehouse?
+    - Fee, time, and document details for Private Temporary Customs Warehouse?
+    - information about Private Temporary Customs Warehouse
+    - details on Private Temporary Customs Warehouse services
+    - What is a Private Temporary Customs Warehouse?
+    - Can you explain Private Temporary Customs Warehouse?
+    - How does a Private Temporary Customs Warehouse work?
+    - Purpose of Private Temporary Customs Warehouse
+    - Services offered in Private Temporary Customs Warehouse
+    - Benefits of using a Private Temporary Customs Warehouse
+    - When to use a Private Temporary Customs Warehouse
+    - Private Temporary Customs Warehouse meaning
+
+- intent: ask_about_Private_Bonded_Customs_Warehouse_en
+  examples: |
+    - Information about Private Bonded Customs Warehouse
+    - Details on Private Bonded Customs Warehouse services
+    - What is a Private Bonded Customs Warehouse?
+    - Can you explain Private Bonded Customs Warehouse?
+    - How does a Private Bonded Customs Warehouse work?
+    - Purpose of Private Bonded Customs Warehouse
+    - Services offered in Private Bonded Customs Warehouse
+    - Benefits of using a Private Bonded Customs Warehouse
+    - When to use a Private Bonded Customs Warehouse
+    - Private Bonded Customs Warehouse meaning
+    - What does Private Bonded Customs Warehouse mean?
+    - What is the function of a Private Bonded Customs Warehouse?
+    - How to get Private Bonded Customs Warehouse service?
+    - How can I get Private Bonded Customs Warehouse service?
+    - Where can I apply for Private Bonded Customs Warehouse?
+    - How do I apply for Private Bonded Customs Warehouse?
+    - What is the process for Private Bonded Customs Warehouse?
+    - Steps to get Private Bonded Customs Warehouse
+    - Application procedure for Private Bonded Customs Warehouse
+    - Eligibility for Private Bonded Customs Warehouse
+    - Who can apply for Private Bonded Customs Warehouse?
+    - Requirements for Private Bonded Customs Warehouse
+    - What are the requirements for Private Bonded Customs Warehouse?
+    - What documents are needed for Private Bonded Customs Warehouse?
+    - Documents required for Private Bonded Customs Warehouse
+    - Paperwork for Private Bonded Customs Warehouse
+    - Provide documents needed for Private Bonded Customs Warehouse
+    - What docs are needed for Private Bonded Customs Warehouse?
+    - List of documents for Private Bonded Customs Warehouse
+    - Document checklist for Private Bonded Customs Warehouse
+    - Help with Private Bonded Customs Warehouse
+    - I need assistance with Private Bonded Customs Warehouse
+    - Can you help me with Private Bonded Customs Warehouse?
+    - Support for Private Bonded Customs Warehouse process
+    - Info on Private Bonded Customs Warehouse time, cost, and documents
+    - Tell me about Private Bonded Customs Warehouse with fee, time, and required documents
+    - What is the time, cost, and paperwork for Private Bonded Customs Warehouse?
+    - Please share the processing time, cost, and docs needed for Private Bonded Customs Warehouse
+    - Give me details about documents, fee, and service time for Private Bonded Customs Warehouse
+    - Processing time for Private Bonded Customs Warehouse?
+    - How long does it take to get Private Bonded Customs Warehouse service?
+    - Duration for Private Bonded Customs Warehouse approval?
+    - Time needed for Private Bonded Customs Warehouse?
+    - Waiting time for Private Bonded Customs Warehouse?
+    - Service time for Private Bonded Customs Warehouse?
+    - Private Bonded Customs Warehouse timeline?
+    - How much does Private Bonded Customs Warehouse cost?
+    - Cost of Private Bonded Customs Warehouse?
+    - Service fee for Private Bonded Customs Warehouse?
+    - Payment required for Private Bonded Customs Warehouse?
+    - Fee for Private Bonded Customs Warehouse service?
+    - Price for Private Bonded Customs Warehouse?
+    - Charges for Private Bonded Customs Warehouse?
+    - How much do I need for Private Bonded Customs Warehouse service?
+    - What is the fee structure for Private Bonded Customs Warehouse?
+    - Required fee, documents, and time for Private Bonded Customs Warehouse?
+    - Can you tell me the documents, cost, and duration for Private Bonded Customs Warehouse?
+    - Explain Private Bonded Customs Warehouse including docs, fee, and time
+    - What are the steps, costs, and paperwork for Private Bonded Customs Warehouse?
+    - How can I request Private Bonded Customs Warehouse?
+    - What conditions apply for Private Bonded Customs Warehouse?
+    - Private Bonded Customs Warehouse procedure and requirements
+    - Where to get Private Bonded Customs Warehouse service?
+    - What is Private Bonded Customs Warehouse and how do I access it?
+    - information about Private Bonded Customs Warehouse
+    - details on Private Bonded Customs Warehouse services
+    - What is a Private Bonded Customs Warehouse?
+    - Can you explain Private Bonded Customs Warehouse?
+    - How does a Private Bonded Customs Warehouse work?
+    - Purpose of Private Bonded Customs Warehouse
+    - Services offered in Private Bonded Customs Warehouse
+    - Benefits of using a Private Bonded Customs Warehouse
+    - When to use a Private Bonded Customs Warehouse
+    - Private Bonded Customs Warehouse meaning
+
+- intent: ask_about_Bonded_Warehouse_License_for_Relief_Items_en
+  examples: |
+    - Bonded Warehouse License for Relief Items
+    - Explain about Bonded Warehouse License for Relief Items
+    - How Bonded Warehouse License for Relief Items?
+    - How to get Bonded Warehouse License for Relief Items
+    - How can I get Bonded Warehouse License for Relief Items?
+    - Can you tell me about Bonded Warehouse License for Relief Items?
+    - Tell me about Bonded Warehouse License for Relief Items
+    - Give me information about Bonded Warehouse License for Relief Items
+    - Info on Bonded Warehouse License for Relief Items
+    - Tell me the details of Bonded Warehouse License for Relief Items
+    - What are the details of Bonded Warehouse License for Relief Items
+    - Bonded Warehouse License for Relief Items details
+    - Bonded Warehouse License for Relief Items overview
+    - Overview of Bonded Warehouse License for Relief Items
+    - Give me an overview for what Bonded Warehouse License for Relief Items do
+    - Tell me an overview of Bonded Warehouse License for Relief Items
+    - Purpose of Bonded Warehouse License for Relief Items
+    - What are the purpose of Bonded Warehouse License for Relief Items
+    - List the purpose of Bonded Warehouse License for Relief Items
+    - What is the process for Bonded Warehouse License for Relief Items?
+    - Process of Bonded Warehouse License for Relief Items
+    - Tell me the process for Bonded Warehouse License for Relief Items
+    - Give me information on how is the process for Bonded Warehouse License for Relief Items
+    - How does Bonded Warehouse License for Relief Items work?
+    - Bonded Warehouse License for Relief Items works ?
+    - What are the requirements for Bonded Warehouse License for Relief Items?
+    - Requirements for Bonded Warehouse License for Relief Items service
+    - What documents are needed for Bonded Warehouse License for Relief Items?
+    - Documents required for Bonded Warehouse License for Relief Items
+    - List of documents for Bonded Warehouse License for Relief Items
+    - Required paperwork for Bonded Warehouse License for Relief Items
+    - Provide documents needed for Bonded Warehouse License for Relief Items
+    - What papers do I need for Bonded Warehouse License for Relief Items?
+    - Can you give me the documents list for Bonded Warehouse License for Relief Items?
+    - Application steps for Bonded Warehouse License for Relief Items
+    - Process to apply for Bonded Warehouse License for Relief Items
+    - How do I apply for Bonded Warehouse License for Relief Items?
+    - Application procedure for Bonded Warehouse License for Relief Items
+    - Where to apply for Bonded Warehouse License for Relief Items?
+    - How long does it take to get Bonded Warehouse License for Relief Items?
+    - Processing time for Bonded Warehouse License for Relief Items?
+    - Service time for Bonded Warehouse License for Relief Items?
+    - Time needed for Bonded Warehouse License for Relief Items approval?
+    - Duration for Bonded Warehouse License for Relief Items service?
+    - Waiting period for Bonded Warehouse License for Relief Items?
+    - Bonded Warehouse License for Relief Items time frame?
+    - How much does Bonded Warehouse License for Relief Items cost?
+    - Fee for Bonded Warehouse License for Relief Items?
+    - Service cost for Bonded Warehouse License for Relief Items?
+    - Payment for Bonded Warehouse License for Relief Items?
+    - How much is the Bonded Warehouse License for Relief Items fee?
+    - Charges for Bonded Warehouse License for Relief Items?
+    - Price for Bonded Warehouse License for Relief Items?
+    - Bonded Warehouse License for Relief Items cost breakdown?
+    - Tell me about Bonded Warehouse License for Relief Items with time, fee, and documents
+    - Give me details on Bonded Warehouse License for Relief Items with documents, cost, and time
+    - Explain Bonded Warehouse License for Relief Items with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Bonded Warehouse License for Relief Items?
+    - I need info on Bonded Warehouse License for Relief Items documents, fee, and time
+    - Required documents, cost, and time for Bonded Warehouse License for Relief Items?
+    - What is the duration, price, and paperwork needed for Bonded Warehouse License for Relief Items?
+    - How can I access Bonded Warehouse License for Relief Items service?
+    - Assistance with Bonded Warehouse License for Relief Items
+    - Help with Bonded Warehouse License for Relief Items process
+    - Need help with Bonded Warehouse License for Relief Items
+    - Can you help me with Bonded Warehouse License for Relief Items?
+    - Support for Bonded Warehouse License for Relief Items
+    - What are the steps to get Bonded Warehouse License for Relief Items?
+    - Eligibility criteria for Bonded Warehouse License for Relief Items
+    - Conditions for using Bonded Warehouse License for Relief Items
+    - Bonded Warehouse License for Relief Items procedures
+    - How to request Bonded Warehouse License for Relief Items?
+    - Can you explain the process for Bonded Warehouse License for Relief Items?
+    - How is the Bonded Warehouse License for Relief Items process?
+    - What is the procedure for Bonded Warehouse License for Relief Items?
+    - Steps for Bonded Warehouse License for Relief Items?
+    - Can you list the process of Bonded Warehouse License for Relief Items?
+    - What is required for Bonded Warehouse License for Relief Items?
+    - What are the needed documents for Bonded Warehouse License for Relief Items?
+    - Which papers are necessary for Bonded Warehouse License for Relief Items?
+    - How can I submit the application for Bonded Warehouse License for Relief Items?
+    - Where can I apply for Bonded Warehouse License for Relief Items?
+    - What's the cost for Bonded Warehouse License for Relief Items?
+    - What does Bonded Warehouse License for Relief Items cost?
+    - Breakdown of cost for Bonded Warehouse License for Relief Items?
+    - How long will it take to get Bonded Warehouse License for Relief Items?
+    - What’s the waiting time for Bonded Warehouse License for Relief Items?
+    - Can you list the documents, fee, and duration for Bonded Warehouse License for Relief Items?
+    - Fee, time, and document details for Bonded Warehouse License for Relief Items?
+    - How to obtain a bonded export factory license?
+    - What documents are required for bonded export factory approval?
+    - Process of applying for bonded export factory license
+    - Where to submit bonded export factory application?
+    - Who provides bonded export factory authorization?
+    - Cost for bonded export factory license
+    - Is bonded export factory license mandatory?
+    - Application guidelines for bonded export factory setup
+    - Rules for bonded export factory licensing
+    - Steps for bonded export factory registration
+
+- intent: ask_about_Bonded_Export_Factory_License_en
+  examples: |
+    - How to obtain a bonded export factory license?
+    - What documents are required for bonded export factory approval?
+    - Process of applying for bonded export factory license
+    - Where to submit bonded export factory application?
+    - Who provides bonded export factory authorization?
+    - Cost for bonded export factory license
+    - Is bonded export factory license mandatory?
+    - Application guidelines for bonded export factory setup
+    - Rules for bonded export factory licensing
+    - Steps for bonded export factory registration
+
+- intent: ask_about_Bonded_Export_Factory_Warehouse_License_en
+  examples: |
+    - Bonded Export Factory Warehouse License
+    - Explain about Bonded Export Factory Warehouse License
+    - How Bonded Export Factory Warehouse License?
+    - How to get Bonded Export Factory Warehouse License
+    - How can I get Bonded Export Factory Warehouse License?
+    - Can you tell me about Bonded Export Factory Warehouse License?
+    - Tell me about Bonded Export Factory Warehouse License
+    - Give me information about Bonded Export Factory Warehouse License
+    - Info on Bonded Export Factory Warehouse License
+    - Tell me the details of Bonded Export Factory Warehouse License
+    - What are the details of Bonded Export Factory Warehouse License
+    - Bonded Export Factory Warehouse License details
+    - Bonded Export Factory Warehouse License overview
+    - Overview of Bonded Export Factory Warehouse License
+    - Give me an overview for what Bonded Export Factory Warehouse License does
+    - Tell me an overview of Bonded Export Factory Warehouse License
+    - Purpose of Bonded Export Factory Warehouse License
+    - What are the purposes of Bonded Export Factory Warehouse License
+    - List the purpose of Bonded Export Factory Warehouse License
+    - What is the process for Bonded Export Factory Warehouse License?
+    - Process of Bonded Export Factory Warehouse License
+    - Tell me the process for Bonded Export Factory Warehouse License
+    - Give me information on how is the process for Bonded Export Factory Warehouse License
+    - How does Bonded Export Factory Warehouse License work?
+    - Bonded Export Factory Warehouse License works?
+    - What are the requirements for Bonded Export Factory Warehouse License?
+    - Requirements for Bonded Export Factory Warehouse License service
+    - What documents are needed for Bonded Export Factory Warehouse License?
+    - Documents required for Bonded Export Factory Warehouse License
+    - List of documents for Bonded Export Factory Warehouse License
+    - Required paperwork for Bonded Export Factory Warehouse License
+    - Provide documents needed for Bonded Export Factory Warehouse License
+    - What papers do I need for Bonded Export Factory Warehouse License?
+    - Can you give me the documents list for Bonded Export Factory Warehouse License?
+    - Application steps for Bonded Export Factory Warehouse License
+    - Process to apply for Bonded Export Factory Warehouse License
+    - How do I apply for Bonded Export Factory Warehouse License?
+    - Application procedure for Bonded Export Factory Warehouse License
+    - Where to apply for Bonded Export Factory Warehouse License?
+    - How long does it take to get Bonded Export Factory Warehouse License?
+    - Processing time for Bonded Export Factory Warehouse License?
+    - Service time for Bonded Export Factory Warehouse License?
+    - Time needed for Bonded Export Factory Warehouse License approval?
+    - Duration for Bonded Export Factory Warehouse License service?
+    - Waiting period for Bonded Export Factory Warehouse License?
+    - Bonded Export Factory Warehouse License time frame?
+    - How much does Bonded Export Factory Warehouse License cost?
+    - Fee for Bonded Export Factory Warehouse License?
+    - Service cost for Bonded Export Factory Warehouse License?
+    - Payment for Bonded Export Factory Warehouse License?
+    - How much is the Bonded Export Factory Warehouse License fee?
+    - Charges for Bonded Export Factory Warehouse License?
+    - Price for Bonded Export Factory Warehouse License?
+    - Bonded Export Factory Warehouse License cost breakdown?
+    - Tell me about Bonded Export Factory Warehouse License with time, fee, and documents
+    - Give me details on Bonded Export Factory Warehouse License with documents, cost, and time
+    - Explain Bonded Export Factory Warehouse License with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Bonded Export Factory Warehouse License?
+    - I need info on Bonded Export Factory Warehouse License documents, fee, and time
+    - Required documents, cost, and time for Bonded Export Factory Warehouse License?
+    - What is the duration, price, and paperwork needed for Bonded Export Factory Warehouse License?
+    - How can I access Bonded Export Factory Warehouse License service?
+    - Assistance with Bonded Export Factory Warehouse License
+    - Help with Bonded Export Factory Warehouse License process
+    - Need help with Bonded Export Factory Warehouse License
+    - Can you help me with Bonded Export Factory Warehouse License?
+    - Support for Bonded Export Factory Warehouse License
+    - What are the steps to get Bonded Export Factory Warehouse License?
+    - Eligibility criteria for Bonded Export Factory Warehouse License
+    - Conditions for using Bonded Export Factory Warehouse License
+    - Bonded Export Factory Warehouse License procedures
+    - How to request Bonded Export Factory Warehouse License?
+    - Can you explain the process for Bonded Export Factory Warehouse License?
+    - How is the Bonded Export Factory Warehouse License process?
+    - What is the procedure for Bonded Export Factory Warehouse License?
+    - Steps for Bonded Export Factory Warehouse License?
+    - Can you list the process of Bonded Export Factory Warehouse License?
+    - What is required for Bonded Export Factory Warehouse License?
+    - What are the needed documents for Bonded Export Factory Warehouse License?
+    - Which papers are necessary for Bonded Export Factory Warehouse License?
+    - How can I submit the application for Bonded Export Factory Warehouse License?
+    - Where can I apply for Bonded Export Factory Warehouse License?
+    - What's the cost for Bonded Export Factory Warehouse License?
+    - What does Bonded Export Factory Warehouse License cost?
+    - Breakdown of cost for Bonded Export Factory Warehouse License?
+    - How long will it take to get Bonded Export Factory Warehouse License?
+    - What’s the waiting time for Bonded Export Factory Warehouse License?
+    - Can you list the documents, fee, and duration for Bonded Export Factory Warehouse License?
+    - Fee, time, and document details for Bonded Export Factory Warehouse License?
+    - How to get a bonded export factory warehouse license?
+    - Requirements for bonded export factory warehouse approval
+    - What is the process of licensing bonded export warehouses?
+    - Where to apply for bonded export factory warehouse authorization?
+    - Who issues bonded export factory warehouse licenses?
+    - Fee for bonded export factory warehouse permit
+    - Is bonded export factory warehouse license necessary?
+    - Procedure for bonded warehouse linked to export factory
+    - Documents needed for bonded export factory warehouse license
+    - How to register a bonded export warehouse?
+
+- intent: ask_about_Bonded_Warehouse_License_for_Gift_Deliveries_en
+  examples: |
+    - Bonded Warehouse License for Gift Deliveries
+    - Explain about Bonded Warehouse License for Gift Deliveries
+    - How Bonded Warehouse License for Gift Deliveries?
+    - How to get Bonded Warehouse License for Gift Deliveries
+    - How can I get Bonded Warehouse License for Gift Deliveries?
+    - Can you tell me about Bonded Warehouse License for Gift Deliveries?
+    - Tell me about Bonded Warehouse License for Gift Deliveries
+    - Give me information about Bonded Warehouse License for Gift Deliveries
+    - Info on Bonded Warehouse License for Gift Deliveries
+    - Tell me the details of Bonded Warehouse License for Gift Deliveries
+    - What are the details of Bonded Warehouse License for Gift Deliveries
+    - Bonded Warehouse License for Gift Deliveries details
+    - Bonded Warehouse License for Gift Deliveries overview
+    - Overview of Bonded Warehouse License for Gift Deliveries
+    - Give me an overview for what Bonded Warehouse License for Gift Deliveries does
+    - Tell me an overview of Bonded Warehouse License for Gift Deliveries
+    - Purpose of Bonded Warehouse License for Gift Deliveries
+    - What are the purposes of Bonded Warehouse License for Gift Deliveries
+    - List the purpose of Bonded Warehouse License for Gift Deliveries
+    - What is the process for Bonded Warehouse License for Gift Deliveries?
+    - Process of Bonded Warehouse License for Gift Deliveries
+    - Tell me the process for Bonded Warehouse License for Gift Deliveries
+    - Give me information on how is the process for Bonded Warehouse License for Gift Deliveries
+    - How does Bonded Warehouse License for Gift Deliveries work?
+    - Bonded Warehouse License for Gift Deliveries works?
+    - What are the requirements for Bonded Warehouse License for Gift Deliveries?
+    - Requirements for Bonded Warehouse License for Gift Deliveries service
+    - What documents are needed for Bonded Warehouse License for Gift Deliveries?
+    - Documents required for Bonded Warehouse License for Gift Deliveries
+    - List of documents for Bonded Warehouse License for Gift Deliveries
+    - Required paperwork for Bonded Warehouse License for Gift Deliveries
+    - Provide documents needed for Bonded Warehouse License for Gift Deliveries
+    - What papers do I need for Bonded Warehouse License for Gift Deliveries?
+    - Can you give me the documents list for Bonded Warehouse License for Gift Deliveries?
+    - Application steps for Bonded Warehouse License for Gift Deliveries
+    - Process to apply for Bonded Warehouse License for Gift Deliveries
+    - How do I apply for Bonded Warehouse License for Gift Deliveries?
+    - Application procedure for Bonded Warehouse License for Gift Deliveries
+    - Where to apply for Bonded Warehouse License for Gift Deliveries?
+    - How long does it take to get Bonded Warehouse License for Gift Deliveries?
+    - Processing time for Bonded Warehouse License for Gift Deliveries?
+    - Service time for Bonded Warehouse License for Gift Deliveries?
+    - Time needed for Bonded Warehouse License for Gift Deliveries approval?
+    - Duration for Bonded Warehouse License for Gift Deliveries service?
+    - Waiting period for Bonded Warehouse License for Gift Deliveries?
+    - Bonded Warehouse License for Gift Deliveries time frame?
+    - How much does Bonded Warehouse License for Gift Deliveries cost?
+    - Fee for Bonded Warehouse License for Gift Deliveries?
+    - Service cost for Bonded Warehouse License for Gift Deliveries?
+    - Payment for Bonded Warehouse License for Gift Deliveries?
+    - How much is the Bonded Warehouse License for Gift Deliveries fee?
+    - Charges for Bonded Warehouse License for Gift Deliveries?
+    - Price for Bonded Warehouse License for Gift Deliveries?
+    - Bonded Warehouse License for Gift Deliveries cost breakdown?
+    - Tell me about Bonded Warehouse License for Gift Deliveries with time, fee, and documents
+    - Give me details on Bonded Warehouse License for Gift Deliveries with documents, cost, and time
+    - Explain Bonded Warehouse License for Gift Deliveries with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Bonded Warehouse License for Gift Deliveries?
+    - I need info on Bonded Warehouse License for Gift Deliveries documents, fee, and time
+    - Required documents, cost, and time for Bonded Warehouse License for Gift Deliveries?
+    - What is the duration, price, and paperwork needed for Bonded Warehouse License for Gift Deliveries?
+    - How can I access Bonded Warehouse License for Gift Deliveries service?
+    - Assistance with Bonded Warehouse License for Gift Deliveries
+    - Help with Bonded Warehouse License for Gift Deliveries process
+    - Need help with Bonded Warehouse License for Gift Deliveries
+    - Can you help me with Bonded Warehouse License for Gift Deliveries?
+    - Support for Bonded Warehouse License for Gift Deliveries
+    - What are the steps to get Bonded Warehouse License for Gift Deliveries?
+    - Eligibility criteria for Bonded Warehouse License for Gift Deliveries
+    - Conditions for using Bonded Warehouse License for Gift Deliveries
+    - Bonded Warehouse License for Gift Deliveries procedures
+    - How to request Bonded Warehouse License for Gift Deliveries?
+    - Can you explain the process for Bonded Warehouse License for Gift Deliveries?
+    - How is the Bonded Warehouse License for Gift Deliveries process?
+    - What is the procedure for Bonded Warehouse License for Gift Deliveries?
+    - Steps for Bonded Warehouse License for Gift Deliveries?
+    - Can you list the process of Bonded Warehouse License for Gift Deliveries?
+    - What is required for Bonded Warehouse License for Gift Deliveries?
+    - What are the needed documents for Bonded Warehouse License for Gift Deliveries?
+    - Which papers are necessary for Bonded Warehouse License for Gift Deliveries?
+    - How can I submit the application for Bonded Warehouse License for Gift Deliveries?
+    - Where can I apply for Bonded Warehouse License for Gift Deliveries?
+    - What's the cost for Bonded Warehouse License for Gift Deliveries?
+    - What does Bonded Warehouse License for Gift Deliveries cost?
+    - Breakdown of cost for Bonded Warehouse License for Gift Deliveries?
+    - How long will it take to get Bonded Warehouse License for Gift Deliveries?
+    - What’s the waiting time for Bonded Warehouse License for Gift Deliveries?
+    - Can you list the documents, fee, and duration for Bonded Warehouse License for Gift Deliveries?
+    - Fee, time, and document details for Bonded Warehouse License for Gift Deliveries?
+    - How to apply for a bonded warehouse license for gift deliveries?
+    - What documents are required for bonded warehouse gift delivery?
+    - Procedure for bonded warehouse gift deliveries approval
+    - Where to request bonded warehouse license for gift items?
+    - Who provides bonded warehouse permits for gifts?
+    - Cost for bonded warehouse license for delivering gifts
+    - Can gifts be stored in bonded warehouses?
+    - Rules for bonded warehouse gift deliveries licensing
+    - How to register bonded warehouse for gift processing?
+    - Steps for bonded warehouse permit for gifts
+
+- intent: ask_about_Duty_Free_Goods_Warehouse_License_en
+  examples: |
+    - Duty Free Goods Warehouse License
+    - Explain about Duty Free Goods Warehouse License
+    - How Duty Free Goods Warehouse License?
+    - How to get Duty Free Goods Warehouse License
+    - How can I get Duty Free Goods Warehouse License?
+    - Can you tell me about Duty Free Goods Warehouse License?
+    - Tell me about Duty Free Goods Warehouse License
+    - Give me information about Duty Free Goods Warehouse License
+    - Info on Duty Free Goods Warehouse License
+    - Tell me the details of Duty Free Goods Warehouse License
+    - What are the details of Duty Free Goods Warehouse License
+    - Duty Free Goods Warehouse License details
+    - Duty Free Goods Warehouse License overview
+    - Overview of Duty Free Goods Warehouse License
+    - Give me an overview for what Duty Free Goods Warehouse License does
+    - Tell me an overview of Duty Free Goods Warehouse License
+    - Purpose of Duty Free Goods Warehouse License
+    - What are the purposes of Duty Free Goods Warehouse License
+    - List the purpose of Duty Free Goods Warehouse License
+    - What is the process for Duty Free Goods Warehouse License?
+    - Process of Duty Free Goods Warehouse License
+    - Tell me the process for Duty Free Goods Warehouse License
+    - Give me information on how is the process for Duty Free Goods Warehouse License
+    - How does Duty Free Goods Warehouse License work?
+    - Duty Free Goods Warehouse License works?
+    - What are the requirements for Duty Free Goods Warehouse License?
+    - Requirements for Duty Free Goods Warehouse License service
+    - What documents are needed for Duty Free Goods Warehouse License?
+    - Documents required for Duty Free Goods Warehouse License
+    - List of documents for Duty Free Goods Warehouse License
+    - Required paperwork for Duty Free Goods Warehouse License
+    - Provide documents needed for Duty Free Goods Warehouse License
+    - What papers do I need for Duty Free Goods Warehouse License?
+    - Can you give me the documents list for Duty Free Goods Warehouse License?
+    - Application steps for Duty Free Goods Warehouse License
+    - Process to apply for Duty Free Goods Warehouse License
+    - How do I apply for Duty Free Goods Warehouse License?
+    - Application procedure for Duty Free Goods Warehouse License
+    - Where to apply for Duty Free Goods Warehouse License?
+    - How long does it take to get Duty Free Goods Warehouse License?
+    - Processing time for Duty Free Goods Warehouse License?
+    - Service time for Duty Free Goods Warehouse License?
+    - Time needed for Duty Free Goods Warehouse License approval?
+    - Duration for Duty Free Goods Warehouse License service?
+    - Waiting period for Duty Free Goods Warehouse License?
+    - Duty Free Goods Warehouse License time frame?
+    - How much does Duty Free Goods Warehouse License cost?
+    - Fee for Duty Free Goods Warehouse License?
+    - Service cost for Duty Free Goods Warehouse License?
+    - Payment for Duty Free Goods Warehouse License?
+    - How much is the Duty Free Goods Warehouse License fee?
+    - Charges for Duty Free Goods Warehouse License?
+    - Price for Duty Free Goods Warehouse License?
+    - Duty Free Goods Warehouse License cost breakdown?
+    - Tell me about Duty Free Goods Warehouse License with time, fee, and documents
+    - Give me details on Duty Free Goods Warehouse License with documents, cost, and time
+    - Explain Duty Free Goods Warehouse License with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Duty Free Goods Warehouse License?
+    - I need info on Duty Free Goods Warehouse License documents, fee, and time
+    - Required documents, cost, and time for Duty Free Goods Warehouse License?
+    - What is the duration, price, and paperwork needed for Duty Free Goods Warehouse License?
+    - How can I access Duty Free Goods Warehouse License service?
+    - Assistance with Duty Free Goods Warehouse License
+    - Help with Duty Free Goods Warehouse License process
+    - Need help with Duty Free Goods Warehouse License
+    - Can you help me with Duty Free Goods Warehouse License?
+    - Support for Duty Free Goods Warehouse License
+    - What are the steps to get Duty Free Goods Warehouse License?
+    - Eligibility criteria for Duty Free Goods Warehouse License
+    - Conditions for using Duty Free Goods Warehouse License
+    - Duty Free Goods Warehouse License procedures
+    - How to request Duty Free Goods Warehouse License?
+    - Can you explain the process for Duty Free Goods Warehouse License?
+    - How is the Duty Free Goods Warehouse License process?
+    - What is the procedure for Duty Free Goods Warehouse License?
+    - Steps for Duty Free Goods Warehouse License?
+    - Can you list the process of Duty Free Goods Warehouse License?
+    - What is required for Duty Free Goods Warehouse License?
+    - What are the needed documents for Duty Free Goods Warehouse License?
+    - Which papers are necessary for Duty Free Goods Warehouse License?
+    - How can I submit the application for Duty Free Goods Warehouse License?
+    - Where can I apply for Duty Free Goods Warehouse License?
+    - What's the cost for Duty Free Goods Warehouse License?
+    - What does Duty Free Goods Warehouse License cost?
+    - Breakdown of cost for Duty Free Goods Warehouse License?
+    - How long will it take to get Duty Free Goods Warehouse License?
+    - What’s the waiting time for Duty Free Goods Warehouse License?
+    - Can you list the documents, fee, and duration for Duty Free Goods Warehouse License?
+    - Fee, time, and document details for Duty Free Goods Warehouse License?
+    - How to obtain a duty-free goods warehouse license?
+    - What are the requirements for duty-free goods warehouse?
+    - Procedure for duty-free goods warehouse licensing
+    - Where to apply for duty-free goods warehouse permit?
+    - Who issues duty-free goods warehouse licenses?
+    - Cost for duty-free goods warehouse approval
+    - Application process for duty-free goods storage license
+    - Guidelines for duty-free goods warehouse registration
+    - Steps for obtaining duty-free goods warehouse authorization
+    - Documents needed for duty-free goods warehouse license
+
+- intent: ask_about_Duty_Free_Retail_Outlet_License_en
+  examples: |
+    - Duty Free Retail Outlet License
+    - Explain about Duty Free Retail Outlet License
+    - How Duty Free Retail Outlet License?
+    - How to get Duty Free Retail Outlet License
+    - How can I get Duty Free Retail Outlet License?
+    - Can you tell me about Duty Free Retail Outlet License?
+    - Tell me about Duty Free Retail Outlet License
+    - Give me information about Duty Free Retail Outlet License
+    - Info on Duty Free Retail Outlet License
+    - Tell me the details of Duty Free Retail Outlet License
+    - What are the details of Duty Free Retail Outlet License
+    - Duty Free Retail Outlet License details
+    - Duty Free Retail Outlet License overview
+    - Overview of Duty Free Retail Outlet License
+    - Give me an overview for what Duty Free Retail Outlet License does
+    - Tell me an overview of Duty Free Retail Outlet License
+    - Purpose of Duty Free Retail Outlet License
+    - What are the purposes of Duty Free Retail Outlet License
+    - List the purpose of Duty Free Retail Outlet License
+    - What is the process for Duty Free Retail Outlet License?
+    - Process of Duty Free Retail Outlet License
+    - Tell me the process for Duty Free Retail Outlet License
+    - Give me information on how is the process for Duty Free Retail Outlet License
+    - How does Duty Free Retail Outlet License work?
+    - Duty Free Retail Outlet License works?
+    - What are the requirements for Duty Free Retail Outlet License?
+    - Requirements for Duty Free Retail Outlet License service
+    - What documents are needed for Duty Free Retail Outlet License?
+    - Documents required for Duty Free Retail Outlet License
+    - List of documents for Duty Free Retail Outlet License
+    - Required paperwork for Duty Free Retail Outlet License
+    - Provide documents needed for Duty Free Retail Outlet License
+    - What papers do I need for Duty Free Retail Outlet License?
+    - Can you give me the documents list for Duty Free Retail Outlet License?
+    - Application steps for Duty Free Retail Outlet License
+    - Process to apply for Duty Free Retail Outlet License
+    - How do I apply for Duty Free Retail Outlet License?
+    - Application procedure for Duty Free Retail Outlet License
+    - Where to apply for Duty Free Retail Outlet License?
+    - How long does it take to get Duty Free Retail Outlet License?
+    - Processing time for Duty Free Retail Outlet License?
+    - Service time for Duty Free Retail Outlet License?
+    - Time needed for Duty Free Retail Outlet License approval?
+    - Duration for Duty Free Retail Outlet License service?
+    - Waiting period for Duty Free Retail Outlet License?
+    - Duty Free Retail Outlet License time frame?
+    - How much does Duty Free Retail Outlet License cost?
+    - Fee for Duty Free Retail Outlet License?
+    - Service cost for Duty Free Retail Outlet License?
+    - Payment for Duty Free Retail Outlet License?
+    - How much is the Duty Free Retail Outlet License fee?
+    - Charges for Duty Free Retail Outlet License?
+    - Price for Duty Free Retail Outlet License?
+    - Duty Free Retail Outlet License cost breakdown?
+    - Tell me about Duty Free Retail Outlet License with time, fee, and documents
+    - Give me details on Duty Free Retail Outlet License with documents, cost, and time
+    - Explain Duty Free Retail Outlet License with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Duty Free Retail Outlet License?
+    - I need info on Duty Free Retail Outlet License documents, fee, and time
+    - Required documents, cost, and time for Duty Free Retail Outlet License?
+    - What is the duration, price, and paperwork needed for Duty Free Retail Outlet License?
+    - How can I access Duty Free Retail Outlet License service?
+    - Assistance with Duty Free Retail Outlet License
+    - Help with Duty Free Retail Outlet License process
+    - Need help with Duty Free Retail Outlet License
+    - Can you help me with Duty Free Retail Outlet License?
+    - Support for Duty Free Retail Outlet License
+    - What are the steps to get Duty Free Retail Outlet License?
+    - Eligibility criteria for Duty Free Retail Outlet License
+    - Conditions for using Duty Free Retail Outlet License
+    - Duty Free Retail Outlet License procedures
+    - How to request Duty Free Retail Outlet License?
+    - Can you explain the process for Duty Free Retail Outlet License?
+    - How is the Duty Free Retail Outlet License process?
+    - What is the procedure for Duty Free Retail Outlet License?
+    - Steps for Duty Free Retail Outlet License?
+    - Can you list the process of Duty Free Retail Outlet License?
+    - What is required for Duty Free Retail Outlet License?
+    - What are the needed documents for Duty Free Retail Outlet License?
+    - Which papers are necessary for Duty Free Retail Outlet License?
+    - How can I submit the application for Duty Free Retail Outlet License?
+    - Where can I apply for Duty Free Retail Outlet License?
+    - What's the cost for Duty Free Retail Outlet License?
+    - What does Duty Free Retail Outlet License cost?
+    - Breakdown of cost for Duty Free Retail Outlet License?
+    - How long will it take to get Duty Free Retail Outlet License?
+    - What’s the waiting time for Duty Free Retail Outlet License?
+    - Can you list the documents, fee, and duration for Duty Free Retail Outlet License?
+    - Fee, time, and document details for Duty Free Retail Outlet License?
+    - How to apply for a duty-free retail outlet license?
+    - Requirements for duty-free retail store licensing
+    - Where to request duty-free retail outlet approval?
+    - What is the process for duty-free retail outlet permits?
+    - Who grants duty-free retail outlet licenses?
+    - Cost of duty-free retail outlet license
+    - Application steps for opening duty-free retail shop
+    - Guidelines for duty-free retail outlet registration
+    - Procedure for setting up a duty-free retail store
+    - Documents required for duty-free retail outlet licensing
+
+- intent: ask_about_Renewal_Temporary_Bonded_Customs_Warehouse_en
+  examples: |
+    - Renewal Temporary Bonded Customs Warehouse
+    - Explain about Renewal Temporary Bonded Customs Warehouse
+    - How Renewal Temporary Bonded Customs Warehouse?
+    - How to get Renewal Temporary Bonded Customs Warehouse
+    - How can I get Renewal Temporary Bonded Customs Warehouse?
+    - Can you tell me about Renewal Temporary Bonded Customs Warehouse?
+    - Tell me about Renewal Temporary Bonded Customs Warehouse
+    - Give me information about Renewal Temporary Bonded Customs Warehouse
+    - Info on Renewal Temporary Bonded Customs Warehouse
+    - Tell me the details of Renewal Temporary Bonded Customs Warehouse
+    - What are the details of Renewal Temporary Bonded Customs Warehouse
+    - Renewal Temporary Bonded Customs Warehouse details
+    - Renewal Temporary Bonded Customs Warehouse overview
+    - Overview of Renewal Temporary Bonded Customs Warehouse
+    - Give me an overview for what Renewal Temporary Bonded Customs Warehouse does
+    - Tell me an overview of Renewal Temporary Bonded Customs Warehouse
+    - Purpose of Renewal Temporary Bonded Customs Warehouse
+    - What are the purposes of Renewal Temporary Bonded Customs Warehouse
+    - List the purpose of Renewal Temporary Bonded Customs Warehouse
+    - What is the process for Renewal Temporary Bonded Customs Warehouse?
+    - Process of Renewal Temporary Bonded Customs Warehouse
+    - Tell me the process for Renewal Temporary Bonded Customs Warehouse
+    - Give me information on how is the process for Renewal Temporary Bonded Customs Warehouse
+    - How does Renewal Temporary Bonded Customs Warehouse work?
+    - Renewal Temporary Bonded Customs Warehouse works?
+    - What are the requirements for Renewal Temporary Bonded Customs Warehouse?
+    - Requirements for Renewal Temporary Bonded Customs Warehouse service
+    - What documents are needed for Renewal Temporary Bonded Customs Warehouse?
+    - Documents required for Renewal Temporary Bonded Customs Warehouse
+    - List of documents for Renewal Temporary Bonded Customs Warehouse
+    - Required paperwork for Renewal Temporary Bonded Customs Warehouse
+    - Provide documents needed for Renewal Temporary Bonded Customs Warehouse
+    - What papers do I need for Renewal Temporary Bonded Customs Warehouse?
+    - Can you give me the documents list for Renewal Temporary Bonded Customs Warehouse?
+    - Application steps for Renewal Temporary Bonded Customs Warehouse
+    - Process to apply for Renewal Temporary Bonded Customs Warehouse
+    - How do I apply for Renewal Temporary Bonded Customs Warehouse?
+    - Application procedure for Renewal Temporary Bonded Customs Warehouse
+    - Where to apply for Renewal Temporary Bonded Customs Warehouse?
+    - How long does it take to get Renewal Temporary Bonded Customs Warehouse?
+    - Processing time for Renewal Temporary Bonded Customs Warehouse?
+    - Service time for Renewal Temporary Bonded Customs Warehouse?
+    - Time needed for Renewal Temporary Bonded Customs Warehouse approval?
+    - Duration for Renewal Temporary Bonded Customs Warehouse service?
+    - Waiting period for Renewal Temporary Bonded Customs Warehouse?
+    - Renewal Temporary Bonded Customs Warehouse time frame?
+    - How much does Renewal Temporary Bonded Customs Warehouse cost?
+    - Fee for Renewal Temporary Bonded Customs Warehouse?
+    - Service cost for Renewal Temporary Bonded Customs Warehouse?
+    - Payment for Renewal Temporary Bonded Customs Warehouse?
+    - How much is the Renewal Temporary Bonded Customs Warehouse fee?
+    - Charges for Renewal Temporary Bonded Customs Warehouse?
+    - Price for Renewal Temporary Bonded Customs Warehouse?
+    - Renewal Temporary Bonded Customs Warehouse cost breakdown?
+    - Tell me about Renewal Temporary Bonded Customs Warehouse with time, fee, and documents
+    - Give me details on Renewal Temporary Bonded Customs Warehouse with documents, cost, and time
+    - Explain Renewal Temporary Bonded Customs Warehouse with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal Temporary Bonded Customs Warehouse?
+    - I need info on Renewal Temporary Bonded Customs Warehouse documents, fee, and time
+    - Required documents, cost, and time for Renewal Temporary Bonded Customs Warehouse?
+    - What is the duration, price, and paperwork needed for Renewal Temporary Bonded Customs Warehouse?
+    - How can I access Renewal Temporary Bonded Customs Warehouse service?
+    - Assistance with Renewal Temporary Bonded Customs Warehouse
+    - Help with Renewal Temporary Bonded Customs Warehouse process
+    - Need help with Renewal Temporary Bonded Customs Warehouse
+    - Can you help me with Renewal Temporary Bonded Customs Warehouse?
+    - Support for Renewal Temporary Bonded Customs Warehouse
+    - What are the steps to get Renewal Temporary Bonded Customs Warehouse?
+    - Eligibility criteria for Renewal Temporary Bonded Customs Warehouse
+    - Conditions for using Renewal Temporary Bonded Customs Warehouse
+    - Renewal Temporary Bonded Customs Warehouse procedures
+    - How to request Renewal Temporary Bonded Customs Warehouse?
+    - Can you explain the process for Renewal Temporary Bonded Customs Warehouse?
+    - How is the Renewal Temporary Bonded Customs Warehouse process?
+    - What is the procedure for Renewal Temporary Bonded Customs Warehouse?
+    - Steps for Renewal Temporary Bonded Customs Warehouse?
+    - Can you list the process of Renewal Temporary Bonded Customs Warehouse?
+    - What is required for Renewal Temporary Bonded Customs Warehouse?
+    - What are the needed documents for Renewal Temporary Bonded Customs Warehouse?
+    - Which papers are necessary for Renewal Temporary Bonded Customs Warehouse?
+    - How can I submit the application for Renewal Temporary Bonded Customs Warehouse?
+    - Where can I apply for Renewal Temporary Bonded Customs Warehouse?
+    - What's the cost for Renewal Temporary Bonded Customs Warehouse?
+    - What does Renewal Temporary Bonded Customs Warehouse cost?
+    - Breakdown of cost for Renewal Temporary Bonded Customs Warehouse?
+    - How long will it take to get Renewal Temporary Bonded Customs Warehouse?
+    - What’s the waiting time for Renewal Temporary Bonded Customs Warehouse?
+    - Can you list the documents, fee, and duration for Renewal Temporary Bonded Customs Warehouse?
+    - Fee, time, and document details for Renewal Temporary Bonded Customs Warehouse?
+    - How can I renew a Temporary Bonded Customs Warehouse license?
+    - What is the process to renew Temporary Bonded Customs Warehouse?
+    - Steps for renewing Temporary Bonded Customs Warehouse
+    - Can you explain renewal of Temporary Bonded Customs Warehouse?
+    - What documents are required for Temporary Bonded Customs Warehouse renewal?
+    - Fee for renewing Temporary Bonded Customs Warehouse
+    - How long does it take to renew Temporary Bonded Customs Warehouse?
+    - Renewal procedure for Temporary Bonded Customs Warehouse
+    - Can I apply online for Temporary Bonded Customs Warehouse renewal?
+    - Who is eligible for Temporary Bonded Customs Warehouse license renewal?
+
+- intent: ask_about_Renewal_Bonded_Customs_Warehouse_en
+  examples: |
+    - Renewal Bonded Customs Warehouse
+    - Explain about Renewal Bonded Customs Warehouse
+    - How Renewal Bonded Customs Warehouse?
+    - How to get Renewal Bonded Customs Warehouse
+    - How can I get Renewal Bonded Customs Warehouse?
+    - Can you tell me about Renewal Bonded Customs Warehouse?
+    - Tell me about Renewal Bonded Customs Warehouse
+    - Give me information about Renewal Bonded Customs Warehouse
+    - Info on Renewal Bonded Customs Warehouse
+    - Tell me the details of Renewal Bonded Customs Warehouse
+    - What are the details of Renewal Bonded Customs Warehouse
+    - Renewal Bonded Customs Warehouse details
+    - Renewal Bonded Customs Warehouse overview
+    - Overview of Renewal Bonded Customs Warehouse
+    - Give me an overview for what Renewal Bonded Customs Warehouse does
+    - Tell me an overview of Renewal Bonded Customs Warehouse
+    - Purpose of Renewal Bonded Customs Warehouse
+    - What are the purposes of Renewal Bonded Customs Warehouse
+    - List the purpose of Renewal Bonded Customs Warehouse
+    - What is the process for Renewal Bonded Customs Warehouse?
+    - Process of Renewal Bonded Customs Warehouse
+    - Tell me the process for Renewal Bonded Customs Warehouse
+    - Give me information on how is the process for Renewal Bonded Customs Warehouse
+    - How does Renewal Bonded Customs Warehouse work?
+    - Renewal Bonded Customs Warehouse works?
+    - What are the requirements for Renewal Bonded Customs Warehouse?
+    - Requirements for Renewal Bonded Customs Warehouse service
+    - What documents are needed for Renewal Bonded Customs Warehouse?
+    - Documents required for Renewal Bonded Customs Warehouse
+    - List of documents for Renewal Bonded Customs Warehouse
+    - Required paperwork for Renewal Bonded Customs Warehouse
+    - Provide documents needed for Renewal Bonded Customs Warehouse
+    - What papers do I need for Renewal Bonded Customs Warehouse?
+    - Can you give me the documents list for Renewal Bonded Customs Warehouse?
+    - Application steps for Renewal Bonded Customs Warehouse
+    - Process to apply for Renewal Bonded Customs Warehouse
+    - How do I apply for Renewal Bonded Customs Warehouse?
+    - Application procedure for Renewal Bonded Customs Warehouse
+    - Where to apply for Renewal Bonded Customs Warehouse?
+    - How long does it take to get Renewal Bonded Customs Warehouse?
+    - Processing time for Renewal Bonded Customs Warehouse?
+    - Service time for Renewal Bonded Customs Warehouse?
+    - Time needed for Renewal Bonded Customs Warehouse approval?
+    - Duration for Renewal Bonded Customs Warehouse service?
+    - Waiting period for Renewal Bonded Customs Warehouse?
+    - Renewal Bonded Customs Warehouse time frame?
+    - How much does Renewal Bonded Customs Warehouse cost?
+    - Fee for Renewal Bonded Customs Warehouse?
+    - Service cost for Renewal Bonded Customs Warehouse?
+    - Payment for Renewal Bonded Customs Warehouse?
+    - How much is the Renewal Bonded Customs Warehouse fee?
+    - Charges for Renewal Bonded Customs Warehouse?
+    - Price for Renewal Bonded Customs Warehouse?
+    - Renewal Bonded Customs Warehouse cost breakdown?
+    - Tell me about Renewal Bonded Customs Warehouse with time, fee, and documents
+    - Give me details on Renewal Bonded Customs Warehouse with documents, cost, and time
+    - Explain Renewal Bonded Customs Warehouse with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal Bonded Customs Warehouse?
+    - I need info on Renewal Bonded Customs Warehouse documents, fee, and time
+    - Required documents, cost, and time for Renewal Bonded Customs Warehouse?
+    - What is the duration, price, and paperwork needed for Renewal Bonded Customs Warehouse?
+    - How can I access Renewal Bonded Customs Warehouse service?
+    - Assistance with Renewal Bonded Customs Warehouse
+    - Help with Renewal Bonded Customs Warehouse process
+    - Need help with Renewal Bonded Customs Warehouse
+    - Can you help me with Renewal Bonded Customs Warehouse?
+    - Support for Renewal Bonded Customs Warehouse
+    - What are the steps to get Renewal Bonded Customs Warehouse?
+    - Eligibility criteria for Renewal Bonded Customs Warehouse
+    - Conditions for using Renewal Bonded Customs Warehouse
+    - Renewal Bonded Customs Warehouse procedures
+    - How to request Renewal Bonded Customs Warehouse?
+    - Can you explain the process for Renewal Bonded Customs Warehouse?
+    - How is the Renewal Bonded Customs Warehouse process?
+    - What is the procedure for Renewal Bonded Customs Warehouse?
+    - Steps for Renewal Bonded Customs Warehouse?
+    - Can you list the process of Renewal Bonded Customs Warehouse?
+    - What is required for Renewal Bonded Customs Warehouse?
+    - What are the needed documents for Renewal Bonded Customs Warehouse?
+    - Which papers are necessary for Renewal Bonded Customs Warehouse?
+    - How can I submit the application for Renewal Bonded Customs Warehouse?
+    - Where can I apply for Renewal Bonded Customs Warehouse?
+    - What's the cost for Renewal Bonded Customs Warehouse?
+    - What does Renewal Bonded Customs Warehouse cost?
+    - Breakdown of cost for Renewal Bonded Customs Warehouse?
+    - How long will it take to get Renewal Bonded Customs Warehouse?
+    - What’s the waiting time for Renewal Bonded Customs Warehouse?
+    - Can you list the documents, fee, and duration for Renewal Bonded Customs Warehouse?
+    - Fee, time, and document details for Renewal Bonded Customs Warehouse?
+    - How can I renew a Bonded Customs Warehouse license?
+    - Process for renewing Bonded Customs Warehouse
+    - What is the procedure for Bonded Customs Warehouse renewal?
+    - Documents needed for Bonded Customs Warehouse license renewal
+    - Fee for Bonded Customs Warehouse renewal
+    - Time required for Bonded Customs Warehouse renewal
+    - Can I renew Bonded Customs Warehouse online?
+    - Steps to renew Bonded Customs Warehouse license
+    - How to apply for Bonded Customs Warehouse renewal
+    - Requirements for Bonded Customs Warehouse renewal
+
+- intent: ask_about_Renewal_Private_Temporary_Customs_Warehouse_en
+  examples: |
+    - Renewal Private Temporary Customs Warehouse
+    - Explain about Renewal Private Temporary Customs Warehouse
+    - How Renewal Private Temporary Customs Warehouse?
+    - How to get Renewal Private Temporary Customs Warehouse
+    - How can I get Renewal Private Temporary Customs Warehouse?
+    - Can you tell me about Renewal Private Temporary Customs Warehouse?
+    - Tell me about Renewal Private Temporary Customs Warehouse
+    - Give me information about Renewal Private Temporary Customs Warehouse
+    - Info on Renewal Private Temporary Customs Warehouse
+    - Tell me the details of Renewal Private Temporary Customs Warehouse
+    - What are the details of Renewal Private Temporary Customs Warehouse
+    - Renewal Private Temporary Customs Warehouse details
+    - Renewal Private Temporary Customs Warehouse overview
+    - Overview of Renewal Private Temporary Customs Warehouse
+    - Give me an overview for what Renewal Private Temporary Customs Warehouse does
+    - Tell me an overview of Renewal Private Temporary Customs Warehouse
+    - Purpose of Renewal Private Temporary Customs Warehouse
+    - What are the purposes of Renewal Private Temporary Customs Warehouse
+    - List the purpose of Renewal Private Temporary Customs Warehouse
+    - What is the process for Renewal Private Temporary Customs Warehouse?
+    - Process of Renewal Private Temporary Customs Warehouse
+    - Tell me the process for Renewal Private Temporary Customs Warehouse
+    - Give me information on how is the process for Renewal Private Temporary Customs Warehouse
+    - How does Renewal Private Temporary Customs Warehouse work?
+    - Renewal Private Temporary Customs Warehouse works?
+    - What are the requirements for Renewal Private Temporary Customs Warehouse?
+    - Requirements for Renewal Private Temporary Customs Warehouse service
+    - What documents are needed for Renewal Private Temporary Customs Warehouse?
+    - Documents required for Renewal Private Temporary Customs Warehouse
+    - List of documents for Renewal Private Temporary Customs Warehouse
+    - Required paperwork for Renewal Private Temporary Customs Warehouse
+    - Provide documents needed for Renewal Private Temporary Customs Warehouse
+    - What papers do I need for Renewal Private Temporary Customs Warehouse?
+    - Can you give me the documents list for Renewal Private Temporary Customs Warehouse?
+    - Application steps for Renewal Private Temporary Customs Warehouse
+    - Process to apply for Renewal Private Temporary Customs Warehouse
+    - How do I apply for Renewal Private Temporary Customs Warehouse?
+    - Application procedure for Renewal Private Temporary Customs Warehouse
+    - Where to apply for Renewal Private Temporary Customs Warehouse?
+    - How long does it take to get Renewal Private Temporary Customs Warehouse?
+    - Processing time for Renewal Private Temporary Customs Warehouse?
+    - Service time for Renewal Private Temporary Customs Warehouse?
+    - Time needed for Renewal Private Temporary Customs Warehouse approval?
+    - Duration for Renewal Private Temporary Customs Warehouse service?
+    - Waiting period for Renewal Private Temporary Customs Warehouse?
+    - Renewal Private Temporary Customs Warehouse time frame?
+    - How much does Renewal Private Temporary Customs Warehouse cost?
+    - Fee for Renewal Private Temporary Customs Warehouse?
+    - Service cost for Renewal Private Temporary Customs Warehouse?
+    - Payment for Renewal Private Temporary Customs Warehouse?
+    - How much is the Renewal Private Temporary Customs Warehouse fee?
+    - Charges for Renewal Private Temporary Customs Warehouse?
+    - Price for Renewal Private Temporary Customs Warehouse?
+    - Renewal Private Temporary Customs Warehouse cost breakdown?
+    - Tell me about Renewal Private Temporary Customs Warehouse with time, fee, and documents
+    - Give me details on Renewal Private Temporary Customs Warehouse with documents, cost, and time
+    - Explain Renewal Private Temporary Customs Warehouse with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal Private Temporary Customs Warehouse?
+    - I need info on Renewal Private Temporary Customs Warehouse documents, fee, and time
+    - Required documents, cost, and time for Renewal Private Temporary Customs Warehouse?
+    - What is the duration, price, and paperwork needed for Renewal Private Temporary Customs Warehouse?
+    - How can I access Renewal Private Temporary Customs Warehouse service?
+    - Assistance with Renewal Private Temporary Customs Warehouse
+    - Help with Renewal Private Temporary Customs Warehouse process
+    - Need help with Renewal Private Temporary Customs Warehouse
+    - Can you help me with Renewal Private Temporary Customs Warehouse?
+    - Support for Renewal Private Temporary Customs Warehouse
+    - What are the steps to get Renewal Private Temporary Customs Warehouse?
+    - Eligibility criteria for Renewal Private Temporary Customs Warehouse
+    - Conditions for using Renewal Private Temporary Customs Warehouse
+    - Renewal Private Temporary Customs Warehouse procedures
+    - How to request Renewal Private Temporary Customs Warehouse?
+    - Can you explain the process for Renewal Private Temporary Customs Warehouse?
+    - How is the Renewal Private Temporary Customs Warehouse process?
+    - What is the procedure for Renewal Private Temporary Customs Warehouse?
+    - Steps for Renewal Private Temporary Customs Warehouse?
+    - Can you list the process of Renewal Private Temporary Customs Warehouse?
+    - What is required for Renewal Private Temporary Customs Warehouse?
+    - What are the needed documents for Renewal Private Temporary Customs Warehouse?
+    - Which papers are necessary for Renewal Private Temporary Customs Warehouse?
+    - How can I submit the application for Renewal Private Temporary Customs Warehouse?
+    - Where can I apply for Renewal Private Temporary Customs Warehouse?
+    - What's the cost for Renewal Private Temporary Customs Warehouse?
+    - What does Renewal Private Temporary Customs Warehouse cost?
+    - Breakdown of cost for Renewal Private Temporary Customs Warehouse?
+    - How long will it take to get Renewal Private Temporary Customs Warehouse?
+    - What’s the waiting time for Renewal Private Temporary Customs Warehouse?
+    - Can you list the documents, fee, and duration for Renewal Private Temporary Customs Warehouse?
+    - Fee, time, and document details for Renewal Private Temporary Customs Warehouse?
+    - How to renew Private Temporary Customs Warehouse license?
+    - Renewal process for Private Temporary Customs Warehouse
+    - Procedure for renewing Private Temporary Customs Warehouse
+    - What documents are required for Private Temporary Customs Warehouse renewal?
+    - How much is the fee for Private Temporary Customs Warehouse renewal?
+    - Time needed to renew Private Temporary Customs Warehouse
+    - Can I submit renewal online for Private Temporary Customs Warehouse?
+    - Steps to renew Private Temporary Customs Warehouse license
+    - What are the eligibility criteria for renewal?
+    - How to apply for Private Temporary Customs Warehouse renewal
+
+- intent: ask_about_Renewal_Private_Bonded_Customs_Warehouse_en
+  examples: |
+    - Renewal Private Bonded Customs Warehouse
+    - Explain about Renewal Private Bonded Customs Warehouse
+    - How Renewal Private Bonded Customs Warehouse?
+    - How to get Renewal Private Bonded Customs Warehouse
+    - How can I get Renewal Private Bonded Customs Warehouse?
+    - Can you tell me about Renewal Private Bonded Customs Warehouse?
+    - Tell me about Renewal Private Bonded Customs Warehouse
+    - Give me information about Renewal Private Bonded Customs Warehouse
+    - Info on Renewal Private Bonded Customs Warehouse
+    - Tell me the details of Renewal Private Bonded Customs Warehouse
+    - What are the details of Renewal Private Bonded Customs Warehouse
+    - Renewal Private Bonded Customs Warehouse details
+    - Renewal Private Bonded Customs Warehouse overview
+    - Overview of Renewal Private Bonded Customs Warehouse
+    - Give me an overview for what Renewal Private Bonded Customs Warehouse does
+    - Tell me an overview of Renewal Private Bonded Customs Warehouse
+    - Purpose of Renewal Private Bonded Customs Warehouse
+    - What are the purposes of Renewal Private Bonded Customs Warehouse
+    - List the purpose of Renewal Private Bonded Customs Warehouse
+    - What is the process for Renewal Private Bonded Customs Warehouse?
+    - Process of Renewal Private Bonded Customs Warehouse
+    - Tell me the process for Renewal Private Bonded Customs Warehouse
+    - Give me information on how is the process for Renewal Private Bonded Customs Warehouse
+    - How does Renewal Private Bonded Customs Warehouse work?
+    - Renewal Private Bonded Customs Warehouse works?
+    - What are the requirements for Renewal Private Bonded Customs Warehouse?
+    - Requirements for Renewal Private Bonded Customs Warehouse service
+    - What documents are needed for Renewal Private Bonded Customs Warehouse?
+    - Documents required for Renewal Private Bonded Customs Warehouse
+    - List of documents for Renewal Private Bonded Customs Warehouse
+    - Required paperwork for Renewal Private Bonded Customs Warehouse
+    - Provide documents needed for Renewal Private Bonded Customs Warehouse
+    - What papers do I need for Renewal Private Bonded Customs Warehouse?
+    - Can you give me the documents list for Renewal Private Bonded Customs Warehouse?
+    - Application steps for Renewal Private Bonded Customs Warehouse
+    - Process to apply for Renewal Private Bonded Customs Warehouse
+    - How do I apply for Renewal Private Bonded Customs Warehouse?
+    - Application procedure for Renewal Private Bonded Customs Warehouse
+    - Where to apply for Renewal Private Bonded Customs Warehouse?
+    - How long does it take to get Renewal Private Bonded Customs Warehouse?
+    - Processing time for Renewal Private Bonded Customs Warehouse?
+    - Service time for Renewal Private Bonded Customs Warehouse?
+    - Time needed for Renewal Private Bonded Customs Warehouse approval?
+    - Duration for Renewal Private Bonded Customs Warehouse service?
+    - Waiting period for Renewal Private Bonded Customs Warehouse?
+    - Renewal Private Bonded Customs Warehouse time frame?
+    - How much does Renewal Private Bonded Customs Warehouse cost?
+    - Fee for Renewal Private Bonded Customs Warehouse?
+    - Service cost for Renewal Private Bonded Customs Warehouse?
+    - Payment for Renewal Private Bonded Customs Warehouse?
+    - How much is the Renewal Private Bonded Customs Warehouse fee?
+    - Charges for Renewal Private Bonded Customs Warehouse?
+    - Price for Renewal Private Bonded Customs Warehouse?
+    - Renewal Private Bonded Customs Warehouse cost breakdown?
+    - Tell me about Renewal Private Bonded Customs Warehouse with time, fee, and documents
+    - Give me details on Renewal Private Bonded Customs Warehouse with documents, cost, and time
+    - Explain Renewal Private Bonded Customs Warehouse with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal Private Bonded Customs Warehouse?
+    - I need info on Renewal Private Bonded Customs Warehouse documents, fee, and time
+    - Required documents, cost, and time for Renewal Private Bonded Customs Warehouse?
+    - What is the duration, price, and paperwork needed for Renewal Private Bonded Customs Warehouse?
+    - How can I access Renewal Private Bonded Customs Warehouse service?
+    - Assistance with Renewal Private Bonded Customs Warehouse
+    - Help with Renewal Private Bonded Customs Warehouse process
+    - Need help with Renewal Private Bonded Customs Warehouse
+    - Can you help me with Renewal Private Bonded Customs Warehouse?
+    - Support for Renewal Private Bonded Customs Warehouse
+    - What are the steps to get Renewal Private Bonded Customs Warehouse?
+    - Eligibility criteria for Renewal Private Bonded Customs Warehouse
+    - Conditions for using Renewal Private Bonded Customs Warehouse
+    - Renewal Private Bonded Customs Warehouse procedures
+    - How to request Renewal Private Bonded Customs Warehouse?
+    - Can you explain the process for Renewal Private Bonded Customs Warehouse?
+    - How is the Renewal Private Bonded Customs Warehouse process?
+    - What is the procedure for Renewal Private Bonded Customs Warehouse?
+    - Steps for Renewal Private Bonded Customs Warehouse?
+    - Can you list the process of Renewal Private Bonded Customs Warehouse?
+    - What is required for Renewal Private Bonded Customs Warehouse?
+    - What are the needed documents for Renewal Private Bonded Customs Warehouse?
+    - Which papers are necessary for Renewal Private Bonded Customs Warehouse?
+    - How can I submit the application for Renewal Private Bonded Customs Warehouse?
+    - Where can I apply for Renewal Private Bonded Customs Warehouse?
+    - What's the cost for Renewal Private Bonded Customs Warehouse?
+    - What does Renewal Private Bonded Customs Warehouse cost?
+    - Breakdown of cost for Renewal Private Bonded Customs Warehouse?
+    - How long will it take to get Renewal Private Bonded Customs Warehouse?
+    - What’s the waiting time for Renewal Private Bonded Customs Warehouse?
+    - Can you list the documents, fee, and duration for Renewal Private Bonded Customs Warehouse?
+    - Fee, time, and document details for Renewal Private Bonded Customs Warehouse?
+    - How can I renew a Private Bonded Customs Warehouse license?
+    - Process of renewing Private Bonded Customs Warehouse
+    - Steps to renew Private Bonded Customs Warehouse
+    - Documents for Private Bonded Customs Warehouse renewal
+    - Fee for renewing Private Bonded Customs Warehouse license
+    - Duration of Private Bonded Customs Warehouse renewal
+    - Is online renewal available for Private Bonded Customs Warehouse?
+    - Procedure for applying for renewal of Private Bonded Customs Warehouse
+    - Requirements to renew Private Bonded Customs Warehouse
+    - Renewal guidelines for Private Bonded Customs Warehouse
+
+- intent: ask_about_Renewal_Bonded_Warehouse_License_Relief_en
+  examples: |
+    - Renewal Bonded Warehouse License for Relief Items
+    - Explain about Renewal Bonded Warehouse License for Relief Items
+    - How Renewal Bonded Warehouse License for Relief Items?
+    - How to get Renewal Bonded Warehouse License for Relief Items
+    - How can I get Renewal Bonded Warehouse License for Relief Items?
+    - Can you tell me about Renewal Bonded Warehouse License for Relief Items?
+    - Tell me about Renewal Bonded Warehouse License for Relief Items
+    - Give me information about Renewal Bonded Warehouse License for Relief Items
+    - Info on Renewal Bonded Warehouse License for Relief Items
+    - Tell me the details of Renewal Bonded Warehouse License for Relief Items
+    - What are the details of Renewal Bonded Warehouse License for Relief Items
+    - Renewal Bonded Warehouse License for Relief Items details
+    - Renewal Bonded Warehouse License for Relief Items overview
+    - Overview of Renewal Bonded Warehouse License for Relief Items
+    - Give me an overview for what Renewal Bonded Warehouse License for Relief Items does
+    - Tell me an overview of Renewal Bonded Warehouse License for Relief Items
+    - Purpose of Renewal Bonded Warehouse License for Relief Items
+    - What are the purposes of Renewal Bonded Warehouse License for Relief Items
+    - List the purpose of Renewal Bonded Warehouse License for Relief Items
+    - What is the process for Renewal Bonded Warehouse License for Relief Items?
+    - Process of Renewal Bonded Warehouse License for Relief Items
+    - Tell me the process for Renewal Bonded Warehouse License for Relief Items
+    - Give me information on how is the process for Renewal Bonded Warehouse License for Relief Items
+    - How does Renewal Bonded Warehouse License for Relief Items work?
+    - Renewal Bonded Warehouse License for Relief Items works?
+    - What are the requirements for Renewal Bonded Warehouse License for Relief Items?
+    - Requirements for Renewal Bonded Warehouse License for Relief Items service
+    - What documents are needed for Renewal Bonded Warehouse License for Relief Items?
+    - Documents required for Renewal Bonded Warehouse License for Relief Items
+    - List of documents for Renewal Bonded Warehouse License for Relief Items
+    - Required paperwork for Renewal Bonded Warehouse License for Relief Items
+    - Provide documents needed for Renewal Bonded Warehouse License for Relief Items
+    - What papers do I need for Renewal Bonded Warehouse License for Relief Items?
+    - Can you give me the documents list for Renewal Bonded Warehouse License for Relief Items?
+    - Application steps for Renewal Bonded Warehouse License for Relief Items
+    - Process to apply for Renewal Bonded Warehouse License for Relief Items
+    - How do I apply for Renewal Bonded Warehouse License for Relief Items?
+    - Application procedure for Renewal Bonded Warehouse License for Relief Items
+    - Where to apply for Renewal Bonded Warehouse License for Relief Items?
+    - How long does it take to get Renewal Bonded Warehouse License for Relief Items?
+    - Processing time for Renewal Bonded Warehouse License for Relief Items?
+    - Service time for Renewal Bonded Warehouse License for Relief Items?
+    - Time needed for Renewal Bonded Warehouse License for Relief Items approval?
+    - Duration for Renewal Bonded Warehouse License for Relief Items service?
+    - Waiting period for Renewal Bonded Warehouse License for Relief Items?
+    - Renewal Bonded Warehouse License for Relief Items time frame?
+    - How much does Renewal Bonded Warehouse License for Relief Items cost?
+    - Fee for Renewal Bonded Warehouse License for Relief Items?
+    - Service cost for Renewal Bonded Warehouse License for Relief Items?
+    - Payment for Renewal Bonded Warehouse License for Relief Items?
+    - How much is the Renewal Bonded Warehouse License for Relief Items fee?
+    - Charges for Renewal Bonded Warehouse License for Relief Items?
+    - Price for Renewal Bonded Warehouse License for Relief Items?
+    - Renewal Bonded Warehouse License for Relief Items cost breakdown?
+    - Tell me about Renewal Bonded Warehouse License for Relief Items with time, fee, and documents
+    - Give me details on Renewal Bonded Warehouse License for Relief Items with documents, cost, and time
+    - Explain Renewal Bonded Warehouse License for Relief Items with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal Bonded Warehouse License for Relief Items?
+    - I need info on Renewal Bonded Warehouse License for Relief Items documents, fee, and time
+    - Required documents, cost, and time for Renewal Bonded Warehouse License for Relief Items?
+    - What is the duration, price, and paperwork needed for Renewal Bonded Warehouse License for Relief Items?
+    - How can I access Renewal Bonded Warehouse License for Relief Items service?
+    - Assistance with Renewal Bonded Warehouse License for Relief Items
+    - Help with Renewal Bonded Warehouse License for Relief Items process
+    - Need help with Renewal Bonded Warehouse License for Relief Items
+    - Can you help me with Renewal Bonded Warehouse License for Relief Items?
+    - Support for Renewal Bonded Warehouse License for Relief Items
+    - What are the steps to get Renewal Bonded Warehouse License for Relief Items?
+    - Eligibility criteria for Renewal Bonded Warehouse License for Relief Items
+    - Conditions for using Renewal Bonded Warehouse License for Relief Items
+    - Renewal Bonded Warehouse License for Relief Items procedures
+    - How to request Renewal Bonded Warehouse License for Relief Items?
+    - Can you explain the process for Renewal Bonded Warehouse License for Relief Items?
+    - How is the Renewal Bonded Warehouse License for Relief Items process?
+    - What is the procedure for Renewal Bonded Warehouse License for Relief Items?
+    - Steps for Renewal Bonded Warehouse License for Relief Items?
+    - Can you list the process of Renewal Bonded Warehouse License for Relief Items?
+    - What is required for Renewal Bonded Warehouse License for Relief Items?
+    - What are the needed documents for Renewal Bonded Warehouse License for Relief Items?
+    - Which papers are necessary for Renewal Bonded Warehouse License for Relief Items?
+    - How can I submit the application for Renewal Bonded Warehouse License for Relief Items?
+    - Where can I apply for Renewal Bonded Warehouse License for Relief Items?
+    - What's the cost for Renewal Bonded Warehouse License for Relief Items?
+    - What does Renewal Bonded Warehouse License for Relief Items cost?
+    - Breakdown of cost for Renewal Bonded Warehouse License for Relief Items?
+    - How long will it take to get Renewal Bonded Warehouse License for Relief Items?
+    - What’s the waiting time for Renewal Bonded Warehouse License for Relief Items?
+    - Can you list the documents, fee, and duration for Renewal Bonded Warehouse License for Relief Items?
+    - Fee, time, and document details for Renewal Bonded Warehouse License for Relief Items?
+    - How to renew Bonded Warehouse License with Relief option?
+    - Renewal process for Bonded Warehouse License Relief
+    - Steps to renew Bonded Warehouse License under Relief
+    - Documents needed for Bonded Warehouse License Relief renewal
+    - Fee for Bonded Warehouse License Relief renewal
+    - Time duration to renew Bonded Warehouse License Relief
+    - Can Bonded Warehouse License Relief be renewed online?
+    - Procedure for Bonded Warehouse License Relief renewal
+    - Eligibility for renewing Bonded Warehouse License Relief
+    - Application process for Bonded Warehouse License Relief renewal
+
+- intent: ask_about_Renewal_Bonded_Export_Factory_en
+  examples: |
+    - Renewal Bonded Export Factory License
+    - Explain about Renewal Bonded Export Factory License
+    - How Renewal Bonded Export Factory License?
+    - How to get Renewal Bonded Export Factory License
+    - How can I get Renewal Bonded Export Factory License?
+    - Can you tell me about Renewal Bonded Export Factory License?
+    - Tell me about Renewal Bonded Export Factory License
+    - Give me information about Renewal Bonded Export Factory License
+    - Info on Renewal Bonded Export Factory License
+    - Tell me the details of Renewal Bonded Export Factory License
+    - What are the details of Renewal Bonded Export Factory License
+    - Renewal Bonded Export Factory License details
+    - Renewal Bonded Export Factory License overview
+    - Overview of Renewal Bonded Export Factory License
+    - Give me an overview for what Renewal Bonded Export Factory License does
+    - Tell me an overview of Renewal Bonded Export Factory License
+    - Purpose of Renewal Bonded Export Factory License
+    - What are the purposes of Renewal Bonded Export Factory License
+    - List the purpose of Renewal Bonded Export Factory License
+    - What is the process for Renewal Bonded Export Factory License?
+    - Process of Renewal Bonded Export Factory License
+    - Tell me the process for Renewal Bonded Export Factory License
+    - Give me information on how is the process for Renewal Bonded Export Factory License
+    - How does Renewal Bonded Export Factory License work?
+    - Renewal Bonded Export Factory License works?
+    - What are the requirements for Renewal Bonded Export Factory License?
+    - Requirements for Renewal Bonded Export Factory License service
+    - What documents are needed for Renewal Bonded Export Factory License?
+    - Documents required for Renewal Bonded Export Factory License
+    - List of documents for Renewal Bonded Export Factory License
+    - Required paperwork for Renewal Bonded Export Factory License
+    - Provide documents needed for Renewal Bonded Export Factory License
+    - What papers do I need for Renewal Bonded Export Factory License?
+    - Can you give me the documents list for Renewal Bonded Export Factory License?
+    - Application steps for Renewal Bonded Export Factory License
+    - Process to apply for Renewal Bonded Export Factory License
+    - How do I apply for Renewal Bonded Export Factory License?
+    - Application procedure for Renewal Bonded Export Factory License
+    - Where to apply for Renewal Bonded Export Factory License?
+    - How long does it take to get Renewal Bonded Export Factory License?
+    - Processing time for Renewal Bonded Export Factory License?
+    - Service time for Renewal Bonded Export Factory License?
+    - Time needed for Renewal Bonded Export Factory License approval?
+    - Duration for Renewal Bonded Export Factory License service?
+    - Waiting period for Renewal Bonded Export Factory License?
+    - Renewal Bonded Export Factory License time frame?
+    - How much does Renewal Bonded Export Factory License cost?
+    - Fee for Renewal Bonded Export Factory License?
+    - Service cost for Renewal Bonded Export Factory License?
+    - Payment for Renewal Bonded Export Factory License?
+    - How much is the Renewal Bonded Export Factory License fee?
+    - Charges for Renewal Bonded Export Factory License?
+    - Price for Renewal Bonded Export Factory License?
+    - Renewal Bonded Export Factory License cost breakdown?
+    - Tell me about Renewal Bonded Export Factory License with time, fee, and documents
+    - Give me details on Renewal Bonded Export Factory License with documents, cost, and time
+    - Explain Renewal Bonded Export Factory License with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal Bonded Export Factory License?
+    - I need info on Renewal Bonded Export Factory License documents, fee, and time
+    - Required documents, cost, and time for Renewal Bonded Export Factory License?
+    - What is the duration, price, and paperwork needed for Renewal Bonded Export Factory License?
+    - How can I access Renewal Bonded Export Factory License service?
+    - Assistance with Renewal Bonded Export Factory License
+    - Help with Renewal Bonded Export Factory License process
+    - Need help with Renewal Bonded Export Factory License
+    - Can you help me with Renewal Bonded Export Factory License?
+    - Support for Renewal Bonded Export Factory License
+    - What are the steps to get Renewal Bonded Export Factory License?
+    - Eligibility criteria for Renewal Bonded Export Factory License
+    - Conditions for using Renewal Bonded Export Factory License
+    - Renewal Bonded Export Factory License procedures
+    - How to request Renewal Bonded Export Factory License?
+    - Can you explain the process for Renewal Bonded Export Factory License?
+    - How is the Renewal Bonded Export Factory License process?
+    - What is the procedure for Renewal Bonded Export Factory License?
+    - Steps for Renewal Bonded Export Factory License?
+    - Can you list the process of Renewal Bonded Export Factory License?
+    - What is required for Renewal Bonded Export Factory License?
+    - What are the needed documents for Renewal Bonded Export Factory License?
+    - Which papers are necessary for Renewal Bonded Export Factory License?
+    - How can I submit the application for Renewal Bonded Export Factory License?
+    - Where can I apply for Renewal Bonded Export Factory License?
+    - What's the cost for Renewal Bonded Export Factory License?
+    - What does Renewal Bonded Export Factory License cost?
+    - Breakdown of cost for Renewal Bonded Export Factory License?
+    - How long will it take to get Renewal Bonded Export Factory License?
+    - What’s the waiting time for Renewal Bonded Export Factory License?
+    - Can you list the documents, fee, and duration for Renewal Bonded Export Factory License?
+    - Fee, time, and document details for Renewal Bonded Export Factory License?
+    - How to renew Bonded Export Factory license?
+    - Process for renewing Bonded Export Factory license
+    - Steps to renew Bonded Export Factory license
+    - Documents required for Bonded Export Factory renewal
+    - Fee for Bonded Export Factory license renewal
+    - How long does it take to renew Bonded Export Factory license?
+    - Is online renewal available for Bonded Export Factory?
+    - Requirements for Bonded Export Factory renewal
+    - Application steps for renewing Bonded Export Factory
+    - Eligibility criteria for Bonded Export Factory renewal
+
+- intent: ask_about_Renewal_Bonded_Export_Factory_Warehouse_en
+  examples: |
+    - Renewal Bonded Export Factory Warehouse License
+    - Explain about Renewal Bonded Export Factory Warehouse License
+    - How Renewal Bonded Export Factory Warehouse License?
+    - How to get Renewal Bonded Export Factory Warehouse License
+    - How can I get Renewal Bonded Export Factory Warehouse License?
+    - Can you tell me about Renewal Bonded Export Factory Warehouse License?
+    - Tell me about Renewal Bonded Export Factory Warehouse License
+    - Give me information about Renewal Bonded Export Factory Warehouse License
+    - Info on Renewal Bonded Export Factory Warehouse License
+    - Tell me the details of Renewal Bonded Export Factory Warehouse License
+    - What are the details of Renewal Bonded Export Factory Warehouse License
+    - Renewal Bonded Export Factory Warehouse License details
+    - Renewal Bonded Export Factory Warehouse License overview
+    - Overview of Renewal Bonded Export Factory Warehouse License
+    - Give me an overview for what Renewal Bonded Export Factory Warehouse License does
+    - Tell me an overview of Renewal Bonded Export Factory Warehouse License
+    - Purpose of Renewal Bonded Export Factory Warehouse License
+    - What are the purposes of Renewal Bonded Export Factory Warehouse License
+    - List the purpose of Renewal Bonded Export Factory Warehouse License
+    - What is the process for Renewal Bonded Export Factory Warehouse License?
+    - Process of Renewal Bonded Export Factory Warehouse License
+    - Tell me the process for Renewal Bonded Export Factory Warehouse License
+    - Give me information on how is the process for Renewal Bonded Export Factory Warehouse License
+    - How does Renewal Bonded Export Factory Warehouse License work?
+    - Renewal Bonded Export Factory Warehouse License works?
+    - What are the requirements for Renewal Bonded Export Factory Warehouse License?
+    - Requirements for Renewal Bonded Export Factory Warehouse License service
+    - What documents are needed for Renewal Bonded Export Factory Warehouse License?
+    - Documents required for Renewal Bonded Export Factory Warehouse License
+    - List of documents for Renewal Bonded Export Factory Warehouse License
+    - Required paperwork for Renewal Bonded Export Factory Warehouse License
+    - Provide documents needed for Renewal Bonded Export Factory Warehouse License
+    - What papers do I need for Renewal Bonded Export Factory Warehouse License?
+    - Can you give me the documents list for Renewal Bonded Export Factory Warehouse License?
+    - Application steps for Renewal Bonded Export Factory Warehouse License
+    - Process to apply for Renewal Bonded Export Factory Warehouse License
+    - How do I apply for Renewal Bonded Export Factory Warehouse License?
+    - Application procedure for Renewal Bonded Export Factory Warehouse License
+    - Where to apply for Renewal Bonded Export Factory Warehouse License?
+    - How long does it take to get Renewal Bonded Export Factory Warehouse License?
+    - Processing time for Renewal Bonded Export Factory Warehouse License?
+    - Service time for Renewal Bonded Export Factory Warehouse License?
+    - Time needed for Renewal Bonded Export Factory Warehouse License approval?
+    - Duration for Renewal Bonded Export Factory Warehouse License service?
+    - Waiting period for Renewal Bonded Export Factory Warehouse License?
+    - Renewal Bonded Export Factory Warehouse License time frame?
+    - How much does Renewal Bonded Export Factory Warehouse License cost?
+    - Fee for Renewal Bonded Export Factory Warehouse License?
+    - Service cost for Renewal Bonded Export Factory Warehouse License?
+    - Payment for Renewal Bonded Export Factory Warehouse License?
+    - How much is the Renewal Bonded Export Factory Warehouse License fee?
+    - Charges for Renewal Bonded Export Factory Warehouse License?
+    - Price for Renewal Bonded Export Factory Warehouse License?
+    - Renewal Bonded Export Factory Warehouse License cost breakdown?
+    - Tell me about Renewal Bonded Export Factory Warehouse License with time, fee, and documents
+    - Give me details on Renewal Bonded Export Factory Warehouse License with documents, cost, and time
+    - Explain Renewal Bonded Export Factory Warehouse License with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal Bonded Export Factory Warehouse License?
+    - I need info on Renewal Bonded Export Factory Warehouse License documents, fee, and time
+    - Required documents, cost, and time for Renewal Bonded Export Factory Warehouse License?
+    - What is the duration, price, and paperwork needed for Renewal Bonded Export Factory Warehouse License?
+    - How can I access Renewal Bonded Export Factory Warehouse License service?
+    - Assistance with Renewal Bonded Export Factory Warehouse License
+    - Help with Renewal Bonded Export Factory Warehouse License process
+    - Need help with Renewal Bonded Export Factory Warehouse License
+    - Can you help me with Renewal Bonded Export Factory Warehouse License?
+    - Support for Renewal Bonded Export Factory Warehouse License
+    - What are the steps to get Renewal Bonded Export Factory Warehouse License?
+    - Eligibility criteria for Renewal Bonded Export Factory Warehouse License
+    - Conditions for using Renewal Bonded Export Factory Warehouse License
+    - Renewal Bonded Export Factory Warehouse License procedures
+    - How to request Renewal Bonded Export Factory Warehouse License?
+    - Can you explain the process for Renewal Bonded Export Factory Warehouse License?
+    - How is the Renewal Bonded Export Factory Warehouse License process?
+    - What is the procedure for Renewal Bonded Export Factory Warehouse License?
+    - Steps for Renewal Bonded Export Factory Warehouse License?
+    - Can you list the process of Renewal Bonded Export Factory Warehouse License?
+    - What is required for Renewal Bonded Export Factory Warehouse License?
+    - What are the needed documents for Renewal Bonded Export Factory Warehouse License?
+    - Which papers are necessary for Renewal Bonded Export Factory Warehouse License?
+    - How can I submit the application for Renewal Bonded Export Factory Warehouse License?
+    - Where can I apply for Renewal Bonded Export Factory Warehouse License?
+    - What's the cost for Renewal Bonded Export Factory Warehouse License?
+    - What does Renewal Bonded Export Factory Warehouse License cost?
+    - Breakdown of cost for Renewal Bonded Export Factory Warehouse License?
+    - How long will it take to get Renewal Bonded Export Factory Warehouse License?
+    - What’s the waiting time for Renewal Bonded Export Factory Warehouse License?
+    - Can you list the documents, fee, and duration for Renewal Bonded Export Factory Warehouse License?
+    - Fee, time, and document details for Renewal Bonded Export Factory Warehouse License?
+    - How can I renew a bonded export factory warehouse license?
+    - What is the process for bonded export factory warehouse renewal?
+    - Renewal procedure for bonded export factory warehouse
+    - Steps to renew bonded export factory warehouse
+    - What documents are required for bonded export factory warehouse renewal?
+    - How much is the fee for renewing a bonded export factory warehouse?
+    - Where can I apply for bonded export factory warehouse renewal?
+    - Guidelines for renewing a bonded export factory warehouse
+    - Time required for bonded export factory warehouse renewal
+    - Eligibility for bonded export factory warehouse license renewal
+
+- intent: ask_about_Bonded_Warehouse_License_Input_Supply_en
+  examples: |
+    - Bonded Warehouse License Input Supply
+    - Explain about Bonded Warehouse License Input Supply
+    - How Bonded Warehouse License Input Supply?
+    - How to get Bonded Warehouse License Input Supply
+    - How can I get Bonded Warehouse License Input Supply?
+    - Can you tell me about Bonded Warehouse License Input Supply?
+    - Tell me about Bonded Warehouse License Input Supply
+    - Give me information about Bonded Warehouse License Input Supply
+    - Info on Bonded Warehouse License Input Supply
+    - Tell me the details of Bonded Warehouse License Input Supply
+    - What are the details of Bonded Warehouse License Input Supply
+    - Bonded Warehouse License Input Supply details
+    - Bonded Warehouse License Input Supply overview
+    - Overview of Bonded Warehouse License Input Supply
+    - Give me an overview for what Bonded Warehouse License Input Supply does
+    - Tell me an overview of Bonded Warehouse License Input Supply
+    - Purpose of Bonded Warehouse License Input Supply
+    - What are the purposes of Bonded Warehouse License Input Supply
+    - List the purpose of Bonded Warehouse License Input Supply
+    - What is the process for Bonded Warehouse License Input Supply?
+    - Process of Bonded Warehouse License Input Supply
+    - Tell me the process for Bonded Warehouse License Input Supply
+    - Give me information on how is the process for Bonded Warehouse License Input Supply
+    - How does Bonded Warehouse License Input Supply work?
+    - Bonded Warehouse License Input Supply works?
+    - What are the requirements for Bonded Warehouse License Input Supply?
+    - Requirements for Bonded Warehouse License Input Supply service
+    - What documents are needed for Bonded Warehouse License Input Supply?
+    - Documents required for Bonded Warehouse License Input Supply
+    - List of documents for Bonded Warehouse License Input Supply
+    - Required paperwork for Bonded Warehouse License Input Supply
+    - Provide documents needed for Bonded Warehouse License Input Supply
+    - What papers do I need for Bonded Warehouse License Input Supply?
+    - Can you give me the documents list for Bonded Warehouse License Input Supply?
+    - Application steps for Bonded Warehouse License Input Supply
+    - Process to apply for Bonded Warehouse License Input Supply
+    - How do I apply for Bonded Warehouse License Input Supply?
+    - Application procedure for Bonded Warehouse License Input Supply
+    - Where to apply for Bonded Warehouse License Input Supply?
+    - How long does it take to get Bonded Warehouse License Input Supply?
+    - Processing time for Bonded Warehouse License Input Supply?
+    - Service time for Bonded Warehouse License Input Supply?
+    - Time needed for Bonded Warehouse License Input Supply approval?
+    - Duration for Bonded Warehouse License Input Supply service?
+    - Waiting period for Bonded Warehouse License Input Supply?
+    - Bonded Warehouse License Input Supply time frame?
+    - How much does Bonded Warehouse License Input Supply cost?
+    - Fee for Bonded Warehouse License Input Supply?
+    - Service cost for Bonded Warehouse License Input Supply?
+    - Payment for Bonded Warehouse License Input Supply?
+    - How much is the Bonded Warehouse License Input Supply fee?
+    - Charges for Bonded Warehouse License Input Supply?
+    - Price for Bonded Warehouse License Input Supply?
+    - Bonded Warehouse License Input Supply cost breakdown?
+    - Tell me about Bonded Warehouse License Input Supply with time, fee, and documents
+    - Give me details on Bonded Warehouse License Input Supply with documents, cost, and time
+    - Explain Bonded Warehouse License Input Supply with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Bonded Warehouse License Input Supply?
+    - I need info on Bonded Warehouse License Input Supply documents, fee, and time
+    - Required documents, cost, and time for Bonded Warehouse License Input Supply?
+    - What is the duration, price, and paperwork needed for Bonded Warehouse License Input Supply?
+    - How can I access Bonded Warehouse License Input Supply service?
+    - Assistance with Bonded Warehouse License Input Supply
+    - Help with Bonded Warehouse License Input Supply process
+    - Need help with Bonded Warehouse License Input Supply
+    - Can you help me with Bonded Warehouse License Input Supply?
+    - Support for Bonded Warehouse License Input Supply
+    - What are the steps to get Bonded Warehouse License Input Supply?
+    - Eligibility criteria for Bonded Warehouse License Input Supply
+    - Conditions for using Bonded Warehouse License Input Supply
+    - Bonded Warehouse License Input Supply procedures
+    - How to request Bonded Warehouse License Input Supply?
+    - Can you explain the process for Bonded Warehouse License Input Supply?
+    - How is the Bonded Warehouse License Input Supply process?
+    - What is the procedure for Bonded Warehouse License Input Supply?
+    - Steps for Bonded Warehouse License Input Supply?
+    - Can you list the process of Bonded Warehouse License Input Supply?
+    - What is required for Bonded Warehouse License Input Supply?
+    - What are the needed documents for Bonded Warehouse License Input Supply?
+    - Which papers are necessary for Bonded Warehouse License Input Supply?
+    - How can I submit the application for Bonded Warehouse License Input Supply?
+    - Where can I apply for Bonded Warehouse License Input Supply?
+    - What's the cost for Bonded Warehouse License Input Supply?
+    - What does Bonded Warehouse License Input Supply cost?
+    - Breakdown of cost for Bonded Warehouse License Input Supply?
+    - How long will it take to get Bonded Warehouse License Input Supply?
+    - What’s the waiting time for Bonded Warehouse License Input Supply?
+    - Can you list the documents, fee, and duration for Bonded Warehouse License Input Supply?
+    - Fee, time, and document details for Bonded Warehouse License Input Supply?
+    - How do I obtain a bonded warehouse license for input supply?
+    - Process for getting a bonded warehouse input supply license
+    - Steps to apply for bonded warehouse input supply license
+    - What are the requirements for bonded warehouse input supply?
+    - Can you explain bonded warehouse licensing for input supply?
+    - Fee for bonded warehouse input supply license
+    - Where to apply for bonded warehouse input supply license
+    - Documents needed for bonded warehouse input supply license
+    - Approval time for bonded warehouse input supply license
+    - Who is eligible for bonded warehouse input supply license?
+
+- intent: ask_about_Renewal_Duty-Free_Goods_Warehouse_en
+  examples: |
+    - Renewal Duty Free Goods Warehouse License
+    - Explain about Renewal Duty Free Goods Warehouse License
+    - How Renewal Duty Free Goods Warehouse License?
+    - How to get Renewal Duty Free Goods Warehouse License
+    - How can I get Renewal Duty Free Goods Warehouse License?
+    - Can you tell me about Renewal Duty Free Goods Warehouse License?
+    - Tell me about Renewal Duty Free Goods Warehouse License
+    - Give me information about Renewal Duty Free Goods Warehouse License
+    - Info on Renewal Duty Free Goods Warehouse License
+    - Tell me the details of Renewal Duty Free Goods Warehouse License
+    - What are the details of Renewal Duty Free Goods Warehouse License
+    - Renewal Duty Free Goods Warehouse License details
+    - Renewal Duty Free Goods Warehouse License overview
+    - Overview of Renewal Duty Free Goods Warehouse License
+    - Give me an overview for what Renewal Duty Free Goods Warehouse License does
+    - Tell me an overview of Renewal Duty Free Goods Warehouse License
+    - Purpose of Renewal Duty Free Goods Warehouse License
+    - What are the purposes of Renewal Duty Free Goods Warehouse License
+    - List the purpose of Renewal Duty Free Goods Warehouse License
+    - What is the process for Renewal Duty Free Goods Warehouse License?
+    - Process of Renewal Duty Free Goods Warehouse License
+    - Tell me the process for Renewal Duty Free Goods Warehouse License
+    - Give me information on how is the process for Renewal Duty Free Goods Warehouse License
+    - How does Renewal Duty Free Goods Warehouse License work?
+    - Renewal Duty Free Goods Warehouse License works?
+    - What are the requirements for Renewal Duty Free Goods Warehouse License?
+    - Requirements for Renewal Duty Free Goods Warehouse License service
+    - What documents are needed for Renewal Duty Free Goods Warehouse License?
+    - Documents required for Renewal Duty Free Goods Warehouse License
+    - List of documents for Renewal Duty Free Goods Warehouse License
+    - Required paperwork for Renewal Duty Free Goods Warehouse License
+    - Provide documents needed for Renewal Duty Free Goods Warehouse License
+    - What papers do I need for Renewal Duty Free Goods Warehouse License?
+    - Can you give me the documents list for Renewal Duty Free Goods Warehouse License?
+    - Application steps for Renewal Duty Free Goods Warehouse License
+    - Process to apply for Renewal Duty Free Goods Warehouse License
+    - How do I apply for Renewal Duty Free Goods Warehouse License?
+    - Application procedure for Renewal Duty Free Goods Warehouse License
+    - Where to apply for Renewal Duty Free Goods Warehouse License?
+    - How long does it take to get Renewal Duty Free Goods Warehouse License?
+    - Processing time for Renewal Duty Free Goods Warehouse License?
+    - Service time for Renewal Duty Free Goods Warehouse License?
+    - Time needed for Renewal Duty Free Goods Warehouse License approval?
+    - Duration for Renewal Duty Free Goods Warehouse License service?
+    - Waiting period for Renewal Duty Free Goods Warehouse License?
+    - Renewal Duty Free Goods Warehouse License time frame?
+    - How much does Renewal Duty Free Goods Warehouse License cost?
+    - Fee for Renewal Duty Free Goods Warehouse License?
+    - Service cost for Renewal Duty Free Goods Warehouse License?
+    - Payment for Renewal Duty Free Goods Warehouse License?
+    - How much is the Renewal Duty Free Goods Warehouse License fee?
+    - Charges for Renewal Duty Free Goods Warehouse License?
+    - Price for Renewal Duty Free Goods Warehouse License?
+    - Renewal Duty Free Goods Warehouse License cost breakdown?
+    - Tell me about Renewal Duty Free Goods Warehouse License with time, fee, and documents
+    - Give me details on Renewal Duty Free Goods Warehouse License with documents, cost, and time
+    - Explain Renewal Duty Free Goods Warehouse License with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal Duty Free Goods Warehouse License?
+    - I need info on Renewal Duty Free Goods Warehouse License documents, fee, and time
+    - Required documents, cost, and time for Renewal Duty Free Goods Warehouse License?
+    - What is the duration, price, and paperwork needed for Renewal Duty Free Goods Warehouse License?
+    - How can I access Renewal Duty Free Goods Warehouse License service?
+    - Assistance with Renewal Duty Free Goods Warehouse License
+    - Help with Renewal Duty Free Goods Warehouse License process
+    - Need help with Renewal Duty Free Goods Warehouse License
+    - Can you help me with Renewal Duty Free Goods Warehouse License?
+    - Support for Renewal Duty Free Goods Warehouse License
+    - What are the steps to get Renewal Duty Free Goods Warehouse License?
+    - Eligibility criteria for Renewal Duty Free Goods Warehouse License
+    - Conditions for using Renewal Duty Free Goods Warehouse License
+    - Renewal Duty Free Goods Warehouse License procedures
+    - How to request Renewal Duty Free Goods Warehouse License?
+    - Can you explain the process for Renewal Duty Free Goods Warehouse License?
+    - How is the Renewal Duty Free Goods Warehouse License process?
+    - What is the procedure for Renewal Duty Free Goods Warehouse License?
+    - Steps for Renewal Duty Free Goods Warehouse License?
+    - Can you list the process of Renewal Duty Free Goods Warehouse License?
+    - What is required for Renewal Duty Free Goods Warehouse License?
+    - What are the needed documents for Renewal Duty Free Goods Warehouse License?
+    - Which papers are necessary for Renewal Duty Free Goods Warehouse License?
+    - How can I submit the application for Renewal Duty Free Goods Warehouse License?
+    - Where can I apply for Renewal Duty Free Goods Warehouse License?
+    - What's the cost for Renewal Duty Free Goods Warehouse License?
+    - What does Renewal Duty Free Goods Warehouse License cost?
+    - Breakdown of cost for Renewal Duty Free Goods Warehouse License?
+    - How long will it take to get Renewal Duty Free Goods Warehouse License?
+    - What’s the waiting time for Renewal Duty Free Goods Warehouse License?
+    - Can you list the documents, fee, and duration for Renewal Duty Free Goods Warehouse License?
+    - Fee, time, and document details for Renewal Duty Free Goods Warehouse License?
+    - How can I renew a duty-free goods warehouse license?
+    - Process for duty-free goods warehouse license renewal
+    - Steps to renew duty-free goods warehouse
+    - Requirements for renewing duty-free goods warehouse
+    - Fee for duty-free goods warehouse license renewal
+    - Where to apply for duty-free goods warehouse renewal
+    - Documents required for duty-free goods warehouse renewal
+    - Timeline for duty-free goods warehouse renewal
+    - Guidelines for renewing duty-free goods warehouse
+    - Eligibility criteria for duty-free goods warehouse renewal
+
+- intent: ask_about_Renewal_Duty-Free_Retail_Outlet_en
+  examples: |
+    - Renewal DutyFree Retail Outlet License
+    - Explain about Renewal DutyFree Retail Outlet License
+    - How Renewal DutyFree Retail Outlet License?
+    - How to get Renewal DutyFree Retail Outlet License
+    - How can I get Renewal DutyFree Retail Outlet License?
+    - Can you tell me about Renewal DutyFree Retail Outlet License?
+    - Tell me about Renewal DutyFree Retail Outlet License
+    - Give me information about Renewal DutyFree Retail Outlet License
+    - Info on Renewal DutyFree Retail Outlet License
+    - Tell me the details of Renewal DutyFree Retail Outlet License
+    - What are the details of Renewal DutyFree Retail Outlet License
+    - Renewal DutyFree Retail Outlet License details
+    - Renewal DutyFree Retail Outlet License overview
+    - Overview of Renewal DutyFree Retail Outlet License
+    - Give me an overview for what Renewal DutyFree Retail Outlet License does
+    - Tell me an overview of Renewal DutyFree Retail Outlet License
+    - Purpose of Renewal DutyFree Retail Outlet License
+    - What are the purposes of Renewal DutyFree Retail Outlet License
+    - List the purpose of Renewal DutyFree Retail Outlet License
+    - What is the process for Renewal DutyFree Retail Outlet License?
+    - Process of Renewal DutyFree Retail Outlet License
+    - Tell me the process for Renewal DutyFree Retail Outlet License
+    - Give me information on how is the process for Renewal DutyFree Retail Outlet License
+    - How does Renewal DutyFree Retail Outlet License work?
+    - Renewal DutyFree Retail Outlet License works?
+    - What are the requirements for Renewal DutyFree Retail Outlet License?
+    - Requirements for Renewal DutyFree Retail Outlet License service
+    - What documents are needed for Renewal DutyFree Retail Outlet License?
+    - Documents required for Renewal DutyFree Retail Outlet License
+    - List of documents for Renewal DutyFree Retail Outlet License
+    - Required paperwork for Renewal DutyFree Retail Outlet License
+    - Provide documents needed for Renewal DutyFree Retail Outlet License
+    - What papers do I need for Renewal DutyFree Retail Outlet License?
+    - Can you give me the documents list for Renewal DutyFree Retail Outlet License?
+    - Application steps for Renewal DutyFree Retail Outlet License
+    - Process to apply for Renewal DutyFree Retail Outlet License
+    - How do I apply for Renewal DutyFree Retail Outlet License?
+    - Application procedure for Renewal DutyFree Retail Outlet License
+    - Where to apply for Renewal DutyFree Retail Outlet License?
+    - How long does it take to get Renewal DutyFree Retail Outlet License?
+    - Processing time for Renewal DutyFree Retail Outlet License?
+    - Service time for Renewal DutyFree Retail Outlet License?
+    - Time needed for Renewal DutyFree Retail Outlet License approval?
+    - Duration for Renewal DutyFree Retail Outlet License service?
+    - Waiting period for Renewal DutyFree Retail Outlet License?
+    - Renewal DutyFree Retail Outlet License time frame?
+    - How much does Renewal DutyFree Retail Outlet License cost?
+    - Fee for Renewal DutyFree Retail Outlet License?
+    - Service cost for Renewal DutyFree Retail Outlet License?
+    - Payment for Renewal DutyFree Retail Outlet License?
+    - How much is the Renewal DutyFree Retail Outlet License fee?
+    - Charges for Renewal DutyFree Retail Outlet License?
+    - Price for Renewal DutyFree Retail Outlet License?
+    - Renewal DutyFree Retail Outlet License cost breakdown?
+    - Tell me about Renewal DutyFree Retail Outlet License with time, fee, and documents
+    - Give me details on Renewal DutyFree Retail Outlet License with documents, cost, and time
+    - Explain Renewal DutyFree Retail Outlet License with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal DutyFree Retail Outlet License?
+    - I need info on Renewal DutyFree Retail Outlet License documents, fee, and time
+    - Required documents, cost, and time for Renewal DutyFree Retail Outlet License?
+    - What is the duration, price, and paperwork needed for Renewal DutyFree Retail Outlet License?
+    - How can I access Renewal DutyFree Retail Outlet License service?
+    - Assistance with Renewal DutyFree Retail Outlet License
+    - Help with Renewal DutyFree Retail Outlet License process
+    - Need help with Renewal DutyFree Retail Outlet License
+    - Can you help me with Renewal DutyFree Retail Outlet License?
+    - Support for Renewal DutyFree Retail Outlet License
+    - What are the steps to get Renewal DutyFree Retail Outlet License?
+    - Eligibility criteria for Renewal DutyFree Retail Outlet License
+    - Conditions for using Renewal DutyFree Retail Outlet License
+    - Renewal DutyFree Retail Outlet License procedures
+    - How to request Renewal DutyFree Retail Outlet License?
+    - Can you explain the process for Renewal DutyFree Retail Outlet License?
+    - How is the Renewal DutyFree Retail Outlet License process?
+    - What is the procedure for Renewal DutyFree Retail Outlet License?
+    - Steps for Renewal DutyFree Retail Outlet License?
+    - Can you list the process of Renewal DutyFree Retail Outlet License?
+    - What is required for Renewal DutyFree Retail Outlet License?
+    - What are the needed documents for Renewal DutyFree Retail Outlet License?
+    - Which papers are necessary for Renewal DutyFree Retail Outlet License?
+    - How can I submit the application for Renewal DutyFree Retail Outlet License?
+    - Where can I apply for Renewal DutyFree Retail Outlet License?
+    - What's the cost for Renewal DutyFree Retail Outlet License?
+    - What does Renewal DutyFree Retail Outlet License cost?
+    - Breakdown of cost for Renewal DutyFree Retail Outlet License?
+    - How long will it take to get Renewal DutyFree Retail Outlet License?
+    - What’s the waiting time for Renewal DutyFree Retail Outlet License?
+    - Can you list the documents, fee, and duration for Renewal DutyFree Retail Outlet License?
+    - Fee, time, and document details for Renewal DutyFree Retail Outlet License?
+    - How can I renew a duty-free retail outlet license?
+    - Process for duty-free retail outlet renewal
+    - Steps to renew duty-free retail outlet license
+    - Requirements for renewing duty-free retail outlet
+    - Fee for duty-free retail outlet license renewal
+    - Where to apply for duty-free retail outlet renewal
+    - Documents needed for duty-free retail outlet renewal
+    - Time required for duty-free retail outlet renewal
+    - Guidelines for renewing duty-free retail outlet license
+    - Eligibility for duty-free retail outlet license renewal
+
+- intent: ask_about_Customs_Broker_License_en
+  examples: |
+    - Customs Broker License
+    - Explain about Customs Broker License
+    - How Customs Broker License?
+    - How to get Customs Broker License
+    - How can I get Customs Broker License?
+    - Can you tell me about Customs Broker License?
+    - Tell me about Customs Broker License
+    - Give me information about Customs Broker License
+    - Info on Customs Broker License
+    - Tell me the details of Customs Broker License
+    - What are the details of Customs Broker License
+    - Customs Broker License details
+    - Customs Broker License overview
+    - Overview of Customs Broker License
+    - Give me an overview for what Customs Broker License does
+    - Tell me an overview of Customs Broker License
+    - Purpose of Customs Broker License
+    - What are the purposes of Customs Broker License
+    - List the purpose of Customs Broker License
+    - What is the process for Customs Broker License?
+    - Process of Customs Broker License
+    - Tell me the process for Customs Broker License
+    - Give me information on how is the process for Customs Broker License
+    - How does Customs Broker License work?
+    - Customs Broker License works?
+    - What are the requirements for Customs Broker License?
+    - Requirements for Customs Broker License service
+    - What documents are needed for Customs Broker License?
+    - Documents required for Customs Broker License
+    - List of documents for Customs Broker License
+    - Required paperwork for Customs Broker License
+    - Provide documents needed for Customs Broker License
+    - What papers do I need for Customs Broker License?
+    - Can you give me the documents list for Customs Broker License?
+    - Application steps for Customs Broker License
+    - Process to apply for Customs Broker License
+    - How do I apply for Customs Broker License?
+    - Application procedure for Customs Broker License
+    - Where to apply for Customs Broker License?
+    - How long does it take to get Customs Broker License?
+    - Processing time for Customs Broker License?
+    - Service time for Customs Broker License?
+    - Time needed for Customs Broker License approval?
+    - Duration for Customs Broker License service?
+    - Waiting period for Customs Broker License?
+    - Customs Broker License time frame?
+    - How much does Customs Broker License cost?
+    - Fee for Customs Broker License?
+    - Service cost for Customs Broker License?
+    - Payment for Customs Broker License?
+    - How much is the Customs Broker License fee?
+    - Charges for Customs Broker License?
+    - Price for Customs Broker License?
+    - Customs Broker License cost breakdown?
+    - Tell me about Customs Broker License with time, fee, and documents
+    - Give me details on Customs Broker License with documents, cost, and time
+    - Explain Customs Broker License with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Customs Broker License?
+    - I need info on Customs Broker License documents, fee, and time
+    - Required documents, cost, and time for Customs Broker License?
+    - What is the duration, price, and paperwork needed for Customs Broker License?
+    - How can I access Customs Broker License service?
+    - Assistance with Customs Broker License
+    - Help with Customs Broker License process
+    - Need help with Customs Broker License
+    - Can you help me with Customs Broker License?
+    - Support for Customs Broker License
+    - What are the steps to get Customs Broker License?
+    - Eligibility criteria for Customs Broker License
+    - Conditions for using Customs Broker License
+    - Customs Broker License procedures
+    - How to request Customs Broker License?
+    - Can you explain the process for Customs Broker License?
+    - How is the Customs Broker License process?
+    - What is the procedure for Customs Broker License?
+    - Steps for Customs Broker License?
+    - Can you list the process of Customs Broker License?
+    - What is required for Customs Broker License?
+    - What are the needed documents for Customs Broker License?
+    - Which papers are necessary for Customs Broker License?
+    - How can I submit the application for Customs Broker License?
+    - Where can I apply for Customs Broker License?
+    - What's the cost for Customs Broker License?
+    - What does Customs Broker License cost?
+    - Breakdown of cost for Customs Broker License?
+    - How long will it take to get Customs Broker License?
+    - What’s the waiting time for Customs Broker License?
+    - Can you list the documents, fee, and duration for Customs Broker License?
+    - Fee, time, and document details for Customs Broker License?
+    - How can I get a customs broker license?
+    - Process to apply for customs broker license
+    - Steps for obtaining customs broker license
+    - Requirements for customs broker license
+    - Fee for customs broker license
+    - Where to apply for customs broker license
+    - Documents required for customs broker license
+    - Timeline for customs broker license approval
+    - Guidelines for customs broker licensing
+    - Eligibility for customs broker license
+
+- intent: ask_about_Renewal_Customs_Broker_License_en
+  examples: |
+    - Renewal Customs Broker License
+    - Explain about Renewal Customs Broker License
+    - How Renewal Customs Broker License?
+    - How to get Renewal Customs Broker License
+    - How can I get Renewal Customs Broker License?
+    - Can you tell me about Renewal Customs Broker License?
+    - Tell me about Renewal Customs Broker License
+    - Give me information about Renewal Customs Broker License
+    - Info on Renewal Customs Broker License
+    - Tell me the details of Renewal Customs Broker License
+    - What are the details of Renewal Customs Broker License
+    - Renewal Customs Broker License details
+    - Renewal Customs Broker License overview
+    - Overview of Renewal Customs Broker License
+    - Give me an overview for what Renewal Customs Broker License does
+    - Tell me an overview of Renewal Customs Broker License
+    - Purpose of Renewal Customs Broker License
+    - What are the purposes of Renewal Customs Broker License
+    - List the purpose of Renewal Customs Broker License
+    - What is the process for Renewal Customs Broker License?
+    - Process of Renewal Customs Broker License
+    - Tell me the process for Renewal Customs Broker License
+    - Give me information on how is the process for Renewal Customs Broker License
+    - How does Renewal Customs Broker License work?
+    - Renewal Customs Broker License works?
+    - What are the requirements for Renewal Customs Broker License?
+    - Requirements for Renewal Customs Broker License service
+    - What documents are needed for Renewal Customs Broker License?
+    - Documents required for Renewal Customs Broker License
+    - List of documents for Renewal Customs Broker License
+    - Required paperwork for Renewal Customs Broker License
+    - Provide documents needed for Renewal Customs Broker License
+    - What papers do I need for Renewal Customs Broker License?
+    - Can you give me the documents list for Renewal Customs Broker License?
+    - Application steps for Renewal Customs Broker License
+    - Process to apply for Renewal Customs Broker License
+    - How do I apply for Renewal Customs Broker License?
+    - Application procedure for Renewal Customs Broker License
+    - Where to apply for Renewal Customs Broker License?
+    - How long does it take to get Renewal Customs Broker License?
+    - Processing time for Renewal Customs Broker License?
+    - Service time for Renewal Customs Broker License?
+    - Time needed for Renewal Customs Broker License approval?
+    - Duration for Renewal Customs Broker License service?
+    - Waiting period for Renewal Customs Broker License?
+    - Renewal Customs Broker License time frame?
+    - How much does Renewal Customs Broker License cost?
+    - Fee for Renewal Customs Broker License?
+    - Service cost for Renewal Customs Broker License?
+    - Payment for Renewal Customs Broker License?
+    - How much is the Renewal Customs Broker License fee?
+    - Charges for Renewal Customs Broker License?
+    - Price for Renewal Customs Broker License?
+    - Renewal Customs Broker License cost breakdown?
+    - Tell me about Renewal Customs Broker License with time, fee, and documents
+    - Give me details on Renewal Customs Broker License with documents, cost, and time
+    - Explain Renewal Customs Broker License with documents, fee, and processing duration
+    - What are the documents, fee, and service time for Renewal Customs Broker License?
+    - I need info on Renewal Customs Broker License documents, fee, and time
+    - Required documents, cost, and time for Renewal Customs Broker License?
+    - What is the duration, price, and paperwork needed for Renewal Customs Broker License?
+    - How can I access Renewal Customs Broker License service?
+    - Assistance with Renewal Customs Broker License
+    - Help with Renewal Customs Broker License process
+    - Need help with Renewal Customs Broker License
+    - Can you help me with Renewal Customs Broker License?
+    - Support for Renewal Customs Broker License
+    - What are the steps to get Renewal Customs Broker License?
+    - Eligibility criteria for Renewal Customs Broker License
+    - Conditions for using Renewal Customs Broker License
+    - Renewal Customs Broker License procedures
+    - How to request Renewal Customs Broker License?
+    - Can you explain the process for Renewal Customs Broker License?
+    - How is the Renewal Customs Broker License process?
+    - What is the procedure for Renewal Customs Broker License?
+    - Steps for Renewal Customs Broker License?
+    - Can you list the process of Renewal Customs Broker License?
+    - What is required for Renewal Customs Broker License?
+    - What are the needed documents for Renewal Customs Broker License?
+    - Which papers are necessary for Renewal Customs Broker License?
+    - How can I submit the application for Renewal Customs Broker License?
+    - Where can I apply for Renewal Customs Broker License?
+    - What's the cost for Renewal Customs Broker License?
+    - What does Renewal Customs Broker License cost?
+    - Breakdown of cost for Renewal Customs Broker License?
+    - How long will it take to get Renewal Customs Broker License?
+    - What’s the waiting time for Renewal Customs Broker License?
+    - Can you list the documents, fee, and duration for Renewal Customs Broker License?
+    - Fee, time, and document details for Renewal Customs Broker License?
+    - How can I renew a customs broker license?
+    - Process for customs broker license renewal
+    - Steps to renew customs broker license
+    - Requirements for renewing customs broker license
+    - Fee for customs broker license renewal
+    - Where to apply for customs broker license renewal
+    - Documents needed for customs broker license renewal
+    - Time required for customs broker license renewal
+    - Guidelines for customs broker license renewal
+    - Eligibility for customs broker license renewal

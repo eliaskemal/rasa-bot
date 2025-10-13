@@ -1,0 +1,789 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_document_authentication_general_en
+  examples: | 
+    - Document Authentication Service
+    - everything about Document Authentication Service
+    - Document Authentication Service in mesob
+    - Document Authentication Service in general
+    - general information about Document Authentication Service
+    - general overview of Document Authentication Service
+    - can u tell me general information about Document Authentication Service
+    - can u give me general information about Document Authentication Service
+    - give me general information about Document Authentication Service
+    - provide me general information about Document Authentication Service
+    - send me general information about Document Authentication Service
+    - tell me general information about Document Authentication Service
+    - What does the Document Authentication Service do?
+    - explain what the Document Authentication Service is?
+    - Document Authentication Service do?
+    - Document Authentication Service information
+    - information about Document Authentication Service
+    - information on Document Authentication Service
+    - Need information on Document Authentication Service
+    - What is Document Authentication Service?
+    - Document Authentication Service details
+    - details about Document Authentication Service
+    - overview of Document Authentication Service
+    - Document Authentication Service overview
+    - Document Authentication Service purpose
+    - purpose of Document Authentication Service
+    - Document Authentication Service help
+    - can u give me help with Document Authentication Service
+    - help me with Document Authentication Service
+    - Document Authentication Service assistance
+    - assistance with Document Authentication Service
+    - need help with Document Authentication Service
+    - tell me about Document Authentication Service
+    - What does the Document Authentication Service do, and what do I need?
+    - Document Authentication Service responsibilities
+    - What's the Document Authentication Service's job?
+    - What functions does the Document Authentication Service perform
+    - what are the services and requirements of the Document Authentication Service?
+    - What services does the Document Authentication Service offer and what documents do I need?
+    - Can you tell me about the Document Authentication Service's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Document Authentication Service.
+    - What documents are needed for services at the Document Authentication Service and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Document Authentication Service.
+    - How much does it cost and what documents are required for Document Authentication Service services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Document Authentication Service?
+    - What do I need to apply for services at the Document Authentication Service, including time and fees?
+    - Tell me about the Document Authentication Service services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Document Authentication Service?
+    - Document Authentication Service services and requirements?
+    - Document Authentication Service fees and steps?
+    - How much Document Authentication Service services cost?
+    - cost for Document Authentication Service?
+    - fee for Document Authentication Service?
+    - how long does it take for Document Authentication Service?
+    - time for Document Authentication Service?
+    - What documents do I need for Document Authentication Service?
+    - What documents are needed for Document Authentication Service?
+    - What do I need for Document Authentication Service services?
+    - What papers do I need for Document Authentication Service?
+    - What documents are required for Document Authentication Service?
+    - What papers are needed for Document Authentication Service?
+    - What documents are required for Document Authentication Service services?
+    - can you send me general information about Document Authentication Service
+    - Can you tell me the documents needed for Document Authentication Service services?
+    - How long does it take to get service at Document Authentication Service?
+    - What fees are charged for services at Document Authentication Service?
+    - I want information on the services and required documents at Document Authentication Service.
+    - Could you explain the processing time and fees for Document Authentication Service services?
+    - What do I need to bring to access services at Document Authentication Service?
+    - Tell me about the service duration and fees at Document Authentication Service.
+    - What are the available services and related fees at Document Authentication Service?
+    - Please provide details about Document Authentication Service's service process, required documents, time, and fees.
+    - Can you tell me about the document authentication service including what documents I need?
+    - What is the process and fee for document authentication, and how long does it take?
+    - I want to know about the service, required papers, timing, and cost for document authentication.
+    - Please provide details on document authentication: services offered, required documents, fees, and service duration.
+    - What documents are required, how much does it cost, and how long will document authentication take?
+    - Give me full info on document authentication service, including required papers, service time, and charges.
+    - Could you explain document authentication services, what I need to submit, the fees, and expected processing time?
+    - Tell me everything about document authentication: the service, needed documents, cost, and how long it takes.
+    - What should I know about document authentication including service details, required documents, fees, and duration?
+    - I need a summary of document authentication services covering required documents, service length, and payment.
+
+
+- intent: ask_about_document_authentication_service_en
+  examples: |
+    - Documents Authentication and Registration services
+    - service of Documents Authentication and Registration in mesob
+    - sercices of Documents Authentication and Registration
+    - services by Documents Authentication and Registration
+    - Documents Authentication and Registration utilities
+    - utility of Documents Authentication and Registration
+    - give me services of Documents Authentication and Registration
+    - list services of Documents Authentication and Registration in mesob
+    - list services by Documents Authentication and Registration
+    - list out Documents Authentication and Registration services
+    - list of services by Documents Authentication and Registration
+    - tell me services by Documents Authentication and Registration
+    - tell me list of services by Documents Authentication and Registration
+    - tell me list of services of Documents Authentication and Registration
+    - tell me the services of Documents Authentication and Registration
+    - telm me about the services of Documents Authentication and Registration
+    - can you tell me about Documents Authentication and Registration services
+    - can you  list the services of Documents Authentication and Registration
+    - can you list services by Documents Authentication and Registration
+    - What kind of support does the Documents Authentication and Registration give?
+    - support from Documents Authentication and Registration
+    - what services does Documents Authentication and Registration support?
+    - list support by Documents Authentication and Registration
+    - tell me support of Documents Authentication and Registration
+    - tell me about the support of Documents Authentication and Registration
+    - What services does the Documents Authentication and Registration provide?
+    - What services are provided by the Documents Authentication and Registration?
+    - list services provided by  Documents Authentication and Registration 
+    - Documents Authentication and Registration provide?
+    - services provided by Documents Authentication and Registration
+    - list services which Documents Authentication and Registration provides 
+    - list the services which Documents Authentication and Registration provides
+    - list of services which Documents Authentication and Registration provides
+    - can u tell me the services which Documents Authentication and Registration provides
+    - tell me the services which Documents Authentication and Registration provides
+    - list of services provided by Documents Authentication and Registration
+    - list the services provided by Documents Authentication and Registration
+    - list services provided by Documents Authentication and Registration
+    - can u list the services provided by Documents Authentication and Registration
+    - can u tell me the services provided by Documents Authentication and Registration
+    - can you tell me the services which Documents Authentication and Registration provides
+    - can you tell me the services provided by Documents Authentication and Registration
+    - What services does the Documents Authentication and Registration offer?
+    - What are the services that the Documents Authentication and Registration offers?
+    - Documents Authentication and Registration offers? 
+    - What does the Documents Authentication and Registration offer?
+    - list the services that Documents Authentication and Registration offers
+    - list the services offered by Documents Authentication and Registration
+    - list of services offered by Documents Authentication and Registration
+    - can you list services offered by Documents Authentication and Registration
+    - What services are offered by the Documents Authentication and Registration?
+    - tell me services offered by Documents Authentication and Registration
+    - can you tell me services offered by Documents Authentication and Registration
+    - What services are available at the Documents Authentication and Registration?
+    - what are the available services at Documents Authentication and Registration
+    - available services at Documents Authentication and Registration
+    - tell me available services of Documents Authentication and Registration
+    - list of available services at Documents Authentication and Registration
+    - list available services by Documents Authentication and Registration
+    - list the available services of Documents Authentication and Registration
+    - list the services that are  available at Documents Authentication and Registration
+    - can u list available services at Documents Authentication and Registration
+    - can you tell me available services at Documents Authentication and Registration
+    - what servies are given by Documents Authentication and Registration
+    - What services does the Documents Authentication and Registration give?
+    - tell me what services Documents Authentication and Registration gives
+    - tell me what services are given by Documents Authentication and Registration
+    - can you list the services that Documents Authentication and Registration gives
+    - can you tell me the services that Documents Authentication and Registration gives
+    - can you tell me what services Documents Authentication and Registration gives
+    - can u tell me what sevices can I get from Documents Authentication and Registration
+    - Documents Authentication and Registration gives services?
+    - what services can I get from Documents Authentication and Registration?
+    - What services can I access at the Documents Authentication and Registration?
+    - What are the main tasks of the Documents Authentication and Registration
+    - What services can I access at the Documents Authentication and Registration?
+    - main tasks of Documents Authentication and Registration
+    - can u tell me the tasks of Documents Authentication and Registration
+    - tasks of Documents Authentication and Registration
+    - Tell me Documents Authentication and Registration services
+    - services by Documents Authentication and Registration
+    - Documents Authentication and Registration services list 
+    - list of Documents Authentication and Registration services
+    - tell me the lists of Documents Authentication and Registration services
+    - Documents Authentication and Registration services list 
+    - Role of the Documents Authentication and Registration?
+    - What roles does the Documents Authentication and Registration play?
+    - Documents Authentication and Registration roles
+    - What roles does the Documents Authentication and Registration have?
+    - What does the Documents Authentication and Registration do
+    - Can you list the services offered by the Authentication and Registration office?
+    - Which services are available at the Documents Authentication and Registration?
+    - Tell me about the services of the Authentication and Registration
+    - What help can I get from the Documents Authentication and Registration?
+    - Can you explain the services under Documents Authentication and Registration?
+    - can you list the services of the Documents Authentication and Registration?
+    - can you tell me about the services of the Documents Authentication and Registration?
+    - please tell me the services of the Documents Authentication and Registration?
+    - What services are included in the Documents Authentication and Registration?
+    - give me the services of the Documents Authentication and Registration
+    - give me the list of services of the Documents Authentication and Registration
+    - give me the list of services provided by the Documents Authentication and Registration
+    - send me the services of the Documents Authentication and Registration
+    - send me the list of services of the Documents Authentication and Registration
+    - send me the list of services provided by the Documents Authentication and Registration
+    - provide me the services of the Documents Authentication and Registration
+    - provide me the list of services of the Documents Authentication and Registration
+    - provide me the list of services provided by the Documents Authentication and Registration
+
+- intent: ask_about_power_attorney_Doc_en
+  examples: |  
+    - power of attorney documents
+    - power of attorney service documents
+    - documents required for power of attorney authentication
+    - documents needed for power of attorney
+    - what documents are required for power of attorney?
+    - requirements for power of attorney authentication
+    - power of attorney document requirements
+    - required documents to access power of attorney service
+    - tell me the documents required for power of attorney
+    - can you list the required documents for power of attorney?
+    - documents needed for power of attorney authentication
+    - documents that are requirements for power of attorney
+    - can you tell me the documents needed for power of attorney?
+    - tell me the documents needed for power of attorney
+    - list the documents needed for power of attorney
+    - needed documents for power of attorney authentication
+    - tell me the documents I need for power of attorney
+    - what documents are needed for power of attorney processing?
+    - list the documents required for power of attorney processing
+    - required documents to access power of attorney service
+    - what documents do I need to access power of attorney?
+    - tell me the documents I need for power of attorney
+    - what paperwork is necessary for using power of attorney?
+    - can you list the documents required for requesting power of attorney?
+    - give me the list of required documents for power of attorney
+    - what papers do I need to get power of attorney?
+    - what documents are necessary for power of attorney use?
+    - necessary documents for power of attorney authentication
+    - what files should I submit for power of attorney?
+    - tell me what I need to provide for power of attorney
+    - what do I need to bring for power of attorney?
+    - which documents are necessary to use power of attorney?
+    - list the necessary documents for power of attorney
+    - can you tell me what's needed for power of attorney processing?
+    - processing documents for power of attorney
+    - what supporting documents are required for power of attorney?
+    - required paperwork for using power of attorney
+    - explain the documents required for power of attorney
+    - what are the required files for power of attorney usage?
+    - what should I prepare for accessing power of attorney?
+    - what documents are necessary for power of attorney at mesob?
+    - which IDs or forms are required for power of attorney access?
+    - can you list the requirements for applying for power of attorney?
+    - documents needed to register for power of attorney
+    - what documents must I provide for power of attorney?
+    - what do I need to submit to use power of attorney?
+    - can you tell me the papers required for power of attorney?
+    - what documentation is needed for power of attorney approval?
+    - what are the formal requirements for power of attorney applications?
+    - tell me what files are necessary for getting power of attorney
+    - papers needed to access power of attorney services
+    - tell me the documents required for power of attorney
+    - documents to apply for power of attorney
+    - what should I bring for power of attorney?
+    - required files for accessing power of attorney
+    - list documents for power of attorney services
+    - explain what documents I need for power of attorney
+    - which IDs are necessary for power of attorney?
+    - What documents are required to process a Authentication of Power of Attorney
+    - Which papers do I need for creating a Authentication of Power of Attorney
+    - Documents needed for Authentication of Power of Attorney
+    - Required files for making a Authentication of Power of Attorney
+    - What should I bring to apply for a Authentication of Power of Attorney
+    - Can you list the documents needed for Authentication of Power of Attorney services?
+    - What legal documents are necessary for Authentication of Power of Attorney
+    - Which supporting documents are mandatory for a Authentication of Power of Attorney
+    - Tell me the documentation requirements for Authentication of Power of Attorney
+    - Do I need identification papers for Authentication of Power of Attorney
+
+- intent: ask_about_power_attorney_time_en
+  examples: |
+    - What are the service hours for Authentication power of attorney services?
+    - When can I access Authentication power of attorney services?
+    - Authentication power of attorney time
+    - What are the hours for Authentication power of attorney services?
+    - What are the hours for Authentication power of attorney services at Mesob?
+    - When can I access Authentication power of attorney services at Mesob?
+    - Service time for making an Authentication power of attorney
+    - Tell me the service time for Authentication power of attorney
+    - What is the processing time for an Authentication power of attorney?
+    - What is the service time for an Authentication power of attorney?
+    - Is Authentication power of attorney service available on weekends?
+    - When is the best time to visit for Authentication power of attorney services?
+    - Authentication power of attorney office hours
+    - Hours for Authentication power of attorney services
+    - Time taken for Authentication power of attorney service
+    - What time can I get Authentication power of attorney services?
+    - Service schedule for Authentication power of attorney
+    - At what time is Authentication power of attorney service available?
+    - Service availability hours for Authentication power of attorney
+    - How long does it take to get an Authentication power of attorney?
+    - Working hours for Authentication power of attorney services
+    - How many hours does Authentication power of attorney take?
+    - When can I come for Authentication power of attorney?
+    - What time does the office open for Authentication power of attorney?
+    - Can you tell me the hours for Authentication power of attorney service?
+    - When can I apply for an Authentication power of attorney?
+    - Operational time for Authentication power of attorney
+    - Time required for Authentication power of attorney processing
+    - Are Authentication power of attorney services available today?
+    - Can I get Authentication power of attorney on weekends?
+    - What is the opening time for Authentication power of attorney service?
+    - What is the closing time for Authentication power of attorney services?
+    - Is there a specific time to get Authentication power of attorney?
+    - Time schedule for Authentication power of attorney request
+    - Authentication power of attorney service timing
+    - Explain the hours for Authentication power of attorney service
+    - Can you give me the service time for Authentication power of attorney?
+    - When does the Authentication power of attorney service start?
+    - When does Authentication power of attorney service end?
+    - What is the working time for Authentication power of attorney?
+    - When are Authentication power of attorney services offered?
+    - Tell me the opening hours for Authentication power of attorney services
+    - What time does Authentication power of attorney service operate?
+    - How long is Authentication power of attorney service available?
+    - Duration of Authentication power of attorney service
+    - Time of day for Authentication power of attorney
+    - Which hours can I get Authentication power of attorney?
+    - When is the Authentication power of attorney office open?
+    - What are your hours for Authentication power of attorney?
+    - Tell me the schedule for Authentication power of attorney time
+    - How much time does it take for Authentication power of attorney?
+    - Time slots available for Authentication power of attorney
+    - Authentication power of attorney service duration
+    - Could you tell me the hours for Authentication power of attorney services?
+    - Please provide the hours for Authentication power of attorney services
+    - Estimated time for Authentication power of attorney
+    - Average time for Authentication power of attorney
+    - Total time for Authentication power of attorney
+    - Can you provide the hours for Authentication power of attorney services?
+    - Tell me the hours for Authentication power of attorney services
+    - Give me the hours for Authentication power of attorney services
+    - Available hours for Authentication power of attorney services
+    - Office hours for submitting Authentication power of attorney
+    - Authentication power of attorney service hours on weekdays
+    - Authentication power of attorney service hours on weekends
+    - When is the Authentication power of attorney desk open?
+    - Are there limited hours for Authentication power of attorney services?
+    - From what time to what time is Authentication power of attorney service available?
+    - What are the service hours for Authentication power of attorney services?
+    - Service time for making a Authentication power of attorney
+    - Tell me the service time for Authentication power of attorney
+    - What is the processing time for a Authentication power of attorney?
+    - What is the service time for a Authentication power of attorney?
+    - Is Authentication power of attorney service available on weekends?
+    - When is the best time to visit for Authentication power of attorney services?
+
+- intent: ask_about_power_attorney_fee_en
+  examples: |
+    - What is the fee for Authentication power of attorney services?
+    - How much does it cost to create a Authentication power of attorney?
+    - Service charge for Authentication power of attorney processing
+    - Tell me the cost of making a Authentication power of attorney
+    - What is the payment required for Authentication power of attorney?
+    - Can you provide the fee details for Authentication power of attorney services?
+    - How much should I pay for a Authentication power of attorney document?
+    - Is there a fixed fee for creating a Authentication power of attorney?
+    - What are the charges for notarizing a Authentication power of attorney?
+
+- intent: ask_about_contract_loan_Doc_en
+  examples: |
+    - contract loan documents
+    - contract loan authentication documents
+    - documents required for contract loan authentication
+    - documents needed for contract loan approval
+    - what documents are required for contract loan authentication?
+    - requirements for contract loan authentication
+    - contract loan document requirements
+    - required documents to access contract loan authentication
+    - tell me the documents required for contract loan authentication
+    - can you list the required documents for contract loan authentication?
+    - documents needed for contract loan processing
+    - documents that are requirements for contract loan
+    - can you tell me the documents needed for contract loan?
+    - tell me the documents needed for contract loan authentication
+    - list the documents needed for contract loan authentication
+    - needed documents for contract loan application
+    - tell me the documents I need for contract loan authentication
+    - what documents are needed for contract loan approval?
+    - list the documents required for contract loan processing
+    - required documents to apply for contract loan
+    - what documents do I need to apply for a contract loan?
+    - tell me the documents I need for a contract loan authentication
+    - what paperwork is necessary for contract loan application?
+    - can you list the documents required for contract loan request?
+    - give me the list of required documents for contract loan authentication
+    - what papers do I need to get a contract loan?
+    - what documents are necessary for contract loan usage?
+    - necessary documents for contract loan authentication
+    - what files should I submit for contract loan authentication?
+    - tell me what I need to provide for contract loan authentication
+    - what do I need to bring for contract loan authentication?
+    - which documents are necessary for contract loan authentication?
+    - list the necessary documents for contract loan authentication
+    - can you tell me what's needed for contract loan processing?
+    - processing documents for contract loan authentication
+    - what supporting documents are required for contract loan authentication?
+    - required paperwork for using a contract loan
+    - explain the documents required for contract loan authentication
+    - what are the required files for contract loan usage?
+    - what should I prepare for contract loan authentication?
+    - what documents are necessary for contract loan authentication at mesob?
+    - which IDs or forms are required for contract loan authentication?
+    - can you list the requirements for applying for a contract loan?
+    - documents needed to register for contract loan authentication
+    - what documents must I provide for a contract loan?
+    - what do I need to submit to use a contract loan authentication service?
+    - can you tell me the papers required for contract loan authentication?
+    - what documentation is needed for contract loan approval?
+    - what are the formal requirements for contract loan authentication applications?
+    - tell me what files are necessary for getting a contract loan
+    - papers needed to access contract loan authentication services
+    - tell me the documents required for contract loan
+    - documents to apply for contract loan authentication
+    - what should I bring for contract loan?
+    - required files for accessing contract loan authentication
+    - list documents for contract loan authentication service
+    - explain what documents I need for contract loan
+    - which IDs are necessary for contract loan authentication?
+    - What documents do I need for a Authentication contract loan?
+    - Which papers are required to apply for a Authentication contract loan?
+    - Documents necessary for Authentication contract loan application
+    - What should I bring for Authentication contract loan processing?
+    - Required files for Authentication contract loan approval
+    - Which forms must I submit for Authentication contract loan?
+    - Paperwork needed to get a Authentication contract loan
+    - List of documents needed for Authentication contract loan
+    - What documentation is mandatory for Authentication contract loans?
+
+- intent: ask_about_contract_loan_time_en
+  examples: |
+    - When can I apply for a contract loan?
+    - What are the working hours for contract loan services?
+    - Timeframe to get a contract loan processed
+    - How long does contract loan approval take?
+    - What is the service time for contract loan?
+    - When does contract loan processing start and end?
+    - How many days to get contract loan approval?
+    - What is the timeline for contract loan application?
+    - When is contract loan service available?
+    - What are the office hours for contract loan?
+
+- intent: ask_about_contract_loan_fee_en
+  examples: |
+    - How much does a contract loan cost?
+    - What are the fees for contract loan services?
+    - Contract loan service charges
+    - What is the fee structure for contract loans?
+    - How much do I pay for a contract loan?
+    - Are there any processing fees for contract loans?
+    - What is the price for getting a contract loan?
+    - How expensive is a contract loan?
+    - What are the charges involved in contract loan?
+    - What fees are required for contract loan processing?
+
+
+- intent: ask_about_property_sales_Doc_en
+  examples: |
+    - property sales documents
+    - documents required for selling a property
+    - property sale required documents
+    - what documents are needed for property sales?
+    - which papers do I need to sell a property?
+    - required documents for property sale
+    - what paperwork is necessary for property sales?
+    - what are the requirements for selling property?
+    - list the documents needed for property sale
+    - documents needed for property selling
+    - can you list the required documents for property sale?
+    - what files do I need to sell property?
+    - what documents are necessary for selling property?
+    - what are the necessary papers for selling a house or land?
+    - which documents are required to sell a house?
+    - documents to prepare for property sales
+    - tell me the documents required to sell a property
+    - what certificates do I need for property sales?
+    - documents needed for property transfer
+    - tell me the paperwork required for property sales
+    - what should I prepare for selling property?
+    - which IDs are needed for property sales?
+    - required files for selling land
+    - what documents do I need for real estate transactions?
+    - what papers are needed to sell a property?
+    - necessary paperwork to sell a house
+    - what legal documents are required for property sale?
+    - what documentation is needed for selling real estate?
+    - tell me the documents I need for a property sale
+    - what forms are required for selling land or house?
+    - list the paperwork needed to transfer property
+    - can you tell me the documents for selling a house?
+    - what proof do I need to complete a property sale?
+    - what documents must be submitted to sell a property?
+    - what supporting documents are required for property sales?
+    - what are the formal requirements for a property sale?
+    - which documents do I need to sell my land?
+    - tell me the files needed for a property sale
+    - list required paperwork for selling real estate
+    - documents required by the property sales office
+    - what do I need to bring to sell a property?
+    - can you list the documents to process a property sale?
+    - documents needed to register a property sale
+    - what official documents are required to sell a house?
+    - what should I bring for the property sale process?
+    - list all the necessary documents for a real estate sale
+    - explain the required documents for selling property
+    - what papers are required by law to sell land?
+    - which identification or certificates are needed for property sales?
+    - what documentation is necessary for selling my property?
+    - documents to apply for property transfer
+    - tell me what I need to provide to sell property
+    - what documents are used for property selling process?
+    - What documents are needed for property sales?
+    - Which papers do I need to sell a property?
+    - Required documents for selling real estate
+    - What paperwork is necessary for property sales?
+    - List of documents for property sale process
+    - What documents should I prepare to sell my property?
+    - Necessary papers for selling a house or land
+    - What certificates do I need for property sales?
+    - Documents required by the property sales office
+    - What proof do I need to complete a property sale?
+
+- intent: ask_about_property_sales_time_en
+  examples: |
+    - What documents are needed for property sales?
+    - Which papers do I need to sell a property?
+    - Required documents for selling real estate
+    - What paperwork is necessary for property sales?
+    - List of documents for property sale process
+    - What documents should I prepare to sell my property?
+    - Necessary papers for selling a house or land
+
+- intent: ask_about_property_sales_fee_en
+  examples: |
+    - What fees apply for property sales?
+    - How much does it cost to sell property?
+    - Property sales service charges
+    - What is the fee for property transfer?
+    - Cost of selling a property
+    - Charges for property sales processing
+    - What payment is required for property sales?
+    - Fees involved in property sales
+    - What taxes or fees do I pay when selling property?
+    - Property sales fees and charges
+
+
+- intent: ask_about_contract_lease_Doc_en
+  examples: |
+    - lease contract documents
+    - contract lease required documents
+    - documents required for lease contract
+    - documents needed for lease agreement
+    - what documents are required for a contract lease?
+    - which papers do I need to prepare for a lease contract?
+    - required documents for leasing property
+    - documents to prepare for signing a lease contract
+    - what paperwork is necessary for lease contracts?
+    - list the documents needed for lease contract
+    - documents needed to finalize a lease agreement
+    - can you list the required documents for a lease contract?
+    - what files must I submit for a lease contract?
+    - what documents are necessary for contract lease processing?
+    - needed documents for leasing a house
+    - what forms are required for lease agreement?
+    - tell me the documents required to sign a lease
+    - what should I bring for the lease contract process?
+    - paperwork needed to sign a lease contract
+    - what documentation is necessary for lease contracts?
+    - list of documents required for contract lease
+    - documents required to lease a house or property
+    - what documents must I provide for a lease contract?
+    - can you tell me the documents needed for a contract lease?
+    - which documents are required to lease land?
+    - required paperwork for signing a lease agreement
+    - tell me what I need to provide for a lease contract
+    - what documents should I prepare for a lease agreement?
+    - what documentation do I need to lease property?
+    - what are the document requirements for leasing a house?
+    - legal documents needed for lease agreement
+    - what documents are needed to complete a contract lease?
+    - what supporting documents are required for lease contract?
+    - explain the documents needed for lease contract
+    - tell me the paperwork required for a lease agreement
+    - required files for leasing a property
+    - which IDs or certificates are needed for contract lease?
+    - what are the formal documents needed for leasing a property?
+    - what should I bring to finalize a lease contract?
+    - what do I need to submit for a lease contract?
+    - documents to submit for lease contract approval
+    - lease contract processing required documents
+    - can you list the paperwork needed for leasing property?
+    - what proof is required for a lease contract?
+    - tell me the documentation required for lease signing
+    - what documents do I need to lease a house or land?
+    - which forms are necessary for a lease contract?
+    - documentation needed to complete a lease contract
+    - what are the necessary documents to lease a property?
+    - list all the documents required to sign a lease
+    - what documents are involved in the lease contract process?
+    - documents to apply for a lease agreement
+    - What documents are required for a contract lease?
+    - Which papers do I need to prepare for a lease contract?
+    - Documents needed to finalize a lease agreement
+    - Required documents for leasing property
+    - What files must I submit for a lease contract?
+    - Paperwork needed to sign a lease contract
+    - What documentation is necessary for lease contracts?
+    - List of documents required for contract lease
+    - What should I bring for the lease contract process?
+    - Documentation needed to complete a lease contract
+
+- intent: ask_about_contract_lease_time_en
+  examples: |
+    - What documents are required for a contract lease?
+    - Which papers do I need to prepare for a lease contract?
+    - Documents needed to finalize a lease agreement
+    - Required documents for leasing property
+    - What files must I submit for a lease contract?
+    - Paperwork needed to sign a lease contract
+    - What documentation is necessary for lease contracts?
+    - List of documents required for contract lease
+
+- intent: ask_about_contract_lease_fee_en
+  examples: |
+    - What fees are associated with contract leases?
+    - How much does it cost to process a lease contract?
+    - Lease contract service charges
+    - What is the price for contract lease services?
+    - Fees required for a lease contract
+    - How much do I pay for lease contract processing?
+    - Contract lease fee details
+    - What are the costs involved in lease contracts?
+    - Service charges for contract leases
+    - How much is the lease contract fee?
+
+- intent: registration_foreign_document_Doc_en
+  examples: |
+    - foreign document registration documents
+    - documents required for registering foreign documents
+    - foreign document required documents
+    - what documents do I need to register a foreign document?
+    - which papers are required for foreign document registration?
+    - documents needed for registering a foreign document
+    - what paperwork is necessary for foreign document registration?
+    - list the documents needed for foreign document registration
+    - what files must I submit for foreign document registration?
+    - can you list the required documents for foreign document registration?
+    - what documents are necessary to register a foreign document?
+    - required documents for foreign document registration process
+    - what should I bring to register a foreign document?
+    - what documentation is necessary for registering foreign documents?
+    - list of documents for foreign document registration
+    - tell me the documents required to register a foreign document
+    - needed documents for foreign document registration
+    - what are the requirements for foreign document registration?
+    - what documentation do I need for foreign document registration?
+    - how to prepare documents for registering a foreign document?
+    - which certificates are needed to register a foreign document?
+    - what proof is required for foreign document registration?
+    - which IDs or official papers are needed to register foreign documents?
+    - what documents must be provided for foreign document registration?
+    - tell me the paperwork needed for registering foreign documents
+    - required paperwork for registering foreign documents
+    - explain the documents needed for foreign document registration
+    - what documents must I submit for foreign document registration?
+    - documents required to process foreign document registration
+    - which documents should I prepare for registering foreign papers?
+    - what are the formal document requirements for registering a foreign document?
+    - what documents do I need to complete foreign document registration?
+    - can you tell me the documents needed for foreign document registration?
+    - what are the supporting documents for foreign document registration?
+    - which forms are required to register a foreign document?
+    - what paperwork should I prepare for registering foreign documents?
+    - tell me the required documents to register a foreign certificate
+    - what documentation is needed for registering a foreign certificate?
+    - what documents do I need to provide for foreign document registration?
+    - list required files for registering a foreign document
+    - registration documents for foreign-issued certificates
+    - what documents should I have to register a foreign document?
+    - what do I need to submit to register a foreign document?
+    - documents to apply for foreign document registration
+    - required forms for registering a foreign document
+    - what legal documents are needed for registering a foreign document?
+    - tell me what files are needed for registering foreign documents
+    - which official documents are needed for registering a foreign file?
+    - what documents are involved in foreign document registration?
+    - What documents do I need to register a foreign document?
+    - Which papers are required for foreign document registration?
+    - Documents needed for registering a foreign document
+    - What should I bring to register a foreign document?
+    - Required files for foreign document registration
+    - List of documents for foreign document registration
+    - How to prepare documents for registering a foreign document?
+    - What paperwork is necessary for foreign document registration?
+    - Which certificates are needed to register a foreign document?
+    - What documents must I submit for foreign document registration?
+
+- intent: registration_foreign_document_time_en
+  examples: |
+    - What are the working hours for foreign document registration?
+    - When can I register a foreign document?
+    - Office hours for foreign document registration
+    - Service time for registering foreign documents
+    - When is the registration office open for foreign documents?
+    - Registration hours for foreign documents
+    - What time does the foreign document registration office operate?
+    - When can I submit my foreign document for registration?
+    - What is the schedule for foreign document registration?
+    - When does the foreign document registration service close?
+    - What is the service time for foreign document registration?
+    - When can I access foreign document registration services?
+    - What are the hours for registering foreign documents?
+    - What time can I get my foreign documents registered?
+    - How long does foreign document registration take?
+    - Time duration for registering foreign documents
+    - What is the timeline for foreign document registration?
+    - When is the best time to register a foreign document?
+    - When is foreign document registration service available?
+    - What time does the foreign registration desk open?
+    - What is the opening time for foreign document registration?
+    - What is the closing time for foreign document registration?
+    - How long is the foreign document registration service available?
+    - When can I visit for foreign document registration?
+    - Time taken to register a foreign document
+    - Working hours for foreign document registration
+    - When are foreign registration services offered?
+    - From what time to what time is foreign document registration available?
+    - Are there specific hours for registering foreign documents?
+    - What are the available hours for foreign document registration?
+    - Is foreign document registration available on weekends?
+    - Estimated time for foreign document registration
+    - Average time for registering foreign documents
+    - Total time for foreign document registration process
+    - Duration of foreign document registration
+    - At what time is the foreign document registration service available?
+    - What is the daily schedule for registering foreign documents?
+    - Can you tell me the hours for foreign document registration?
+    - Please provide the working hours for foreign document registration
+    - Tell me the time for foreign document registration
+    - What are your hours for foreign document registration?
+    - What is the operational time for foreign document registration?
+    - When does foreign document registration start and end?
+    - When does the foreign document registration service begin?
+    - What time should I come for foreign document registration?
+    - What time can I visit for foreign document registration?
+    - Can I register my foreign document during office hours?
+    - What is the earliest time I can register a foreign document?
+    - Latest time to register a foreign document?
+    - How many hours does it take to register a foreign document?
+    - What are the business hours for foreign document registration?
+    - When does the foreign registration office start working?
+    - When does the foreign registration service end?
+    - How long is the foreign registration desk open?
+    - Time of day for foreign document registration
+    - Registration timing for foreign documents
+    - Schedule for registering foreign documents
+    - Opening and closing hours for foreign document registration
+    - Office availability for foreign document registration
+    - Time range for foreign document registration services
+    - Are there limited hours for foreign document registration?
+    - What time should I arrive for foreign document registration?
+    - When can I expect foreign document registration service?
+    - Can you provide the hours for foreign document registration?
+    - Available hours for registering foreign documents
+    - What are the working hours for foreign document registration?
+    - When can I register a foreign document?
+    - Office hours for foreign document registration
+    - Service time for registering foreign documents
+    - When is the registration office open for foreign documents?
+    - Registration hours for foreign documents
+    - What time does the foreign document registration office operate?
+    - When can I submit my foreign document for registration?
+    - What is the schedule for foreign document registration?
+    - When does the foreign document registration service close?
+
+- intent: registration_foreign_document_fee_en
+  examples: |
+    - How much does foreign document registration cost?
+    - What is the fee for registering a foreign document?
+    - Charges for foreign document registration
+    - Cost of registering a foreign document
+    - What payment is required for foreign document registration?
+    - Fee details for foreign document registration
+    - How expensive is registering a foreign document?
+    - What are the registration fees for foreign documents?
+    - What is the price for foreign document registration?
+    - Are there any fees to register a foreign document?

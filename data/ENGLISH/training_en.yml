@@ -1,0 +1,322 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Education_Training_Authority_general_en
+  examples: |
+    - Education and Training Authority
+    - everything about Education and Training Authority
+    - Education and Training Authority in general
+    - general information about Education and Training Authority
+    - general overview of Education and Training Authority
+    - can you tell me general information about Education and Training Authority
+    - can you give me general information about Education and Training Authority
+    - give me general information about Education and Training Authority
+    - provide me general information about Education and Training Authority
+    - send me general information about Education and Training Authority
+    - tell me general information about Education and Training Authority
+    - What does the Education and Training Authority do?
+    - explain what the Education and Training Authority is
+    - Education and Training Authority information
+    - information about Education and Training Authority
+    - information on Education and Training Authority
+    - Need information on Education and Training Authority
+    - What is Education and Training Authority?
+    - Education and Training Authority details
+    - details about Education and Training Authority
+    - overview of Education and Training Authority
+    - Education and Training Authority overview
+    - Education and Training Authority purpose
+    - purpose of Education and Training Authority
+    - Education and Training Authority help
+    - can you give me help with Education and Training Authority
+    - help me with Education and Training Authority
+    - Education and Training Authority assistance
+    - assistance with Education and Training Authority
+    - need help with Education and Training Authority
+    - tell me about Education and Training Authority
+    - What does the Education and Training Authority do, and what do I need?
+    - Education and Training Authority responsibilities
+    - What's the Education and Training Authority's job?
+    - What functions does the Education and Training Authority perform?
+    - what are the services and requirements of the Education and Training Authority?
+    - What services does the Education and Training Authority offer and what documents do I need?
+    - Can you tell me about the Education and Training Authority's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Education and Training Authority.
+    - What documents are needed for services at the Education and Training Authority and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Education and Training Authority.
+    - How much does it cost and what documents are required for Education and Training Authority services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Education and Training Authority?
+    - What do I need to apply for services at the Education and Training Authority, including time and fees?
+    - Tell me about the Education and Training Authority services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Education and Training Authority?
+    - Education and Training Authority services and requirements?
+    - Education and Training Authority fees and steps?
+    - How much Education and Training Authority services cost?
+    - cost for Education and Training Authority?
+    - fee for Education and Training Authority?
+    - how long does it take for Education and Training Authority?
+    - time for Education and Training Authority?
+    - What documents do I need for Education and Training Authority?
+    - What documents are needed for Education and Training Authority?
+    - What do I need for Education and Training Authority services?
+    - What papers do I need for Education and Training Authority?
+    - What documents are required for Education and Training Authority?
+    - What papers are needed for Education and Training Authority?
+    - What documents are required for Education and Training Authority services?
+    - can you send me general information about Education and Training Authority
+    - Can you tell me the documents needed for Education and Training Authority services?
+    - How long does it take to get service at Education and Training Authority?
+    - What fees are charged for services at Education and Training Authority?
+    - I want information on the services and required documents at Education and Training Authority.
+    - Could you explain the processing time and fees for Education and Training Authority services?
+    - What do I need to bring to access services at Education and Training Authority?
+    - Tell me about the service duration and fees at Education and Training Authority.
+    - What are the available services and related fees at Education and Training Authority?
+    - Please provide details about Education and Training Authority's service process, required documents, time, and fees.
+    - What services does the Education and Training Authority provide, and what documents do I need?
+    - What services does the Education and Training Authority provide, and what documents do I need?
+    - Can you tell me about the services, required documents, processing time, and fees at the Education and Training Authority?
+    - I want to know the types of services, necessary paperwork, how long it takes, and the fees for Education and Training Authority.
+    - What are the service options at the Education and Training Authority along with document requirements, service duration, and costs?
+    - Could you provide information on Education and Training Authority’s services, required documents, time frame, and fees?
+    - Please explain the Education and Training Authority services, the documents I must bring, how long they take, and the fees involved.
+    - What documents do I need, how much does it cost, how long does it take, and what services does the Education and Training Authority offer?
+    - Tell me about the services, documents, expected waiting time, and payment details at the Education and Training Authority.
+    - What is the process, necessary documents, fee structure, and service duration for the Education and Training Authority services?
+    - Can you summarize the Education and Training Authority services, document requirements, time needed, and service fees?
+
+
+- intent: ask_about_Education_Training_Authority_service_en
+  examples: |
+    - Education and Training Authority services
+    - service of Education and Training Authority in mesob
+    - sercices of Education and Training Authority
+    - services by Education and Training Authority
+    - Education and Training Authority utilities
+    - utility of Education and Training Authority
+    - give me services of Education and Training Authority
+    - list services of Education and Training Authority in mesob
+    - list services by Education and Training Authority
+    - list out Education and Training Authority services
+    - list of services by Education and Training Authority
+    - tell me services by Education and Training Authority
+    - tell me list of services by Education and Training Authority
+    - tell me list of services of Education and Training Authority
+    - tell me the services of Education and Training Authority
+    - telm me about the services of Education and Training Authority
+    - can you tell me about Education and Training Authority services
+    - can you list the services of Education and Training Authority
+    - can you list services by Education and Training Authority
+    - What kind of support does the Education and Training Authority give?
+    - support from Education and Training Authority
+    - what services does Education and Training Authority support?
+    - list support by Education and Training Authority
+    - tell me support of Education and Training Authority
+    - tell me about the support of Education and Training Authority
+    - What services does the Education and Training Authority provide?
+    - What services are provided by the Education and Training Authority?
+    - list services provided by Education and Training Authority
+    - Education and Training Authority provide?
+    - services provided by Education and Training Authority
+    - list services which Education and Training Authority provides
+    - list the services which Education and Training Authority provides
+    - list of services which Education and Training Authority provides
+    - can u tell me the services which Education and Training Authority provides
+    - tell me the services which Education and Training Authority provides
+    - list of services provided by Education and Training Authority
+    - list the services provided by Education and Training Authority
+    - list services provided by Education and Training Authority
+    - can u list the services provided by Education and Training Authority
+    - can u tell me the services provided by Education and Training Authority
+    - can you tell me the services which Education and Training Authority provides
+    - can you tell me the services provided by Education and Training Authority
+    - What services does the Education and Training Authority offer?
+    - What are the services that the Education and Training Authority offers?
+    - Education and Training Authority offers?
+    - What does the Education and Training Authority offer?
+    - list the services that Education and Training Authority offers
+    - list the services offered by Education and Training Authority
+    - list of services offered by Education and Training Authority
+    - can you list services offered by Education and Training Authority
+    - What services are offered by the Education and Training Authority?
+    - tell me services offered by Education and Training Authority
+    - can you tell me services offered by Education and Training Authority
+    - What services are available at the Education and Training Authority?
+    - what are the available services at Education and Training Authority
+    - available services at Education and Training Authority
+    - tell me available services of Education and Training Authority
+    - list of available services at Education and Training Authority
+    - list available services by Education and Training Authority
+    - list the available services of Education and Training Authority
+    - list the services that are available at Education and Training Authority
+    - can u list available services at Education and Training Authority
+    - can you tell me available services at Education and Training Authority
+    - what servies are given by Education and Training Authority
+    - What services does the Education and Training Authority give?
+    - tell me what services Education and Training Authority gives
+    - tell me what services are given by Education and Training Authority
+    - can you list the services that Education and Training Authority gives
+    - can you tell me the services that Education and Training Authority gives
+    - can you tell me what services Education and Training Authority gives
+    - can u tell me what sevices can I get from Education and Training Authority
+    - Education and Training Authority gives services?
+    - what services can I get from Education and Training Authority?
+    - What services can I access at the Education and Training Authority?
+    - What are the main tasks of the Education and Training Authority
+    - What services can I access at the Education and Training Authority?
+    - main tasks of Education and Training Authority
+    - can u tell me the tasks of Education and Training Authority
+    - tasks of Education and Training Authority
+    - Tell me Education and Training Authority services
+    - services by Education and Training Authority
+    - Education and Training Authority services list
+    - list of Education and Training Authority services
+    - tell me the lists of Education and Training Authority services
+    - Education and Training Authority services list
+    - Role of the Education and Training Authority?
+    - What roles does the Education and Training Authority play?
+    - Education and Training Authority roles
+    - What roles does the Education and Training Authority have?
+    - What does the Education and Training Authority do
+    - Can you list the services offered by the Education and Training Authority?
+    - Which services are available at the Education and Training Authority?
+    - Tell me about the services of the Education and Training Authority
+    - What help can I get from the Education and Training Authority?
+    - Can you explain the services under Education and Training Authority?
+    - can you list the services of the Education and Training Authority?
+    - can you tell me about the services of the Education and Training Authority?
+    - please tell me the services of the Education and Training Authority?
+    - What services are included in the Education and Training Authority?
+    - give me the services of the Education and Training Authority
+    - give me the list of services of the Education and Training Authority
+    - give me the list of services provided by the Education and Training Authority
+    - send me the services of the Education and Training Authority
+    - send me the list of services of the Education and Training Authority
+    - send me the list of services provided by the Education and Training Authority
+    - provide me the services of the Education and Training Authority
+    - provide me the list of services of the Education and Training Authority
+    - provide me the list of services provided by the Education and Training Authority
+
+- intent: ask_about_Authentication_Educational_Credentials_doc_en
+  examples: |
+    - What documents are needed for Authentication of Educational Credentials?
+    - Which papers do I need for educational document authentication?
+    - Documents required for authenticating educational credentials
+    - What files should I bring for education authentication?
+    - Tell me the required documents for education authentication service
+    - What paperwork is needed to authenticate educational documents?
+    - Can you list documents for educational credential authentication?
+    - Which supporting documents are needed for authentication?
+    - What are the document requirements for educational authentication?
+    - What should I prepare for authentication of educational certificates?
+    - What documents must I submit for educational credential authentication?
+    - List the required documents for educational authentication process
+    - Documents needed to apply for educational credential authentication
+    - What forms should I bring for educational authentication?
+    - Which certificates are necessary for authentication of educational documents?
+    - Tell me the papers required for educational credential authentication
+    - What identification is needed for educational authentication?
+    - What files must I provide for authentication of educational certificates?
+    - Which official documents are required for educational document authentication?
+    - Explain the documentation needed for authentication of educational credentials
+    - What supporting papers do I need for educational credential authentication?
+    - Documents checklist for educational authentication service
+    - Required files for authentication of educational credentials
+    - What proofs are accepted for educational authentication processing?
+    - What documentation is mandatory for educational document authentication?
+    - Which papers should I prepare for educational credential authentication?
+    - What documents do I need to submit for educational authentication service?
+    - What certificates do I need to provide for educational credential authentication?
+    - What documents are required to complete the educational authentication process?
+    - What documents are needed for Authentication of Educational Credentials?
+    - Which papers do I need for educational document authentication?
+    - Documents required for authenticating educational credentials
+    - What files should I bring for education authentication?
+    - Tell me the required documents for education authentication service
+    - What paperwork is needed to authenticate educational documents?
+    - Can you list documents for educational credential authentication?
+    - Which supporting documents are needed for authentication?
+    - What are the document requirements for educational authentication?
+    - What should I prepare for authentication of educational certificates?
+
+- intent: ask_about_Authentication_Educational_Credentials_time_en
+  examples: |
+    - What is the processing time for authentication of educational credentials?
+    - How long does it take to authenticate my educational documents?
+    - Time required for authentication of educational certificates?
+    - Can you tell me the service duration for educational credential authentication?
+
+
+- intent: ask_about_Authentication_Educational_Credentials_fee_en
+  examples: |
+    - What is the fee for authenticating educational credentials?
+    - How much does education authentication cost?
+    - Service charge for educational credential authentication
+    - Tell me the price of education authentication
+    - What are the charges for authenticating educational documents?
+    - Fee required for education document authentication
+    - What is the payment amount for educational credential authentication?
+    - How much to authenticate educational certificates?
+    - Can you tell me the cost of education authentication?
+    - What is the price for authenticating education credentials?
+
+- intent: ask_about_Equivalence_Educational_Credentials_doc_en
+  examples: |
+    - What documents are needed for equivalence of educational credentials?
+    - Which papers do I need for education credential equivalence?
+    - Required documents for educational credential equivalence
+    - Files needed for educational equivalence service
+    - Tell me the documents for educational equivalence process
+    - What paperwork is required for equivalence of educational certificates?
+    - Can you list documents for education equivalence?
+    - Which supporting documents are needed for credential equivalence?
+    - What are the document requirements for equivalence service?
+    - What should I prepare for equivalence of education credentials?
+    - What documents must I submit for educational credential equivalence?
+    - List the required documents for equivalence of educational certificates
+    - Documents needed to apply for education equivalence
+    - What forms should I bring for educational equivalence?
+    - Which certificates are necessary for equivalence of educational credentials?
+    - Tell me the papers required for educational credential equivalence
+    - What identification is needed for educational equivalence?
+    - What files must I provide for equivalence of educational certificates?
+    - Which official documents are required for education equivalence?
+    - Explain the documentation needed for equivalence of education credentials
+    - What supporting papers do I need for educational credential equivalence?
+    - Documents checklist for education equivalence service
+    - Required files for equivalence of educational certificates
+    - What proofs are accepted for educational equivalence processing?
+    - What documentation is mandatory for educational equivalence?
+    - Which papers should I prepare for education credential equivalence?
+    - What documents do I need to submit for equivalence service?
+    - What certificates do I need to provide for educational equivalence?
+    - What documents are required to complete the educational equivalence process?
+    - What documents are needed for equivalence of educational credentials?
+    - Which papers do I need for education credential equivalence?
+    - Required documents for educational credential equivalence
+    - Files needed for educational equivalence service
+    - Tell me the documents for educational equivalence process
+    - What paperwork is required for equivalence of educational certificates?
+    - Can you list documents for education equivalence?
+    - Which supporting documents are needed for credential equivalence?
+    - What are the document requirements for equivalence service?
+    - What should I prepare for equivalence of education credentials?
+
+- intent: ask_about_Equivalence_Educational_Credentials_time_en
+  examples: |
+    - How long does Equivalence take?
+    - What is the processing time for Equivalence?
+    - Time required for Equivalence Educational Credentials
+
+- intent: ask_about_Equivalence_Educational_Credentials_fee_en
+  examples: |
+    - What is the fee for equivalence of educational credentials?
+    - How much does educational equivalence cost?
+    - Service charge for educational credential equivalence
+    - Tell me the price of educational equivalence
+    - What are the charges for equivalence of educational documents?
+    - Fee required for educational document equivalence
+    - What is the payment amount for educational credential equivalence?
+    - How much to get equivalence of educational certificates?
+    - Can you tell me the cost of educational credential equivalence?
+    - What is the price for educational credential equivalence?

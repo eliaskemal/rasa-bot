@@ -1,0 +1,113 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ministry_Trade_Regional_Integration_service_en
+  examples: |
+    - Ministry of Trade and Regional Integration services
+    - service of Ministry of Trade and Regional Integration in mesob
+    - sercices of Ministry of Trade and Regional Integration
+    - services by Ministry of Trade and Regional Integration
+    - Ministry of Trade and Regional Integration utilities
+    - utility of Ministry of Trade and Regional Integration
+    - give me services of Ministry of Trade and Regional Integration
+    - list services of Ministry of Trade and Regional Integration in mesob
+    - list services by Ministry of Trade and Regional Integration
+    - list out Ministry of Trade and Regional Integration services
+    - list of services by Ministry of Trade and Regional Integration
+    - tell me services by Ministry of Trade and Regional Integration
+    - tell me list of services by Ministry of Trade and Regional Integration
+    - tell me list of services of Ministry of Trade and Regional Integration
+    - tell me the services of Ministry of Trade and Regional Integration
+    - telm me about the services of Ministry of Trade and Regional Integration
+    - can you tell me about Ministry of Trade and Regional Integration services
+    - can you  list the services of Ministry of Trade and Regional Integration
+    - can you list services by Ministry of Trade and Regional Integration
+    - What kind of support does the Ministry of Trade and Regional Integration give?
+    - support from Ministry of Trade and Regional Integration
+    - what services does Ministry of Trade and Regional Integration support?
+    - list support by Ministry of Trade and Regional Integration
+    - tell me support of Ministry of Trade and Regional Integration
+    - tell me about the support of Ministry of Trade and Regional Integration
+    - What services does the Ministry of Trade and Regional Integration provide?
+    - What services are provided by the Ministry of Trade and Regional Integration?
+    - list services provided by  Ministry of Trade and Regional Integration 
+    - Ministry of Trade and Regional Integration provide?
+    - services provided by Ministry of Trade and Regional Integration
+    - list services which Ministry of Trade and Regional Integration provides 
+    - list the services which Ministry of Trade and Regional Integration provides
+    - list of services which Ministry of Trade and Regional Integration provides
+    - can u tell me the services which Ministry of Trade and Regional Integration provides
+    - tell me the services which Ministry of Trade and Regional Integration provides
+    - list of services provided by Ministry of Trade and Regional Integration
+    - list the services provided by Ministry of Trade and Regional Integration
+    - list services provided by Ministry of Trade and Regional Integration
+    - can u list the services provided by Ministry of Trade and Regional Integration
+    - can u tell me the services provided by Ministry of Trade and Regional Integration
+    - can you tell me the services which Ministry of Trade and Regional Integration provides
+    - can you tell me the services provided by Ministry of Trade and Regional Integration
+    - What services does the Ministry of Trade and Regional Integration offer?
+    - What are the services that the Ministry of Trade and Regional Integration offers?
+    - Ministry of Trade and Regional Integration offers? 
+    - What does the Ministry of Trade and Regional Integration offer?
+    - list the services that Ministry of Trade and Regional Integration offers
+    - list the services offered by Ministry of Trade and Regional Integration
+    - list of services offered by Ministry of Trade and Regional Integration
+    - can you list services offered by Ministry of Trade and Regional Integration
+    - What services are offered by the Ministry of Trade and Regional Integration?
+    - tell me services offered by Ministry of Trade and Regional Integration
+    - can you tell me services offered by Ministry of Trade and Regional Integration
+    - What services are available at the Ministry of Trade and Regional Integration?
+    - what are the available services at Ministry of Trade and Regional Integration
+    - available services at Ministry of Trade and Regional Integration
+    - tell me available services of Ministry of Trade and Regional Integration
+    - list of available services at Ministry of Trade and Regional Integration
+    - list available services by Ministry of Trade and Regional Integration
+    - list the available services of Ministry of Trade and Regional Integration
+    - list the services that are  available at Ministry of Trade and Regional Integration
+    - can u list available services at Ministry of Trade and Regional Integration
+    - can you tell me available services at Ministry of Trade and Regional Integration
+    - what servies are given by Ministry of Trade and Regional Integration
+    - What services does the Ministry of Trade and Regional Integration give?
+    - tell me what services Ministry of Trade and Regional Integration gives
+    - tell me what services are given by Ministry of Trade and Regional Integration
+    - can you list the services that Ministry of Trade and Regional Integration gives
+    - can you tell me the services that Ministry of Trade and Regional Integration gives
+    - can you tell me what services Ministry of Trade and Regional Integration gives
+    - can u tell me what sevices can I get from Ministry of Trade and Regional Integration
+    - Ministry of Trade and Regional Integration gives services?
+    - what services can I get from Ministry of Trade and Regional Integration?
+    - What services can I access at the Ministry of Trade and Regional Integration?
+    - What are the main tasks of the Ministry of Trade and Regional Integration
+    - What services can I access at the Ministry of Trade and Regional Integration?
+    - main tasks of Ministry of Trade and Regional Integration
+    - can u tell me the tasks of Ministry of Trade and Regional Integration
+    - tasks of Ministry of Trade and Regional Integration
+    - Tell me Ministry of Trade and Regional Integration services
+    - services by Ministry of Trade and Regional Integration
+    - Ministry of Trade and Regional Integration services list 
+    - list of Ministry of Trade and Regional Integration services
+    - tell me the lists of Ministry of Trade and Regional Integration services
+    - Ministry of Trade and Regional Integration services list 
+    - Role of the Ministry of Trade and Regional Integration?
+    - What roles does the Ministry of Trade and Regional Integration play?
+    - Ministry of Trade and Regional Integration roles
+    - What roles does the Ministry of Trade and Regional Integration have?
+    - What does the Ministry of Trade and Regional Integration do
+    - Can you list the services offered by the Ministry of Trade and Regional Integration?
+    - Which services are available at the Ministry of Trade and Regional Integration?
+    - Tell me about the services of the Ministry of Trade and Regional Integration
+    - What help can I get from the Ministry of Trade and Regional Integration?
+    - Can you explain the services under Ministry of Trade and Regional Integration?
+    - can you list the services of the Ministry of Trade and Regional Integration?
+    - can you tell me about the services of the Ministry of Trade and Regional Integration?
+    - please tell me the services of the Ministry of Trade and Regional Integration?
+    - What services are included in the Ministry of Trade and Regional Integration?
+    - give me the services of the Ministry of Trade and Regional Integration
+    - give me the list of services of the Ministry of Trade and Regional Integration
+    - give me the list of services provided by the Ministry of Trade and Regional Integration
+    - send me the services of the Ministry of Trade and Regional Integration
+    - send me the list of services of the Ministry of Trade and Regional Integration
+    - send me the list of services provided by the Ministry of Trade and Regional Integration
+    - provide me the services of the Ministry of Trade and Regional Integration
+    - provide me the list of services of the Ministry of Trade and Regional Integration
+    - provide me the list of services provided by the Ministry of Trade and Regional Integration

@@ -1,0 +1,1130 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ethiopian_Agricultural_Authority_general_en
+  examples: |
+    - Ethiopian Agricultural Authority 
+    - everything about Ethiopian Agricultural Authority
+    - Ethiopian Agricultural Authority in mesob
+    - Ethiopian Agricultural Authority in general
+    - general information about Ethiopian Agricultural Authority
+    - general overview of Ethiopian Agricultural Authority
+    - can u tell me general information about Ethiopian Agricultural Authority
+    - can u give me general information about Ethiopian Agricultural Authority
+    - give me general information about Ethiopian Agricultural Authority
+    - provide me general information about Ethiopian Agricultural Authority
+    - send me general information about Ethiopian Agricultural Authority
+    - tell me general information about Ethiopian Agricultural Authority
+    - What does the  Ethiopian Agricultural Authority do?
+    - explain what the Ethiopian Agricultural Authority is?
+    - Ethiopian Agricultural Authority do?
+    - Ethiopian Agricultural Authority information
+    - information about Ethiopian Agricultural Authority
+    - information on Ethiopian Agricultural Authority
+    - Need information on Ethiopian Agricultural Authority
+    - What is Ethiopian Agricultural Authority?
+    - Ethiopian Agricultural Authority details
+    - details about Ethiopian Agricultural Authority
+    - overview of Ethiopian Agricultural Authority
+    - Ethiopian Agricultural Authority overview
+    - Ethiopian Agricultural Authority purpose
+    - purpose of Ethiopian Agricultural Authority
+    - Ethiopian Agricultural Authority help
+    - can u give me help with Ethiopian Agricultural Authority
+    - help me with Ethiopian Agricultural Authority
+    - Ethiopian Agricultural Authority assistance
+    - assistance with Ethiopian Agricultural Authority
+    - need help with Ethiopian Agricultural Authority
+    - tell me about Ethiopian Agricultural Authority
+    - What does the Ethiopian Agricultural Authority do, and what do I need?
+    - Ethiopian Agricultural Authority responsibilities
+    - What's the Ethiopian Agricultural Authority's job?
+    - What functions does the Ethiopian Agricultural Authority perform
+    - what are the services and requirements of the Agricultural Authority?
+    - What services does the Ethiopian Agricultural Authority offer and what documents do I need?
+    - Can you tell me about the Agricultural Authority's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ethiopian Agricultural Authority.
+    - What documents are needed for services at the Ethiopian Agricultural Authority and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Agricultural Authority.
+    - How much does it cost and what documents are required for Agricultural Authority services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ethiopian Agricultural Authority?
+    - What do I need to apply for services at the Agricultural Authority, including time and fees?
+    - Tell me about the Ethiopian Agricultural Authority services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ethiopian Agricultural Authority?
+    - Ethiopian Agricultural Authority services and requirements?
+    - Agricultural Authority fees and steps?
+    - How much Ethiopian Agricultural Authority services cost?
+    - cost for Ethiopian Agricultural Authority?
+    - fee for Ethiopian Agricultural Authority?
+    - how long does it take for  Ethiopian Agricultural Authority?
+    - time for Ethiopian Agricultural Authority?
+    - What documents do I need for Ethiopian Agricultural Authority?
+    - What documents are needed for Ethiopian Agricultural Authority?
+    - What do I need for Ethiopian Agricultural Authority services?
+    - What papers do I need for Ethiopian Agricultural Authority?
+    - What documents are required for Ethiopian Agricultural Authority?
+    - What papers are needed for Ethiopian Agricultural Authority?
+    - What documents are required for Ethiopian Agricultural Authority services?
+    - can you send me general information about Ethiopian Agricultural Authority
+
+- intent: ask_about_Ethiopian_Agricultural_Authority_service_en
+  examples: |
+    - Ethiopian Agricultural Authority services
+    - service of Ethiopian Agricultural Authority in mesob
+    - services of Ethiopian Agricultural Authority
+    - services by Ethiopian Agricultural Authority
+    - Ethiopian Agricultural Authority utilities
+    - utility of Ethiopian Agricultural Authority
+    - give me services of Ethiopian Agricultural Authority
+    - list services of Ethiopian Agricultural Authority in mesob
+    - list services by Ethiopian Agricultural Authority
+    - list out Ethiopian Agricultural Authority services
+    - list of services by Ethiopian Agricultural Authority
+    - tell me services by Ethiopian Agricultural Authority
+    - tell me list of services by Ethiopian Agricultural Authority
+    - tell me list of services of Ethiopian Agricultural Authority
+    - tell me the services of Ethiopian Agricultural Authority
+    - telm me about the services of Ethiopian Agricultural Authority
+    - can you tell me about Ethiopian Agricultural Authority services
+    - can you  list the services of Ethiopian Agricultural Authority
+    - can you list services by Ethiopian Agricultural Authority
+    - What kind of support does the Ethiopian Agricultural Authority give?
+    - support from Ethiopian Agricultural Authority
+    - what services does Ethiopian Agricultural Authority support?
+    - list support by Ethiopian Agricultural Authority
+    - tell me support of Ethiopian Agricultural Authority
+    - tell me about the support of Ethiopian Agricultural Authority
+    - What services does the Ethiopian Agricultural Authority provide?
+    - What services are provided by the Ethiopian Agricultural Authority?
+    - list services provided by  Ethiopian Agricultural Authority 
+    - Ethiopian Agricultural Authority provide?
+    - services provided by Ethiopian Agricultural Authority
+    - list services which Ethiopian Agricultural Authority provides 
+    - list the services which Ethiopian Agricultural Authority provides
+    - list of services which Ethiopian Agricultural Authority provides
+    - can u tell me the services which Ethiopian Agricultural Authority provides
+    - tell me the services which Ethiopian Agricultural Authority provides
+    - list of services provided by Ethiopian Agricultural Authority
+    - list the services provided by Ethiopian Agricultural Authority
+    - list services provided by Ethiopian Agricultural Authority
+    - can u list the services provided by Ethiopian Agricultural Authority
+    - can u tell me the services provided by Ethiopian Agricultural Authority
+    - can you tell me the services which Ethiopian Agricultural Authority provides
+    - can you tell me the services provided by Ethiopian Agricultural Authority
+    - What services does the Ethiopian Agricultural Authority offer?
+    - What are the services that the Ethiopian Agricultural Authority offers?
+    - Ethiopian Agricultural Authority offers? 
+    - What does the Ethiopian Agricultural Authority offer?
+    - list the services that Ethiopian Agricultural Authority offers
+    - list the services offered by Ethiopian Agricultural Authority
+    - list of services offered by Ethiopian Agricultural Authority
+    - can you list services offered by Ethiopian Agricultural Authority
+    - What services are offered by the Ethiopian Agricultural Authority?
+    - tell me services offered by Ethiopian Agricultural Authority
+    - can you tell me services offered by Ethiopian Agricultural Authority
+    - What services are available at the Ethiopian Agricultural Authority?
+    - what are the available services at Ethiopian Agricultural Authority
+    - available services at Ethiopian Agricultural Authority
+    - tell me available services of Ethiopian Agricultural Authority
+    - list of available services at Ethiopian Agricultural Authority
+    - list available services by Ethiopian Agricultural Authority
+    - list the available services of Ethiopian Agricultural Authority
+    - list the services that are  available at Ethiopian Agricultural Authority
+    - can u list available services at Ethiopian Agricultural Authority
+    - can you tell me available services at Ethiopian Agricultural Authority
+    - what servies are given by Ethiopian Agricultural Authority
+    - What services does the Ethiopian Agricultural Authority give?
+    - tell me what services Ethiopian Agricultural Authority gives
+    - tell me what services are given by Ethiopian Agricultural Authority
+    - can you list the services that Ethiopian Agricultural Authority gives
+    - can you tell me the services that Ethiopian Agricultural Authority gives
+    - can you tell me what services Ethiopian Agricultural Authority gives
+    - can u tell me what sevices can I get from Ethiopian Agricultural Authority
+    - Ethiopian Agricultural Authority gives services?
+    - what services can I get from Ethiopian Agricultural Authority?
+    - What services can I access at the Ethiopian Agricultural Authority?
+    - What are the main tasks of the Ethiopian Agricultural Authority
+    - What services can I access at the Ethiopian Agricultural Authority?
+    - main tasks of Ethiopian Agricultural Authority
+    - can u tell me the tasks of Ethiopian Agricultural Authority
+    - tasks of Ethiopian Agricultural Authority
+    - Tell me Ethiopian Agricultural Authority services
+    - services by Ethiopian Agricultural Authority
+    - Ethiopian Agricultural Authority services list 
+    - list of Ethiopian Agricultural Authority services
+    - tell me the lists of Ethiopian Agricultural Authority services
+    - Ethiopian Agricultural Authority services list 
+    - Role of the Ethiopian Agricultural Authority?
+    - What roles does the Ethiopian Agricultural Authority play?
+    - Ethiopian Agricultural Authority roles
+    - What roles does the Ethiopian Agricultural Authority have?
+    - What does the Ethiopian Agricultural Authority do
+    - Can you list the services offered by the Agricultural Authority?
+    - Which services are available at the Ethiopian Agricultural Authority?
+    - Tell me about the services of the Agricultural Authority
+    - What help can I get from the Ethiopian Agricultural Authority?
+    - Can you explain the services under Ethiopian Agricultural Authority?
+    - can you list the services of the Ethiopian Agricultural Authority?
+    - can you tell me about the services of the Ethiopian Agricultural Authority?
+    - please tell me the services of the Ethiopian Agricultural Authority?
+    - What services are included in the Ethiopian Agricultural Authority?
+    - give me the services of the Ethiopian Agricultural Authority
+    - give me the list of services of the Ethiopian Agricultural Authority
+    - give me the list of services provided by the Ethiopian Agricultural Authority
+    - send me the services of the Ethiopian Agricultural Authority
+    - send me the list of services of the Ethiopian Agricultural Authority
+    - send me the list of services provided by the Ethiopian Agricultural Authority
+    - provide me the services of the Ethiopian Agricultural Authority
+    - provide me the list of services of the Ethiopian Agricultural Authority
+    - provide me the list of services provided by the Ethiopian Agricultural Authority
+
+- intent: ask_about_New_Certification_Agrochemical_Manufacturers_en
+  examples: |
+    - New Certification of Agrochemical Manufacturers and Importers
+    - New Certification of Agrochemical Manufacturers and Importers in mesob
+    - New Certification of Agrochemical Manufacturers and Importers in general
+    - New Certification of Agrochemical Manufacturers and Importers information
+    - New Certification of Agrochemical Manufacturers and Importers details
+    - New Certification of Agrochemical Manufacturers and Importers overview
+    - New Certification of Agrochemical Manufacturers and Importers purpose
+    - New Certification of Agrochemical Manufacturers and Importers help
+    - can u give me help with New Certification of Agrochemical Manufacturers and Importers
+    - help me with New Certification of Agrochemical Manufacturers and Importers
+    - New Certification of Agrochemical Manufacturers and Importers assistance
+    - assistance with New Certification of Agrochemical Manufacturers and Importers
+    - need help with New Certification of Agrochemical Manufacturers and Importers
+    - Tell me about New Certification of Agrochemical Manufacturers and Importers, time, fee, and documents.
+    - Info on New Certification of Agrochemical Manufacturers and Importers with time, fee, and docs.
+    - New Certification of Agrochemical Manufacturers and Importers details, time, cost, and documents?
+    - Explain New Certification of Agrochemical Manufacturers and Importers with time, cost, and docs.
+    - What is New Certification of Agrochemical Manufacturers and Importers with time, cost, docs?
+    - Give me New Certification of Agrochemical Manufacturers and Importers details with time, fee, docs.
+    - New Certification of Agrochemical Manufacturers and Importers  time, cost, docs?
+    - Details for New Certification of Agrochemical Manufacturers and Importers, time, fee, docs?
+    - Describe New Certification of Agrochemical Manufacturers and Importers with duration, cost, docs.
+    - I need info on New Certification of Agrochemical Manufacturers and Importers with time, fee, docs.
+    - Processing time for New Certification of Agrochemical Manufacturers and Importers?
+    - How long for New Certification of Agrochemical Manufacturers and Importers?
+    - Time needed for New Certification of Agrochemical Manufacturers and Importers?
+    - Duration for New Certification of Agrochemical Manufacturers and Importers?
+    - How many days for New Certification of Agrochemical Manufacturers and Importers?
+    - New Certification of Agrochemical Manufacturers and Importers time?
+    - Waiting time for New Certification of Agrochemical Manufacturers and Importers?
+    - Service time for New Certification of Agrochemical Manufacturers and Importers?
+    - How much time for New Certification of Agrochemical Manufacturers and Importers?
+    - Time frame for New Certification of Agrochemical Manufacturers and Importers?
+    - Fee for New Certification of Agrochemical Manufacturers and Importers?
+    - Service cost for New Certification of Agrochemical Manufacturers and Importers?
+    - How much for New Certification of Agrochemical Manufacturers and Importers?
+    - New Certification of Agrochemical Manufacturers and Importers price?
+    - Cost of New Certification of Agrochemical Manufacturers and Importers?
+    - Service fee for New Certification of Agrochemical Manufacturers and Importers?
+    - Payment for New Certification of Agrochemical Manufacturers and Importers?
+    - New Certification of Agrochemical Manufacturers and Importers charges?
+    - How much is the New Certification of Agrochemical Manufacturers and Importers?
+    - Price for New Certification of Agrochemical Manufacturers and Importers?
+    - Required documents for New Certification of Agrochemical Manufacturers and Importers?
+    - Documents needed for New Certification of Agrochemical Manufacturers and Importers?
+    - Papers for New Certification of Agrochemical Manufacturers and Importers?
+    - What docs for New Certification of Agrochemical Manufacturers and Importers?
+    - Needed documents for New Certification of Agrochemical Manufacturers and Importers?
+    - Which documents for New Certification of Agrochemical Manufacturers and Importers?
+    - New Certification of Agrochemical Manufacturers and Importers document list?
+    - List docs for New Certification of Agrochemical Manufacturers and Importers?
+    - What paperwork for New Certification of Agrochemical Manufacturers and Importers?
+    - Provide documents for New Certification of Agrochemical Manufacturers and Importers?
+    - How can agrochemical manufacturers get a new certification?
+    - What is the process for new certification for agrochemical companies?
+    - Steps to obtain new certification for agrochemical manufacturers
+    - What documents are needed for new agrochemical certification?
+    - Can you explain new certification requirements for agrochemical producers?
+    - How do I apply for new agrochemical manufacturing certification?
+    - New certification guidelines for agrochemical manufacturers
+    - Where to apply for agrochemical manufacturer certification?
+    - What are the eligibility criteria for new agrochemical certification?
+    - How long does it take to get new agrochemical certification?
+    - What documents are required, the service fee, and the processing time for the New Certification of Agrochemical Manufacturers and Importers?
+    - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Agrochemical Manufacturers and Importers?
+    - Please share the required documents, service charge, and duration for the New Certification of Agrochemical Manufacturers and Importers.
+    - I need information about the documents, cost, and time frame for getting the New Certification of Agrochemical Manufacturers and Importers.
+    - What are the documents to submit, the fee, and processing period for the New Certification of Agrochemical Manufacturers and Importers?
+    - Could you provide the list of required documents, the applicable fee, and the processing time for the New Certification of Agrochemical Manufacturers and Importers?
+    - For the New Certification of Agrochemical Manufacturers and Importers, what documents do I need, what is the fee, and how long does it take?
+    - Tell me the documents, payment amount, and time needed for the New Certification of Agrochemical Manufacturers and Importers.
+    - How much is the fee, what documents are required, and how long will the New Certification of Agrochemical Manufacturers and Importers take?
+    - Give me details on the documents needed, the cost, and the processing duration for the New Certification of Agrochemical Manufacturers and Importers.
+    - How can agrochemical manufacturers get a new certification?
+    - what documents are needed for new agrochemical manufacturer certification ?
+    - documents needed for new agrochemical manufacturer certification
+    - documents required for new agrochemical manufacturer certification
+    - tell me what documents do i need for new agrochemical manufacturer certification
+    - what are the documents needed for new agrochemical manufacturer certification?
+    - what are the requirements for new agrochemical manufacturer certification?
+    - requirements for new agrochemical manufacturer certification
+    - tell me the requirements for new agrochemical manufacturer certification
+    - can u tell me the requirements for new agrochemical manufacturer certification
+    - send me the requirements for new agrochemical manufacturer certification
+    - provide me the requirements for new agrochemical manufacturer certification
+    - how long does it take to get new agrochemical manufacturer certification?
+    - what is the service time for new agrochemical manufacturer certification?
+    - service time for new agrochemical manufacturer certification
+    - what is the processing time for new agrochemical manufacturer certification?
+    - processing time for new agrochemical manufacturer certification?
+    - tell me how much it will take to get new agrochemical manufacturer certification
+    - how much does it cost to get new agrochemical manufacturer certification?
+    - cost for new agrochemical manufacturer certification
+    - what is the fee for new agrochemical manufacturer certification?
+    - fee for new agrochemical manufacturer certification
+    - how much is the fee for new agrochemical manufacturer certification?
+    - how much do i need for new agrochemical manufacturer certification?
+    - Tell me about New Certification of Agrochemical Manufacturers  time, fee, and documents.
+    - info on new agrochemical manufacturer certification time , fee, and documents
+    - what is the process for new agrochemical manufacturer certification?
+    - process for new agrochemical manufacturer certification?
+    - How can agrochemical importers get a new certification?
+    - what documents are needed for new agrochemical importer certification ?
+    - documents needed for new agrochemical importer certification
+    - documents required for new agrochemical importer certification
+    - tell me what documents do i need for new agrochemical importer certification
+    - what are the documents needed for new agrochemical importer certification?
+    - what are the requirements for new agrochemical importer certification?
+    - requirements for new agrochemical importer certification
+    - tell me the requirements for new agrochemical importer certification
+    - can u tell me the requirements for new agrochemical importer certification
+    - send me the requirements for new agrochemical importer certification
+    - provide me the requirements for new agrochemical importer certification
+    - how long does it take to get new agrochemical importer certification?
+    - what is the service time for new agrochemical importer certification?
+    - service time for new agrochemical importer certification
+    - what is the processing time for new agrochemical importer certification?
+    - processing time for new agrochemical importer certification?
+    - tell me how much it will take to get new agrochemical importer certification
+    - how much does it cost to get new agrochemical importer certification?
+    - cost for new agrochemical importer certification
+    - what is the fee for new agrochemical importer certification?
+    - fee for new agrochemical importer certification
+    - how much is the fee for new agrochemical importer certification?
+    - how much do i need for new agrochemical importer certification?
+    - Tell me about New Certification of Agrochemical Importers  time, fee, and documents.
+    - info on new agrochemical importer certification time , fee, and documents
+    - what is the process for new agrochemical importer certification?
+    - process for new agrochemical importer certification?
+
+
+- intent: ask_about_Renewal_Certification_Agrochemical_Manufacturers_en
+  examples: |
+    - Renewal Certification of Agrochemical Manufacturers and Importers
+    - Renewal Certification of Agrochemical Manufacturers and Importers in mesob
+    - Renewal Certification of Agrochemical Manufacturers and Importers in general
+    - Renewal Certification of Agrochemical Manufacturers and Importers information
+    - Renewal Certification of Agrochemical Manufacturers and Importers details
+    - Renewal Certification of Agrochemical Manufacturers and Importers overview
+    - Renewal Certification of Agrochemical Manufacturers and Importers purpose
+    - Renewal Certification of Agrochemical Manufacturers and Importers help
+    - can u give me help with Renewal Certification of Agrochemical Manufacturers and Importers
+    - help me with Renewal Certification of Agrochemical Manufacturers and Importers
+    - Renewal Certification of Agrochemical Manufacturers and Importers assistance
+    - assistance with Renewal Certification of Agrochemical Manufacturers and Importers
+    - need help with Renewal Certification of Agrochemical Manufacturers and Importers
+    - Tell me about Renewal Certification of Agrochemical Manufacturers and Importers, time, fee, and documents.
+    - Info on Renewal Certification of Agrochemical Manufacturers and Importers with time, fee, and docs.
+    - Renewal Certification of Agrochemical Manufacturers and Importers details, time, cost, and documents?
+    - Explain Renewal Certification of Agrochemical Manufacturers and Importers with time, cost, and docs.
+    - What is Renewal Certification of Agrochemical Manufacturers and Importers with time, cost, docs?
+    - Give me Renewal Certification of Agrochemical Manufacturers and Importers details with time, fee, docs.
+    - Renewal Certification of Agrochemical Manufacturers and Importers time, cost, docs?
+    - Details for Renewal Certification of Agrochemical Manufacturers and Importers, time, fee, docs?
+    - Describe Renewal Certification of Agrochemical Manufacturers and Importers with duration, cost, docs.
+    - I need info on Renewal Certification of Agrochemical Manufacturers and Importers with time, fee, docs.
+    - Processing time for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - How long for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Time needed for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Duration for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - How many days for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Renewal Certification of Agrochemical Manufacturers and Importers time?
+    - Waiting time for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Service time for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - How much time for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Time frame for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Fee for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Service cost for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - How much for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Renewal Certification of Agrochemical Manufacturers and Importers price?
+    - Cost of Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Service fee for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Payment for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Renewal Certification of Agrochemical Manufacturers and Importers charges?
+    - How much is the Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Price for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Required documents for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Documents needed for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Papers for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - What docs for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Needed documents for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Which documents for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Renewal Certification of Agrochemical Manufacturers and Importers document list?
+    - List docs for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - What paperwork for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Provide documents for Renewal Certification of Agrochemical Manufacturers and Importers?
+    - How can agrochemical manufacturers get a renewal certification?
+    - What is the process for renewal certification for agrochemical companies?
+    - Steps to obtain renewal certification for agrochemical manufacturers
+    - What documents are needed for renewal agrochemical certification?
+    - Can you explain renewal certification requirements for agrochemical producers?
+    - How do I apply for renewal agrochemical manufacturing certification?
+    - Renewal certification guidelines for agrochemical manufacturers
+    - Where to apply for agrochemical manufacturer certification?
+    - What are the eligibility criteria for renewal agrochemical certification?
+    - How long does it take to get renewal agrochemical certification?
+    - What documents are required, the service fee, and the processing time for the Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Can you tell me the documents needed, fee, and how long it takes for the Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Please share the required documents, service charge, and duration for the Renewal Certification of Agrochemical Manufacturers and Importers.
+    - I need information about the documents, cost, and time frame for getting the Renewal Certification of Agrochemical Manufacturers and Importers.
+    - What are the documents to submit, the fee, and processing period for the Renewal Certification of Agrochemical Manufacturers and Importers?
+    - Could you provide the list of required documents, the applicable fee, and the processing time for the Renewal Certification of Agrochemical Manufacturers and Importers?
+    - For the Renewal Certification of Agrochemical Manufacturers and Importers, what documents do I need, what is the fee, and how long does it take?
+    - Tell me the documents, payment amount, and time needed for the Renewal Certification of Agrochemical Manufacturers and Importers.
+    - How much is the fee, what documents are required, and how long will the Renewal Certification of Agrochemical Manufacturers and Importers take?
+    - Give me details on the documents needed, the cost, and the processing duration for the Renewal Certification of Agrochemical Manufacturers and Importers.
+    - How can agrochemical manufacturers get a renewal certification?
+    - what documents are needed for renewal agrochemical manufacturer certification ?
+    - documents needed for renewal agrochemical manufacturer certification
+    - documents required for renewal agrochemical manufacturer certification
+    - tell me what documents do i need for renewal agrochemical manufacturer certification
+    - what are the documents needed for renewal agrochemical manufacturer certification?
+    - what are the requirements for renewal agrochemical manufacturer certification?
+    - requirements for renewal agrochemical manufacturer certification
+    - tell me the requirements for renewal agrochemical manufacturer certification
+    - can u tell me the requirements for renewal agrochemical manufacturer certification
+    - send me the requirements for renewal agrochemical manufacturer certification
+    - provide me the requirements for renewal agrochemical manufacturer certification
+    - how long does it take to get renewal agrochemical manufacturer certification?
+    - what is the service time for renewal agrochemical manufacturer certification?
+    - service time for renewal agrochemical manufacturer certification
+    - what is the processing time for renewal agrochemical manufacturer certification?
+    - processing time for renewal agrochemical manufacturer certification?
+    - tell me how much it will take to get renewal agrochemical manufacturer certification
+    - how much does it cost to get renewal agrochemical manufacturer certification?
+    - cost for renewal agrochemical manufacturer certification
+    - what is the fee for renewal agrochemical manufacturer certification?
+    - fee for renewal agrochemical manufacturer certification
+    - how much is the fee for renewal agrochemical manufacturer certification?
+    - how much do i need for renewal agrochemical manufacturer certification?
+    - Tell me about Renewal Certification of Agrochemical Manufacturers time, fee, and documents.
+    - info on renewal agrochemical manufacturer certification time , fee, and documents
+    - what is the process for renewal agrochemical manufacturer certification?
+    - process for renewal agrochemical manufacturer certification?
+    - How can agrochemical importers get a renewal certification?
+    - what documents are needed for renewal agrochemical importer certification ?
+    - documents needed for renewal agrochemical importer certification
+    - documents required for renewal agrochemical importer certification
+    - tell me what documents do i need for renewal agrochemical importer certification
+    - what are the documents needed for renewal agrochemical importer certification?
+    - what are the requirements for renewal agrochemical importer certification?
+    - requirements for renewal agrochemical importer certification
+    - tell me the requirements for renewal agrochemical importer certification
+    - can u tell me the requirements for renewal agrochemical importer certification
+    - send me the requirements for renewal agrochemical importer certification
+    - provide me the requirements for renewal agrochemical importer certification
+    - how long does it take to get renewal agrochemical importer certification?
+    - what is the service time for renewal agrochemical importer certification?
+    - service time for renewal agrochemical importer certification
+    - what is the processing time for renewal agrochemical importer certification?
+    - processing time for renewal agrochemical importer certification?
+    - tell me how much it will take to get renewal agrochemical importer certification
+    - how much does it cost to get renewal agrochemical importer certification?
+    - cost for renewal agrochemical importer certification
+    - what is the fee for renewal agrochemical importer certification?
+    - fee for renewal agrochemical importer certification
+    - how much is the fee for renewal agrochemical importer certification?
+    - how much do i need for renewal agrochemical importer certification?
+    - Tell me about Renewal Certification of Agrochemical Importers time, fee, and documents.
+    - info on renewal agrochemical importer certification time , fee, and documents
+    - what is the process for renewal agrochemical importer certification?
+    - process for renewal agrochemical importer certification?
+
+- intent: ask_about_New_Certification_fertilizer_Manufacturers_en
+  examples: |
+    - New Certification of Fertilizer Manufacturers and Importers
+    - New Certification of Fertilizer Manufacturers and Importers in mesob
+    - New Certification of Fertilizer Manufacturers and Importers in general
+    - New Certification of Fertilizer Manufacturers and Importers information
+    - New Certification of Fertilizer Manufacturers and Importers details
+    - New Certification of Fertilizer Manufacturers and Importers overview
+    - New Certification of Fertilizer Manufacturers and Importers purpose
+    - New Certification of Fertilizer Manufacturers and Importers help
+    - can u give me help with New Certification of Fertilizer Manufacturers and Importers
+    - help me with New Certification of Fertilizer Manufacturers and Importers
+    - New Certification of Fertilizer Manufacturers and Importers assistance
+    - assistance with New Certification of Fertilizer Manufacturers and Importers
+    - need help with New Certification of Fertilizer Manufacturers and Importers
+    - Tell me about New Certification of Fertilizer Manufacturers and Importers, time, fee, and documents.
+    - Info on New Certification of Fertilizer Manufacturers and Importers with time, fee, and docs.
+    - New Certification of Fertilizer Manufacturers and Importers details, time, cost, and documents?
+    - Explain New Certification of Fertilizer Manufacturers and Importers with time, cost, and docs.
+    - What is New Certification of Fertilizer Manufacturers and Importers with time, cost, docs?
+    - Give me New Certification of Fertilizer Manufacturers and Importers details with time, fee, docs.
+    - New Certification of Fertilizer Manufacturers and Importers time, cost, docs?
+    - Details for New Certification of Fertilizer Manufacturers and Importers, time, fee, docs?
+    - Describe New Certification of Fertilizer Manufacturers and Importers with duration, cost, docs.
+    - I need info on New Certification of Fertilizer Manufacturers and Importers with time, fee, docs.
+    - Processing time for New Certification of Fertilizer Manufacturers and Importers?
+    - How long for New Certification of Fertilizer Manufacturers and Importers?
+    - Time needed for New Certification of Fertilizer Manufacturers and Importers?
+    - Duration for New Certification of Fertilizer Manufacturers and Importers?
+    - How many days for New Certification of Fertilizer Manufacturers and Importers?
+    - New Certification of Fertilizer Manufacturers and Importers time?
+    - Waiting time for New Certification of Fertilizer Manufacturers and Importers?
+    - Service time for New Certification of Fertilizer Manufacturers and Importers?
+    - How much time for New Certification of Fertilizer Manufacturers and Importers?
+    - Time frame for New Certification of Fertilizer Manufacturers and Importers?
+    - Fee for New Certification of Fertilizer Manufacturers and Importers?
+    - Service cost for New Certification of Fertilizer Manufacturers and Importers?
+    - How much for New Certification of Fertilizer Manufacturers and Importers?
+    - New Certification of Fertilizer Manufacturers and Importers price?
+    - Cost of New Certification of Fertilizer Manufacturers and Importers?
+    - Service fee for New Certification of Fertilizer Manufacturers and Importers?
+    - Payment for New Certification of Fertilizer Manufacturers and Importers?
+    - New Certification of Fertilizer Manufacturers and Importers charges?
+    - How much is the New Certification of Fertilizer Manufacturers and Importers?
+    - Price for New Certification of Fertilizer Manufacturers and Importers?
+    - Required documents for New Certification of Fertilizer Manufacturers and Importers?
+    - Documents needed for New Certification of Fertilizer Manufacturers and Importers?
+    - Papers for New Certification of Fertilizer Manufacturers and Importers?
+    - What docs for New Certification of Fertilizer Manufacturers and Importers?
+    - Needed documents for New Certification of Fertilizer Manufacturers and Importers?
+    - Which documents for New Certification of Fertilizer Manufacturers and Importers?
+    - New Certification of Fertilizer Manufacturers and Importers document list?
+    - List docs for New Certification of Fertilizer Manufacturers and Importers?
+    - What paperwork for New Certification of Fertilizer Manufacturers and Importers?
+    - Provide documents for New Certification of Fertilizer Manufacturers and Importers?
+    - How can fertilizer manufacturers get a new certification?
+    - What is the process for new certification for fertilizer companies?
+    - Steps to obtain new certification for fertilizer manufacturers
+    - What documents are needed for new fertilizer certification?
+    - Can you explain new certification requirements for fertilizer producers?
+    - How do I apply for new fertilizer manufacturing certification?
+    - New certification guidelines for fertilizer manufacturers
+    - Where to apply for fertilizer manufacturer certification?
+    - What are the eligibility criteria for new fertilizer certification?
+    - How long does it take to get new fertilizer certification?
+    - What documents are required, the service fee, and the processing time for the New Certification of Fertilizer Manufacturers and Importers?
+    - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Fertilizer Manufacturers and Importers?
+    - Please share the required documents, service charge, and duration for the New Certification of Fertilizer Manufacturers and Importers.
+    - I need information about the documents, cost, and time frame for getting the New Certification of Fertilizer Manufacturers and Importers.
+    - What are the documents to submit, the fee, and processing period for the New Certification of Fertilizer Manufacturers and Importers?
+    - Could you provide the list of required documents, the applicable fee, and the processing time for the New Certification of Fertilizer Manufacturers and Importers?
+    - For the New Certification of Fertilizer Manufacturers and Importers, what documents do I need, what is the fee, and how long does it take?
+    - Tell me the documents, payment amount, and time needed for the New Certification of Fertilizer Manufacturers and Importers.
+    - How much is the fee, what documents are required, and how long will the New Certification of Fertilizer Manufacturers and Importers take?
+    - Give me details on the documents needed, the cost, and the processing duration for the New Certification of Fertilizer Manufacturers and Importers.
+    - what documents are needed for new fertilizer manufacturer certification ?
+    - documents needed for new fertilizer manufacturer certification
+    - documents required for new fertilizer manufacturer certification
+    - tell me what documents do i need for new fertilizer manufacturer certification
+    - what are the documents needed for new fertilizer manufacturer certification?
+    - what are the requirements for new fertilizer manufacturer certification?
+    - requirements for new fertilizer manufacturer certification
+    - tell me the requirements for new fertilizer manufacturer certification
+    - can u tell me the requirements for new fertilizer manufacturer certification
+    - send me the requirements for new fertilizer manufacturer certification
+    - provide me the requirements for new fertilizer manufacturer certification
+    - how long does it take to get new fertilizer manufacturer certification?
+    - what is the service time for new fertilizer manufacturer certification?
+    - service time for new fertilizer manufacturer certification
+    - what is the processing time for new fertilizer manufacturer certification?
+    - processing time for new fertilizer manufacturer certification?
+    - tell me how much it will take to get new fertilizer manufacturer certification
+    - how much does it cost to get new fertilizer manufacturer certification?
+    - cost for new fertilizer manufacturer certification
+    - what is the fee for new fertilizer manufacturer certification?
+    - fee for new fertilizer manufacturer certification
+    - how much is the fee for new fertilizer manufacturer certification?
+    - how much do i need for new fertilizer manufacturer certification?
+    - Tell me about New Certification of Fertilizer Manufacturers time, fee, and documents.
+    - info on new fertilizer manufacturer certification time , fee, and documents
+    - what is the process for new fertilizer manufacturer certification?
+    - process for new fertilizer manufacturer certification?
+    - How can fertilizer importers get a new certification?
+    - what documents are needed for new fertilizer importer certification ?
+    - documents needed for new fertilizer importer certification
+    - documents required for new fertilizer importer certification
+    - tell me what documents do i need for new fertilizer importer certification
+    - what are the documents needed for new fertilizer importer certification?
+    - what are the requirements for new fertilizer importer certification?
+    - requirements for new fertilizer importer certification
+    - tell me the requirements for new fertilizer importer certification
+    - can u tell me the requirements for new fertilizer importer certification
+    - send me the requirements for new fertilizer importer certification
+    - provide me the requirements for new fertilizer importer certification
+    - how long does it take to get new fertilizer importer certification?
+    - what is the service time for new fertilizer importer certification?
+    - service time for new fertilizer importer certification
+    - what is the processing time for new fertilizer importer certification?
+    - processing time for new fertilizer importer certification?
+    - tell me how much it will take to get new fertilizer importer certification
+    - how much does it cost to get new fertilizer importer certification?
+    - cost for new fertilizer importer certification
+    - what is the fee for new fertilizer importer certification?
+    - fee for new fertilizer importer certification
+    - how much is the fee for new fertilizer importer certification?
+    - how much do i need for new fertilizer importer certification?
+    - Tell me about New Certification of Fertilizer Importers time, fee, and documents.
+    - info on new fertilizer importer certification time , fee, and documents
+    - what is the process for new fertilizer importer certification?
+    - process for new fertilizer importer certification?
+
+- intent: ask_about_Renewal_Certification_fertilizer_manufacturers_en
+  examples: |
+    - Renewal Certification of Fertilizer Manufacturers and Importers
+    - Renewal Certification of Fertilizer Manufacturers and Importers in mesob
+    - Renewal Certification of Fertilizer Manufacturers and Importers in general
+    - Renewal Certification of Fertilizer Manufacturers and Importers information
+    - Renewal Certification of Fertilizer Manufacturers and Importers details
+    - Renewal Certification of Fertilizer Manufacturers and Importers overview
+    - Renewal Certification of Fertilizer Manufacturers and Importers purpose
+    - Renewal Certification of Fertilizer Manufacturers and Importers help
+    - can u give me help with Renewal Certification of Fertilizer Manufacturers and Importers
+    - help me with Renewal Certification of Fertilizer Manufacturers and Importers
+    - Renewal Certification of Fertilizer Manufacturers and Importers assistance
+    - assistance with Renewal Certification of Fertilizer Manufacturers and Importers
+    - need help with Renewal Certification of Fertilizer Manufacturers and Importers
+    - Tell me about Renewal Certification of Fertilizer Manufacturers and Importers, time, fee, and documents.
+    - Info on Renewal Certification of Fertilizer Manufacturers and Importers with time, fee, and docs.
+    - Renewal Certification of Fertilizer Manufacturers and Importers details, time, cost, and documents?
+    - Explain Renewal Certification of Fertilizer Manufacturers and Importers with time, cost, and docs.
+    - What is Renewal Certification of Fertilizer Manufacturers and Importers with time, cost, docs?
+    - Give me Renewal Certification of Fertilizer Manufacturers and Importers details with time, fee, docs.
+    - Renewal Certification of Fertilizer Manufacturers and Importers time, cost, docs?
+    - Details for Renewal Certification of Fertilizer Manufacturers and Importers, time, fee, docs?
+    - Describe Renewal Certification of Fertilizer Manufacturers and Importers with duration, cost, docs.
+    - I need info on Renewal Certification of Fertilizer Manufacturers and Importers with time, fee, docs.
+    - Processing time for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - How long for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Time needed for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Duration for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - How many days for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Renewal Certification of Fertilizer Manufacturers and Importers time?
+    - Waiting time for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Service time for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - How much time for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Time frame for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Fee for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Service cost for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - How much for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Renewal Certification of Fertilizer Manufacturers and Importers price?
+    - Cost of Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Service fee for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Payment for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Renewal Certification of Fertilizer Manufacturers and Importers charges?
+    - How much is the Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Price for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Required documents for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Documents needed for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Papers for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - What docs for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Needed documents for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Which documents for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Renewal Certification of Fertilizer Manufacturers and Importers document list?
+    - List docs for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - What paperwork for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Provide documents for Renewal Certification of Fertilizer Manufacturers and Importers?
+    - How can fertilizer manufacturers get a renewal certification?
+    - What is the process for renewal certification for fertilizer companies?
+    - Steps to obtain renewal certification for fertilizer manufacturers
+    - What documents are needed for renewal fertilizer certification?
+    - Can you explain renewal certification requirements for fertilizer producers?
+    - How do I apply for renewal fertilizer manufacturing certification?
+    - Renewal certification guidelines for fertilizer manufacturers
+    - Where to apply for fertilizer manufacturer certification?
+    - What are the eligibility criteria for renewal fertilizer certification?
+    - How long does it take to get renewal fertilizer certification?
+    - What documents are required, the service fee, and the processing time for the Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Can you tell me the documents needed, fee, and how long it takes for the Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Please share the required documents, service charge, and duration for the Renewal Certification of Fertilizer Manufacturers and Importers.
+    - I need information about the documents, cost, and time frame for getting the Renewal Certification of Fertilizer Manufacturers and Importers.
+    - What are the documents to submit, the fee, and processing period for the Renewal Certification of Fertilizer Manufacturers and Importers?
+    - Could you provide the list of required documents, the applicable fee, and the processing time for the Renewal Certification of Fertilizer Manufacturers and Importers?
+    - For the Renewal Certification of Fertilizer Manufacturers and Importers, what documents do I need, what is the fee, and how long does it take?
+    - Tell me the documents, payment amount, and time needed for the Renewal Certification of Fertilizer Manufacturers and Importers.
+    - How much is the fee, what documents are required, and how long will the Renewal Certification of Fertilizer Manufacturers and Importers take?
+    - Give me details on the documents needed, the cost, and the processing duration for the Renewal Certification of Fertilizer Manufacturers and Importers.
+    - How can fertilizer manufacturers get a renewal certification?
+    - what documents are needed for renewal fertilizer manufacturer certification?
+    - documents needed for renewal fertilizer manufacturer certification
+    - documents required for renewal fertilizer manufacturer certification
+    - tell me what documents do i need for renewal fertilizer manufacturer certification
+    - what are the documents needed for renewal fertilizer manufacturer certification?
+    - what are the requirements for renewal fertilizer manufacturer certification?
+    - requirements for renewal fertilizer manufacturer certification
+    - tell me the requirements for renewal fertilizer manufacturer certification
+    - can u tell me the requirements for renewal fertilizer manufacturer certification
+    - send me the requirements for renewal fertilizer manufacturer certification
+    - provide me the requirements for renewal fertilizer manufacturer certification
+    - how long does it take to get renewal fertilizer manufacturer certification?
+    - what is the service time for renewal fertilizer manufacturer certification?
+    - service time for renewal fertilizer manufacturer certification
+    - what is the processing time for renewal fertilizer manufacturer certification?
+    - processing time for renewal fertilizer manufacturer certification?
+    - tell me how much it will take to get renewal fertilizer manufacturer certification
+    - how much does it cost to get renewal fertilizer manufacturer certification?
+    - cost for renewal fertilizer manufacturer certification
+    - what is the fee for renewal fertilizer manufacturer certification?
+    - fee for renewal fertilizer manufacturer certification
+    - how much is the fee for renewal fertilizer manufacturer certification?
+    - how much do i need for renewal fertilizer manufacturer certification?
+    - Tell me about Renewal Certification of Fertilizer Manufacturers time, fee, and documents.
+    - info on renewal fertilizer manufacturer certification time, fee, and documents
+    - what is the process for renewal fertilizer manufacturer certification?
+    - process for renewal fertilizer manufacturer certification?
+    - How can fertilizer importers get a renewal certification?
+    - what documents are needed for renewal fertilizer importer certification?
+    - documents needed for renewal fertilizer importer certification
+    - documents required for renewal fertilizer importer certification
+    - tell me what documents do i need for renewal fertilizer importer certification
+    - what are the documents needed for renewal fertilizer importer certification?
+    - what are the requirements for renewal fertilizer importer certification?
+    - requirements for renewal fertilizer importer certification
+    - tell me the requirements for renewal fertilizer importer certification
+    - can u tell me the requirements for renewal fertilizer importer certification
+    - send me the requirements for renewal fertilizer importer certification
+    - provide me the requirements for renewal fertilizer importer certification
+    - how long does it take to get renewal fertilizer importer certification?
+    - what is the service time for renewal fertilizer importer certification?
+    - service time for renewal fertilizer importer certification
+    - what is the processing time for renewal fertilizer importer certification?
+    - processing time for renewal fertilizer importer certification?
+    - tell me how much it will take to get renewal fertilizer importer certification
+    - how much does it cost to get renewal fertilizer importer certification?
+    - cost for renewal fertilizer importer certification
+    - what is the fee for renewal fertilizer importer certification?
+    - fee for renewal fertilizer importer certification
+    - how much is the fee for renewal fertilizer importer certification?
+    - how much do i need for renewal fertilizer importer certification?
+    - Tell me about Renewal Certification of Fertilizer Importers time, fee, and documents.
+    - info on renewal fertilizer importer certification time, fee, and documents
+    - what is the process for renewal fertilizer importer certification?
+    - process for renewal fertilizer importer certification?
+
+
+- intent: ask_about_New_Certification_plant_products_en
+  examples: |
+      - New Certification of Plant and Plant Products Importers and Exporters
+      - New Certification of Plant and Plant Products Importers and Exporters in mesob
+      - New Certification of Plant and Plant Products Importers and Exporters in general
+      - New Certification of Plant and Plant Products Importers and Exporters information
+      - New Certification of Plant and Plant Products Importers and Exporters details
+      - New Certification of Plant and Plant Products Importers and Exporters overview
+      - New Certification of Plant and Plant Products Importers and Exporters purpose
+      - New Certification of Plant and Plant Products Importers and Exporters help
+      - can u give me help with New Certification of Plant and Plant Products Importers and Exporters
+      - help me with New Certification of Plant and Plant Products Importers and Exporters
+      - New Certification of Plant and Plant Products Importers and Exporters assistance
+      - assistance with New Certification of Plant and Plant Products Importers and Exporters
+      - need help with New Certification of Plant and Plant Products Importers and Exporters
+      - Tell me about New Certification of Plant and Plant Products Importers and Exporters, time, fee, and documents.
+      - Info on New Certification of Plant and Plant Products Importers and Exporters with time, fee, and docs.
+      - New Certification of Plant and Plant Products Importers and Exporters details, time, cost, and documents?
+      - Explain New Certification of Plant and Plant Products Importers and Exporters with time, cost, and docs.
+      - What is New Certification of Plant and Plant Products Importers and Exporters with time, cost, docs?
+      - Give me New Certification of Plant and Plant Products Importers and Exporters details with time, fee, docs.
+      - New Certification of Plant and Plant Products Importers and Exporters  time, cost, docs?
+      - Details for New Certification of Plant and Plant Products Importers and Exporters, time, fee, docs?
+      - Describe New Certification of Plant and Plant Products Importers and Exporters with duration, cost, docs.
+      - I need info on New Certification of Plant and Plant Products Importers and Exporters with time, fee, docs.
+      - Processing time for New Certification of Plant and Plant Products Importers and Exporters?
+      - How long for New Certification of Plant and Plant Products Importers and Exporters?
+      - Time needed for New Certification of Plant and Plant Products Importers and Exporters?
+      - Duration for New Certification of Plant and Plant Products Importers and Exporters?
+      - How many days for New Certification of Plant and Plant Products Importers and Exporters?
+      - New Certification of Plant and Plant Products Importers and Exporters time?
+      - Waiting time for New Certification of Plant and Plant Products Importers and Exporters?
+      - Service time for New Certification of Plant and Plant Products Importers and Exporters?
+      - How much time for New Certification of Plant and Plant Products Importers and Exporters?
+      - Time frame for New Certification of Plant and Plant Products Importers and Exporters?
+      - Fee for New Certification of Plant and Plant Products Importers and Exporters?
+      - Service cost for New Certification of Plant and Plant Products Importers and Exporters?
+      - How much for New Certification of Plant and Plant Products Importers and Exporters?
+      - New Certification of Plant and Plant Products Importers and Exporters price?
+      - Cost of New Certification of Plant and Plant Products Importers and Exporters?
+      - Service fee for New Certification of Plant and Plant Products Importers and Exporters?
+      - Payment for New Certification of Plant and Plant Products Importers and Exporters?
+      - New Certification of Plant and Plant Products Importers and Exporters charges?
+      - How much is the New Certification of Plant and Plant Products Importers and Exporters?
+      - Price for New Certification of Plant and Plant Products Importers and Exporters?
+      - Required documents for New Certification of Plant and Plant Products Importers and Exporters?
+      - Documents needed for New Certification of Plant and Plant Products Importers and Exporters?
+      - Papers for New Certification of Plant and Plant Products Importers and Exporters?
+      - What docs for New Certification of Plant and Plant Products Importers and Exporters?
+      - Needed documents for New Certification of Plant and Plant Products Importers and Exporters?
+      - Which documents for New Certification of Plant and Plant Products Importers and Exporters?
+      - New Certification of Plant and Plant Products Importers and Exporters document list?
+      - List docs for New Certification of Plant and Plant Products Importers and Exporters?
+      - What paperwork for New Certification of Plant and Plant Products Importers and Exporters?
+      - Provide documents for New Certification of Plant and Plant Products Importers and Exporters?
+      - How can plant and plant products importers get a new certification?
+      - What is the process for new certification for plant and plant products companies?
+      - Steps to obtain new certification for plant and plant products importers
+      - What documents are needed for new plant and plant products certification?
+      - Can you explain new certification requirements for plant and plant products producers?
+      - How do I apply for new plant and plant products importing certification?
+      - New certification guidelines for plant and plant products importers
+      - Where to apply for plant and plant products importer certification?
+      - What are the eligibility criteria for new plant and plant products certification?
+      - How long does it take to get new plant and plant products certification?
+      - What documents are required, the service fee, and the processing time for the New Certification of Plant and Plant Products Importers and Exporters?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Plant and Plant Products Importers and Exporters?
+      - Please share the required documents, service charge, and duration for the New Certification of Plant and Plant Products Importers and Exporters.
+      - I need information about the documents, cost, and time frame for getting the New Certification of Plant and Plant Products Importers and Exporters.
+      - What are the documents to submit, the fee, and processing period for the New Certification of Plant and Plant Products Importers and Exporters?
+      - Could you provide the list of required documents, the applicable fee, and the processing time for the New Certification of Plant and Plant Products Importers and Exporters?
+      - For the New Certification of Plant and Plant Products Importers and Exporters, what documents do I need, what is the fee, and how long does it take?
+      - Tell me the documents, payment amount, and time needed for the New Certification of Plant and Plant Products Importers and Exporters.
+      - How much is the fee, what documents are required, and how long will the New Certification of Plant and Plant Products Importers and Exporters take?
+      - Give me details on the documents needed, the cost, and the processing duration for the New Certification of Plant and Plant Products Importers and Exporters.
+      - How can plant and plant products importers get a new certification?
+      - what documents are needed for new plant and plant products importer certification ?
+      - documents needed for new plant and plant products importer certification
+      - documents required for new plant and plant products importer certification
+      - tell me what documents do i need for new plant and plant products importer certification
+      - what are the documents needed for new plant and plant products importer certification?
+      - what are the requirements for new plant and plant products importer certification?
+      - requirements for new plant and plant products importer certification
+      - tell me the requirements for new plant and plant products importer certification
+      - can u tell me the requirements for new plant and plant products importer certification
+      - send me the requirements for new plant and plant products importer certification
+      - provide me the requirements for new plant and plant products importer certification
+      - how long does it take to get new plant and plant products importer certification?
+      - what is the service time for new plant and plant products importer certification?
+      - service time for new plant and plant products importer certification
+      - what is the processing time for new plant and plant products importer certification?
+      - processing time for new plant and plant products importer certification?
+      - tell me how much it will take to get new plant and plant products importer certification
+      - how much does it cost to get new plant and plant products importer certification?
+      - cost for new plant and plant products importer certification
+      - what is the fee for new plant and plant products importer certification?
+      - fee for new plant and plant products importer certification
+      - how much is the fee for new plant and plant products importer certification?
+      - how much do i need for new plant and plant products importer certification?
+      - Tell me about New Certification of Plant and Plant Products Importers  time, fee, and documents.
+      - info on new plant and plant products importer certification time , fee, and documents
+      - what is the process for new plant and plant products importer certification?
+      - process for new plant and plant products importer certification?
+      - How can plant and plant products exporters get a new certification?
+      - what documents are needed for new plant and plant products exporter certification ?
+      - documents needed for new plant and plant products exporter certification
+      - documents required for new plant and plant products exporter certification
+      - tell me what documents do i need for new plant and plant products exporter certification
+      - what are the documents needed for new plant and plant products exporter certification?
+      - what are the requirements for new plant and plant products exporter certification?
+      - requirements for new plant and plant products exporter certification
+      - tell me the requirements for new plant and plant products exporter certification
+      - can u tell me the requirements for new plant and plant products exporter certification
+      - send me the requirements for new plant and plant products exporter certification
+      - provide me the requirements for new plant and plant products exporter certification
+      - how long does it take to get new plant and plant products exporter certification?
+      - what is the service time for new plant and plant products exporter certification?
+      - service time for new plant and plant products exporter certification
+      - what is the processing time for new plant and plant products exporter certification?
+      - processing time for new plant and plant products exporter certification?
+      - tell me how much it will take to get new plant and plant products exporter certification
+      - how much does it cost to get new plant and plant products exporter certification?
+      - cost for new plant and plant products exporter certification
+      - what is the fee for new plant and plant products exporter certification?
+      - fee for new plant and plant products exporter certification
+      - how much is the fee for new plant and plant products exporter certification?
+      - how much do i need for new plant and plant products exporter certification?
+      - Tell me about New Certification of Plant and Plant Products Exporters  time, fee, and documents.
+      - info on new plant and plant products exporter certification time , fee, and documents
+      - what is the process for new plant and plant products exporter certification?
+      - process for new plant and plant products exporter certification?
+
+- intent: ask_about_Renewal_Certification_plant_products_en
+  examples: |
+      - Renewal Certification of Plant and Plant Products Importers and Exporters
+      - Renewal Certification of Plant and Plant Products Importers and Exporters in mesob
+      - Renewal Certification of Plant and Plant Products Importers and Exporters in general
+      - Renewal Certification of Plant and Plant Products Importers and Exporters information
+      - Renewal Certification of Plant and Plant Products Importers and Exporters details
+      - Renewal Certification of Plant and Plant Products Importers and Exporters overview
+      - Renewal Certification of Plant and Plant Products Importers and Exporters purpose
+      - Renewal Certification of Plant and Plant Products Importers and Exporters help
+      - can u give me help with Renewal Certification of Plant and Plant Products Importers and Exporters
+      - help me with Renewal Certification of Plant and Plant Products Importers and Exporters
+      - Renewal Certification of Plant and Plant Products Importers and Exporters assistance
+      - assistance with Renewal Certification of Plant and Plant Products Importers and Exporters
+      - need help with Renewal Certification of Plant and Plant Products Importers and Exporters
+      - Tell me about Renewal Certification of Plant and Plant Products Importers and Exporters, time, fee, and documents.
+      - Info on Renewal Certification of Plant and Plant Products Importers and Exporters with time, fee, and docs.
+      - Renewal Certification of Plant and Plant Products Importers and Exporters details, time, cost, and documents?
+      - Explain Renewal Certification of Plant and Plant Products Importers and Exporters with time, cost, and docs.
+      - What is Renewal Certification of Plant and Plant Products Importers and Exporters with time, cost, docs?
+      - Give me Renewal Certification of Plant and Plant Products Importers and Exporters details with time, fee, docs.
+      - Renewal Certification of Plant and Plant Products Importers and Exporters  time, cost, docs?
+      - Details for Renewal Certification of Plant and Plant Products Importers and Exporters, time, fee, docs?
+      - Describe Renewal Certification of Plant and Plant Products Importers and Exporters with duration, cost, docs.
+      - I need info on Renewal Certification of Plant and Plant Products Importers and Exporters with time, fee, docs.
+      - Processing time for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - How long for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Time needed for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Duration for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - How many days for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Renewal Certification of Plant and Plant Products Importers and Exporters time?
+      - Waiting time for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Service time for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - How much time for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Time frame for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Fee for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Service cost for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - How much for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Renewal Certification of Plant and Plant Products Importers and Exporters price?
+      - Cost of Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Service fee for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Payment for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Renewal Certification of Plant and Plant Products Importers and Exporters charges?
+      - How much is the Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Price for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Required documents for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Documents needed for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Papers for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - What docs for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Needed documents for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Which documents for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Renewal Certification of Plant and Plant Products Importers and Exporters document list?
+      - List docs for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - What paperwork for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Provide documents for Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - How can plant and plant products importers get a renewal certification?
+      - What is the process for renewal certification for plant and plant products companies?
+      - Steps to obtain renewal certification for plant and plant products importers
+      - What documents are needed for renewal plant and plant products certification?
+      - Can you explain renewal certification requirements for plant and plant products producers?
+      - How do I apply for renewal plant and plant products importing certification?
+      - Renewal certification guidelines for plant and plant products importers
+      - Where to apply for plant and plant products importer certification?
+      - What are the eligibility criteria for renewal plant and plant products certification?
+      - How long does it take to get renewal plant and plant products certification?
+      - What documents are required, the service fee, and the processing time for the Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Can you tell me the documents needed, fee, and how long it takes for the Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Please share the required documents, service charge, and duration for the Renewal Certification of Plant and Plant Products Importers and Exporters.
+      - I need information about the documents, cost, and time frame for getting the Renewal Certification of Plant and Plant Products Importers and Exporters.
+      - What are the documents to submit, the fee, and processing period for the Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - Could you provide the list of required documents, the applicable fee, and the processing time for the Renewal Certification of Plant and Plant Products Importers and Exporters?
+      - For the Renewal Certification of Plant and Plant Products Importers and Exporters, what documents do I need, what is the fee, and how long does it take?
+      - Tell me the documents, payment amount, and time needed for the Renewal Certification of Plant and Plant Products Importers and Exporters.
+      - How much is the fee, what documents are required, and how long will the Renewal Certification of Plant and Plant Products Importers and Exporters take?
+      - Give me details on the documents needed, the cost, and the processing duration for the Renewal Certification of Plant and Plant Products Importers and Exporters.
+      - How can plant and plant products importers get a renewal certification?
+      - what documents are needed for renewal plant and plant products importer certification ?
+      - documents needed for renewal plant and plant products importer certification
+      - documents required for renewal plant and plant products importer certification
+      - tell me what documents do i need for renewal plant and plant products importer certification
+      - what are the documents needed for renewal plant and plant products importer certification?
+      - what are the requirements for renewal plant and plant products importer certification?
+      - requirements for renewal plant and plant products importer certification
+      - tell me the requirements for renewal plant and plant products importer certification
+      - can u tell me the requirements for renewal plant and plant products importer certification
+      - send me the requirements for renewal plant and plant products importer certification
+      - provide me the requirements for renewal plant and plant products importer certification
+      - how long does it take to get renewal plant and plant products importer certification?
+      - what is the service time for renewal plant and plant products importer certification?
+      - service time for renewal plant and plant products importer certification
+      - what is the processing time for renewal plant and plant products importer certification?
+      - processing time for renewal plant and plant products importer certification?
+      - tell me how much it will take to get renewal plant and plant products importer certification
+      - how much does it cost to get renewal plant and plant products importer certification?
+      - cost for renewal plant and plant products importer certification
+      - what is the fee for renewal plant and plant products importer certification?
+      - fee for renewal plant and plant products importer certification
+      - how much is the fee for renewal plant and plant products importer certification?
+      - how much do i need for renewal plant and plant products importer certification?
+      - Tell me about Renewal Certification of Plant and Plant Products Importers  time, fee, and documents.
+      - info on renewal plant and plant products importer certification time , fee, and documents
+      - what is the process for renewal plant and plant products importer certification?
+      - process for renewal plant and plant products importer certification?
+      - How can plant and plant products exporters get a renewal certification?
+      - what documents are needed for renewal plant and plant products exporter certification ?
+      - documents needed for renewal plant and plant products exporter certification
+      - documents required for renewal plant and plant products exporter certification
+      - tell me what documents do i need for renewal plant and plant products exporter certification
+      - what are the documents needed for renewal plant and plant products exporter certification?
+      - what are the requirements for renewal plant and plant products exporter certification?
+      - requirements for renewal plant and plant products exporter certification
+      - tell me the requirements for renewal plant and plant products exporter certification
+      - can u tell me the requirements for renewal plant and plant products exporter certification
+      - send me the requirements for renewal plant and plant products exporter certification
+      - provide me the requirements for renewal plant and plant products exporter certification
+      - how long does it take to get renewal plant and plant products exporter certification?
+      - what is the service time for renewal plant and plant products exporter certification?
+      - service time for renewal plant and plant products exporter certification
+      - what is the processing time for renewal plant and plant products exporter certification?
+      - processing time for renewal plant and plant products exporter certification?
+      - tell me how much it will take to get renewal plant and plant products exporter certification
+      - how much does it cost to get renewal plant and plant products exporter certification?
+      - cost for renewal plant and plant products exporter certification
+      - what is the fee for renewal plant and plant products exporter certification?
+      - fee for renewal plant and plant products exporter certification
+      - how much is the fee for renewal plant and plant products exporter certification?
+      - how much do i need for renewal plant and plant products exporter certification?
+      - Tell me about Renewal Certification of Plant and Plant Products Exporters  time, fee, and documents.
+      - info on renewal plant and plant products exporter certification time , fee, and documents
+      - what is the process for renewal plant and plant products exporter certification?
+      - process for renewal plant and plant products exporter certification?
+
+- intent: ask_about_New_Certification_Seed_producers_en
+  examples: |
+      - New Certification of Seed Producers, Importers, Distributors, and Processors
+      - New Certification of Seed Producers, Importers, Distributors, and Processors in mesob
+      - New Certification of Seed Producers, Importers, Distributors, and Processors in general
+      - New Certification of Seed Producers, Importers, Distributors, and Processors information
+      - New Certification of Seed Producers, Importers, Distributors, and Processors details
+      - New Certification of Seed Producers, Importers, Distributors, and Processors overview
+      - New Certification of Seed Producers, Importers, Distributors, and Processors purpose
+      - Tell me about New Certification of Seed Producers, Importers, Distributors, and Processors, time, fee, and documents.
+      - Info on New Certification of Seed Producers, Importers, Distributors, and Processors with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Seed Producers, Importers, Distributors, and Processors?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Seed Producers, Importers, Distributors, and Processors?
+      - How can Seed Producers, Importers, Distributors, and Processors get a new certification?
+      - What is the process for new certification for Seed Producers, Importers, Distributors, and Processors?
+      - New Certification of Seed Producers
+      - New Certification of Seed Producers in mesob
+      - New Certification of Seed Producers in general
+      - Tell me about New Certification of Seed Producers, time, fee, and documents.
+      - Info on New Certification of Seed Producers with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Seed Producers?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Seed Producers?
+      - How can Seed Producers get a new certification?
+      - What is the process for new certification for Seed Producers?
+      - New Certification of Seed Importers
+      - New Certification of Seed Importers in mesob
+      - New Certification of Seed Importers in general
+      - Tell me about New Certification of Seed Importers, time, fee, and documents.
+      - Info on New Certification of Seed Importers with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Seed Importers?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Seed Importers?
+      - How can Seed Importers get a new certification?
+      - What is the process for new certification for Seed Importers?
+      - New Certification of Seed Distributors
+      - New Certification of Seed Distributors in mesob
+      - New Certification of Seed Distributors in general
+      - Tell me about New Certification of Seed Distributors, time, fee, and documents.
+      - Info on New Certification of Seed Distributors with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Seed Distributors?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Seed Distributors?
+      - How can Seed Distributors get a new certification?
+      - What is the process for new certification for Seed Distributors?
+      - New Certification of Seed Processors
+      - New Certification of Seed Processors in mesob
+      - New Certification of Seed Processors in general
+      - Tell me about New Certification of Seed Processors, time, fee, and documents.
+      - Info on New Certification of Seed Processors with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Seed Processors?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Seed Processors?
+      - How can Seed Processors get a new certification?
+      - What is the process for new certification for Seed Processors?
+
+
+- intent: ask_about_Renewal_Certification_Seed_producers_en
+  examples: |
+      - Renewal Certification of Seed Producers, Importers, Distributors, and Processors
+      - Renewal Certification of Seed Producers, Importers, Distributors, and Processors in mesob
+      - Renewal Certification of Seed Producers, Importers, Distributors, and Processors in general
+      - Renewal Certification of Seed Producers, Importers, Distributors, and Processors information
+      - Renewal Certification of Seed Producers, Importers, Distributors, and Processors details
+      - Renewal Certification of Seed Producers, Importers, Distributors, and Processors overview
+      - Renewal Certification of Seed Producers, Importers, Distributors, and Processors purpose
+      - Tell me about Renewal Certification of Seed Producers, Importers, Distributors, and Processors, time, fee, and documents.
+      - Info on Renewal Certification of Seed Producers, Importers, Distributors, and Processors with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the Renewal Certification of Seed Producers, Importers, Distributors, and Processors?
+      - Can you tell me the documents needed, fee, and how long it takes for the Renewal Certification of Seed Producers, Importers, Distributors, and Processors?
+      - How can Seed Producers, Importers, Distributors, and Processors get a renewal certification?
+      - What is the process for renewal certification for Seed Producers, Importers, Distributors, and Processors?
+      - Renewal Certification of Seed Producers
+      - Renewal Certification of Seed Producers in mesob
+      - Renewal Certification of Seed Producers in general
+      - Tell me about Renewal Certification of Seed Producers, time, fee, and documents.
+      - Info on Renewal Certification of Seed Producers with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the Renewal Certification of Seed Producers?
+      - Can you tell me the documents needed, fee, and how long it takes for the Renewal Certification of Seed Producers?
+      - How can Seed Producers get a renewal certification?
+      - What is the process for renewal certification for Seed Producers?
+      - Renewal Certification of Seed Importers
+      - Renewal Certification of Seed Importers in mesob
+      - Renewal Certification of Seed Importers in general
+      - Tell me about Renewal Certification of Seed Importers, time, fee, and documents.
+      - Info on Renewal Certification of Seed Importers with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the Renewal Certification of Seed Importers?
+      - Can you tell me the documents needed, fee, and how long it takes for the Renewal Certification of Seed Importers?
+      - How can Seed Importers get a renewal certification?
+      - What is the process for renewal certification for Seed Importers?
+      - Renewal Certification of Seed Distributors
+      - Renewal Certification of Seed Distributors in mesob
+      - Renewal Certification of Seed Distributors in general
+      - Tell me about Renewal Certification of Seed Distributors, time, fee, and documents.
+      - Info on Renewal Certification of Seed Distributors with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the Renewal Certification of Seed Distributors?
+      - Can you tell me the documents needed, fee, and how long it takes for the Renewal Certification of Seed Distributors?
+      - How can Seed Distributors get a renewal certification?
+      - What is the process for renewal certification for Seed Distributors?
+      - Renewal Certification of Seed Processors
+      - Renewal Certification of Seed Processors in mesob
+      - Renewal Certification of Seed Processors in general
+      - Tell me about Renewal Certification of Seed Processors, time, fee, and documents.
+      - Info on Renewal Certification of Seed Processors with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the Renewal Certification of Seed Processors?
+      - Can you tell me the documents needed, fee, and how long it takes for the Renewal Certification of Seed Processors?
+      - How can Seed Processors get a renewal certification?
+      - What is the process for renewal certification for Seed Processors?
+
+
+- intent: ask_about_New_Certification_Veterinary_Drug_Manufacturers_en
+  examples: |
+      - New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers
+      - New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers in mesob
+      - New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers in general
+      - New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers information
+      - New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers details
+      - New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers overview
+      - New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers purpose
+      - Tell me about New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers, time, fee, and documents.
+      - Info on New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers?
+      - How can Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers get a new certification?
+      - What is the process for new certification for Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers?
+      - New Certification of Veterinary Drug Manufacturers
+      - New Certification of Veterinary Drug Manufacturers in mesob
+      - New Certification of Veterinary Drug Manufacturers in general
+      - Tell me about New Certification of Veterinary Drug Manufacturers, time, fee, and documents.
+      - Info on New Certification of Veterinary Drug Manufacturers with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Veterinary Drug Manufacturers?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Veterinary Drug Manufacturers?
+      - How can Veterinary Drug Manufacturers get a new certification?
+      - What is the process for new certification for Veterinary Drug Manufacturers?
+      - New Certification of Importers
+      - New Certification of Importers in mesob
+      - New Certification of Importers in general
+      - Tell me about New Certification of Importers, time, fee, and documents.
+      - Info on New Certification of Importers with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Importers?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Importers?
+      - How can Importers get a new certification?
+      - What is the process for new certification for Importers?
+      - New Certification of Exporters
+      - New Certification of Exporters in mesob
+      - New Certification of Exporters in general
+      - Tell me about New Certification of Exporters, time, fee, and documents.
+      - Info on New Certification of Exporters with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Exporters?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Exporters?
+      - How can Exporters get a new certification?
+      - What is the process for new certification for Exporters?
+      - New Certification of Wholesalers
+      - New Certification of Wholesalers in mesob
+      - New Certification of Wholesalers in general
+      - Tell me about New Certification of Wholesalers, time, fee, and documents.
+      - Info on New Certification of Wholesalers with time, fee, and docs.
+      - What documents are required, the service fee, and the processing time for the New Certification of Wholesalers?
+      - Can you tell me the documents needed, fee, and how long it takes for the New Certification of Wholesalers?
+      - How can Wholesalers get a new certification?
+      - What is the process for new certification for Wholesalers?

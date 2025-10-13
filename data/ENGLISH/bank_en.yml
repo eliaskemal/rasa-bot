@@ -1,0 +1,480 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Commercial_Bank_Ethiopia_general_en
+  examples: |
+      - Commercial Bank of Ethiopia 
+      - everything about Commercial Bank of Ethiopia
+      - Commercial Bank of Ethiopia in mesob
+      - Commercial Bank of Ethiopia in general
+      - general information about Commercial Bank of Ethiopia
+      - general overview of Commercial Bank of Ethiopia
+      - can u tell me general information about Commercial Bank of Ethiopia
+      - can u give me general information about Commercial Bank of Ethiopia
+      - give me general information about Commercial Bank of Ethiopia
+      - provide me general information about Commercial Bank of Ethiopia
+      - send me general information about Commercial Bank of Ethiopia
+      - tell me general information about Commercial Bank of Ethiopia
+      - What does the  Commercial Bank of Ethiopia do?
+      - explain what the Commercial Bank of Ethiopia is?
+      - Commercial Bank of Ethiopia do?
+      - Commercial Bank of Ethiopia information
+      - information about Commercial Bank of Ethiopia
+      - information on Commercial Bank of Ethiopia
+      - Need information on Commercial Bank of Ethiopia
+      - What is Commercial Bank of Ethiopia?
+      - Commercial Bank of Ethiopia details
+      - details about Commercial Bank of Ethiopia
+      - overview of Commercial Bank of Ethiopia
+      - Commercial Bank of Ethiopia overview
+      - Commercial Bank of Ethiopia purpose
+      - purpose of Commercial Bank of Ethiopia
+      - Commercial Bank of Ethiopia help
+      - can u give me help with Commercial Bank of Ethiopia
+      - help me with Commercial Bank of Ethiopia
+      - Commercial Bank of Ethiopia assistance
+      - assistance with Commercial Bank of Ethiopia
+      - need help with Commercial Bank of Ethiopia
+      - tell me about Commercial Bank of Ethiopia
+      - What does the Commercial Bank of Ethiopia do, and what do I need?
+      - Commercial Bank of Ethiopia responsibilities
+      - What's the Commercial Bank of Ethiopia's job?
+      - What functions does the Commercial Bank of Ethiopia perform
+      - what are the services and requirements of the Commercial Bank of Ethiopia?
+      - What services does the Commercial Bank of Ethiopia offer and what documents do I need?
+      - Can you tell me about the Commercial Bank of Ethiopia's services, processing time, required papers, and fees?
+      - I want to know the service details, document requirements, duration, and cost at the Commercial Bank of Ethiopia.
+      - What documents are needed for services at the Commercial Bank of Ethiopia and how long do they take?
+      - Please provide information on the services, fees, required documents, and timeline for the Commercial Bank of Ethiopia.
+      - How much does it cost and what documents are required for Commercial Bank of Ethiopia services, and how long is the process?
+      - Could you explain the general services, necessary documents, processing time, and fees at the Commercial Bank of Ethiopia?
+      - What do I need to apply for services at the Commercial Bank of Ethiopia, including time and fees?
+      - Tell me about the Commercial Bank of Ethiopia services, what documents to bring, fees, and expected service time?
+      - What are the services available, document requirements, fees, and timelines at the Commercial Bank of Ethiopia?
+      - Commercial Bank of Ethiopia services and requirements?
+      - Commercial Bank of Ethiopia fees and steps?
+      - How much Commercial Bank of Ethiopia services cost?
+      - cost for Commercial Bank of Ethiopia?
+      - fee for Commercial Bank of Ethiopia?
+      - how long does it take for  Commercial Bank of Ethiopia?
+      - time for Commercial Bank of Ethiopia?
+      - What documents do I need for Commercial Bank of Ethiopia?
+      - What documents are needed for Commercial Bank of Ethiopia?
+      - What do I need for Commercial Bank of Ethiopia services?
+      - What papers do I need for Commercial Bank of Ethiopia?
+      - What documents are required for Commercial Bank of Ethiopia?
+      - What papers are needed for Commercial Bank of Ethiopia?
+      - What documents are required for Commercial Bank of Ethiopia services?
+      - can you send me general information about Commercial Bank of Ethiopia
+      - Can you tell me the documents needed for Commercial Bank of Ethiopia services?
+      - How long does it take to get service at Commercial Bank of Ethiopia?
+      - What fees are charged for services at Commercial Bank of Ethiopia?
+      - I want information on the services and required documents at Commercial Bank of Ethiopia.
+      - Could you explain the processing time and fees for Commercial Bank of Ethiopia services?
+      - What do I need to bring to access services at Commercial Bank of Ethiopia?
+      - Tell me about the service duration and fees at Commercial Bank of Ethiopia.
+      - What are the available services and related fees at Commercial Bank of Ethiopia?
+      - Please provide details about Commercial Bank of Ethiopia's service process, required documents, time, and fees.
+
+
+- intent: ask_about_Commercial_Bank_Ethiopia_service_en
+  examples: |
+      - Commercial Bank of Ethiopia services
+      - service of Commercial Bank of Ethiopia in mesob
+      - services of Commercial Bank of Ethiopia
+      - services by Commercial Bank of Ethiopia
+      - Commercial Bank of Ethiopia utilities
+      - utility of Commercial Bank of Ethiopia
+      - give me services of Commercial Bank of Ethiopia
+      - list services of Commercial Bank of Ethiopia in mesob
+      - list services by Commercial Bank of Ethiopia
+      - list out Commercial Bank of Ethiopia services
+      - list of services by Commercial Bank of Ethiopia
+      - tell me services by Commercial Bank of Ethiopia
+      - tell me list of services by Commercial Bank of Ethiopia
+      - tell me list of services of Commercial Bank of Ethiopia
+      - tell me the services of Commercial Bank of Ethiopia
+      - tell me about the services of Commercial Bank of Ethiopia
+      - can you tell me about Commercial Bank of Ethiopia services
+      - can you  list the services of Commercial Bank of Ethiopia
+      - can you list services by Commercial Bank of Ethiopia
+      - What kind of support does the Commercial Bank of Ethiopia give?
+      - support from Commercial Bank of Ethiopia
+      - what services does Commercial Bank of Ethiopia support?
+      - list support by Commercial Bank of Ethiopia
+      - tell me support of Commercial Bank of Ethiopia
+      - tell me about the support of Commercial Bank of Ethiopia
+      - What services does the Commercial Bank of Ethiopia provide?
+      - What services are provided by the Commercial Bank of Ethiopia?
+      - list services provided by  Commercial Bank of Ethiopia 
+      - Commercial Bank of Ethiopia provide?
+      - services provided by Commercial Bank of Ethiopia
+      - list services which Commercial Bank of Ethiopia provides 
+      - list the services which Commercial Bank of Ethiopia provides
+      - list of services which Commercial Bank of Ethiopia provides
+      - can u tell me the services which Commercial Bank of Ethiopia provides
+      - tell me the services which Commercial Bank of Ethiopia provides
+      - list of services provided by Commercial Bank of Ethiopia
+      - list the services provided by Commercial Bank of Ethiopia
+      - list services provided by Commercial Bank of Ethiopia
+      - can u list the services provided by Commercial Bank of Ethiopia
+      - can u tell me the services provided by Commercial Bank of Ethiopia
+      - can you tell me the services which Commercial Bank of Ethiopia provides
+      - can you tell me the services provided by Commercial Bank of Ethiopia
+      - What services does the Commercial Bank of Ethiopia offer?
+      - What are the services that the Commercial Bank of Ethiopia offers?
+      - Commercial Bank of Ethiopia offers? 
+      - What does the Commercial Bank of Ethiopia offer?
+      - list the services that Commercial Bank of Ethiopia offers
+      - list the services offered by Commercial Bank of Ethiopia
+      - list of services offered by Commercial Bank of Ethiopia
+      - can you list services offered by Commercial Bank of Ethiopia
+      - What services are offered by the Commercial Bank of Ethiopia?
+      - tell me services offered by Commercial Bank of Ethiopia
+      - can you tell me services offered by Commercial Bank of Ethiopia
+      - What services are available at the Commercial Bank of Ethiopia?
+      - what are the available services at Commercial Bank of Ethiopia
+      - available services at Commercial Bank of Ethiopia
+      - tell me available services of Commercial Bank of Ethiopia
+      - list of available services at Commercial Bank of Ethiopia
+      - list available services by Commercial Bank of Ethiopia
+      - list the available services of Commercial Bank of Ethiopia
+      - list the services that are  available at Commercial Bank of Ethiopia
+      - can u list available services at Commercial Bank of Ethiopia
+      - can you tell me available services at Commercial Bank of Ethiopia
+      - what services are given by Commercial Bank of Ethiopia
+      - What services does the Commercial Bank of Ethiopia give?
+      - tell me what services Commercial Bank of Ethiopia gives
+      - tell me what services are given by Commercial Bank of Ethiopia
+      - can you list the services that Commercial Bank of Ethiopia gives
+      - can you tell me the services that Commercial Bank of Ethiopia gives
+      - can you tell me what services Commercial Bank of Ethiopia gives
+      - can u tell me what services can I get from Commercial Bank of Ethiopia
+      - Commercial Bank of Ethiopia gives services?
+      - what services can I get from Commercial Bank of Ethiopia?
+      - What services can I access at the Commercial Bank of Ethiopia?
+      - What are the main tasks of the Commercial Bank of Ethiopia
+      - What services can I access at the Commercial Bank of Ethiopia?
+      - main tasks of Commercial Bank of Ethiopia
+      - can u tell me the tasks of Commercial Bank of Ethiopia
+      - tasks of Commercial Bank of Ethiopia
+      - Tell me Commercial Bank of Ethiopia services
+      - services by Commercial Bank of Ethiopia
+      - Commercial Bank of Ethiopia services list 
+      - list of Commercial Bank of Ethiopia services
+      - tell me the lists of Commercial Bank of Ethiopia services
+      - Commercial Bank of Ethiopia services list 
+      - Role of the Commercial Bank of Ethiopia?
+      - What roles does the Commercial Bank of Ethiopia play?
+      - Commercial Bank of Ethiopia roles
+      - What roles does the Commercial Bank of Ethiopia have?
+      - What does the Commercial Bank of Ethiopia do
+      - Can you list the services offered by the Commercial Bank?
+      - Which services are available at the Commercial Bank of Ethiopia?
+      - Tell me about the services of the Commercial Bank
+      - What help can I get from the Commercial Bank of Ethiopia?
+      - Can you explain the services under Commercial Bank of Ethiopia?
+      - can you list the services of the Commercial Bank of Ethiopia?
+      - can you tell me about the services of the Commercial Bank of Ethiopia?
+      - please tell me the services of the Commercial Bank of Ethiopia?
+      - What services are included in the Commercial Bank of Ethiopia?
+      - give me the services of the Commercial Bank of Ethiopia
+      - give me the list of services of the Commercial Bank of Ethiopia
+      - give me the list of services provided by the Commercial Bank of Ethiopia
+      - send me the services of the Commercial Bank of Ethiopia
+      - send me the list of services of the Commercial Bank of Ethiopia
+      - send me the list of services provided by the Commercial Bank of Ethiopia
+      - provide me the services of the Commercial Bank of Ethiopia
+      - provide me the list of services of the Commercial Bank of Ethiopia
+      - provide me the list of services provided by the Commercial Bank of Ethiopia
+
+- intent: ask_about_Acc_opening_doc_en
+  examples: |
+      - Account opening 
+      - opening Commercial bank of Ethiopia Account 
+      - Commercial bank of Ethiopia account opening 
+      - documents for opening a new account
+      - documents required for new account opening
+      - required documents for new account opening
+      - What documents are required to open a bank account?
+      - what is required for account opening 
+      - what is required for account opening at mesob
+      - tell me the documents required to open an account
+      - list the documents required for account opening
+      - list of documents for new account opening
+      - can you list the documents required for account opening?
+      - give me the list of documents required for account opening
+      - What papers do I need to open a new account?
+      - What papers do I need to create a bank account?
+      - papers needed for account opening
+      - documents needed for account opening
+      - What documents do I need to start a new account?
+      - What documents do I need to create a new account?
+      - What files do I need to open a bank account?
+      - What are necessary documents for opening a new account?
+      - necessary documents for account opening
+      - list the necessary documents for account opening
+      - tell me what documents I need to open an account
+      - tell me the papers needed for account opening
+      - what kind of papers do I need to open an account?
+      - Can you list the papers needed for account registration?
+      - can you tell me the requirements for account opening?
+      - files needed for new account opening
+      - papers required for new account opening
+      - What documents should I bring to open an account?
+      - What documents are necessary for account opening at CBE?
+      - What documents do I need to register a new account? 
+      - What documents are needed to open an account at CBE?
+      - What do I need to bring to open an account at CBE?
+      - can you tell me the papers needed for account opening?
+      - can you tell me what documents I need to open an account?
+      - What do I need to bring to open a bank account?
+      - Which documents are necessary for account registration?
+      - tell me the requirements for opening a new account
+      - tell me what i need to open an account
+      - What papers do I need to create a bank account?
+      - What files are needed for account opening?
+      - Explain the documents required for opening a bank account
+      - Which papers do I need to open an account at CBE?
+      - Documents needed for new account opening
+      - Required files for creating a bank account
+      - Tell me the document requirements for account opening
+      - What should I bring to open an account?
+      - List the papers required for account opening
+      - Explain the documents needed to start a new account
+      - Which IDs are required for opening an account?
+
+- intent: ask_about_Acc_opening_time_en
+  examples: |
+      - What is the processing time to open a bank account?
+      - what is the processing time for account opening?
+      - what is the processing time to create a new account?
+      - what is the processing time for creating account at CBE?
+      - what is the processing time for opening a new account at mesob?
+      - can you tell me the processing time for account opening?
+      - tell me the processing time for opening a new account
+      - processing time for a  new account opening
+      - processing time for creating a new account
+      - How long does it take to open a new account at CBE?
+      - How long does it take to open a new account?
+      - How long does it take to create a new account at CBE?
+      - How long does it take to create a new account?
+      - time taken to open a new account
+      - time taken to create a new account
+      - Can you tell me the time required for account opening?
+      - How much time does it take to register a new account?
+      - What is the duration for opening a bank account?
+      - How many time does it take to open an account at CBE?
+      - How long does it take to open an account at CBE?
+      - How long does it take to open a new  account at mesob?
+      - how long does it take to create a new account?
+      - How long does it take to open an account at CBE?
+      - time required for account opening
+      - can u tell me how long it takes to open an account?
+      - How long does it take to open an account?
+      - Time required for account opening
+      - Duration for opening a bank account
+      - Tell me the time needed to create an account
+      - Processing duration for account registration
+      - Time taken for account activation
+      - When will my account be ready after applying?
+      - How long does it take to activate a new account?
+      - How long does it take to process a new account?
+      - How long does it take to process a new account at CBE?
+      - How long does it take to process a new account at mesob?
+      - service time for opening a new account
+      - service time of creating a new account
+      - what is the service time for account opening?
+
+- intent: ask_about_Acc_opening_fee_en
+  examples: |
+      - What is the fee to open a bank account?
+      - What is the fee for creating a new account?
+      - What is the fee for opening a new account?
+      - fee for new account opening 
+      - can you tell me the fee for opening a new account?
+      - explain the fee for opening a new account
+      - Tell me the new account opening fee
+      - the fee for opening a new account
+      - processing fee for account opening
+      - what is the fee for new account opening?
+      - fee of opening a new account
+      - What is the cost of opening a new account?
+      - cost of opening a new account
+      - cost of creating a new account
+      - How much does it cost to open a new account?
+      - How much does it cost to create a new account?
+      - tell me the cost for opening a new account
+      - can u tell me the cost for creating a new account?
+      - how much cost for opening a new account?
+      - how much cost for creating a new account?
+      - how much service cost for opening a new account?
+      - cost for the service of opening a new account
+      - How much do I need to pay to open a new account?
+      - How much do I need to pay to create a new account?
+      - payment for opening a new account
+      - payment for creating a new account
+      - what is the payment for opening a new account?
+      - what is the payment for creating a new account?
+      - tell me the payment for opening a new account
+      - give me the payment for creating a new account
+      - What is the charge for creating a new account?
+      - How much does it cost to open a new account?
+      - How much do I need to pay to open a new account?
+      - What is the cost for opening a new account?
+      - What is the charge for opening a new account?
+      - How much do I need to pay for account opening?
+      - How much does it cost to create a new account?
+      - How much does it cost to open an account?
+      - How much does it cost to create an account at CBE?
+      - How much does it cost to create an account at mesob?
+      - How much do I need to pay to create a new account?
+      - How much do I need to pay to open an account?
+      - How much do I need to pay to create an account?
+      - How much do I need to pay to open an account at CBE?
+      - How much do I need to pay to open an account at mesob?
+      - how much does it take to open  a new accpount
+      - How much does it cost to create an account?
+      - Is there a charge for opening an account?
+      - What are the charges for a new account?
+      - Does opening an account require payment?
+      - Is there any cost for registering a new account?
+      - How much do I pay for account opening?
+      - Give me details about account opening charges
+      - Do I need to pay money to start a bank account?
+
+- intent: ask_about_PAID_SERVICE_doc_en
+  examples: |
+      - paid services documents
+      - paid banking service documents
+      - paid services required documents
+      - documents required for paid services
+      - what documents are required for paid services?
+      - Requirements for paid banking services
+      - paid banking service requirements 
+      - required documents to access a paid service
+      - tell me the documents required for paid services
+      - can u list the required documents for paid services?
+      - documents needed for paid banking services
+      - documents that are requirements for paid services
+      - can you tell me the documents needed for paid services?
+      - tell me the documents needed for paid services
+      - list the documents needed for paid services
+      - needed documents for paid banking services
+      - tell me the documents I need for paid services
+      - What documents are needed to  for a paid service?
+      - list the documents required for paid service processing
+      - required documents to access a paid service
+      - what documents do i need to access a paid service?
+      - tell me the documents I need for paid services
+      - what paperwork is necessary for using a paid service?
+      - can you list the documents required for requesting a paid service?
+      - give me the list of required documents for paid services
+      - What papers do I need to get a paid service?
+      - What documents are necessary for using a paid service?
+      - necessary documents for paid service
+      - What files should I submit for paid services?
+      - tell me what I need to provide for paid services
+      - What do I need to bring for a paid service?
+      - which documents are necessary to use paid services?
+      - list the necessary documents for paid services
+      - Can you tell me what's needed for paid service processing?
+      - processing documents for paid services
+      - What supporting documents are required for paid services?
+      - Required paperwork for using a paid service
+      - Explain the documents required for paid services
+      - What are the required files for paid service usage?
+      - What should I prepare for accessing a paid service?
+      - What documents are necessary for paid services at mesob?
+      - Which IDs or forms are required for paid service access?
+      - Can you list the requirements for applying for a paid service?
+      - Documents needed to register for a paid service
+      - What documents must I provide for a paid service?
+      - What do I need to submit to use a paid service?
+      - Can you tell me the papers required for paid services?
+      - What documentation is needed for paid service approval?
+      - What are the formal requirements for paid service applications?
+      - Tell me what files are necessary for getting a paid service
+      - Papers needed to access paid banking services
+      - Tell me the documents required for paid service
+      - Documents to apply for paid banking options
+      - What should I bring for paid services?
+      - Required files for accessing paid services
+      - List documents for paid bank services
+      - Explain what documents I need for paid services
+      - Which IDs are necessary for paid banking service?
+
+- intent: ask_about_NO_CASH_time_en
+  examples: |
+      - time for no-cash transactions
+      - no-cash transaction hours
+      - no-cash transaction time
+      - what is the time for no-cash transactions?
+      - what are the hours for no-cash transactions?
+      - what time can it take for no-cash transactions?
+      - how many hours for no-cash transactions?
+      - how many hors do no-cash transactions take?
+      - no-cash transaction service hours
+      - what are the service hours for no-cash transactions?
+      - can u tell me the time for no-cash transactions?
+      - can u provide the hours for no-cash transactions?
+      - tell me the time for no-cash transactions
+      - show me the hours for no-cash transactions
+      - show me the time for no-cash transactions
+      - tell me the hours for no-cash transactions
+      - can u give me the time for no-cash transactions?
+      - can u tell how long no-cash transactions take?
+      - how long does it take for no-cash transactions?
+      - no-chash transaction service take?
+      - no-cash transaction service time
+      - no-cash transaction service hours 
+      - service time for no-cash transactions
+      - service hours for no-cash transactions
+      - Time schedule for cashless banking services
+      - When can I do no-cash transactions?
+      - Tell me the time for non-cash banking services
+      - Hours available for cashless payments
+      - At what time can I use no-cash services?
+      - Service timing for digital/no-cash transactions
+      - Explain non-cash transaction time
+      - What is the operational time for cashless banking?
+
+- intent: ask_about_PAID_SERVICE_fee_en
+  examples: |
+      - fee for paid services
+      - cost of paid services
+      - paid banking service fee
+      - paid banking service cost
+      - What is the fee for paid services?
+      - What is the cost of paid banking services?
+      - How much does it cost for paid banking services?
+      - how much is the fee for paid services?
+      - how much is the cost for paid banking services?
+      - how much is the fee for paid banking services?
+      - can u tell me the fee for paid services?
+      - can u tell me the fee for paid banking services?
+      - can u tell me the cost of paid  services?
+      - can u tell me the cost of paid banking services?
+      - tell me the fee for paid services
+      - tell me the cost of paid services
+      - tell me the fee for paid banking services
+      - tell me the cost of paid banking service
+      - How much do I pay for paid services?
+      - What are the charges for paid banking services?
+      - What is the fee structure for paid services?
+      - How much do I need to pay for paid banking?
+      - needed fee for paid banking services
+      - What is the cost for accessing paid banking services?
+      - What is the price for paid banking services?
+      - price for paid banking services
+      - paid banking service charges
+      - paid banking service price
+      - What is the price for paid banking services?
+      - Charges for paid bank services
+      - Tell me the cost of paid banking services
+      - What are the fees for premium services?
+      - Price for accessing paid services
+      - Is there an extra charge for paid banking?
+      - Service fee for premium bank options
+      - How much do paid services cost?
+      - Explain the fee structure for paid banking services

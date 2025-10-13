@@ -1,0 +1,689 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ministry_Health_general_en
+  examples: |
+    - Ministry of Health
+    - everything about Ministry of Health
+    - Ministry of Health in mesob
+    - Ministry of Health in general
+    - general information about Ministry of Health
+    - general overview of Ministry of Health
+    - can u tell me general information about Ministry of Health
+    - can u give me general information about Ministry of Health
+    - give me general information about Ministry of Health
+    - provide me general information about Ministry of Health
+    - send me general information about Ministry of Health
+    - tell me general information about Ministry of Health
+    - What does the Ministry of Health do?
+    - explain what the Ministry of Health is?
+    - Ministry of Health do?
+    - Ministry of Health information
+    - information about Ministry of Health
+    - information on Ministry of Health
+    - Need information on Ministry of Health
+    - What is Ministry of Health?
+    - Ministry of Health details
+    - details about Ministry of Health
+    - overview of Ministry of Health
+    - Ministry of Health overview
+    - Ministry of Health purpose
+    - purpose of Ministry of Health
+    - Ministry of Health help
+    - can u give me help with Ministry of Health
+    - help me with Ministry of Health
+    - Ministry of Health assistance
+    - assistance with Ministry of Health
+    - need help with Ministry of Health
+    - tell me about Ministry of Health
+    - What does the Ministry of Health do, and what do I need?
+    - Ministry of Health responsibilities
+    - What's the Ministry of Health's job?
+    - What functions does the Ministry of Health perform
+    - what are the services and requirements of the Ministry of Health?
+    - What services does the Ministry of Health offer and what documents do I need?
+    - Can you tell me about the Ministry of Health's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ministry of Health.
+    - What documents are needed for services at the Ministry of Health and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ministry of Health.
+    - How much does it cost and what documents are required for Ministry of Health services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ministry of Health?
+    - What do I need to apply for services at the Ministry of Health, including time and fees?
+    - Tell me about the Ministry of Health services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ministry of Health?
+    - Ministry of Health services and requirements?
+    - Ministry of Health fees and steps?
+    - How much Ministry of Health services cost?
+    - cost for Ministry of Health?
+    - fee for Ministry of Health?
+    - how long does it take for Ministry of Health?
+    - time for Ministry of Health?
+    - What documents do I need for Ministry of Health?
+    - What documents are needed for Ministry of Health?
+    - What do I need for Ministry of Health services?
+    - What papers do I need for Ministry of Health?
+    - What documents are required for Ministry of Health?
+    - What papers are needed for Ministry of Health?
+    - What documents are required for Ministry of Health services?
+    - can you send me general information about Ministry of Health
+    - Can you tell me the documents needed for Ministry of Health services?
+    - How long does it take to get service at Ministry of Health?
+    - What fees are charged for services at Ministry of Health?
+    - I want information on the services and required documents at Ministry of Health.
+    - Could you explain the processing time and fees for Ministry of Health services?
+    - What do I need to bring to access services at Ministry of Health?
+    - Tell me about the service duration and fees at Ministry of Health.
+    - What are the available services and related fees at Ministry of Health?
+    - Please provide details about Ministry of Health's service process, required documents, time, and fees.
+
+    - What services does the Ministry of Health provide?
+    - Can you tell me the documents needed for health services?
+    - How long does it take to get health-related services done?
+    - What fees are required for the Ministry of Health services?
+    - Please give me general information about the Ministry of Health services, documents, timing, and fees.
+    - I want to know about the services, required documents, processing time, and fees at the Ministry of Health.
+    - What do I need to apply for health services and how much will it cost?
+    - Tell me the service hours, document requirements, and fees for health-related processes.
+    - Can you provide details on the Ministry of Health services including necessary documents, duration, and fees?
+    - I need a summary of the Ministry of Health services, the documents required, timing, and associated costs.
+
+
+- intent: ask_about_Ministry_Health_service_en
+  examples: |
+    - Ministry of Health services
+    - service of Ministry of Health in mesob
+    - sercices of Ministry of Health
+    - services by Ministry of Health
+    - Ministry of Health utilities
+    - utility of Ministry of Health
+    - give me services of Ministry of Health
+    - list services of Ministry of Health in mesob
+    - list services by Ministry of Health
+    - list out Ministry of Health services
+    - list of services by Ministry of Health
+    - tell me services by Ministry of Health
+    - tell me list of services by Ministry of Health
+    - tell me list of services of Ministry of Health
+    - tell me the services of Ministry of Health
+    - telm me about the services of Ministry of Health
+    - can you tell me about Ministry of Health services
+    - can you  list the services of Ministry of Health
+    - can you list services by Ministry of Health
+    - What kind of support does the Ministry of Health give?
+    - support from Ministry of Health
+    - what services does Ministry of Health support?
+    - list support by Ministry of Health
+    - tell me support of Ministry of Health
+    - tell me about the support of Ministry of Health
+    - What services does the Ministry of Health provide?
+    - What services are provided by the Ministry of Health?
+    - list services provided by  Ministry of Health 
+    - Ministry of Health provide?
+    - services provided by Ministry of Health
+    - list services which Ministry of Health provides 
+    - list the services which Ministry of Health provides
+    - list of services which Ministry of Health provides
+    - can u tell me the services which Ministry of Health provides
+    - tell me the services which Ministry of Health provides
+    - list of services provided by Ministry of Health
+    - list the services provided by Ministry of Health
+    - list services provided by Ministry of Health
+    - can u list the services provided by Ministry of Health
+    - can u tell me the services provided by Ministry of Health
+    - can you tell me the services which Ministry of Health provides
+    - can you tell me the services provided by Ministry of Health
+    - What services does the Ministry of Health offer?
+    - What are the services that the Ministry of Health offers?
+    - Ministry of Health offers? 
+    - What does the Ministry of Health offer?
+    - list the services that Ministry of Health offers
+    - list the services offered by Ministry of Health
+    - list of services offered by Ministry of Health
+    - can you list services offered by Ministry of Health
+    - What services are offered by the Ministry of Health?
+    - tell me services offered by Ministry of Health
+    - can you tell me services offered by Ministry of Health
+    - What services are available at the Ministry of Health?
+    - what are the available services at Ministry of Health
+    - available services at Ministry of Health
+    - tell me available services of Ministry of Health
+    - list of available services at Ministry of Health
+    - list available services by Ministry of Health
+    - list the available services of Ministry of Health
+    - list the services that are  available at Ministry of Health
+    - can u list available services at Ministry of Health
+    - can you tell me available services at Ministry of Health
+    - what servies are given by Ministry of Health
+    - What services does the Ministry of Health give?
+    - tell me what services Ministry of Health gives
+    - tell me what services are given by Ministry of Health
+    - can you list the services that Ministry of Health gives
+    - can you tell me the services that Ministry of Health gives
+    - can you tell me what services Ministry of Health gives
+    - can u tell me what sevices can I get from Ministry of Health
+    - Ministry of Health gives services?
+    - what services can I get from Ministry of Health?
+    - What services can I access at the Ministry of Health?
+    - What are the main tasks of the Ministry of Health
+    - What services can I access at the Ministry of Health?
+    - main tasks of Ministry of Health
+    - can u tell me the tasks of Ministry of Health
+    - tasks of Ministry of Health
+    - Tell me Ministry of Health services
+    - services by Ministry of Health
+    - Ministry of Health services list 
+    - list of Ministry of Health services
+    - tell me the lists of Ministry of Health services
+    - Ministry of Health services list 
+    - Role of the Ministry of Health?
+    - What roles does the Ministry of Health play?
+    - Ministry of Health roles
+    - What roles does the Ministry of Health have?
+    - What does the Ministry of Health do
+    - Can you list the services offered by the Ministry of Health?
+    - Which services are available at the Ministry of Health?
+    - Tell me about the services of the Ministry of Health
+    - What help can I get from the Ministry of Health?
+    - Can you explain the services under Ministry of Health?
+    - can you list the services of the Ministry of Health?
+    - can you tell me about the services of the Ministry of Health?
+    - please tell me the services of the Ministry of Health?
+    - What services are included in the Ministry of Health?
+    - give me the services of the Ministry of Health
+    - give me the list of services of the Ministry of Health
+    - give me the list of services provided by the Ministry of Health
+    - send me the services of the Ministry of Health
+    - send me the list of services of the Ministry of Health
+    - send me the list of services provided by the Ministry of Health
+    - provide me the services of the Ministry of Health
+    - provide me the list of services of the Ministry of Health
+    - provide me the list of services provided by the Ministry of Health
+
+- intent: ask_about_Medical_Treatment_Abroad_en
+  examples: |
+
+    - How can I get medical treatment abroad?
+    - Process for medical treatment in another country
+    - Steps to receive treatment abroad
+    - Ministry of Health medical treatment abroad guidance
+    - Can I apply for treatment outside the country?
+    - Requirements for medical treatment abroad
+    - What is needed for overseas medical treatment?
+    - How to access foreign medical treatment via Ministry of Health?
+    - Help for medical treatment abroad
+    - Medical care outside Ethiopia via Ministry of Health
+    - What are the steps to get medical care abroad?
+    - How do I apply for international medical treatment?
+    - Can I go overseas for health treatment?
+    - Foreign medical treatment application process
+    - Who is eligible for medical treatment abroad?
+    - Am I allowed to get medical help in another country?
+    - Ministry of Health treatment abroad application steps
+    - How to start the process for overseas treatment?
+    - What support does the Ministry provide for treatment abroad?
+    - Guide to applying for medical treatment outside Ethiopia
+    - Can I travel for surgery overseas through Ministry of Health?
+    - What documents are needed for treatment abroad?
+    - List of required documents for foreign treatment
+    - Documents needed to apply for overseas medical care
+    - Paperwork for medical treatment abroad
+    - Required paperwork for treatment abroad
+    - Which documents should I submit for foreign treatment?
+    - What papers do I need for overseas treatment?
+    - Document checklist for medical treatment outside Ethiopia
+    - What is the processing time for medical treatment abroad?
+    - How long does it take to process treatment abroad request?
+    - Waiting period for approval of foreign medical care
+    - Timeline for treatment abroad processing
+    - When will I receive approval for medical travel?
+    - How much time does it take for treatment abroad?
+    - What is the fee for medical treatment abroad application?
+    - How much does it cost to apply for overseas medical care?
+    - Payment required for treatment abroad services
+    - Is there a charge for applying for treatment abroad?
+    - Total cost involved in medical travel application
+    - Fee structure for foreign treatment requests
+    - How do I get medical referral for international hospitals?
+    - Medical treatment abroad eligibility criteria
+    - Overseas medical care application process
+    - Who qualifies for Ministry of Health treatment abroad?
+    - How can I request surgery in another country?
+    - Process to get treated in foreign hospitals
+    - Treatment abroad through government program
+    - Can I get support for going overseas for medical reasons?
+    - How to seek medical assistance abroad via Ministry?
+    - What’s the medical treatment abroad procedure?
+    - Need help with international treatment process
+    - Assistance for foreign treatment application
+    - I need surgery outside Ethiopia, what should I do?
+    - What services does the Ministry offer for medical travel?
+    - Can you explain the medical referral abroad?
+    - Steps to apply for medical travel through the Ministry
+    - Application steps for treatment outside the country
+    - What’s required to apply for overseas surgery?
+    - Explain process of getting health treatment overseas
+    - Where can I find information on treatment abroad?
+    - What kind of treatment is allowed abroad?
+    - Who can request foreign medical services?
+    - Are there conditions for getting medical treatment abroad?
+    - Can I receive emergency medical treatment in another country?
+    - Does the Ministry of Health approve treatment abroad?
+    - Documents, cost, and time required for overseas treatment
+    - What are the documents, fee, and service time for medical treatment abroad?
+    - Provide information on medical travel with time, fee, and paperwork
+    - Tell me about medical treatment abroad with processing time, cost, and required documents
+    - I need info on documents, cost, and timeline for treatment abroad
+    - What is the full process including fee, time, and documents for foreign treatment?
+    - How can I get medical treatment abroad?
+    - Process for medical treatment in another country
+    - Steps to receive treatment abroad
+    - Ministry of Health medical treatment abroad guidance
+    - Can I apply for treatment outside the country?
+    - Requirements for medical treatment abroad
+    - What is needed for overseas medical treatment?
+    - How to access foreign medical treatment via Ministry of Health?
+    - Help for medical treatment abroad
+    - Medical care outside Ethiopia via Ministry of Health
+
+- intent: ask_about_Organ_Transplant_Abroad_en
+  examples: |
+    - How can I arrange an organ transplant abroad?
+    - Organ transplant service outside the country
+    - Ministry of Health process for foreign organ transplant
+    - Can I go abroad for an organ transplant?
+    - Steps for international organ transplant approval
+    - Requirements for organ transplant outside Ethiopia
+    - Getting Ministry of Health help for organ transplant abroad
+    - What do I need for overseas organ transplant?
+    - Foreign organ transplant application process
+    - Guidelines for organ transplant abroad
+    - What is the procedure to get an organ transplant abroad?
+    - Steps to apply for transplant surgery in another country
+    - Organ transplant outside Ethiopia procedure
+    - Can I apply for a transplant in a foreign hospital?
+    - Ministry of Health support for organ transplant outside Ethiopia
+    - How to get approval for organ transplant abroad?
+    - What are the rules for organ transplant in another country?
+    - What are the steps for getting an international organ transplant?
+    - Process to request an organ transplant in another country
+    - What is needed to apply for transplant abroad?
+    - How to start the organ transplant abroad process?
+    - Who is eligible for organ transplant outside the country?
+    - Can I get a transplant surgery abroad with government approval?
+    - Do I qualify for international transplant service?
+    - Eligibility criteria for getting organ transplant abroad
+    - What documents are needed for organ transplant abroad?
+    - Required documents for applying for international transplant
+    - List of papers needed for overseas organ transplant
+    - What are the documents for Ministry of Health transplant abroad application?
+    - Paperwork required for organ transplant outside Ethiopia
+    - Documents checklist for organ transplant abroad
+    - Which documents do I need for foreign organ transplant?
+    - How long does it take to get approval for transplant abroad?
+    - Duration of approval process for organ transplant abroad
+    - What is the waiting period for international transplant?
+    - Time frame for Ministry of Health organ transplant approval
+    - Organ transplant abroad processing time?
+    - What is the fee for organ transplant abroad?
+    - Cost to apply for foreign transplant through Ministry of Health?
+    - Service charges for international transplant approval?
+    - Price for applying for organ transplant abroad?
+    - Payment required for organ transplant abroad process?
+    - Total cost for getting an organ transplant abroad approved?
+    - How much does it cost to get an organ transplant abroad?
+    - Is there a cost for applying for transplant outside Ethiopia?
+    - Are there any government fees for organ transplant abroad?
+    - Provide the documents, fee, and time needed for organ transplant abroad
+    - What are the time, fee, and document requirements for transplant abroad?
+    - Tell me the requirements including cost, documents, and processing time for organ transplant abroad
+    - Provide info on organ transplant abroad with time, cost, and paperwork
+    - I need information on organ transplant abroad including fee, documents, and service time
+    - Details of international transplant process with fee, time, and documents
+    - Can you list documents, fee, and time for organ transplant abroad?
+    - Help with applying for transplant abroad
+    - Can you help me with organ transplant in another country?
+    - I need assistance for Ministry of Health transplant abroad application
+    - Support with foreign transplant process
+    - Where do I apply for organ transplant outside Ethiopia?
+    - How do I submit a request for transplant abroad?
+    - What is the organ transplant abroad procedure?
+    - Application steps for international organ transplant
+    - Can I get a transplant in another country with Ministry help?
+    - What are the conditions to apply for transplant outside Ethiopia?
+    - Provide the process for getting transplant in a foreign hospital
+    - Tell me about international organ transplant procedures
+    - Overview of Ministry of Health organ transplant abroad service
+
+- intent: ask_about_Renewal_Referral_Document_en
+  examples: |
+    - How do I renew my referral document?
+    - Renewal process for Ministry referral document
+    - Steps to renew a referral paper
+    - Requirements for referral document renewal
+    - Can I renew my health referral form?
+    - Referral document renewal guidance
+    - How long does it take to renew referral documents?
+    - Where can I renew my referral documents?
+    - Procedure for renewing referral forms
+    - Ministry of Health referral renewal steps
+
+- intent: ask_about_Replacement_Referral_Document_en
+  examples: |
+  
+    - How to replace a lost referral document?
+    - Replacement process for referral forms
+    - I lost my referral document, how can I get another?
+    - Ministry of Health lost referral document solution
+    - Can I get a replacement for a referral paper?
+    - Steps to replace referral document
+    - Where to apply for referral replacement
+    - Guidelines for replacing health referral form
+    - Replacement referral document requirements
+    - Process to issue a new referral document
+    - What is the procedure to replace a referral document?
+    - I misplaced my referral, what should I do?
+    - Can I request a duplicate referral form?
+    - Referral replacement form process
+    - How can I reissue a lost health referral form?
+    - Who should I contact to get a new referral document?
+    - What’s the process of getting a replacement referral form?
+    - Steps for reissuing referral papers
+    - Referral replacement request procedure
+    - What are the steps to replace a referral paper?
+    - Can I apply for a replacement referral at the Ministry of Health?
+    - Is it possible to get another copy of my referral form?
+    - I lost my health referral form — how to get it back?
+    - What documents are required for referral replacement?
+    - List of required documents for referral document replacement
+    - Referral form replacement document checklist
+    - Paperwork needed to replace a lost referral form
+    - Which documents do I need for a duplicate referral paper?
+    - What documents do I submit to get a new referral form?
+    - What are the documents, cost, and time needed to replace a referral form?
+    - Can you list the documents, service fee, and time needed for referral paper replacement?
+    - What is the required paperwork, fee, and processing time for referral form reissue?
+    - Provide the documents, fee, and duration for referral replacement
+    - Tell me about the referral replacement process including cost, time, and documents
+    - What is the processing time for referral document replacement?
+    - How long does it take to replace a referral document?
+    - Referral document replacement processing time?
+    - How many days to get a new referral form?
+    - Duration for referral document reissuance?
+    - Waiting time for referral paper replacement?
+    - How much is the fee to replace a referral document?
+    - Is there a payment required for referral replacement?
+    - What is the cost to apply for a new referral document?
+    - Are there charges for replacing a referral form?
+    - Referral paper replacement service fee?
+    - Do I have to pay for referral form replacement?
+    - Help me with replacing a lost referral document
+    - Assistance with referral paper replacement process
+    - Can you help me get a new referral form?
+    - How do I start the process of referral document replacement?
+    - Where should I go to request a replacement referral?
+    - Who handles lost referral replacement requests?
+    - Ministry of Health referral form reissue steps
+    - Replacing a referral form after losing it — what to do?
+    - Referral form replacement policy
+
+- intent: ask_about_New_License_en
+  examples: |
+    - How can I apply for a new medical license?
+    - Process to get a new healthcare license
+    - New license procedure at Ministry of Health
+    - Steps to get a new health license
+    - How long to get a new medical license?
+    - Medical license new application guidance
+    - Requirements for new health license
+    - Ministry of Health new license application
+    - Healthcare new license details
+    - Where can I get a new medical license?
+    - How to apply for a new health license?
+    - Application process for new medical license
+    - New license process for healthcare professionals
+    - What is the process for getting a new health license?
+    - New license instructions for medical practitioners
+    - What are the steps for getting a new healthcare license?
+    - Where do I go to get a new medical license?
+    - Can I apply for a new license online?
+    - Can I apply for a new health license at the Ministry office?
+    - Do I need to visit the Ministry for new license application?
+    - Who is eligible to get a new health license?
+    - What are the conditions for getting my new medical license?
+    - Can I get a new expired medical license?
+    - What documents are required for new medical license?
+    - Required paperwork for new health license
+    - Which documents are needed to get a new medical license?
+    - List of documents for healthcare new license
+    - What do I need to bring for new license?
+    - Document checklist for getting my new medical license
+    - How long does it take to get a new medical license?
+    - Processing time for healthcare new license
+    - When will I receive my new license?
+    - Duration of medical new license process
+    - How many days does it take to get my new health license?
+    - What is the new license fee?
+    - How much does it cost to get a new medical license?
+    - Medical license new charges
+    - Payment for health new license
+    - What’s the cost of getting a new healthcare license?
+    - Are there any fees for new license?
+    - Total service cost for medical new license
+    - Tell me about medical new license with documents, fee, and time
+    - What are the documents, cost, and duration for new license?
+    - Provide details on new license process including time, fee, and paperwork
+    - I need information on applying for my health license: documents, fee, and time
+    - What are the requirements, cost, and duration for getting a new medical license?
+    - What’s the full process for getting a new healthcare license?
+    - Explain the medical new license procedure step by step
+    - Help me with the medical new license application
+    - Can you assist me with applying for my medical license?
+    - I need help applying for my healthcare license
+    - Support for medical new license
+    - Where to submit the new license form?
+    - How to complete the new license form?
+    - Ministry of Health contact for new license
+    - Overview of health new license requirements
+
+- intent: ask_about_License_Renewal_en
+  examples: |
+
+    - How can I renew my medical license?
+    - Process to renew healthcare license
+    - License renewal procedure at Ministry of Health
+    - Steps to renew health license
+    - How long to renew medical license?
+    - Medical license renewal guidance
+    - Requirements for health license renewal
+    - Ministry of Health license renewal application
+    - Healthcare license renewal details
+    - Where can I renew my medical license?
+    - How to apply for health license renewal?
+    - Application process for renewing medical license
+    - Renewal process for healthcare professionals
+    - What is the process for renewing a health license?
+    - Renewal instructions for medical practitioners
+    - What are the steps for renewing a healthcare license?
+    - Where do I go to renew my medical license?
+    - Can I renew my license online?
+    - Can I renew my health license at the Ministry office?
+    - Do I need to visit the Ministry for license renewal?
+    - Who is eligible to renew a health license?
+    - What are the conditions for renewing my medical license?
+    - Can I renew my expired medical license?
+    - What documents are required for medical license renewal?
+    - Required paperwork for renewing health license
+    - Which documents are needed to renew a medical license?
+    - List of documents for healthcare license renewal
+    - What do I need to bring for license renewal?
+    - Document checklist for renewing my medical license
+    - How long does it take to renew a medical license?
+    - Processing time for healthcare license renewal
+    - When will I receive my renewed license?
+    - Duration of medical license renewal process
+    - How many days does it take to renew my health license?
+    - What is the license renewal fee?
+    - How much does it cost to renew a medical license?
+    - Medical license renewal charges
+    - Payment for health license renewal
+    - What’s the cost of renewing a healthcare license?
+    - Are there any fees for license renewal?
+    - Total service cost for medical license renewal
+    - Tell me about medical license renewal with documents, fee, and time
+    - What are the documents, cost, and duration for license renewal?
+    - Provide details on license renewal process including time, fee, and paperwork
+    - I need information on renewing my health license: documents, fee, and time
+    - What are the requirements, cost, and duration for renewing a medical license?
+    - What’s the full process for renewing a healthcare license?
+    - Explain the medical license renewal procedure step by step
+    - Help me with the medical license renewal application
+    - Can you assist me with renewing my medical license?
+    - I need help renewing my healthcare license
+    - Support for medical license renewal
+    - Where to submit the license renewal form?
+    - How to complete the license renewal form?
+    - Ministry of Health contact for license renewal
+    - Overview of health license renewal requirements
+
+    - How can I renew my medical license?
+    - Process to renew healthcare license
+    - License renewal procedure at Ministry of Health
+    - Steps to renew health license
+    - How long to renew medical license?
+    - Medical license renewal guidance
+    - Requirements for health license renewal
+    - Ministry of Health license renewal application
+    - Healthcare license renewal details
+    - Where can I renew my medical license?
+
+- intent: ask_about_Replacement_Lost_License_en
+  examples: |
+    - I lost my medical license, how do I replace it?
+    - Process for replacement of lost healthcare license
+    - Ministry of Health replacement license application
+    - Steps to get a new license if lost
+    - How to replace a damaged or lost license?
+    - Replacement procedure for medical license
+    - Where to request replacement license
+    - Apply for lost health license replacement
+    - Guidelines for replacing healthcare license
+    - Ministry of Health lost license solution
+    - What documents are needed to replace a lost medical license?
+    - Requirements for lost license replacement
+    - How long does it take to replace a lost medical license?
+    - Processing time for lost health license replacement
+    - What is the fee for replacing a lost medical license?
+    - How much does it cost to replace a lost healthcare license?
+    - Payment process for replacement license fee
+    - Can I replace my lost license online?
+    - Where do I submit my lost license replacement application?
+    - Do I need to visit the Ministry for license replacement?
+    - Eligibility criteria for replacing a lost health license
+    - Can I replace an expired lost medical license?
+    - What is the replacement license application process?
+    - How to complete the lost license replacement form?
+    - Where can I get the replacement application form?
+    - What supporting documents are required for lost license replacement?
+    - Is there a penalty fee for replacing a lost medical license?
+    - How many days to receive a replacement license?
+    - What is the duration of lost license replacement process?
+    - Can I get a temporary license while waiting for replacement?
+    - Are there additional charges for urgent replacement?
+    - What to do if my replacement application is rejected?
+    - Can I track the status of my replacement license application?
+    - What is the total cost including service charges for replacement?
+    - Can I pay replacement fees at the Ministry office?
+    - Are copies of original documents required for replacement?
+    - Is a police report needed for lost license replacement?
+    - How to report a lost medical license?
+    - Can I replace a damaged license under the same procedure?
+    - What if my replacement license is delayed?
+    - How to get assistance with lost license replacement application?
+    - Where to contact Ministry of Health about replacement license?
+    - What identification is needed for license replacement?
+    - Can I authorize someone else to replace my lost license?
+    - Are there specific forms for damaged versus lost license replacement?
+    - What happens if my replacement license is lost again?
+    - Is there a validity period for the replacement license?
+    - Can I appeal if replacement request is denied?
+    - What is the procedure for replacing a lost healthcare professional license?
+    - Where do I find guidelines for license replacement?
+
+    - I lost my medical license, how do I replace it?
+    - Process for replacement of lost healthcare license
+    - Ministry of Health replacement license application
+    - Steps to get a new license if lost
+    - How to replace a damaged or lost license?
+    - Replacement procedure for medical license
+    - Where to request replacement license
+    - Apply for lost health license replacement
+    - Guidelines for replacing healthcare license
+    - Ministry of Health lost license solution
+
+- intent: ask_about_Letter_Good_Standing_en
+  examples: |
+
+    - How can I get a letter of good standing?
+    - Ministry of Health good standing letter process
+    - Steps to request a letter of good standing
+    - Apply for good standing certificate
+    - Requirements for letter of good standing
+    - Where to obtain letter of good standing
+    - Application process for good standing letter
+    - How to apply for good standing certificate?
+    - Good standing certificate request procedure
+    - Ministry of Health good standing letter application
+    - What is the process for getting a letter of good standing?
+    - What are the requirements for a good standing certificate?
+    - Required documents for good standing letter
+    - Document checklist for letter of good standing
+    - Which documents are needed for good standing certificate?
+    - What paperwork is required for letter of good standing?
+    - List of documents for good standing certificate application
+    - What do I need to bring for a good standing letter?
+    - How long does it take to get a good standing letter?
+    - Processing time for good standing certificate
+    - Duration of good standing letter issuance
+    - When will I receive my letter of good standing?
+    - How many days does it take to process a good standing request?
+    - What is the fee for good standing certificate?
+    - How much does a good standing letter cost?
+    - Payment for good standing certificate
+    - What’s the cost of getting a letter of good standing?
+    - Are there any charges for good standing request?
+    - Total service cost for good standing certificate
+    - Tell me about good standing letter with documents, fee, and time
+    - What are the documents, cost, and duration for a good standing letter?
+    - Provide details on good standing request process including time, fee, and paperwork
+    - I need information on good standing letter: documents, fee, and time
+    - What are the requirements, cost, and duration for getting a letter of good standing?
+    - What’s the full process for requesting a good standing certificate?
+    - Explain the good standing certificate procedure step by step
+    - Help me with the good standing certificate application
+    - Can you assist me with getting a good standing letter?
+    - I need help requesting a good standing certificate
+    - Support for good standing letter request
+    - Where to submit the good standing certificate request form?
+    - How to complete the good standing request form?
+    - Ministry of Health contact for good standing letter
+    - Overview of good standing letter requirements
+    - Good standing certificate process and fee
+    - Application steps for getting a letter of good standing
+    - Cost and duration of good standing certificate
+    - Where do I go to apply for good standing letter?
+    - Steps, documents, and fees for good standing certificate
+    - Timeline for receiving letter of good standing
+    - How to fill out the good standing letter form
+    - Good standing letter issuance timeline and payment
+    - Application form and requirements for good standing letter
+
+    - How can I get a letter of good standing?
+    - Ministry of Health good standing letter process
+    - Steps to request a letter of good standing
+    - Apply for good standing certificate
+    - Requirements for letter of good standing
+    - Who can request a good standing letter?
+    - Medical professional good standing letter
+    - Where to obtain letter of good standing
+    - Process for getting good standing certification
+    - Ministry of Health good standing document request

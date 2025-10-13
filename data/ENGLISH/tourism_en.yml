@@ -1,0 +1,531 @@
+version: "3.1"
+
+nlu:
+- intent: ministry_tourism_general_en
+  examples: |
+    - Ministry of Tourism
+    - everything about Ministry of Tourism
+    - Ministry of Tourism in general
+    - general information about Ministry of Tourism
+    - general overview of Ministry of Tourism
+    - can you tell me general information about Ministry of Tourism
+    - can you give me general information about Ministry of Tourism
+    - give me general information about Ministry of Tourism
+    - provide me general information about Ministry of Tourism
+    - send me general information about Ministry of Tourism
+    - tell me general information about Ministry of Tourism
+    - What does the Ministry of Tourism do?
+    - explain what the Ministry of Tourism is
+    - Ministry of Tourism information
+    - information about Ministry of Tourism
+    - information on Ministry of Tourism
+    - Need information on Ministry of Tourism
+    - What is Ministry of Tourism?
+    - Ministry of Tourism details
+    - details about Ministry of Tourism
+    - overview of Ministry of Tourism
+    - Ministry of Tourism overview
+    - Ministry of Tourism purpose
+    - purpose of Ministry of Tourism
+    - Ministry of Tourism help
+    - can you give me help with Ministry of Tourism
+    - help me with Ministry of Tourism
+    - Ministry of Tourism assistance
+    - assistance with Ministry of Tourism
+    - need help with Ministry of Tourism
+    - tell me about Ministry of Tourism
+    - What does the Ministry of Tourism do, and what do I need?
+    - Ministry of Tourism responsibilities
+    - What's the Ministry of Tourism's job?
+    - What functions does the Ministry of Tourism perform?
+    - what are the services and requirements of the Ministry of Tourism?
+    - What services does the Ministry of Tourism offer and what documents do I need?
+    - Can you tell me about the Ministry of Tourism's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ministry of Tourism.
+    - What documents are needed for services at the Ministry of Tourism and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ministry of Tourism.
+    - How much does it cost and what documents are required for Ministry of Tourism services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ministry of Tourism?
+    - What do I need to apply for services at the Ministry of Tourism, including time and fees?
+    - Tell me about the Ministry of Tourism services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ministry of Tourism?
+    - Ministry of Tourism services and requirements?
+    - Ministry of Tourism fees and steps?
+    - How much Ministry of Tourism services cost?
+    - cost for Ministry of Tourism?
+    - fee for Ministry of Tourism?
+    - how long does it take for Ministry of Tourism?
+    - time for Ministry of Tourism?
+    - What documents do I need for Ministry of Tourism?
+    - What documents are needed for Ministry of Tourism?
+    - What do I need for Ministry of Tourism services?
+    - What papers do I need for Ministry of Tourism?
+    - What documents are required for Ministry of Tourism?
+    - What papers are needed for Ministry of Tourism?
+    - What documents are required for Ministry of Tourism services?
+    - can you send me general information about Ministry of Tourism
+    - Can you tell me the documents needed for Ministry of Tourism services?
+    - How long does it take to get service at Ministry of Tourism?
+    - What fees are charged for services at Ministry of Tourism?
+    - I want information on the services and required documents at Ministry of Tourism.
+    - Could you explain the processing time and fees for Ministry of Tourism services?
+    - What do I need to bring to access services at Ministry of Tourism?
+    - Tell me about the service duration and fees at Ministry of Tourism.
+    - What are the available services and related fees at Ministry of Tourism?
+    - Please provide details about Ministry of Tourism's service process, required documents, time, and fees.
+    - What services does the Ministry of Tourism offer?
+    - What services does the Ministry of Tourism offer?
+    - Can you tell me what documents I need for tourism-related services?
+    - How long does it take to process tourism service applications?
+    - What are the fees for services at the Ministry of Tourism?
+    - I want general info about the Ministry of Tourism services and costs.
+    - What documents and fees are involved with tourism permits?
+    - How much time and money do I need for Ministry of Tourism procedures?
+    - Could you explain the general service process, required papers, and fees?
+    - What do I need to know about the Ministry of Tourism’s services and charges?
+    - Give me an overview of tourism services, required documents, processing time, and fees.
+
+
+- intent: ministry_tourism_service_en
+  examples: |
+    - Ministry of Tourism services
+    - service of Ministry of Tourism in mesob
+    - sercices of Ministry of Tourism
+    - services by Ministry of Tourism
+    - Ministry of Tourism utilities
+    - utility of Ministry of Tourism
+    - give me services of Ministry of Tourism
+    - list services of Ministry of Tourism in mesob
+    - list services by Ministry of Tourism
+    - list out Ministry of Tourism services
+    - list of services by Ministry of Tourism
+    - tell me services by Ministry of Tourism
+    - tell me list of services by Ministry of Tourism
+    - tell me list of services of Ministry of Tourism
+    - tell me the services of Ministry of Tourism
+    - telm me about the services of Ministry of Tourism
+    - can you tell me about Ministry of Tourism services
+    - can you  list the services of Ministry of Tourism
+    - can you list services by Ministry of Tourism
+    - What kind of support does the Ministry of Tourism give?
+    - support from Ministry of Tourism
+    - what services does Ministry of Tourism support?
+    - list support by Ministry of Tourism
+    - tell me support of Ministry of Tourism
+    - tell me about the support of Ministry of Tourism
+    - What services does the Ministry of Tourism provide?
+    - What services are provided by the Ministry of Tourism?
+    - list services provided by  Ministry of Tourism 
+    - Ministry of Tourism provide?
+    - services provided by Ministry of Tourism
+    - list services which Ministry of Tourism provides 
+    - list the services which Ministry of Tourism provides
+    - list of services which Ministry of Tourism provides
+    - can u tell me the services which Ministry of Tourism provides
+    - tell me the services which Ministry of Tourism provides
+    - list of services provided by Ministry of Tourism
+    - list the services provided by Ministry of Tourism
+    - list services provided by Ministry of Tourism
+    - can u list the services provided by Ministry of Tourism
+    - can u tell me the services provided by Ministry of Tourism
+    - can you tell me the services which Ministry of Tourism provides
+    - can you tell me the services provided by Ministry of Tourism
+    - What services does the Ministry of Tourism offer?
+    - What are the services that the Ministry of Tourism offers?
+    - Ministry of Tourism offers? 
+    - What does the Ministry of Tourism offer?
+    - list the services that Ministry of Tourism offers
+    - list the services offered by Ministry of Tourism
+    - list of services offered by Ministry of Tourism
+    - can you list services offered by Ministry of Tourism
+    - What services are offered by the Ministry of Tourism?
+    - tell me services offered by Ministry of Tourism
+    - can you tell me services offered by Ministry of Tourism
+    - What services are available at the Ministry of Tourism?
+    - what are the available services at Ministry of Tourism
+    - available services at Ministry of Tourism
+    - tell me available services of Ministry of Tourism
+    - list of available services at Ministry of Tourism
+    - list available services by Ministry of Tourism
+    - list the available services of Ministry of Tourism
+    - list the services that are  available at Ministry of Tourism
+    - can u list available services at Ministry of Tourism
+    - can you tell me available services at Ministry of Tourism
+    - what servies are given by Ministry of Tourism
+    - What services does the Ministry of Tourism give?
+    - tell me what services Ministry of Tourism gives
+    - tell me what services are given by Ministry of Tourism
+    - can you list the services that Ministry of Tourism gives
+    - can you tell me the services that Ministry of Tourism gives
+    - can you tell me what services Ministry of Tourism gives
+    - can u tell me what sevices can I get from Ministry of Tourism
+    - Ministry of Tourism gives services?
+    - what services can I get from Ministry of Tourism?
+    - What services can I access at the Ministry of Tourism?
+    - What are the main tasks of the Ministry of Tourism
+    - What services can I access at the Ministry of Tourism?
+    - main tasks of Ministry of Tourism
+    - can u tell me the tasks of Ministry of Tourism
+    - tasks of Ministry of Tourism
+    - Tell me Ministry of Tourism services
+    - services by Ministry of Tourism
+    - Ministry of Tourism services list 
+    - list of Ministry of Tourism services
+    - tell me the lists of Ministry of Tourism services
+    - Ministry of Tourism services list 
+    - Role of the Ministry of Tourism?
+    - What roles does the Ministry of Tourism play?
+    - Ministry of Tourism roles
+    - What roles does the Ministry of Tourism have?
+    - What does the Ministry of Tourism do
+    - Can you list the services offered by the Ministry of Tourism?
+    - Which services are available at the Ministry of Tourism?
+    - Tell me about the services of the Ministry of Tourism
+    - What help can I get from the Ministry of Tourism?
+    - Can you explain the services under Ministry of Tourism?
+    - can you list the services of the Ministry of Tourism?
+    - can you tell me about the services of the Ministry of Tourism?
+    - please tell me the services of the Ministry of Tourism?
+    - What services are included in the Ministry of Tourism?
+    - give me the services of the Ministry of Tourism
+    - give me the list of services of the Ministry of Tourism
+    - give me the list of services provided by the Ministry of Tourism
+    - send me the services of the Ministry of Tourism
+    - send me the list of services of the Ministry of Tourism
+    - send me the list of services provided by the Ministry of Tourism
+    - provide me the services of the Ministry of Tourism
+    - provide me the list of services of the Ministry of Tourism
+    - provide me the list of services provided by the Ministry of Tourism
+    - What services are offered by the Ministry of Tourism?
+    - List the services of the Tourism Ministry
+    - What kind of support does the Ministry of Tourism provide?
+    - Explain the services under Tourism Ministry
+    - What facilities are available through the Ministry of Tourism?
+    - Can you list the services offered by the Tourism Ministry?
+    - What services can I access at the Ministry of Tourism?
+    - What are the available tourism-related services?
+    - Tell me about services provided for travelers
+    - What help can the Tourism Ministry provide?
+
+- intent: expat_professionals_in_star_rated_hotel_en
+  examples: |
+
+    - What is the process for hiring expat professionals in star-rated hotels?
+    - Steps to hire expat professionals in star-rated hotels
+    - Hiring procedure for expat professionals in star-rated hotels
+    - Expat employment process in star-rated hotels
+    - Application process for hiring expat hotel staff
+    - Process of recruiting expat professionals in luxury hotels
+    - What are the requirements for hiring expat hotel staff?
+    - Requirements for employing foreign professionals in hotels
+    - Needed qualifications to hire expat hotel workers
+    - What are the conditions for employing expats in hotels?
+    - Criteria for hiring foreign hotel employees
+    - Documents required for hiring expat hotel professionals
+    - Required paperwork for recruiting expat hotel staff
+    - List of documents needed to hire expats in star-rated hotels
+    - What documents are needed for hiring expat hotel workers?
+    - Document checklist for employing expat professionals in hotels
+    - Which forms are needed to hire expats in hotels?
+    - What should I bring to register expat hotel employees?
+    - How long does it take to hire expat hotel professionals?
+    - Duration of the expat hotel hiring process
+    - Processing time for recruiting expats in star-rated hotels
+    - How many days to complete expat hotel staff registration?
+    - When will I receive approval to employ expat hotel workers?
+    - Expected time for expat registration in star-rated hotels
+    - What is the fee for hiring expat hotel professionals?
+    - How much does it cost to register expat hotel employees?
+    - Expat hotel staff hiring charges
+    - Payment required for hiring expat hotel staff
+    - What’s the cost for hiring foreign hotel professionals?
+    - Are there any fees for hiring expat professionals in hotels?
+    - Total service cost for registering expats in star-rated hotels
+    - Tell me about hiring expat hotel workers with documents, fee, and time
+    - What are the documents, cost, and duration for expat hiring in hotels?
+    - Provide details on expat hotel staff hiring process including time, fee, and paperwork
+    - I need information on hiring expat hotel professionals: documents, fee, and time
+    - What are the requirements, cost, and duration for employing expat hotel workers?
+    - What’s the full process for hiring expat professionals in star-rated hotels?
+    - Explain the procedure for hiring expat hotel workers step by step
+    - Help me with the expat hotel staff hiring application
+    - Can you assist me with hiring expat hotel professionals?
+    - I need help with the expat hotel employment process
+    - Support for hiring expat hotel professionals
+    - Where to submit the expat hotel hiring application?
+    - How to complete the expat hotel staff registration form?
+    - Ministry contact for expat hotel professional hiring
+    - Overview of hiring requirements for expat hotel professionals
+    - Where can I apply to register expat hotel professionals?
+    - Office to visit for expat hiring in star-rated hotels
+    - Where do I go to register expat hotel staff?
+    - Expat hotel staff registration form process
+    - How to fill the application for expat professionals in hotels?
+
+    - What is the process for hiring expat professionals in star-rated hotels?
+    - How can a star-rated hotel employ foreign staff?
+    - Requirements for expat professionals in a 5-star hotel
+    - Are expats allowed to work in star hotels?
+    - How to register expat workers in luxury hotels?
+    - Rules for employing foreign experts in star-rated hotels
+    - Can foreign nationals work in Ethiopian star-rated hotels?
+    - Steps to hire expats in premium hotels
+    - What permits are needed for expat professionals in hotels?
+    - Hiring foreign specialists in top-rated hotels
+
+- intent: expat_professionals_hotel_en
+  examples: |
+    - Can hotels hire foreign professionals?
+    - What are the requirements for employing expats in hotels?
+    - How can a hotel get permission for foreign workers?
+    - Is it allowed to employ expats in regular hotels?
+    - How do hotels register foreign staff?
+    - Rules for hotels employing non-Ethiopian staff
+    - Hiring foreign experts in local hotels
+    - Can foreigners work in Ethiopian hotels?
+    - What is needed to recruit expats in hotels?
+    - Expat employment process for hotels
+    - Steps to hire expat professionals in regular hotels
+    - Hiring procedure for expat professionals in hotels
+    - Expat registration process in hotels
+    - Application steps for hiring expat staff in hotels
+    - What are the required documents to hire expats in hotels?
+    - Document checklist for employing expat professionals in hotels
+    - Required paperwork for registering expat hotel workers
+    - What documents should hotels prepare to employ expats?
+    - Which forms are needed to register foreign hotel staff?
+    - What should I bring to register expat staff in a hotel?
+    - How long does it take to process expat hotel staff hiring?
+    - Duration of hiring process for foreign hotel workers
+    - Processing time for expat staff registration in hotels
+    - How many days to complete expat hiring for hotels?
+    - Expected time to approve expat hotel employment
+    - What is the fee for hiring foreign hotel professionals?
+    - How much does it cost to register expat staff in a hotel?
+    - Service charge for registering expat workers in hotels
+    - Payment required for hiring expats in hotels
+    - What’s the cost for employing foreign professionals in hotels?
+    - Are there fees for expat hotel staff registration?
+    - Total cost for registering expat hotel professionals
+    - Provide full details on expat hotel staff registration including documents, time, and fee
+    - Tell me about expat hotel hiring process with documents, fee, and time
+    - What are the documents, cost, and duration for hotel expat recruitment?
+    - I need information on hotel expat hiring: documents, fee, and duration
+    - Explain expat employment process in hotels step by step
+    - Complete procedure for hiring foreign staff in hotels
+    - Help me with the expat hotel staff hiring application
+    - Can you assist me with hiring foreign professionals in a hotel?
+    - I need help with hotel expat employment process
+    - Support for hotel expat staff registration
+    - Where should I apply to register expat hotel professionals?
+    - Where to submit documents for expat hotel hiring?
+    - Ministry contact for expat registration in regular hotels
+    - Office responsible for expat hotel staff registration
+    - How to fill out the expat hiring form for hotels?
+    - Overview of requirements for hiring expat professionals in hotels
+    - Steps, time, and fees involved in registering expats in hotels
+    - Can hotels hire foreign professionals?
+    - What are the requirements for employing expats in hotels?
+    - How can a hotel get permission for foreign workers?
+    - Is it allowed to employ expats in regular hotels?
+    - How do hotels register foreign staff?
+    - Rules for hotels employing non-Ethiopian staff
+    - Hiring foreign experts in local hotels
+    - Can foreigners work in Ethiopian hotels?
+    - What is needed to recruit expats in hotels?
+    - Expat employment process for hotels
+
+- intent: competency_certificate_for_tour_guides_en
+  examples: |
+
+    - How to get a competency certificate for tour guides?
+    - Requirements for tour guide certification
+    - What is needed to apply for a tour guide certificate?
+    - Process of becoming a certified tour guide
+    - How can I be certified as a tour guide?
+    - Steps to get a competency certificate for guiding
+    - Applying for tour guide competency certification
+    - Tour guide licensing process
+    - What documents are needed for tour guide certification?
+    - How do I become an official tour guide?
+    - What is the application procedure for a tour guide certificate?
+    - Competency certificate process for tourist guides
+    - Where can I apply for tour guide certification?
+    - Guide to tour guide competency application
+    - What are the eligibility criteria for tour guide certification?
+    - Who can apply for a tour guide certificate?
+    - Required paperwork for tour guide certification
+    - What forms are needed for tour guide licensing?
+    - List of documents required for tour guide competency certificate
+    - Document checklist for tour guide certification
+    - What should I submit to get a tour guide certificate?
+    - Which documents are mandatory for tour guide competency?
+    - How much time does it take to get certified as a tour guide?
+    - Duration of the tour guide certification process
+    - Tour guide certificate processing time
+    - Time needed to get competency certification for guides
+    - How many days does tour guide certification take?
+    - Expected time for receiving tour guide competency certificate
+    - What is the fee for tour guide certification?
+    - Cost of applying for a tour guide certificate
+    - How much is the tour guide competency certificate?
+    - Charges for tour guide certification process
+    - Do I have to pay to get certified as a tour guide?
+    - Are there any fees for the tour guide certificate?
+    - Total cost of getting a competency certificate for tour guides
+    - What are the documents, cost, and duration for tour guide certification?
+    - Provide full details for tour guide certification including fee and time
+    - Tell me about tour guide certification process with documents, fee, and time
+    - Tour guide competency certificate steps, time, and cost
+    - I need information on tour guide certification: documents, time, and fee
+    - Explain the process of becoming a certified tour guide step by step
+    - Help me apply for the tour guide certificate
+    - Can you assist with my tour guide certification?
+    - I need support for my tour guide certification application
+    - How to complete the tour guide certification form?
+    - Where do I go to submit the tour guide certificate application?
+    - Ministry contact for tour guide competency certificate
+    - Where to submit documents for tour guide certification?
+    - Office responsible for tour guide licensing
+    - Overview of the competency certificate requirements for guides
+    - How to fill out the tour guide competency application
+    - Steps, documents, and fee for official guide certification
+
+    - How to get a competency certificate for tour guides?
+    - Requirements for tour guide certification
+    - What is needed to apply for a tour guide certificate?
+    - Process of becoming a certified tour guide
+    - How can I be certified as a tour guide?
+    - Steps to get a competency certificate for guiding
+    - Applying for tour guide competency certification
+    - Tour guide licensing process
+    - What documents are needed for tour guide certification?
+    - How do I become an official tour guide?
+
+- intent: competency_certificate_tour_guides_renewal_en
+  examples: |
+    - How do I renew my tour guide competency certificate?
+    - Process for renewing tour guide certificate
+    - Steps to extend my tour guide certification
+    - When should I renew my tour guide license?
+    - Requirements for certificate renewal for guides
+    - Renewal process for tour guide competency certificate
+    - Can I renew my tour guide license online?
+    - How long does it take to renew tour guide certificate?
+    - Where to renew my tour guide certification?
+    - Tour guide certificate renewal fees
+    - How to apply for tour guide certificate renewal?
+    - Application process for renewing tour guide certificate
+    - What documents are required for tour guide certificate renewal?
+    - Document checklist for renewing tour guide license
+    - Which documents are needed for tour guide certificate renewal?
+    - Required paperwork for renewing tour guide competency certificate
+    - What do I need to bring for tour guide certificate renewal?
+    - Steps to complete tour guide certificate renewal
+    - Renewal instructions for tour guide competency certificate
+    - Can I renew my tour guide certificate online?
+    - Where do I submit my tour guide certificate renewal application?
+    - Who is eligible to renew tour guide competency certificate?
+    - What are the conditions for renewing tour guide certificate?
+    - Can I renew an expired tour guide competency certificate?
+    - How long does it take to process tour guide certificate renewal?
+    - Processing time for tour guide certificate renewal
+    - When will I receive my renewed tour guide competency certificate?
+    - Duration of tour guide certificate renewal process
+    - How many days does it take to renew tour guide competency certificate?
+    - What is the fee for renewing a tour guide competency certificate?
+    - How much does it cost to renew a tour guide certificate?
+    - Tour guide certificate renewal charges
+    - Payment for tour guide certificate renewal
+    - What’s the cost of renewing tour guide competency certificate?
+    - Are there any fees for tour guide certificate renewal?
+    - Total service cost for tour guide certificate renewal
+    - Tell me about tour guide certificate renewal including documents, fee, and time
+    - What are the documents, cost, and duration for tour guide certificate renewal?
+    - Provide details on tour guide certificate renewal process including time, fee, and paperwork
+    - I need information on renewing my tour guide certificate: documents, fee, and time
+    - What are the requirements, cost, and duration for renewing a tour guide certificate?
+    - What’s the full process for renewing a tour guide competency certificate?
+    - Explain the tour guide certificate renewal procedure step by step
+    - Help me with the tour guide certificate renewal application
+    - Can you assist me with renewing my tour guide competency certificate?
+    - I need help renewing my tour guide certificate
+    - Support for tour guide certificate renewal
+    - Where to submit the tour guide certificate renewal form?
+    - How to complete the tour guide certificate renewal form?
+    - Ministry contact for tour guide certificate renewal
+    - Overview of tour guide certificate renewal requirements
+    - How do I renew my tour guide competency certificate?
+    - Process for renewing tour guide certificate
+    - Steps to extend my tour guide certification
+    - When should I renew my tour guide license?
+    - Requirements for certificate renewal for guides
+    - Renewal process for tour guide competency certificate
+    - Can I renew my tour guide license online?
+    - How long does it take to renew tour guide certificate?
+    - Where to renew my tour guide certification?
+    - Tour guide certificate renewal fees
+
+- intent: support_letter_for_tourist_cameras_en
+  examples: |
+    - How to get a support letter for bringing cameras as a tourist?
+    - Do I need a letter to bring professional cameras when visiting?
+    - Process of obtaining camera support letter
+    - How can I apply for a camera permission letter?
+    - Is a support letter required for tourist camera equipment?
+    - Steps to get approval for carrying cameras
+    - Camera support documentation for tourists
+    - Where to request a letter for using cameras?
+    - What paperwork is needed for bringing cameras?
+    - Tourist camera permit application
+    - How do I apply for a support letter to bring cameras?
+    - Application process for camera support letter
+    - What documents are required for a camera support letter?
+    - Document checklist for camera permission letter
+    - Required paperwork for tourist camera support letter
+    - What do I need to bring to apply for a camera support letter?
+    - Steps to complete the camera support letter application
+    - Instructions for obtaining a tourist camera support letter
+    - Can I apply online for a camera support letter?
+    - Where do I submit the application for camera support letter?
+    - Who is eligible to receive a camera support letter?
+    - What are the conditions for issuing a tourist camera support letter?
+    - Can I get a support letter for professional camera equipment?
+    - How long does it take to get a camera support letter?
+    - Processing time for camera support letter application
+    - When will I receive the camera support letter?
+    - Duration of camera support letter issuance process
+    - How many days does it take to obtain a camera support letter?
+    - What is the fee for a tourist camera support letter?
+    - How much does it cost to get a camera permission letter?
+    - Charges for tourist camera support letter
+    - Payment process for camera support letter
+    - What’s the cost of applying for a camera support letter?
+    - Are there any fees for tourist camera support letters?
+    - Total service cost for camera permission letter
+    - Tell me about camera support letter with documents, fee, and time
+    - What are the documents, cost, and duration for camera support letter?
+    - Provide details on camera support letter process including time, fee, and paperwork
+    - I need information on applying for a camera support letter: documents, fee, and time
+    - What are the requirements, cost, and duration for obtaining a camera support letter?
+    - What’s the full process for getting a tourist camera support letter?
+    - Explain the procedure to get a camera support letter step by step
+    - Help me with the application for camera support letter
+    - Can you assist me in obtaining a tourist camera support letter?
+    - I need help applying for a camera support letter
+    - Support for tourist camera support letter application
+    - Where to submit the camera support letter application form?
+    - How to complete the camera support letter application form?
+    - Ministry contact for tourist camera support letter
+    - Overview of camera support letter requirements for tourists
+
+    - How to get a support letter for bringing cameras as a tourist?
+    - Do I need a letter to bring professional cameras when visiting?
+    - Process of obtaining camera support letter
+    - How can I apply for a camera permission letter?
+    - Is a support letter required for tourist camera equipment?
+    - Steps to get approval for carrying cameras
+    - Camera support documentation for tourists
+    - Where to request a letter for using cameras?
+    - What paperwork is needed for bringing cameras?
+    - Tourist camera permit application

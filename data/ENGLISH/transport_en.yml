@@ -1,0 +1,1255 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ministry_Transport_Logistics_general_en
+  examples: |
+    - Ministry of Transport and Logistics
+    - Tell me about the Ministry of Transport and Logistics
+    - general information about Ministry of Transport and Logistics
+    - What is the Ministry of Transport and Logistics?
+    - explain what the Ministry of Transport and Logistics is
+    - overview of Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics in general
+    - details about Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics purpose
+    - What does the Ministry of Transport and Logistics do?
+    - What's the role of the Ministry of Transport and Logistics?
+    - What are the responsibilities of the Ministry of Transport and Logistics?
+    - Ministry of Transport and Logistics information
+    - Can you provide information about the Ministry of Transport and Logistics?
+    - I need information about the Ministry of Transport and Logistics
+    - give me general information about the Ministry of Transport and Logistics
+    - provide me details about the Ministry of Transport and Logistics
+    - send me information about the Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics overview
+    - Ministry of Transport and Logistics functions
+    - What functions does the Ministry of Transport and Logistics perform?
+    - What services does the Ministry of Transport and Logistics provide?
+    - Tell me the services of the Ministry of Transport and Logistics
+    - What are the services available at the Ministry of Transport and Logistics?
+    - Can you explain the services of the Ministry of Transport and Logistics?
+    - What is the job of the Ministry of Transport and Logistics?
+    - What is the mandate of the Ministry of Transport and Logistics?
+    - Ministry of Transport and Logistics roles
+    - Responsibilities of the Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics work
+    - Ministry of Transport and Logistics assistance
+    - Can you help me with Ministry of Transport and Logistics?
+    - I need help with the Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics support
+    - assistance with the Ministry of Transport and Logistics
+    - What does the Ministry of Transport and Logistics manage?
+    - What does the Ministry of Transport and Logistics oversee?
+    - What do I need to know about the Ministry of Transport and Logistics?
+    - Please give me general details about the Ministry of Transport and Logistics
+    - Who is responsible for transport and logistics in Ethiopia?
+    - Which office manages transport and logistics in Ethiopia?
+    - Can you tell me everything about the Ministry of Transport and Logistics?
+    - What's the Ministry of Transport and Logistics job?
+    - What is the function of the Ministry of Transport and Logistics?
+    - Ministry of Transport and Logistics general details
+    - everything about Ministry of Transport and Logistics
+    - general overview of Ministry of Transport and Logistics
+    - can you tell me general information about Ministry of Transport and Logistics
+    - can you give me general information about Ministry of Transport and Logistics
+    - provide me general information about Ministry of Transport and Logistics
+    - send me general information about Ministry of Transport and Logistics
+    - tell me general information about Ministry of Transport and Logistics
+    - information about Ministry of Transport and Logistics
+    - information on Ministry of Transport and Logistics
+    - Need information on Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics details
+    - purpose of Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics help
+    - can you give me help with Ministry of Transport and Logistics
+    - help me with Ministry of Transport and Logistics
+    - need help with Ministry of Transport and Logistics
+    - What does the Ministry of Transport and Logistics do, and what do I need?
+    - Ministry of Transport and Logistics responsibilities
+    - What's the Ministry of Transport and Logistics's job?
+    - what are the services and requirements of the Ministry of Transport and Logistics?
+    - What services does the Ministry of Transport and Logistics offer and what documents do I need?
+    - Can you tell me about the Ministry of Transport and Logistics's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ministry of Transport and Logistics.
+    - What documents are needed for services at the Ministry of Transport and Logistics and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ministry of Transport and Logistics.
+    - How much does it cost and what documents are required for Ministry of Transport and Logistics services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ministry of Transport and Logistics?
+    - What do I need to apply for services at the Ministry of Transport and Logistics, including time and fees?
+    - Tell me about the Ministry of Transport and Logistics services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ministry of Transport and Logistics?
+    - Ministry of Transport and Logistics services and requirements?
+    - Ministry of Transport and Logistics fees and steps?
+    - How much Ministry of Transport and Logistics services cost?
+    - cost for Ministry of Transport and Logistics?
+    - fee for Ministry of Transport and Logistics?
+    - how long does it take for Ministry of Transport and Logistics?
+    - time for Ministry of Transport and Logistics?
+    - What documents do I need for Ministry of Transport and Logistics?
+    - What documents are needed for Ministry of Transport and Logistics?
+    - What do I need for Ministry of Transport and Logistics services?
+    - What papers do I need for Ministry of Transport and Logistics?
+    - What documents are required for Ministry of Transport and Logistics?
+    - What papers are needed for Ministry of Transport and Logistics?
+    - What documents are required for Ministry of Transport and Logistics services?
+    - can you send me general information about Ministry of Transport and Logistics
+    - Can you tell me the documents needed for Ministry of Transport and Logistics services?
+    - How long does it take to get service at Ministry of Transport and Logistics?
+    - What fees are charged for services at Ministry of Transport and Logistics?
+    - I want information on the services and required documents at Ministry of Transport and Logistics.
+    - Could you explain the processing time and fees for Ministry of Transport and Logistics services?
+    - What do I need to bring to access services at Ministry of Transport and Logistics?
+    - Tell me about the service duration and fees at Ministry of Transport and Logistics.
+    - What are the available services and related fees at Ministry of Transport and Logistics?
+    - Please provide details about Ministry of Transport and Logistics's service process, required documents, time, and fees.
+    - What services does the Ministry of Transport and Logistics provide, and what documents do I need to apply?
+    - Can you tell me about the transport services available and the required paperwork along with the service duration and fees?
+    - What are the required documents, service fees, and expected processing time for transport-related services at the ministry?
+    - Could you explain the types of services offered, necessary documents, fees, and how long each service takes?
+    - What should I prepare document-wise, how much do the services cost, and how long will they take at the Ministry of Transport and Logistics?
+    - Please provide an overview of transport services, including document requirements, service fees, and time estimates.
+    - How long does the Ministry take to process transport services, and what documents and fees are involved?
+    - What services can I access at the Ministry of Transport and Logistics, and what are the associated document, fee, and timing details?
+    - Can you give me a full breakdown of the transport services including documents, fees, and service duration?
+    - tell me about ministry of transport and logistics
+    - what is ministry transport and logistics
+    - ministry of transport and logistics explain please
+    - I want know about ministry transport and logistics
+    - can you say me what ministry transport and logistics do
+    - ministry of transport and logistics info
+    - please tell me general info about ministry transport and logistics
+    - what ministry transport and logistics
+    - give me information about ministry transport and logistics
+    - can you tell me what ministry transport and logistics is
+    - general information about ministry of transport and logistics
+    - tell me ministry of transport and logistics things
+    - ministry of transport and logistics explain
+    - what is work of ministry transport and logistics
+    - I want know role of ministry transport and logistics
+    - ministry transport and logistics duties
+    - what ministry transport and logistics make
+    - explain ministry of transport and logistics
+    - ministry transport and logistics overview
+    - can you give me info about ministry of transport and logistics
+    - tell me about ministry transport and logistics job
+    - what is ministry transport and logistics do
+    - I want know about ministry transport and logistics work
+    - ministry of transport and logistics description
+    - what is role of ministry transport and logistics
+    - please explain ministry transport and logistics
+    - tell me general about ministry transport and logistics
+    - ministry of transport and logistics general information
+    - what ministry transport and logistics function
+    - can you explain ministry transport and logistics
+    - ministry transport and logistics responsibilities
+    - tell me what ministry transport and logistics do
+    - general info about ministry transport and logistics
+    - give me overview about ministry transport and logistics
+    - what work ministry transport and logistics do
+    - I want know general ministry transport and logistics
+    - explain me ministry of transport and logistics
+    - what duty ministry transport and logistics have
+    - ministry transport and logistics details
+    - tell me about ministry transport and logistics role
+    - general overview ministry transport and logistics
+    - I want info about ministry transport and logistics
+    - ministry transport and logistics explain for me
+    - tell me ministry transport and logistics responsibility
+    - what ministry transport and logistics purpose
+    - give me general information ministry transport and logistics
+    - ministry transport and logistics work explain
+    - explain me about ministry transport and logistics
+    - what is purpose ministry transport and logistics
+    - can you tell me general info ministry transport and logistics
+    - tell me about ministry of transport and logistics in mesob
+    - what is ministry transport and logistics in mesob
+    - ministry of transport and logistics in mesob explain please
+    - I want know about ministry transport and logistics in mesob
+    - can you say me what ministry transport and logistics do in mesob
+    - ministry of transport and logistics info in mesob
+    - please tell me general info about ministry transport and logistics in mesob
+    - what ministry transport and logistics in mesob
+    - give me information about ministry transport and logistics in mesob
+    - can you tell me what ministry transport and logistics is in mesob
+    - general information about ministry of transport and logistics in mesob
+    - tell me ministry of transport and logistics things in mesob
+    - ministry of transport and logistics explain in mesob
+    - what is work of ministry transport and logistics in mesob
+    - I want know role of ministry transport and logistics in mesob
+    - ministry transport and logistics duties in mesob
+    - what ministry transport and logistics make in mesob
+    - explain ministry of transport and logistics in mesob
+    - ministry transport and logistics overview in mesob
+    - can you give me info about ministry of transport and logistics in mesob
+    - tell me about ministry transport and logistics job in mesob
+    - what is ministry transport and logistics do in mesob
+    - I want know about ministry transport and logistics work in mesob
+    - ministry of transport and logistics description in mesob
+    - what is role of ministry transport and logistics in mesob
+    - please explain ministry transport and logistics in mesob
+    - tell me general about ministry transport and logistics in mesob
+    - ministry of transport and logistics general information in mesob
+    - what ministry transport and logistics function in mesob
+    - can you explain ministry transport and logistics in mesob
+    - ministry transport and logistics responsibilities in mesob
+    - tell me what ministry transport and logistics do in mesob
+    - general info about ministry transport and logistics in mesob
+    - give me overview about ministry transport and logistics in mesob
+    - what work ministry transport and logistics do in mesob
+    - I want know general ministry transport and logistics in mesob
+    - explain me ministry of transport and logistics in mesob
+    - what duty ministry transport and logistics have in mesob
+    - ministry transport and logistics details in mesob
+    - tell me about ministry transport and logistics role in mesob
+    - general overview ministry transport and logistics in mesob
+    - I want info about ministry transport and logistics in mesob
+    - ministry transport and logistics explain for me in mesob
+    - tell me ministry transport and logistics responsibility in mesob
+    - what ministry transport and logistics purpose in mesob
+    - give me general information ministry transport and logistics in mesob
+    - ministry transport and logistics work explain in mesob
+    - explain me about ministry transport and logistics in mesob
+    - what is purpose ministry transport and logistics in mesob
+    - can you tell me general info ministry transport and logistics in mesob
+
+- intent: ask_about_Ministry_Transport_Logistics_service_en
+  examples: |
+    - Ministry transport service what it give
+    - tell me transport service ministry doing
+    - what document need for transport ministry service
+    - how much fee for service in transport ministry
+    - service of transport ministry and cost
+    - ministry transport give what service
+    - how long take service in transport ministry
+    - please say me transport ministry service and paper
+    - I want know service detail in transport ministry
+    - ministry of transport help service what is
+    - document for ministry transport service tell me
+    - what paper need when go to ministry of transport
+    - transport ministry service and requirement tell
+    - fee in ministry of transport service how much
+    - time for service in ministry of transport
+    - what is processing time for transport service
+    - ministry transport service cost I want know
+    - can you give me info about service of ministry transport
+    - service in ministry transport how work
+    - how many day take ministry transport service
+    - paper and document ministry transport need
+    - fee and document for ministry transport service
+    - what I bring for service in transport ministry
+    - ministry transport service duration and price
+    - ministry transport service step how is
+    - please tell transport service detail ministry
+    - what document require for ministry transport
+    - ministry transport paper needed for service
+    - what cost ministry transport take for service
+    - transport service document fee and time
+    - what need for service in transport ministry
+    - how much time ministry transport take
+    - tell me service in ministry transport with fee
+    - service process of transport ministry how
+    - explain service requirement in transport ministry
+    - transport ministry service price and time
+    - what paper require in transport service
+    - ministry transport service information please
+    - can you explain cost of service ministry transport
+    - how much pay for service in ministry transport
+    - tell me what service ministry transport provide
+    - service and document ask for ministry transport
+    - ministry transport how do service working
+    - service apply in transport ministry how
+    - what is timeline for ministry transport service
+    - transport service in ministry requirement and fee
+    - say me transport ministry service and doc
+    - how much charge for ministry transport service
+    - service in transport ministry tell detail
+    - ministry transport service what needed
+    - Ministry of Transport and Logistics services
+    - service of Ministry of Transport and Logistics in mesob
+    - sercices of Ministry of Transport and Logistics
+    - services by Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics utilities
+    - utility of Ministry of Transport and Logistics
+    - give me services of Ministry of Transport and Logistics
+    - list services of Ministry of Transport and Logistics in mesob
+    - list services by Ministry of Transport and Logistics
+    - list out Ministry of Transport and Logistics services
+    - list of services by Ministry of Transport and Logistics
+    - tell me services by Ministry of Transport and Logistics
+    - tell me list of services by Ministry of Transport and Logistics
+    - tell me list of services of Ministry of Transport and Logistics
+    - tell me the services of Ministry of Transport and Logistics
+    - telm me about the services of Ministry of Transport and Logistics
+    - can you tell me about Ministry of Transport and Logistics services
+    - can you list the services of Ministry of Transport and Logistics
+    - can you list services by Ministry of Transport and Logistics
+    - What kind of support does the Ministry of Transport and Logistics give?
+    - support from Ministry of Transport and Logistics
+    - what services does Ministry of Transport and Logistics support?
+    - list support by Ministry of Transport and Logistics
+    - tell me support of Ministry of Transport and Logistics
+    - tell me about the support of Ministry of Transport and Logistics
+    - What services does the Ministry of Transport and Logistics provide?
+    - What services are provided by the Ministry of Transport and Logistics?
+    - list services provided by Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics provide?
+    - services provided by Ministry of Transport and Logistics
+    - list services which Ministry of Transport and Logistics provides
+    - list the services which Ministry of Transport and Logistics provides
+    - list of services which Ministry of Transport and Logistics provides
+    - can u tell me the services which Ministry of Transport and Logistics provides
+    - tell me the services which Ministry of Transport and Logistics provides
+    - list of services provided by Ministry of Transport and Logistics
+    - list the services provided by Ministry of Transport and Logistics
+    - list services provided by Ministry of Transport and Logistics
+    - can u list the services provided by Ministry of Transport and Logistics
+    - can u tell me the services provided by Ministry of Transport and Logistics
+    - can you tell me the services which Ministry of Transport and Logistics provides
+    - can you tell me the services provided by Ministry of Transport and Logistics
+    - What services does the Ministry of Transport and Logistics offer?
+    - What are the services that the Ministry of Transport and Logistics offers?
+    - Ministry of Transport and Logistics offers?
+    - What does the Ministry of Transport and Logistics offer?
+    - list the services that Ministry of Transport and Logistics offers
+    - list the services offered by Ministry of Transport and Logistics
+    - list of services offered by Ministry of Transport and Logistics
+    - can you list services offered by Ministry of Transport and Logistics
+    - What services are offered by the Ministry of Transport and Logistics?
+    - tell me services offered by Ministry of Transport and Logistics
+    - can you tell me services offered by Ministry of Transport and Logistics
+    - What services are available at the Ministry of Transport and Logistics?
+    - what are the available services at Ministry of Transport and Logistics
+    - available services at Ministry of Transport and Logistics
+    - tell me available services of Ministry of Transport and Logistics
+    - list of available services at Ministry of Transport and Logistics
+    - list available services by Ministry of Transport and Logistics
+    - list the available services of Ministry of Transport and Logistics
+    - list the services that are available at Ministry of Transport and Logistics
+    - can u list available services at Ministry of Transport and Logistics
+    - can you tell me available services at Ministry of Transport and Logistics
+    - what servies are given by Ministry of Transport and Logistics
+    - What services does the Ministry of Transport and Logistics give?
+    - tell me what services Ministry of Transport and Logistics gives
+    - tell me what services are given by Ministry of Transport and Logistics
+    - can you list the services that Ministry of Transport and Logistics gives
+    - can you tell me the services that Ministry of Transport and Logistics gives
+    - can you tell me what services Ministry of Transport and Logistics gives
+    - can u tell me what sevices can I get from Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics gives services?
+    - what services can I get from Ministry of Transport and Logistics?
+    - What services can I access at the Ministry of Transport and Logistics?
+    - What are the main tasks of the Ministry of Transport and Logistics
+    - main tasks of Ministry of Transport and Logistics
+    - can u tell me the tasks of Ministry of Transport and Logistics
+    - tasks of Ministry of Transport and Logistics
+    - Tell me Ministry of Transport and Logistics services
+    - services by Ministry of Transport and Logistics
+    - Ministry of Transport and Logistics services list
+    - list of Ministry of Transport and Logistics services
+    - tell me the lists of Ministry of Transport and Logistics services
+    - Ministry of Transport and Logistics services list
+    - Role of the Ministry of Transport and Logistics?
+    - What roles does the Ministry of Transport and Logistics play?
+    - Ministry of Transport and Logistics roles
+    - What roles does the Ministry of Transport and Logistics have?
+    - What does the Ministry of Transport and Logistics do
+    - Can you list the services offered by the Ministry of Transport and Logistics?
+    - Which services are available at the Ministry of Transport and Logistics?
+    - Tell me about the services of the Ministry of Transport and Logistics
+    - What help can I get from the Ministry of Transport and Logistics?
+    - Can you explain the services under Ministry of Transport and Logistics?
+    - can you list the services of the Ministry of Transport and Logistics?
+    - can you tell me about the services of the Ministry of Transport and Logistics?
+    - please tell me the services of the Ministry of Transport and Logistics?
+    - What services are included in the Ministry of Transport and Logistics?
+    - give me the services of the Ministry of Transport and Logistics
+    - give me the list of services of the Ministry of Transport and Logistics
+    - give me the list of services provided by the Ministry of Transport and Logistics
+    - send me the services of the Ministry of Transport and Logistics
+    - send me the list of services of the Ministry of Transport and Logistics
+    - send me the list of services provided by the Ministry of Transport and Logistics
+    - provide me the services of the Ministry of Transport and Logistics
+    - provide me the list of services of the Ministry of Transport and Logistics
+    - provide me the list of services provided by the Ministry of Transport and Logistics
+    - Ministry transport service what it give
+    - tell me transport service ministry doing
+    - what document need for transport ministry service
+    - how much fee for service in transport ministry
+    - service of transport ministry and cost
+    - ministry transport give what service
+    - how long take service in transport ministry
+    - please say me transport ministry service and paper
+    - I want know service detail in transport ministry
+    - ministry of transport help service what is
+    - document for ministry transport service tell me
+    - what paper need when go to ministry of transport
+    - transport ministry service and requirement tell
+    - fee in ministry of transport service how much
+    - time for service in ministry of transport
+    - what is processing time for transport service
+    - ministry transport service cost I want know
+    - can you give me info about service of ministry transport
+    - service in ministry transport how work
+    - how many day take ministry transport service
+    - paper and document ministry transport need
+    - fee and document for ministry transport service
+    - what I bring for service in transport ministry
+    - ministry transport service duration and price
+    - ministry transport service step how is
+    - please tell transport service detail ministry
+    - what document require for ministry transport
+    - ministry transport paper needed for service
+    - what cost ministry transport take for service
+    - transport service document fee and time
+    - what need for service in transport ministry
+    - how much time ministry transport take
+    - tell me service in ministry transport with fee
+    - service process of transport ministry how
+    - explain service requirement in transport ministry
+    - transport ministry service price and time
+    - what paper require in transport service
+    - ministry transport service information please
+    - can you explain cost of service ministry transport
+    - how much pay for service in ministry transport
+    - tell me what service ministry transport provide
+    - service and document ask for ministry transport
+    - ministry transport how do service working
+    - service apply in transport ministry how
+    - what is timeline for ministry transport service
+    - transport service in ministry requirement and fee
+    - say me transport ministry service and doc
+    - how much charge for ministry transport service
+    - service in transport ministry tell detail
+    - ministry transport service what needed
+    - what service ministry transport and logistics give in mesob
+    - tell me ministry transport service in mesob
+    - ministry of transport services in mesob explain please
+    - I want know service in ministry transport and logistics in mesob
+    - can you say me what service ministry transport give in mesob
+    - ministry transport service info in mesob
+    - please tell me services of ministry transport and logistics in mesob
+    - what ministry transport and logistics service in mesob
+    - give me information about ministry transport service in mesob
+    - can you tell me what ministry transport service is in mesob
+    - service details of ministry transport and logistics in mesob
+    - tell me ministry transport service things in mesob
+    - ministry transport service explain in mesob
+    - what is work of ministry transport service in mesob
+    - I want know service role of ministry transport in mesob
+    - ministry transport service duties in mesob
+    - what ministry transport services make in mesob
+    - explain ministry transport services in mesob
+    - ministry transport services overview in mesob
+    - can you give me info about ministry transport services in mesob
+    - tell me about ministry transport services job in mesob
+    - what is ministry transport services do in mesob
+    - I want know about ministry transport services work in mesob
+    - ministry transport service description in mesob
+    - what is role of ministry transport service in mesob
+    - please explain ministry transport services in mesob
+    - tell me general about ministry transport service in mesob
+    - ministry transport services general information in mesob
+    - what ministry transport service function in mesob
+    - can you explain ministry transport services in mesob
+    - ministry transport services responsibilities in mesob
+    - tell me what ministry transport services do in mesob
+    - general info about ministry transport services in mesob
+    - give me overview about ministry transport services in mesob
+    - what work ministry transport services do in mesob
+    - I want know general ministry transport services in mesob
+    - explain me ministry transport services in mesob
+    - what duty ministry transport services have in mesob
+    - ministry transport services details in mesob
+    - tell me about ministry transport services role in mesob
+    - general overview ministry transport services in mesob
+    - I want info about ministry transport services in mesob
+    - ministry transport services explain for me in mesob
+    - tell me ministry transport services responsibility in mesob
+    - what ministry transport services purpose in mesob
+    - give me general information ministry transport services in mesob
+    - ministry transport services work explain in mesob
+    - explain me about ministry transport services in mesob
+    - what is purpose ministry transport services in mesob
+    - can you tell me general info ministry transport services in mesob
+
+- intent: ask_about_Road_Public_Transport_Operators_doc_en
+  examples: |
+    - what documents need for road public transport operator license
+    - tell me papers required for transport license
+    - which documents I must bring for license
+    - what I need to apply road transport operator license
+    - document requirement for transport operator license
+    - can you say me what papers need for license
+    - list of document for road transport license
+    - I want know what document needed for license
+    - what document bring to get transport operator license
+    - explain me papers required for license
+    - requirement document for road transport license
+    - what papers I need to get transport license
+    - tell me about license document requirement
+    - can you explain what document need for license
+    - what documents needed for renewal of transport license
+    - which papers required for road transport license
+    - document needed to apply transport operator license
+    - what document for new road transport license
+    - list papers I must bring for license application
+    - tell me license documents step by step
+    - requirement of documents for transport operator license
+    - what document required to get license
+    - papers needed for commercial road transport license
+    - I want document list for transport license
+    - which document must I submit for license
+    - documents for issuance of road transport license
+    - tell me what papers need for new license
+    - document needed for road transport license renewal
+    - can you give me list of documents for license
+    - papers requirement for transport operator license
+    - what documents needed for apply transport license
+    - list documents required for license renewal
+    - what I must bring for license process
+    - document information for road public transport license
+    - tell me required papers for transport license
+    - explain me document need for license
+    - document step for commercial road transport license
+    - what documents I bring for license issuance
+    - requirement of papers for road transport license
+    - which documents needed for license apply
+    - what papers required for renewal of transport license
+    - tell me document to apply for road transport license
+    - document for license how I get
+    - explain me papers needed for transport operator license
+    - requirement document for license renewal
+    - which documents needed for new transport license
+    - list of papers required for license
+    - what documents I must submit for license
+    - tell me papers needed for transport operator license
+    - what document I bring for license renewal
+    - documents required for Road Public Transport Operators Competency License
+    - list document need for apply road transport license
+    - Could you please tell me which documents are required for the road public transport operator license?
+    - I would like to know the papers needed to apply for a commercial road transport license.
+    - Can you explain the document requirements for the transport operator license?
+    - Please tell me what documents I need to submit for the license issuance.
+    - I want to know which documents are necessary for the license renewal.
+    - Could you provide information about the required documents for the road transport operator license?
+    - What papers are needed for applying for the road public transport license?
+    - Please explain the documents required for a commercial transport operator license.
+    - I would like to know the steps and documents for license application.
+    - Can you tell me the document list needed for road transport license issuance?
+    - I want to understand which papers are required for license renewal.
+    - Could you explain what documents are necessary for the road public transport operator license?
+    - Please provide details on the documents required for license application.
+    - What documents must I bring to apply for the commercial road transport license?
+    - I would like to know the required papers for the transport operator license.
+    - Can you kindly explain the documents needed for the license process?
+    - Please inform me about the necessary documents for license issuance.
+    - I want to understand what documents are needed to renew the transport license.
+    - Could you tell me which documents are essential for the road public transport license?
+    - Please explain the document requirements for applying for the license.
+    - I would like to know which papers must be submitted for the license issuance.
+    - Can you provide the document list needed for commercial road transport operator license?
+    - I want to know the required documents and steps for license renewal.
+    - Please tell me what documents are necessary to apply for a road public transport license.
+    - Could you explain the documents required to obtain a transport operator license?
+    - I would like to know the official documents needed for license issuance.
+    - Can you provide information about the required papers for license renewal?
+    - Please explain the documents I must submit for applying for the transport license.
+    - I want to know the papers required for a commercial road public transport license.
+    - Could you kindly provide the document list needed for the license application?
+    - Please inform me about the documents necessary for license renewal.
+    - I would like to know what documents are required to apply for the road transport license.
+    - Can you tell me the necessary papers for commercial road transport license issuance?
+    - Please explain which documents are required for renewing the transport operator license.
+    - I want to know which documents I must prepare for the license application.
+    - Could you provide details about the required documents for road public transport license?
+    - Please tell me the necessary documents for obtaining a transport operator license.
+    - I would like to know the papers required to renew the commercial road transport license.
+    - Can you explain the document requirements for applying for the road public transport license?
+    - Please provide information about the documents needed for license issuance.
+    - I want to know which documents are mandatory for a transport operator license.
+    - Could you kindly tell me the list of documents needed for license renewal?
+    - Please explain the documents that must be submitted for the road transport license application.
+    - I would like to know the documents required to obtain the commercial road transport operator license.
+    - Can you provide the list of required documents for license issuance?
+    - Please inform me about the necessary documents to renew the road public transport license.
+    - I want to understand which papers are essential for the transport operator license application.
+    - Could you explain the documents required for applying for a commercial road transport license?
+    - Please tell me what documents must be provided to obtain the transport operator license.
+    - I would like to know the official papers needed for the license renewal process.
+    - Can you kindly provide the details of documents required for road public transport license?
+    - Please provide a complete list of required documents for applying for the transport operator license.
+    - Could you please tell me which documents are required for road public transport operator license in Mesob?
+    - I would like to know the papers needed to apply for a commercial road transport license in Mesob.
+    - Can you explain the document requirements for the transport operator license in Mesob?
+    - Please tell me what documents I need to submit for the license issuance in Mesob.
+    - I want to know which documents are necessary for the license renewal in Mesob.
+    - Could you provide information about the required documents for the road transport operator license in Mesob?
+    - What papers are needed for applying for the road public transport license in Mesob?
+    - Please explain the documents required for a commercial transport operator license in Mesob.
+    - I would like to know the steps and documents for license application in Mesob.
+    - Can you tell me the document list needed for road transport license issuance in Mesob?
+    - I want to understand which papers are required for license renewal in Mesob.
+    - Could you explain what documents are necessary for the road public transport operator license in Mesob?
+    - Please provide details on the documents required for license application in Mesob.
+    - What documents must I bring to apply for the commercial road transport license in Mesob?
+    - I would like to know the required papers for the transport operator license in Mesob.
+    - Can you kindly explain the documents needed for the license process in Mesob?
+    - Please inform me about the necessary documents for license issuance in Mesob.
+    - I want to understand what documents are needed to renew the transport license in Mesob.
+    - Could you tell me which documents are essential for the road public transport license in Mesob?
+    - Please explain the document requirements for applying for the license in Mesob.
+    - I would like to know which papers must be submitted for the license issuance in Mesob.
+    - Can you provide the document list needed for commercial road transport operator license in Mesob?
+    - I want to know the required documents and steps for license renewal in Mesob.
+    - Please tell me what documents are necessary to apply for a road public transport license in Mesob.
+    - Could you explain the documents required to obtain a transport operator license in Mesob?
+    - I would like to know the official documents needed for license issuance in Mesob.
+    - Can you provide information about the required papers for license renewal in Mesob?
+    - Please explain the documents I must submit for applying for the transport license in Mesob.
+    - I want to know the papers required for a commercial road public transport license in Mesob.
+    - Could you kindly provide the document list needed for the license application in Mesob?
+    - Please inform me about the documents necessary for license renewal in Mesob.
+    - I would like to know what documents are required to apply for the road transport license in Mesob.
+    - Can you tell me the necessary papers for commercial road transport license issuance in Mesob?
+    - Please explain which documents are required for renewing the transport operator license in Mesob.
+    - I want to know which documents I must prepare for the license application in Mesob.
+    - Could you provide details about the required documents for road public transport license in Mesob?
+    - Please tell me the necessary documents for obtaining a transport operator license in Mesob.
+    - I would like to know the papers required to renew the commercial road transport license in Mesob.
+    - Can you explain the document requirements for applying for the road public transport license in Mesob?
+    - Please provide information about the documents needed for license issuance in Mesob.
+    - I want to know which documents are mandatory for a transport operator license in Mesob.
+    - Could you kindly tell me the list of documents needed for license renewal in Mesob?
+    - Please explain the documents that must be submitted for the road transport license application in Mesob.
+    - I would like to know the documents required to obtain the commercial road transport operator license in Mesob.
+    - Can you provide the list of required documents for license issuance in Mesob?
+    - Please inform me about the necessary documents to renew the road public transport license in Mesob.
+    - I want to understand which papers are essential for the transport operator license application in Mesob.
+    - Could you explain the documents required for applying for a commercial road transport license in Mesob?
+    - Please tell me what documents must be provided to obtain the transport operator license in Mesob.
+    - I would like to know the official papers needed for the license renewal process in Mesob.
+    - Can you kindly provide the details of documents required for road public transport license in Mesob?
+    - Please provide a complete list of required documents for applying for the transport operator license in Mesob.
+    - what documents need for transport license in Mesob
+    - tell me papers for road transport license in Mesob
+    - which documents I must bring for license in Mesob
+    - what I need for get transport license in Mesob
+    - document need for license in Mesob
+    - can you tell me what papers need for license in Mesob
+    - list of documents for transport license in Mesob
+    - I want know what document needed for license in Mesob
+    - what document bring for get license in Mesob
+    - explain me papers need for license in Mesob
+    - requirement document for transport license in Mesob
+    - what papers I need get license in Mesob
+    - tell me about license document need in Mesob
+    - can you say what document need for license in Mesob
+    - what documents needed for renew license in Mesob
+    - which papers need for transport license in Mesob
+    - document need to apply transport license in Mesob
+    - what document for new transport license in Mesob
+    - list papers I must bring for license in Mesob
+    - tell me license documents step by step in Mesob
+    - requirement of documents for transport license in Mesob
+    - what document required for get license in Mesob
+    - papers needed for commercial transport license in Mesob
+    - I want document list for transport license in Mesob
+    - which document I must submit for license in Mesob
+    - documents for issuance of transport license in Mesob
+    - tell me what papers need for new license in Mesob
+    - document needed for transport license renewal in Mesob
+    - can you give me list of documents for license in Mesob
+    - papers requirement for transport license in Mesob
+    - what documents needed for apply license in Mesob
+    - list documents required for license renewal in Mesob
+    - what I must bring for license process in Mesob
+    - document info for transport license in Mesob
+    - tell me required papers for transport license in Mesob
+    - explain me document need for license in Mesob
+    - document step for commercial transport license in Mesob
+    - what documents I bring for license issuance in Mesob
+    - requirement of papers for transport license in Mesob
+    - which documents needed for license apply in Mesob
+    - what papers required for renewal license in Mesob
+    - tell me document to apply transport license in Mesob
+    - document for license how I get in Mesob
+    - explain me papers needed for transport license in Mesob
+    - requirement document for license renewal in Mesob
+    - which documents needed for new transport license in Mesob
+    - list of papers required for license in Mesob
+    - what documents I must submit for license in Mesob
+    - tell me papers needed for transport license in Mesob
+    - what document I bring for license renewal in Mesob
+    - documents required for Road Public Transport Operators Competency License in Mesob
+    - list document need for apply transport license in Mesob
+
+- intent: ask_about_Road_Public_Transport_Operators_time_en
+  examples: |
+    #---------------- Informal, non-native grammar, with "in Mesob" ----------------
+    - how long take for commercial road license in Mesob
+    - tell me time for license process in Mesob
+    - license process how many days in Mesob
+    - how much time need for commercial license in Mesob
+    - what time take for license in Mesob
+    - how long I wait for license in Mesob
+    - license get how many day in Mesob
+    - tell me how many time need for license in Mesob
+    - I want know time for license in Mesob
+    - license take long time in Mesob
+    - how many day take to get license in Mesob
+    - tell me how long process for license in Mesob
+    - what time need for license in Mesob
+    - license processing how long in Mesob
+    - I want know duration for license in Mesob
+    - how many days take for license in Mesob
+    - license time how long in Mesob
+    - tell me duration for license in Mesob
+    - license get time how many days in Mesob
+    - how long I wait to get license in Mesob
+    - what is processing time for license in Mesob
+    - how long process commercial license in Mesob
+    - tell me about license time in Mesob
+    - how many time need for license in Mesob
+    - license take how long in Mesob
+    - what days need for license in Mesob
+    - how much days for license in Mesob
+    - license processing time how many days in Mesob
+    - I want to know how long license take in Mesob
+    - how long to get commercial license in Mesob
+    - tell me process time for license in Mesob
+    - what time required for license in Mesob
+    - license processing how many days in Mesob
+    - how long it takes to get license in Mesob
+    - license duration tell me in Mesob
+    - I need know time for license in Mesob
+    - how long for commercial license in Mesob
+    - license get time how much in Mesob
+    - how many days license need in Mesob
+    - tell me license duration in Mesob
+    - time take for commercial license in Mesob
+    - how many day for license in Mesob
+    - license time tell me in Mesob
+    - what days take for license in Mesob
+    - I want know duration for license in Mesob
+    - how long it need for license in Mesob
+    - license process duration how many days in Mesob
+    - tell me how long need for license in Mesob
+    - how many day take to get license in Mesob
+    - license get how many day in Mesob
+    - I want know how many days license take in Mesob
+
+    #---------------- Formal, with "in Mesob" ----------------
+    - Could you please tell me the expected time to get the commercial road license in Mesob?
+    - I would like to know the duration of the license process in Mesob.
+    - Can you inform me how many days it takes to get the commercial license in Mesob?
+    - Please tell me the processing time for the commercial license in Mesob.
+    - I want to know how long it takes to obtain the commercial road license in Mesob.
+    - Could you provide information about the expected duration for the commercial license in Mesob?
+    - How many days are required to complete the license process in Mesob?
+    - I would like to know the approximate time needed for license issuance in Mesob.
+    - Can you explain the expected processing time for the commercial license in Mesob?
+    - Please inform me how long I must wait to get the commercial license in Mesob.
+    - I want to understand the time needed for the commercial license in Mesob.
+    - Could you tell me the duration for issuing a commercial road license in Mesob?
+    - Please explain how many days it usually takes to get the commercial license in Mesob.
+    - I would like to know the time required for license renewal in Mesob.
+    - Can you provide details about the expected processing time for the commercial license in Mesob?
+    - Please tell me how long I must wait for the license process in Mesob.
+    - I want to know the duration required to obtain the commercial license in Mesob.
+    - Could you explain the license processing time in Mesob?
+    - How long does it usually take to receive the commercial license in Mesob?
+    - I would like to know the time frame for license issuance in Mesob.
+    - Can you provide the expected number of days for license processing in Mesob?
+    - Please tell me the duration required for obtaining a commercial road license in Mesob.
+    - I want to understand the estimated time for the license process in Mesob.
+    - Could you kindly tell me the time required to get the commercial license in Mesob?
+    - Please provide information about the number of days needed for license issuance in Mesob.
+    - I would like to know the usual time taken to process a commercial license in Mesob.
+    - Can you explain the expected duration for license renewal in Mesob?
+    - Please inform me how long it takes to complete the license process in Mesob.
+    - I want to know the expected time for getting the commercial license in Mesob.
+    - Could you tell me the estimated duration for license application in Mesob?
+    - Please explain the processing time for obtaining the commercial license in Mesob.
+    - I would like to know how many days are needed to get the commercial license in Mesob.
+    - Can you provide the time frame for the commercial license issuance process in Mesob?
+    - Please inform me about the expected duration for commercial road license in Mesob.
+    - I want to know how long it usually takes to obtain a commercial license in Mesob.
+    - Could you explain the estimated time for license processing in Mesob?
+    - Please tell me the number of days required to complete the license procedure in Mesob.
+    - I would like to know the expected time needed for license application in Mesob.
+    - Can you provide information about how long the commercial license process takes in Mesob?
+    - Please explain the typical duration for commercial license issuance in Mesob.
+    - I want to understand the number of days needed for the commercial license process in Mesob.
+    - Could you tell me the time required for renewal of the commercial license in Mesob?
+    - Please provide details on the estimated time to get the commercial license in Mesob.
+    - I would like to know the expected duration for obtaining the commercial license in Mesob.
+    - Can you explain how many days it takes to get the commercial license in Mesob?
+    - Please tell me the usual time required for license processing in Mesob.
+    - I want to know the processing time for the commercial license.
+    - Could you kindly provide the estimated number of days to complete the license process in Mesob?
+    - Please explain the time required to obtain the commercial license in Mesob.
+    - I would like to know the typical duration for license issuance in Mesob.
+    - Can you inform me about the expected time for getting the commercial license in Mesob?
+    
+    #---------------- Informal, non-native grammar ----------------
+    - how long take for commercial road license
+    - tell me time for license process
+    - license process how many days
+    - how much time need for commercial license
+    - what time take for license
+    - how long I wait for license
+    - license get how many day
+    - tell me how many time need for license
+    - I want know time for license
+    - license take long time
+    - how many day take to get license
+    - tell me how long process for license
+    - what time need for license
+    - license processing how long
+    - I want know duration for license
+    - how many days take for license
+    - license time how long
+    - tell me duration for license
+    - license get time how many days
+    - how long I wait to get license
+    - what is processing time for license
+    - how long process commercial license
+    - tell me about license time
+    - how many time need for license
+    - license take how long
+    - what days need for license
+    - how much days for license
+    - license processing time how many days
+    - I want to know how long license take
+    - how long to get commercial license
+    - tell me process time for license
+    - what time required for license
+    - license processing how many days
+    - how long it takes to get license
+    - license duration tell me
+    - I need know time for license
+    - how long for commercial license
+    - license get time how much
+    - how many days license need
+    - tell me license duration
+    - time take for commercial license
+    - how many day for license
+    - license time tell me
+    - what days take for license
+    - I want know duration for license
+    - how long it need for license
+    - license process duration how many days
+    - tell me how long need for license
+    - how many day take to get license
+    - license get how many day
+    - I want know how many days license take
+
+    #---------------- Formal grammar ----------------
+    - Could you please tell me the expected time to get the commercial road license?
+    - I would like to know the duration of the license process.
+    - Can you inform me how many days it takes to get the commercial license?
+    - Please tell me the processing time for the commercial license.
+    - I want to know how long it takes to obtain the commercial road license.
+    - Could you provide information about the expected duration for the commercial license?
+    - How many days are required to complete the license process?
+    - I would like to know the approximate time needed for license issuance.
+    - Can you explain the expected processing time for the commercial license?
+    - Please inform me how long I must wait to get the commercial license.
+    - I want to understand the time needed for the commercial license.
+    - Could you tell me the duration for issuing a commercial road license?
+    - Please explain how many days it usually takes to get the commercial license.
+    - I would like to know the time required for license renewal.
+    - Can you provide details about the expected processing time for the commercial license?
+    - Please tell me how long I must wait for the license process.
+    - I want to know the duration required to obtain the commercial license.
+    - Could you explain the license processing time?
+    - How long does it usually take to receive the commercial license?
+    - I would like to know the time frame for license issuance.
+    - Can you provide the expected number of days for license processing?
+    - Please tell me the duration required for obtaining a commercial road license.
+    - I want to understand the estimated time for the license process.
+    - Could you kindly tell me the time required to get the commercial license?
+    - Please provide information about the number of days needed for license issuance.
+    - I would like to know the usual time taken to process a commercial license.
+    - Can you explain the expected duration for license renewal?
+    - Please inform me how long it takes to complete the license process.
+    - I want to know the expected time for getting the commercial license.
+    - Could you tell me the estimated duration for license application?
+    - Please explain the processing time for obtaining the commercial license.
+    - I would like to know how many days are needed to get the commercial license.
+    - Can you provide the time frame for the commercial license issuance process?
+    - Please inform me about the expected duration for commercial road license.
+    - I want to know how long it usually takes to obtain a commercial license.
+    - Could you explain the estimated time for license processing?
+    - Please tell me the number of days required to complete the license procedure.
+    - I would like to know the expected time needed for license application.
+    - Can you provide information about how long the commercial license process takes?
+    - Please explain the typical duration for commercial license issuance.
+    - I want to understand the number of days needed for the commercial license process.
+    - Could you tell me the time required for renewal of the commercial license?
+    - Please provide details on the estimated time to get the commercial license.
+    - I would like to know the expected duration for obtaining the commercial license.
+    - Can you explain how many days it takes to get the commercial license?
+    - Please tell me the usual time required for license processing.
+    - I want to know the processing time for the commercial license.
+    - Could you kindly provide the estimated number of days to complete the license process?
+    - Please explain the time required to obtain the commercial license.
+    - I would like to know the typical duration for license issuance.
+    - Can you inform me about the expected time for getting the commercial license?
+
+- intent: ask_about_Road_Public_Transport_Operators_fee_en
+  examples: |
+    #---------------- Informal, non-native grammar ----------------
+    - how much cost for commercial road license
+    - tell me fee for license process
+    - license process how much money
+    - how much need pay for commercial license
+    - what fee take for license
+    - how much I pay for license
+    - license get how much cost
+    - tell me how many money need for license
+    - I want know fee for license
+    - license cost long time
+    - how many money take to get license
+    - tell me fee for license process
+    - what fee need for license
+    - license payment how much
+    - I want know payment for license
+    - how many money take for license
+    - license cost how much
+    - tell me payment for license
+    - license get fee how much
+    - how much I pay to get license
+    - what is fee for license
+    - how much process commercial license
+    - tell me about license fee
+    - how many money need for license
+    - license take how much money
+    - what payment need for license
+    - how much pay for license
+    - license fee how many
+    - I want to know how much license cost
+    - how long to get commercial license cost
+    - tell me process fee for license
+    - what money required for license
+    - license payment how many
+    - how much it takes to pay license
+    - license cost tell me
+    - I need know fee for license
+    - how much for commercial license
+    - license get fee how much
+    - how many money license need
+    - tell me license payment
+    - fee take for commercial license
+    - how many money pay for license
+    - license fee tell me
+    - what pay take for license
+    - I want know payment for license
+    - how much it need for license
+    - license process fee how many
+    - tell me how much need for license
+    - how many money take to get license
+    - license get how many money
+    - I want know how much fee license take
+
+    #---------------- Formal grammar ----------------
+    - Could you please tell me the expected fee to get the commercial road license?
+    - I would like to know the cost of the license process.
+    - Can you inform me how much it costs to get the commercial license?
+    - Please tell me the processing fee for the commercial license.
+    - I want to know how much it costs to obtain the commercial road license.
+    - Could you provide information about the expected fee for the commercial license?
+    - How much money is required to complete the license process?
+    - I would like to know the approximate cost needed for license issuance.
+    - Can you explain the expected payment for the commercial license?
+    - Please inform me how much I must pay to get the commercial license.
+    - I want to understand the fee needed for the commercial license.
+    - Could you tell me the expected payment for issuing a commercial road license?
+    - Please explain how much money it usually costs to get the commercial license.
+    - I would like to know the fee required for license renewal.
+    - Can you provide details about the expected payment for the commercial license?
+    - Please tell me how much I must pay for the license process.
+    - I want to know the cost required to obtain the commercial license.
+    - Could you explain the license payment process?
+    - How much does it usually cost to receive the commercial license?
+    - I would like to know the fee for license issuance.
+    - Can you provide the expected payment for license processing?
+    - Please tell me the cost required for obtaining a commercial road license.
+    - I want to understand the estimated fee for the license process.
+    - Could you kindly tell me the payment required to get the commercial license?
+    - Please provide information about the expected money needed for license issuance.
+    - I would like to know the usual fee taken to process a commercial license.
+    - Can you explain the expected cost for license renewal?
+    - Please inform me how much it costs to complete the license process.
+    - I want to know the expected fee for getting the commercial license.
+    - Could you tell me the estimated payment for license application?
+    - Please explain the processing fee for obtaining the commercial license.
+    - I would like to know how much money is needed to get the commercial license.
+    - Can you provide the cost for the commercial license issuance process?
+    - Please inform me about the expected payment for commercial road license.
+    - I want to know how much it usually costs to obtain a commercial license.
+    - Could you explain the estimated fee for license processing?
+    - Please tell me the money required to complete the license procedure.
+    - I would like to know the expected payment needed for license application.
+    - Can you provide information about how much the commercial license process costs?
+    - Please explain the typical fee for commercial license issuance.
+    - I want to understand the money needed for the commercial license process.
+    - Could you tell me the payment required for renewal of the commercial license?
+    - Please provide details on the estimated fee to get the commercial license.
+    - I would like to know the expected cost for obtaining the commercial license.
+    - Can you explain how much it costs to get the commercial license?
+    - Please tell me the usual payment required for license processing.
+    - I want to know the processing fee for the commercial license.
+    - Could you kindly provide the estimated money to complete the license process?
+    - Please explain the fee required to obtain the commercial license.
+    - I would like to know the typical payment for license issuance.
+    - Can you inform me about the expected cost for getting the commercial license?
+    #---------------- Informal, non-native grammar, with "in Mesob" ----------------
+    - how much cost for commercial road license in Mesob
+    - tell me fee for license process in Mesob
+    - license process how much money in Mesob
+    - how much need pay for commercial license in Mesob
+    - what fee take for license in Mesob
+    - how much I pay for license in Mesob
+    - license get how much cost in Mesob
+    - tell me how many money need for license in Mesob
+    - I want know fee for license in Mesob
+    - license cost long time in Mesob
+    - how many money take to get license in Mesob
+    - tell me fee for license process in Mesob
+    - what fee need for license in Mesob
+    - license payment how much in Mesob
+    - I want know payment for license in Mesob
+    - how many money take for license in Mesob
+    - license cost how much in Mesob
+    - tell me payment for license in Mesob
+    - license get fee how much in Mesob
+    - how much I pay to get license in Mesob
+    - what is fee for license in Mesob
+    - how much process commercial license in Mesob
+    - tell me about license fee in Mesob
+    - how many money need for license in Mesob
+    - license take how much money in Mesob
+    - what payment need for license in Mesob
+    - how much pay for license in Mesob
+    - license fee how many in Mesob
+    - I want to know how much license cost in Mesob
+    - how long to get commercial license cost in Mesob
+    - tell me process fee for license in Mesob
+    - what money required for license in Mesob
+    - license payment how many in Mesob
+    - how much it takes to pay license in Mesob
+    - license cost tell me in Mesob
+    - I need know fee for license in Mesob
+    - how much for commercial license in Mesob
+    - license get fee how much in Mesob
+    - how many money license need in Mesob
+    - tell me license payment in Mesob
+    - fee take for commercial license in Mesob
+    - how many money pay for license in Mesob
+    - license fee tell me in Mesob
+    - what pay take for license in Mesob
+    - I want know payment for license in Mesob
+    - how much it need for license in Mesob
+    - license process fee how many in Mesob
+    - tell me how much need for license in Mesob
+    - how many money take to get license in Mesob
+    - license get how many money in Mesob
+    - I want know how much fee license take in Mesob
+
+    #---------------- Formal grammar, with "in Mesob" ----------------
+    - Could you please tell me the expected fee to get the commercial road license in Mesob?
+    - I would like to know the cost of the license process in Mesob.
+    - Can you inform me how much it costs to get the commercial license in Mesob?
+    - Please tell me the processing fee for the commercial license in Mesob.
+    - I want to know how much it costs to obtain the commercial road license in Mesob.
+    - Could you provide information about the expected fee for the commercial license in Mesob?
+    - How much money is required to complete the license process in Mesob?
+    - I would like to know the approximate cost needed for license issuance in Mesob.
+    - Can you explain the expected payment for the commercial license in Mesob?
+    - Please inform me how much I must pay to get the commercial license in Mesob.
+    - I want to understand the fee needed for the commercial license in Mesob.
+    - Could you tell me the expected payment for issuing a commercial road license in Mesob?
+    - Please explain how much money it usually costs to get the commercial license in Mesob.
+    - I would like to know the fee required for license renewal in Mesob.
+    - Can you provide details about the expected payment for the commercial license in Mesob?
+    - Please tell me how much I must pay for the license process in Mesob.
+    - I want to know the cost required to obtain the commercial license in Mesob.
+    - Could you explain the license payment process in Mesob?
+    - How much does it usually cost to receive the commercial license in Mesob?
+    - I would like to know the fee for license issuance in Mesob.
+    - Can you provide the expected payment for license processing in Mesob?
+    - Please tell me the cost required for obtaining a commercial road license in Mesob.
+    - I want to understand the estimated fee for the license process in Mesob.
+    - Could you kindly tell me the payment required to get the commercial license in Mesob?
+    - Please provide information about the expected money needed for license issuance in Mesob.
+    - I would like to know the usual fee taken to process a commercial license in Mesob.
+    - Can you explain the expected cost for license renewal in Mesob?
+    - Please inform me how much it costs to complete the license process in Mesob.
+    - I want to know the expected fee for getting the commercial license in Mesob.
+    - Could you tell me the estimated payment for license application in Mesob?
+    - Please explain the processing fee for obtaining the commercial license in Mesob.
+    - I would like to know how much money is needed to get the commercial license in Mesob.
+    - Can you provide the cost for the commercial license issuance process in Mesob?
+    - Please inform me about the expected payment for commercial road license in Mesob.
+    - I want to know how much it usually costs to obtain a commercial license in Mesob.
+    - Could you explain the estimated fee for license processing in Mesob?
+    - Please tell me the money required to complete the license procedure in Mesob.
+    - I would like to know the expected payment needed for license application in Mesob.
+    - Can you provide information about how much the commercial license process costs in Mesob?
+    - Please explain the typical fee for commercial license issuance in Mesob.
+    - I want to understand the money needed for the commercial license process in Mesob.
+    - Could you tell me the payment required for renewal of the commercial license in Mesob?
+    - Please provide details on the estimated fee to get the commercial license in Mesob.
+    - I would like to know the expected cost for obtaining the commercial license in Mesob.
+    - Can you explain how much it costs to get the commercial license in Mesob?
+    - Please tell me the usual payment required for license processing in Mesob.
+    - I want to know the processing fee for the commercial license in Mesob.
+    - Could you kindly provide the estimated money to complete the license process in Mesob?
+    - Please explain the fee required to obtain the commercial license in Mesob.
+    - I would like to know the typical payment for license issuance in Mesob.
+    - Can you inform me about the expected cost for getting the commercial license in 
+
+
+- intent: ask_Road_Freight_Transport_Operators_doc_en
+  examples: |
+    - What documents are required for Road Freight Transport Operators?
+    - Papers needed for freight transport license
+    - Required documents for road freight operation
+    - Which files must freight operators submit?
+    - Documentation necessary for freight transport services
+    - Paperwork for applying as freight transport operator
+    - Tell me the documents for road freight operators
+    - Forms and IDs needed for freight transport license
+    - Documents needed for road freight registration
+    - What should I bring for freight transport operator application?
+    - What documents must I submit for road freight transport license?
+    - List the papers required for freight transport operator registration
+    - Required files for freight transport operator application
+    - What supporting documents are needed for freight transport operator license?
+    - Which official documents are necessary for road freight operator registration?
+    - Document checklist for road freight transport operators
+    - What forms should I bring for road freight transport licensing?
+    - Tell me the required documents for road freight transport services
+    - Which certificates or proofs are needed for freight transport licensing?
+    - What paperwork is mandatory for road freight transport operators?
+    - What documents do I need to register as a road freight transport operator?
+    - Which files must be submitted for freight transport operator approval?
+    - What papers are necessary for freight transport operator licensing?
+    - Documents required for renewal of freight transport operator license
+    - What official documents are accepted for freight transport operator registration?
+    - What are the mandatory documents for road freight transport operations?
+    - What paperwork do I need to provide for freight transport licensing?
+    - Which IDs are required for road freight transport operator registration?
+    - List the supporting documents needed for freight transport operator services
+    - Required certificates for road freight transport operators
+    - What files should I prepare for freight transport operator registration?
+    - Tell me what documents are mandatory for freight transport operator licensing
+    - What documents must I present for freight transport operator service?
+    - What are the documents needed for freight transport operator permits?
+
+    - What documents are required for Road Freight Transport Operators?
+    - Papers needed for freight transport license
+    - Required documents for road freight operation
+    - Which files must freight operators submit?
+    - Documentation necessary for freight transport services
+    - Paperwork for applying as freight transport operator
+    - Tell me the documents for road freight operators
+    - Forms and IDs needed for freight transport license
+    - Documents needed for road freight registration
+    - What should I bring for freight transport operator application?
+
+- intent: ask_Road_Freight_Transport_Operators_time_en
+  examples: |
+    - What are the working hours for Road Freight Transport Operators service?
+    - When does the freight transport office open?
+    - Service hours for freight transport operators
+    - Opening and closing times for freight transport operators
+    - Business hours for road freight services
+    - Office timing for freight transport operators
+    - Service time for Road Freight Transport Operators
+    - Tell me when the freight transport operator office operates
+    - Schedule of Road Freight Transport Operators
+    - Hours of operation for freight transport services
+
+- intent: ask_Road_Freight_Transport_Operators_fee_en
+  examples: |
+    - What is the fee for Road Freight Transport Operators service?
+    - How much does freight transport operator registration cost?
+    - Service charges for road freight license
+    - Payment required for freight operator application
+    - Tell me the cost for road freight transport licensing
+    - How much should I pay for freight operator services?
+    - Fee structure for Road Freight Transport Operators
+    - Charges for freight transport license application
+    - Price of road freight operator services
+    - Cost of freight transport registration
+
+- intent: ask_about_Drivers_Assistants_Cross-Border_doc_en
+  examples: |
+    - What documents do drivers and assistants need for cross-border transport?
+    - Papers required for cross-border driver permit
+    - Which documents are needed for cross-border driving?
+    - Documentation necessary for cross-border transport assistants
+    - Required files for drivers operating cross-border
+    - What should I bring for cross-border driver registration?
+    - Paperwork for cross-border driving and assistance
+    - Forms and IDs for cross-border drivers and assistants
+    - List of documents for cross-border driver application
+    - Documents needed for cross-border transport services
+    - What documents must drivers and assistants submit for cross-border permits?
+    - Tell me the papers required for cross-border driver and assistant registration
+    - Required documents checklist for cross-border transport drivers and assistants
+    - Which official files are necessary for cross-border driver permits?
+    - What supporting documents are needed for cross-border driver and assistant services?
+    - Document requirements for cross-border driver and assistant registration
+    - What forms should I prepare for cross-border driver and assistant permits?
+    - Which certificates or IDs are needed for cross-border drivers and assistants?
+    - What paperwork is mandatory for cross-border driving and assistance?
+    - What documents do I need to apply for cross-border driver and assistant permits?
+    - Which files must be submitted for approval of cross-border drivers and assistants?
+    - What documents are necessary to operate as a cross-border driver or assistant?
+    - List the required documents for cross-border driver and assistant licensing
+    - What official papers are accepted for cross-border driver and assistant permits?
+    - What documentation is needed for cross-border transport driver and assistant services?
+    - Which certificates do I need for cross-border driving and assistance?
+    - What files should I bring for cross-border driver and assistant registration?
+    - Tell me what documents are mandatory for cross-border driver and assistant permits
+    - What papers do I need to provide for cross-border driver and assistant licensing?
+    - Documents required for renewal of cross-border driver and assistant permits
+    - What documents do drivers and assistants need for cross-border transport?
+    - Papers required for cross-border driver permit
+    - Which documents are needed for cross-border driving?
+    - Documentation necessary for cross-border transport assistants
+    - Required files for drivers operating cross-border
+    - What should I bring for cross-border driver registration?
+    - Paperwork for cross-border driving and assistance
+    - Forms and IDs for cross-border drivers and assistants
+    - List of documents for cross-border driver application
+    - Documents needed for cross-border transport services
+
+- intent: ask_about_Drivers_Assistants_Cross-Border_time_en
+  examples: |
+    - What are the service hours for cross-border drivers and assistants?
+    - When does the cross-border driver office open?
+    - Business hours for cross-border driving services
+    - Office timing for cross-border transport assistants
+    - Schedule of cross-border driver and assistant services
+    - Service time for cross-border driver permit application
+    - Hours of operation for cross-border transport office
+    - When can I visit for cross-border driver registration?
+    - Opening and closing times for cross-border transport services
+    - Tell me the working hours for cross-border driving services
+
+- intent: ask_about_Drivers_Assistants_Cross-Border_fee_en
+  examples: |
+    - What is the fee for cross-border driver and assistant services?
+    - How much does cross-border driver registration cost?
+    - Service charges for cross-border driver permit
+    - Payment required for cross-border driver application
+    - Tell me the cost of cross-border transport services
+    - Price for cross-border driver and assistant registration
+    - How much should I pay for cross-border driver services?
+    - Fee for cross-border driver and assistant permits
+    - Charges for cross-border transport driver application
+    - Cost of cross-border transport driver services

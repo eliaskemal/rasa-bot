@@ -1,0 +1,529 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ministry_Justice_general_en
+  examples: |
+    - Ministry of Justice
+    - everything about Ministry of Justice
+    - Ministry of Justice in mesob
+    - Ministry of Justice in general
+    - general information about Ministry of Justice
+    - general overview of Ministry of Justice
+    - can u tell me general information about Ministry of Justice
+    - can u give me general information about Ministry of Justice
+    - give me general information about Ministry of Justice
+    - provide me general information about Ministry of Justice
+    - send me general information about Ministry of Justice
+    - tell me general information about Ministry of Justice
+    - What does the Ministry of Justice do?
+    - explain what the Ministry of Justice is?
+    - Ministry of Justice do?
+    - Ministry of Justice information
+    - information about Ministry of Justice
+    - information on Ministry of Justice
+    - Need information on Ministry of Justice
+    - What is Ministry of Justice?
+    - Ministry of Justice details
+    - details about Ministry of Justice
+    - overview of Ministry of Justice
+    - Ministry of Justice overview
+    - Ministry of Justice purpose
+    - purpose of Ministry of Justice
+    - Ministry of Justice help
+    - can u give me help with Ministry of Justice
+    - help me with Ministry of Justice
+    - Ministry of Justice assistance
+    - assistance with Ministry of Justice
+    - need help with Ministry of Justice
+    - tell me about Ministry of Justice
+    - What does the Ministry of Justice do, and what do I need?
+    - Ministry of Justice responsibilities
+    - What's the Ministry of Justice's job?
+    - What functions does the Ministry of Justice perform
+    - what are the services and requirements of the Ministry of Justice?
+    - What services does the Ministry of Justice offer and what documents do I need?
+    - Can you tell me about the Ministry of Justice's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ministry of Justice.
+    - What documents are needed for services at the Ministry of Justice and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ministry of Justice.
+    - How much does it cost and what documents are required for Ministry of Justice services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ministry of Justice?
+    - What do I need to apply for services at the Ministry of Justice, including time and fees?
+    - Tell me about the Ministry of Justice services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ministry of Justice?
+    - Ministry of Justice services and requirements?
+    - Ministry of Justice fees and steps?
+    - How much Ministry of Justice services cost?
+    - cost for Ministry of Justice?
+    - fee for Ministry of Justice?
+    - how long does it take for Ministry of Justice?
+    - time for Ministry of Justice?
+    - What documents do I need for Ministry of Justice?
+    - What documents are needed for Ministry of Justice?
+    - What do I need for Ministry of Justice services?
+    - What papers do I need for Ministry of Justice?
+    - What documents are required for Ministry of Justice?
+    - What papers are needed for Ministry of Justice?
+    - What documents are required for Ministry of Justice services?
+    - can you send me general information about Ministry of Justice
+    - Can you tell me the documents needed for Ministry of Justice services?
+    - How long does it take to get service at Ministry of Justice?
+    - What fees are charged for services at Ministry of Justice?
+    - I want information on the services and required documents at Ministry of Justice.
+    - Could you explain the processing time and fees for Ministry of Justice services?
+    - What do I need to bring to access services at Ministry of Justice?
+    - Tell me about the service duration and fees at Ministry of Justice.
+    - What are the available services and related fees at Ministry of Justice?
+    - Please provide details about Ministry of Justice's service process, required documents, time, and fees.
+    - What services does the Ministry of Justice provide, and what documents are needed?
+    - What services does the Ministry of Justice provide, and what documents are needed?
+    - Can you tell me the required documents, fees, and duration for Justice Ministry services?
+    - I want to know the types of services, necessary paperwork, time, and fees at the Ministry of Justice.
+    - How long do services take at the Ministry of Justice, and what documents and fees apply?
+    - Please provide info on the Ministry of Justice services, including required documents and costs.
+    - What documents should I prepare, and how much does it cost to access Justice Ministry services?
+    - Could you explain the fees, processing time, and document requirements for Ministry of Justice services?
+    - What are the main services at the Ministry of Justice along with documents and time needed?
+    - Tell me about the Justice Ministry services, including the documents, fees, and service duration.
+    - What do I need to apply for Justice Ministry services, and how long will it take with associated fees?
+
+- intent: ask_Ministry_Justice_service_en
+  examples: |
+    - Ministry of Justice services
+    - service of Ministry of Justice in mesob
+    - sercices of Ministry of Justice
+    - services by Ministry of Justice
+    - Ministry of Justice utilities
+    - utility of Ministry of Justice
+    - give me services of Ministry of Justice
+    - list services of Ministry of Justice in mesob
+    - list services by Ministry of Justice
+    - list out Ministry of Justice services
+    - list of services by Ministry of Justice
+    - tell me services by Ministry of Justice
+    - tell me list of services by Ministry of Justice
+    - tell me list of services of Ministry of Justice
+    - tell me the services of Ministry of Justice
+    - telm me about the services of Ministry of Justice
+    - can you tell me about Ministry of Justice services
+    - can you  list the services of Ministry of Justice
+    - can you list services by Ministry of Justice
+    - What kind of support does the Ministry of Justice give?
+    - support from Ministry of Justice
+    - what services does Ministry of Justice support?
+    - list support by Ministry of Justice
+    - tell me support of Ministry of Justice
+    - tell me about the support of Ministry of Justice
+    - What services does the Ministry of Justice provide?
+    - What services are provided by the Ministry of Justice?
+    - list services provided by  Ministry of Justice 
+    - Ministry of Justice provide?
+    - services provided by Ministry of Justice
+    - list services which Ministry of Justice provides 
+    - list the services which Ministry of Justice provides
+    - list of services which Ministry of Justice provides
+    - can u tell me the services which Ministry of Justice provides
+    - tell me the services which Ministry of Justice provides
+    - list of services provided by Ministry of Justice
+    - list the services provided by Ministry of Justice
+    - list services provided by Ministry of Justice
+    - can u list the services provided by Ministry of Justice
+    - can u tell me the services provided by Ministry of Justice
+    - can you tell me the services which Ministry of Justice provides
+    - can you tell me the services provided by Ministry of Justice
+    - What services does the Ministry of Justice offer?
+    - What are the services that the Ministry of Justice offers?
+    - Ministry of Justice offers? 
+    - What does the Ministry of Justice offer?
+    - list the services that Ministry of Justice offers
+    - list the services offered by Ministry of Justice
+    - list of services offered by Ministry of Justice
+    - can you list services offered by Ministry of Justice
+    - What services are offered by the Ministry of Justice?
+    - tell me services offered by Ministry of Justice
+    - can you tell me services offered by Ministry of Justice
+    - What services are available at the Ministry of Justice?
+    - what are the available services at Ministry of Justice
+    - available services at Ministry of Justice
+    - tell me available services of Ministry of Justice
+    - list of available services at Ministry of Justice
+    - list available services by Ministry of Justice
+    - list the available services of Ministry of Justice
+    - list the services that are  available at Ministry of Justice
+    - can u list available services at Ministry of Justice
+    - can you tell me available services at Ministry of Justice
+    - what servies are given by Ministry of Justice
+    - What services does the Ministry of Justice give?
+    - tell me what services Ministry of Justice gives
+    - tell me what services are given by Ministry of Justice
+    - can you list the services that Ministry of Justice gives
+    - can you tell me the services that Ministry of Justice gives
+    - can you tell me what services Ministry of Justice gives
+    - can u tell me what sevices can I get from Ministry of Justice
+    - Ministry of Justice gives services?
+    - what services can I get from Ministry of Justice?
+    - What services can I access at the Ministry of Justice?
+    - What are the main tasks of the Ministry of Justice
+    - What services can I access at the Ministry of Justice?
+    - main tasks of Ministry of Justice
+    - can u tell me the tasks of Ministry of Justice
+    - tasks of Ministry of Justice
+    - Tell me Ministry of Justice services
+    - services by Ministry of Justice
+    - Ministry of Justice services list 
+    - list of Ministry of Justice services
+    - tell me the lists of Ministry of Justice services
+    - Ministry of Justice services list 
+    - Role of the Ministry of Justice?
+    - What roles does the Ministry of Justice play?
+    - Ministry of Justice roles
+    - What roles does the Ministry of Justice have?
+    - What does the Ministry of Justice do
+    - Can you list the services offered by the Ministry of Justice?
+    - Which services are available at the Ministry of Justice?
+    - Tell me about the services of the Ministry of Justice
+    - What help can I get from the Ministry of Justice?
+    - Can you explain the services under Ministry of Justice?
+    - can you list the services of the Ministry of Justice?
+    - can you tell me about the services of the Ministry of Justice?
+    - please tell me the services of the Ministry of Justice?
+    - What services are included in the Ministry of Justice?
+    - give me the services of the Ministry of Justice
+    - give me the list of services of the Ministry of Justice
+    - give me the list of services provided by the Ministry of Justice
+    - send me the services of the Ministry of Justice
+    - send me the list of services of the Ministry of Justice
+    - send me the list of services provided by the Ministry of Justice
+    - provide me the services of the Ministry of Justice
+    - provide me the list of services of the Ministry of Justice
+    - provide me the list of services provided by the Ministry of Justice
+    - What services does the Ministry of Justice provide?
+    - List services offered by the Ministry of Justice
+    - What are the available services in the Ministry of Justice?
+    - Which services can I access from the Ministry of Justice?
+    - Give me details of Justice Ministry services
+    - Services under the Ministry of Justice
+    - Explain services in Ministry of Justice
+    - Tell me about the services provided by Ministry of Justice
+    - What facilities are available at Ministry of Justice?
+    - Which legal services does the Ministry of Justice handle?
+
+- intent: ask_Issuance_Advocates_License_doc_en
+  examples: |
+    - advocate license documents
+    - documents required for advocate license issuance
+    - required documents for new advocate license
+    - what documents are required for advocate license issuance?
+    - which papers do I need for advocate license?
+    - tell me the files needed for getting advocate license
+    - what documents should I bring for advocate license?
+    - list the documents for advocate license issuance
+    - what paperwork is necessary for advocate license?
+    - required forms for new advocate license
+    - which certificates are needed for advocate license issuance?
+    - advocate license document requirements
+    - what documents are needed to apply for advocate license?
+    - can you list the required documents for advocate license?
+    - what documentation must I provide for an advocate license?
+    - tell me the documents I need for advocate license application
+    - what are the necessary documents for advocate license?
+    - what files must I submit to get an advocate license?
+    - what documents do I need to obtain an advocate license?
+    - documents to apply for advocate license
+    - needed documents for new advocate license request
+    - what supporting documents are required for advocate license issuance?
+    - explain the documents needed for advocate license application
+    - required paperwork for advocate license
+    - what legal documents are needed for advocate license?
+    - which documents should be submitted for advocate license processing?
+    - what forms do I need to complete for advocate license?
+    - tell me the paperwork required for applying for an advocate license
+    - what documents must be submitted for advocate license application?
+    - what documentation is mandatory for advocate license issuance?
+    - which IDs or official documents are needed for advocate license?
+    - list of documents required for issuing an advocate license
+    - can you specify the documents needed for advocate license?
+    - what should I prepare for advocate license issuance?
+    - what do I need to submit to receive an advocate license?
+    - which documents are necessary for getting an advocate license?
+    - documents needed to register for advocate license
+    - what papers are required to obtain an advocate license?
+    - what are the document requirements for a new advocate license?
+    - tell me all documents required for advocate license
+    - required documentation for advocate licensing process
+    - what should I bring to apply for an advocate license?
+    - what are the formal document requirements for advocate license?
+    - which supporting files do I need for advocate license issuance?
+    - can you provide the list of documents for advocate license?
+    - tell me what documents are needed for new advocate license
+    - what do I need to bring for my advocate license application?
+    - provide all necessary documents for advocate license
+    - list the required paperwork for advocate license
+    - What documents are required for Advocate License issuance?
+    - Which papers do I need for Advocate License?
+    - Required documents for new Advocate License
+    - Tell me the files needed for getting Advocate License
+    - What documents should I bring for Advocate License?
+    - List the documents for Advocate License issuance
+    - What paperwork is necessary for Advocate License?
+    - Required forms for new Advocate License
+    - Which certificates are needed for Advocate License issuance?
+    - Advocate License document requirements
+
+- intent: ask_about_Issuance_Advocates_License_time_en
+  examples: |
+    - What are the working hours for Advocate License issuance?
+    - When can I apply for Advocate License?
+    - Opening and closing times for Advocate License service
+    - Service hours for getting Advocate License
+    - What time does Advocate License processing take place?
+    - Available time slots for Advocate License issuance
+    - Office hours for Advocate License
+    - Advocate License application schedule
+    - When does Advocate License service operate?
+    - Hours of operation for Advocate License issuance
+
+- intent: ask_about_Issuance_Advocates_License_fee_en
+  examples: |
+    - What is the fee for Advocate License issuance?
+    - How much does a new Advocate License cost?
+    - Payment required for Advocate License issuance
+    - Price for obtaining Advocate License
+    - Service fee for new Advocate License
+    - Tell me the cost of Advocate License issuance
+    - What charges apply to getting Advocate License?
+    - Advocate License application fee
+    - How much should I pay for Advocate License?
+    - Advocate License processing cost
+
+- intent: ask_Renewal_Licensing_Advocates_doc_en
+  examples: |
+    - advocate license renewal documents
+    - documents required for advocate license renewal
+    - required documents for renewing advocate license
+    - what documents are required for advocate license renewal?
+    - which papers do I need for renewing advocate license?
+    - document checklist for advocate license renewal
+    - renewal paperwork for advocate license
+    - files needed to renew advocate license
+    - required forms for renewing advocate license
+    - which documents should I bring for advocate license renewal?
+    - what certificates are necessary for renewal of advocate license?
+    - renewal documents for advocate license
+    - tell me the document requirements for advocate license renewal
+    - what documents must be submitted to renew advocate license?
+    - what paperwork do I need for advocate license renewal?
+    - list the required documents for renewing an advocate license
+    - what are the document requirements for advocate license renewal?
+    - what should I bring for advocate license renewal process?
+    - tell me what documents are needed to renew advocate license
+    - needed documents for advocate license renewal
+    - what documentation is necessary for renewing an advocate license?
+    - which forms are required for advocate license renewal?
+    - can you list the documents required for advocate license renewal?
+    - what legal documents do I need to renew advocate license?
+    - what supporting documents are needed for advocate license renewal?
+    - required paperwork for advocate license renewal process
+    - which IDs or certificates are needed for advocate license renewal?
+    - explain the documents needed for advocate license renewal
+    - what files must I prepare to renew my advocate license?
+    - what documents should I submit for advocate license renewal?
+    - what documents do I need for renewing my advocate license?
+    - tell me the paperwork needed for advocate license renewal
+    - which official documents are necessary for renewing advocate license?
+    - what documentation should I bring to renew my advocate license?
+    - documents to apply for advocate license renewal
+    - what are the necessary files for advocate license renewal?
+    - advocate license renewal required documents list
+    - provide the required documentation for renewing advocate license
+    - list all documents needed for advocate license renewal
+    - what forms do I need to complete for advocate license renewal?
+    - what documents do I need to provide for advocate license renewal?
+    - which files must I submit for advocate license renewal?
+    - what are the formal document requirements for advocate license renewal?
+    - tell me all necessary documents for advocate license renewal
+    - what are the required documents for annual advocate license renewal?
+    - What documents are required for Advocate License renewal?
+    - Which papers do I need for renewing Advocate License?
+    - Document checklist for Advocate License renewal
+    - Renewal paperwork for Advocate License
+    - Files needed to renew Advocate License
+    - Required forms for renewing Advocate License
+    - Which documents should I bring for Advocate License renewal?
+    - What certificates are necessary for renewal of Advocate License?
+    - Renewal documents for Advocate License
+    - Tell me the document requirements for Advocate License renewal
+
+- intent: ask_about_Renewal_Licensing_Advocates_time_en
+  examples: |
+    - What are the working hours for renewing Advocate License?
+    - When can I renew my Advocate License?
+    - Office hours for Advocate License renewal
+    - Service time for Advocate License renewal
+    - Renewal application schedule for Advocate License
+    - When is Advocate License renewal service available?
+    - Timing for Advocate License renewal processing
+    - Advocate License renewal hours
+    - Opening and closing times for renewal
+    - Time required for Advocate License renewal
+
+- intent: ask_about_Renewal_Licensing_Advocates_fee_en
+  examples: |
+    - What is the fee for Advocate License renewal?
+    - How much does Advocate License renewal cost?
+    - Payment required for renewing Advocate License
+    - Price for Advocate License renewal service
+    - Service charge for renewal of Advocate License
+    - Tell me the cost of Advocate License renewal
+    - Advocate License renewal application fee
+    - Renewal processing cost for Advocate License
+    - What charges apply for Advocate License renewal?
+    - Fee details for renewing Advocate License
+
+- intent: ask_about_Upgrade_Licensing_Advocates_doc_en
+  examples: |
+    - advocate license upgrade documents
+    - documents required for advocate license upgrade
+    - required documents for upgrading advocate license
+    - what documents are needed for upgrading advocate license?
+    - papers required to upgrade advocate license
+    - document checklist for advocate license upgrade
+    - files needed for upgrading advocate license
+    - which documents should I bring for advocate license upgrade?
+    - required forms for advocate license upgrade
+    - certificates needed for advocate license upgrade
+    - advocate license upgrade document requirements
+    - tell me the documents for upgrading advocate license
+    - paperwork required to upgrade advocate license
+    - what documents must be submitted for advocate license upgrade?
+    - what paperwork do I need to upgrade my advocate license?
+    - list the required documents for advocate license upgrade
+    - what are the document requirements for advocate license upgrade?
+    - what should I bring for advocate license upgrade process?
+    - tell me what documents are needed to upgrade advocate license
+    - needed documents for advocate license upgrade
+    - what documentation is necessary for upgrading an advocate license?
+    - which forms are required for advocate license upgrade?
+    - can you list the documents required for advocate license upgrade?
+    - what legal documents do I need to upgrade advocate license?
+    - what supporting documents are needed for advocate license upgrade?
+    - required paperwork for advocate license upgrade process
+    - which IDs or certificates are needed for advocate license upgrade?
+    - explain the documents needed for advocate license upgrade
+    - what files must I prepare to upgrade my advocate license?
+    - what documents should I submit for advocate license upgrade?
+    - what documents do I need to upgrade my advocate license?
+    - tell me the paperwork needed for advocate license upgrade
+    - which official documents are necessary for advocate license upgrade?
+    - what documentation should I bring to upgrade my advocate license?
+    - documents to apply for advocate license upgrade
+    - what are the necessary files for advocate license upgrade?
+    - advocate license upgrade required documents list
+    - provide the required documentation for advocate license upgrade
+    - list all documents needed for advocate license upgrade
+    - what forms do I need to complete for advocate license upgrade?
+    - what documents do I need to provide for advocate license upgrade?
+    - which files must I submit for advocate license upgrade?
+    - what are the formal document requirements for advocate license upgrade?
+    - tell me all necessary documents for advocate license upgrade
+    - what are the required documents for applying for advocate license upgrade?
+    - What documents are needed for upgrading Advocate License?
+    - Papers required to upgrade Advocate License
+    - Document checklist for Advocate License upgrade
+    - Files needed for upgrading Advocate License
+    - Which documents should I bring for Advocate License upgrade?
+    - Required forms for Advocate License upgrade
+    - Certificates needed for Advocate License upgrade
+    - Advocate License upgrade document requirements
+    - Tell me the documents for upgrading Advocate License
+    - Paperwork required to upgrade Advocate License
+
+- intent: ask_about_Upgrade_Licensing_Advocates_time_en
+  examples: |
+    - What are the service hours for Advocate License upgrade?
+    - Office hours for upgrading Advocate License
+    - When can I apply for Advocate License upgrade?
+    - Working time for Advocate License upgrade
+    - Upgrade application schedule for Advocate License
+    - Advocate License upgrade timing
+    - Opening and closing times for upgrading Advocate License
+    - Hours for Advocate License upgrade processing
+    - When does Advocate License upgrade service operate?
+    - Time needed for Advocate License upgrade
+    - How long does it take to upgrade an Advocate License?
+    - What is the service duration for Advocate License upgrade?
+    - What is the processing time for Advocate License upgrade?
+    - How much time is required for Advocate License upgrade?
+    - Estimated time to complete Advocate License upgrade
+    - Average time for Advocate License upgrade services
+    - What are the working hours of the Advocate License upgrade office?
+    - What time can I visit for Advocate License upgrade?
+    - What is the schedule for Advocate License upgrade service?
+    - When is Advocate License upgrade service available?
+    - What time does Advocate License upgrade start?
+    - What time does Advocate License upgrade end?
+    - When is the Advocate License upgrade desk open?
+    - What time can I access Advocate License upgrade services?
+    - What are the opening hours for Advocate License upgrade?
+    - What is the closing time for Advocate License upgrade services?
+    - How long is the Advocate License upgrade office open?
+    - What time is the Advocate License upgrade department available?
+    - When can I visit to upgrade my Advocate License?
+    - When are the upgrade services for Advocate License offered?
+    - What is the operational time for Advocate License upgrade?
+    - What hours does the Advocate License upgrade department work?
+    - What are the business hours for Advocate License upgrade?
+    - When should I go to upgrade my Advocate License?
+    - When can I receive Advocate License upgrade services?
+    - Can I upgrade my Advocate License during office hours?
+    - Are Advocate License upgrade services available on weekends?
+    - What time of day is best to visit for Advocate License upgrade?
+    - What is the earliest time for Advocate License upgrade?
+    - What is the latest time to upgrade my Advocate License?
+    - Duration of the Advocate License upgrade process
+    - Time range for Advocate License upgrade services
+    - From what time to what time is Advocate License upgrade available?
+    - Service timing for Advocate License upgrade
+    - How many hours does Advocate License upgrade take?
+    - Tell me the hours for Advocate License upgrade
+    - Please provide the hours for upgrading Advocate License
+    - Can you tell me the working hours for Advocate License upgrade?
+    - Give me the office hours for Advocate License upgrade
+    - When does the Advocate License upgrade office open?
+    - When does the Advocate License upgrade office close?
+    - How long should I expect to spend upgrading my Advocate License?
+    - What is the total time to process an Advocate License upgrade?
+    - Are there fixed hours for Advocate License upgrade services?
+    - Is Advocate License upgrade available today?
+    - What time slot should I choose for Advocate License upgrade?
+    - What is the expected service time for Advocate License upgrade?
+    - Can you give me the time for Advocate License upgrade services?
+    - How long does the upgrade process take at the office?
+    - When can I go to the office for Advocate License upgrade?
+    - What time does the licensing office serve upgrade requests?
+    - Time taken for completing Advocate License upgrade
+    - When is the upgrade counter available for advocates?
+    - When does the upgrade service start and finish?
+    - What are the service hours for Advocate License upgrade?
+    - Office hours for upgrading Advocate License
+    - When can I apply for Advocate License upgrade?
+    - Working time for Advocate License upgrade
+    - Upgrade application schedule for Advocate License
+    - Advocate License upgrade timing
+    - Opening and closing times for upgrading Advocate License
+    - Hours for Advocate License upgrade processing
+    - When does Advocate License upgrade service operate?
+    - Time needed for Advocate License upgrade
+
+- intent: ask_Upgrade_Licensing_Advocates_fee_en
+  examples: |
+    - What is the fee for upgrading Advocate License?
+    - How much does Advocate License upgrade cost?
+    - Payment required for Advocate License upgrade
+    - Price for upgrading Advocate License
+    - Service charge for Advocate License upgrade
+    - Cost of Advocate License upgrade service
+    - Advocate License upgrade application fee
+    - Upgrade processing fee for Advocate License
+    - What charges apply to upgrading Advocate License?
+    - Fee details for Advocate License upgrade

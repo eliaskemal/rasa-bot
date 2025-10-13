@@ -1,0 +1,297 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_ICS_general_en
+  examples: |
+    - Immigration and Citizenship Service
+    - everything about Immigration and Citizenship Service
+    - Immigration and Citizenship Service in mesob
+    - Immigration and Citizenship Service in general
+    - general information about Immigration and Citizenship Service
+    - general overview of Immigration and Citizenship Service
+    - can u tell me general information about Immigration and Citizenship Service
+    - can u give me general information about Immigration and Citizenship Service
+    - give me general information about Immigration and Citizenship Service
+    - provide me general information about Immigration and Citizenship Service
+    - send me general information about Immigration and Citizenship Service
+    - tell me general information about Immigration and Citizenship Service
+    - What does the Immigration and Citizenship Service do?
+    - explain what the Immigration and Citizenship Service is?
+    - Immigration and Citizenship Service do?
+    - Immigration and Citizenship Service information
+    - information about Immigration and Citizenship Service
+    - information on Immigration and Citizenship Service
+    - Need information on Immigration and Citizenship Service
+    - What is Immigration and Citizenship Service?
+    - Immigration and Citizenship Service details
+    - details about Immigration and Citizenship Service
+    - overview of Immigration and Citizenship Service
+    - Immigration and Citizenship Service overview
+    - Immigration and Citizenship Service purpose
+    - purpose of Immigration and Citizenship Service
+    - Immigration and Citizenship Service help
+    - can u give me help with Immigration and Citizenship Service
+    - help me with Immigration and Citizenship Service
+    - Immigration and Citizenship Service assistance
+    - assistance with Immigration and Citizenship Service
+    - need help with Immigration and Citizenship Service
+    - tell me about Immigration and Citizenship Service
+    - What does the Immigration and Citizenship Service do, and what do I need?
+    - Immigration and Citizenship Service responsibilities
+    - What's the Immigration and Citizenship Service's job?
+    - What functions does the Immigration and Citizenship Service perform
+    - what are the services and requirements of the Immigration and Citizenship Service?
+    - What services does the Immigration and Citizenship Service offer and what documents do I need?
+    - Can you tell me about the Immigration and Citizenship Service's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Immigration and Citizenship Service.
+    - What documents are needed for services at the Immigration and Citizenship Service and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Immigration and Citizenship Service.
+    - How much does it cost and what documents are required for Immigration and Citizenship Service services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Immigration and Citizenship Service?
+    - What do I need to apply for services at the Immigration and Citizenship Service, including time and fees?
+    - Tell me about the Immigration and Citizenship Service services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Immigration and Citizenship Service?
+    - Immigration and Citizenship Service services and requirements?
+    - Immigration and Citizenship Service fees and steps?
+    - How much Immigration and Citizenship Service services cost?
+    - cost for Immigration and Citizenship Service?
+    - fee for Immigration and Citizenship Service?
+    - how long does it take for Immigration and Citizenship Service?
+    - time for Immigration and Citizenship Service?
+    - What documents do I need for Immigration and Citizenship Service?
+    - What documents are needed for Immigration and Citizenship Service?
+    - What do I need for Immigration and Citizenship Service services?
+    - What papers do I need for Immigration and Citizenship Service?
+    - What documents are required for Immigration and Citizenship Service?
+    - What papers are needed for Immigration and Citizenship Service?
+    - What documents are required for Immigration and Citizenship Service services?
+    - can you send me general information about Immigration and Citizenship Service
+    - Can you tell me the documents needed for Immigration and Citizenship Service services?
+    - How long does it take to get service at Immigration and Citizenship Service?
+    - What fees are charged for services at Immigration and Citizenship Service?
+    - I want information on the services and required documents at Immigration and Citizenship Service.
+    - Could you explain the processing time and fees for Immigration and Citizenship Service services?
+    - What do I need to bring to access services at Immigration and Citizenship Service?
+    - Tell me about the service duration and fees at Immigration and Citizenship Service.
+    - What are the available services and related fees at Immigration and Citizenship Service?
+    - Please provide details about Immigration and Citizenship Service's service process, required documents, time, and fees.
+    - About Immigration and Citizenship Service in general
+    - About Immigration and Citizenship Service in general
+    - about Immigration and Citizenship service time, fee and document requirement
+    - Immigration and Citizenship Service time, fee and document requirement
+    - Immigration and Citizenship Service in general
+    - What services does the Immigration and Citizenship Service provide and what documents do I need
+    - Give me full details about Immigration and Citizenship Service services including time, fees, and required documents
+    - I want information about all services of the Immigration and Citizenship Service
+    - What are the services available at ICS and their requirements
+    - Provide me a summary of ICS services, processing times, and service costs
+    - Can you explain everything about ICS including services, documents, and fees
+    - Tell me about the Immigration and Citizenship Service along with service time, fees and required documents
+    - What does ICS do and what documents are needed for its services
+    - I need an overview of ICS services, required papers, fees, and service time
+
+
+- intent: ask_about_Immigration_Citizenship_Service_en
+  examples: |
+    - Immigration and Citizenship services
+    - service of Immigration and Citizenship in mesob
+    - sercices of Immigration and Citizenship
+    - services by Immigration and Citizenship
+    - Immigration and Citizenship utilities
+    - utility of Immigration and Citizenship
+    - give me services of Immigration and Citizenship
+    - list services of Immigration and Citizenship in mesob
+    - list services by Immigration and Citizenship
+    - list out Immigration and Citizenship services
+    - list of services by Immigration and Citizenship
+    - tell me services by Immigration and Citizenship
+    - tell me list of services by Immigration and Citizenship
+    - tell me list of services of Immigration and Citizenship
+    - tell me the services of Immigration and Citizenship
+    - telm me about the services of Immigration and Citizenship
+    - can you tell me about Immigration and Citizenship services
+    - can you  list the services of Immigration and Citizenship
+    - can you list services by Immigration and Citizenship
+    - What kind of support does the Immigration and Citizenship give?
+    - support from Immigration and Citizenship
+    - what services does Immigration and Citizenship support?
+    - list support by Immigration and Citizenship
+    - tell me support of Immigration and Citizenship
+    - tell me about the support of Immigration and Citizenship
+    - What services does the Immigration and Citizenship provide?
+    - What services are provided by the Immigration and Citizenship?
+    - list services provided by  Immigration and Citizenship 
+    - Immigration and Citizenship provide?
+    - services provided by Immigration and Citizenship
+    - list services which Immigration and Citizenship provides 
+    - list the services which Immigration and Citizenship provides
+    - list of services which Immigration and Citizenship provides
+    - can u tell me the services which Immigration and Citizenship provides
+    - tell me the services which Immigration and Citizenship provides
+    - list of services provided by Immigration and Citizenship
+    - list the services provided by Immigration and Citizenship
+    - list services provided by Immigration and Citizenship
+    - can u list the services provided by Immigration and Citizenship
+    - can u tell me the services provided by Immigration and Citizenship
+    - can you tell me the services which Immigration and Citizenship provides
+    - can you tell me the services provided by Immigration and Citizenship
+    - What services does the Immigration and Citizenship offer?
+    - What are the services that the Immigration and Citizenship offers?
+    - Immigration and Citizenship offers? 
+    - What does the Immigration and Citizenship offer?
+    - list the services that Immigration and Citizenship offers
+    - list the services offered by Immigration and Citizenship
+    - list of services offered by Immigration and Citizenship
+    - can you list services offered by Immigration and Citizenship
+    - What services are offered by the Immigration and Citizenship?
+    - tell me services offered by Immigration and Citizenship
+    - can you tell me services offered by Immigration and Citizenship
+    - What services are available at the Immigration and Citizenship?
+    - what are the available services at Immigration and Citizenship
+    - available services at Immigration and Citizenship
+    - tell me available services of Immigration and Citizenship
+    - list of available services at Immigration and Citizenship
+    - list available services by Immigration and Citizenship
+    - list the available services of Immigration and Citizenship
+    - list the services that are  available at Immigration and Citizenship
+    - can u list available services at Immigration and Citizenship
+    - can you tell me available services at Immigration and Citizenship
+    - what servies are given by Immigration and Citizenship
+    - What services does the Immigration and Citizenship give?
+    - tell me what services Immigration and Citizenship gives
+    - tell me what services are given by Immigration and Citizenship
+    - can you list the services that Immigration and Citizenship gives
+    - can you tell me the services that Immigration and Citizenship gives
+    - can you tell me what services Immigration and Citizenship gives
+    - can u tell me what sevices can I get from Immigration and Citizenship
+    - Immigration and Citizenship gives services?
+    - what services can I get from Immigration and Citizenship?
+    - What services can I access at the Immigration and Citizenship?
+    - What are the main tasks of the Immigration and Citizenship
+    - What services can I access at the Immigration and Citizenship?
+    - main tasks of Immigration and Citizenship
+    - can u tell me the tasks of Immigration and Citizenship
+    - tasks of Immigration and Citizenship
+    - Tell me Immigration and Citizenship services
+    - services by Immigration and Citizenship
+    - Immigration and Citizenship services list 
+    - list of Immigration and Citizenship services
+    - tell me the lists of Immigration and Citizenship services
+    - Immigration and Citizenship services list 
+    - Role of the Immigration and Citizenship?
+    - What roles does the Immigration and Citizenship play?
+    - Immigration and Citizenship roles
+    - What roles does the Immigration and Citizenship have?
+    - What does the Immigration and Citizenship do
+    - Can you list the services offered by the Immigration and Citizenship?
+    - Which services are available at the Immigration and Citizenship?
+    - Tell me about the services of the Immigration and Citizenship
+    - What help can I get from the Immigration and Citizenship?
+    - Can you explain the services under Immigration and Citizenship?
+    - can you list the services of the Immigration and Citizenship?
+    - can you tell me about the services of the Immigration and Citizenship?
+    - please tell me the services of the Immigration and Citizenship?
+    - What services are included in the Immigration and Citizenship?
+    - give me the services of the Immigration and Citizenship
+    - give me the list of services of the Immigration and Citizenship
+    - give me the list of services provided by the Immigration and Citizenship
+    - send me the services of the Immigration and Citizenship
+    - send me the list of services of the Immigration and Citizenship
+    - send me the list of services provided by the Immigration and Citizenship
+    - provide me the services of the Immigration and Citizenship
+    - provide me the list of services of the Immigration and Citizenship
+    - provide me the list of services provided by the Immigration and Citizenship
+
+
+- intent: ask_about_Immigration_Citizenship_time_en
+  examples: |
+    - How long does it take to get a service from Immigration and Citizenship?
+    - What is the service duration at Immigration and Citizenship?
+    - How many minutes does the Immigration and Citizenship service take?
+    - From start to finish, how long will it take to complete the Immigration and Citizenship service?
+    - How much time is needed to process services at Immigration and Citizenship?
+    - What is the estimated time for getting the Immigration and Citizenship service done?
+    - Can you tell me the processing time for services at Immigration and Citizenship?
+    - How long should I expect to wait to get Immigration and Citizenship service?
+    - How much time does Immigration and Citizenship usually take for a service?
+    - What is the time frame required to finish the service?
+    - How much does it take time Immigration and Citizenship services?
+    - What are the working hours of Immigration and Citizenship?
+    - When does the Immigration and Citizenship office open?
+    - What time does Immigration and Citizenship start services?
+    - What is the schedule for Immigration and Citizenship services?
+    - When is Immigration and Citizenship available?
+    - Office hours for Immigration and Citizenship services
+    - What are the hours of operation for Immigration and Citizenship?
+    - When can I go to Immigration and Citizenship?
+    - What time can I access Immigration and Citizenship services?
+    - When does Immigration and Citizenship close?
+    - What is the closing time for Immigration and Citizenship?
+    - When can I receive services at Immigration and Citizenship?
+    - Can I access Immigration and Citizenship services on weekends?
+    - When is the Immigration and Citizenship service offered?
+    - What time should I come to Immigration and Citizenship?
+    - What time of day is Immigration and Citizenship open?
+    - How long is Immigration and Citizenship open each day?
+    - When can I visit Immigration and Citizenship?
+    - What are the daily hours for Immigration and Citizenship?
+    - Is Immigration and Citizenship service available today?
+    - When does the Immigration and Citizenship desk operate?
+    - What time is the Immigration and Citizenship desk available?
+    - What is the opening time of Immigration and Citizenship?
+    - What time does Immigration and Citizenship operate?
+    - Tell me the operating hours for Immigration and Citizenship
+    - When should I arrive for Immigration and Citizenship services?
+    - Duration of service at Immigration and Citizenship
+    - Estimated waiting time at Immigration and Citizenship
+    - Average time to complete a request at Immigration and Citizenship
+    - Time taken for Immigration and Citizenship service
+    - Expected service time at Immigration and Citizenship
+    - Service processing time at Immigration and Citizenship
+    - What are the business hours for Immigration and Citizenship services?
+    - Are there fixed hours for Immigration and Citizenship?
+    - Can you give me the time for Immigration and Citizenship services?
+    - Please tell me the working hours of Immigration and Citizenship
+    - What is the total time to complete Immigration and Citizenship procedures?
+    - When are Immigration and Citizenship services available?
+    - Time schedule for Immigration and Citizenship department
+    - Working hours of the Immigration and Citizenship office
+    - What is the earliest time I can go to Immigration and Citizenship?
+    - What is the latest time for Immigration and Citizenship services?
+    - How long does it take to get things done at Immigration and Citizenship?
+    - Time it takes to finalize Immigration and Citizenship requests
+    - Can I go to Immigration and Citizenship during working hours?
+    - How long should I expect to spend at Immigration and Citizenship?
+    - Office timing for Immigration and Citizenship
+    - What is the time frame for Immigration and Citizenship processes?
+    - What is the daily working time of Immigration and Citizenship?
+    - What time range does Immigration and Citizenship serve clients?
+    - When can I get help from Immigration and Citizenship?
+    - What hours is Immigration and Citizenship open to the public?
+    - How long does Immigration and Citizenship service usually take?
+    - What time slots are available for Immigration and Citizenship services?
+    - Give me the office hours of Immigration and Citizenship
+    - How long does it take to get a service from Immigration and Citizenship
+    - What is the service duration at Immigration and Citizenship
+    - How many minutes does the Immigration and Citizenship service take
+    - From start to finish, how long will it take to complete the Immigration and Citizenship service
+    - How much time is needed to process services at Immigration and Citizenship
+    - What is the estimated time for getting the Immigration and Citizenship service done
+    - Can you tell me the processing time for services at Immigration and Citizenship
+    - How long should I expect to wait to get Immigration and Citizenship service?
+    - How much time does Immigration and Citizenship usually take for a service?
+    - What is the time frame required to finish the service?
+    - how much does it take a time Immigration and Citizenship services
+
+- intent: ask_about_Immigration_Citizenship_fee_en
+  examples: |
+    - How much does the Immigration and Citizenship service cost
+    - What is the fee for Immigration and Citizenship services
+    - Can you tell me the charges for Immigration and Citizenship service
+    - How much do I need to pay for Immigration and Citizenship service
+    - What are the costs for services at Immigration and Citizenship
+    - How much is the processing fee for Immigration and Citizenship
+    - What is the price for getting a service from Immigration and Citizenship
+    - Tell me the fee required for this Immigration and Citizenship service
+    - How much should I pay for Immigration and Citizenship services
+    - Can you give me the service fee details for Immigration and Citizenship

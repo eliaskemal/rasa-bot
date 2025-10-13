@@ -1,0 +1,354 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ethio_Telecom_general_en
+  examples: |
+    - Ethio Telecom
+    - everything about Ethio Telecom
+    - Ethio Telecom in general
+    - general information about Ethio Telecom
+    - general overview of Ethio Telecom
+    - can you tell me general information about Ethio Telecom
+    - can you give me general information about Ethio Telecom
+    - give me general information about Ethio Telecom
+    - provide me general information about Ethio Telecom
+    - send me general information about Ethio Telecom
+    - tell me general information about Ethio Telecom
+    - What does Ethio Telecom do?
+    - explain what Ethio Telecom is
+    - Ethio Telecom information
+    - information about Ethio Telecom
+    - information on Ethio Telecom
+    - Need information on Ethio Telecom
+    - What is Ethio Telecom?
+    - Ethio Telecom details
+    - details about Ethio Telecom
+    - overview of Ethio Telecom
+    - Ethio Telecom overview
+    - Ethio Telecom purpose
+    - purpose of Ethio Telecom
+    - Ethio Telecom help
+    - can you give me help with Ethio Telecom
+    - help me with Ethio Telecom
+    - Ethio Telecom assistance
+    - assistance with Ethio Telecom
+    - need help with Ethio Telecom
+    - tell me about Ethio Telecom
+    - What does Ethio Telecom do, and what do I need?
+    - Ethio Telecom responsibilities
+    - What's Ethio Telecom's job?
+    - What functions does Ethio Telecom perform?
+    - what are the services and requirements of Ethio Telecom?
+    - What services does Ethio Telecom offer and what documents do I need?
+    - Can you tell me about Ethio Telecom's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at Ethio Telecom.
+    - What documents are needed for services at Ethio Telecom and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for Ethio Telecom.
+    - How much does it cost and what documents are required for Ethio Telecom services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at Ethio Telecom?
+    - What do I need to apply for services at Ethio Telecom, including time and fees?
+    - Tell me about Ethio Telecom services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at Ethio Telecom?
+    - Ethio Telecom services and requirements?
+    - Ethio Telecom fees and steps?
+    - How much Ethio Telecom services cost?
+    - cost for Ethio Telecom?
+    - fee for Ethio Telecom?
+    - how long does it take for Ethio Telecom?
+    - time for Ethio Telecom?
+    - What documents do I need for Ethio Telecom?
+    - What documents are needed for Ethio Telecom?
+    - What do I need for Ethio Telecom services?
+    - What papers do I need for Ethio Telecom?
+    - What documents are required for Ethio Telecom?
+    - What papers are needed for Ethio Telecom?
+    - What documents are required for Ethio Telecom services?
+    - can you send me general information about Ethio Telecom
+    - Can you tell me the documents needed for Ethio Telecom services?
+    - How long does it take to get service at Ethio Telecom?
+    - What fees are charged for services at Ethio Telecom?
+    - I want information on the services and required documents at Ethio Telecom.
+    - Could you explain the processing time and fees for Ethio Telecom services?
+    - What do I need to bring to access services at Ethio Telecom?
+    - Tell me about the service duration and fees at Ethio Telecom.
+    - What are the available services and related fees at Ethio Telecom?
+    - Please provide details about Ethio Telecom's service process, required documents, time, and fees.
+    - What services does Ethio Telecom provide?
+    - What services does Ethio Telecom provide?
+    - Which documents do I need to apply for Ethio Telecom services?
+    - How long does it take to get a new SIM card from Ethio Telecom?
+    - What are the fees for Ethio Telecom internet packages?
+    - Can you tell me about the service hours of Ethio Telecom customer support?
+    - What documents are required for business internet services at Ethio Telecom?
+    - How much does it cost to activate mobile data with Ethio Telecom?
+    - How fast is the service time for Ethio Telecom’s broadband connection?
+    - Are there any additional fees for international roaming with Ethio Telecom?
+    - What are the general requirements for Ethio Telecom’s prepaid mobile services?
+
+
+- intent: ask_about_Ethio_Telecom_service_en
+  examples: |
+      - Ethio Telecom services
+      - service of Ethio Telecom in mesob
+      - sercices of Ethio Telecom
+      - services by Ethio Telecom
+      - Ethio Telecom utilities
+      - utility of Ethio Telecom
+      - give me services of Ethio Telecom
+      - list services of Ethio Telecom in mesob
+      - list services by Ethio Telecom
+      - list out Ethio Telecom services
+      - list of services by Ethio Telecom
+      - tell me services by Ethio Telecom
+      - tell me list of services by Ethio Telecom
+      - tell me list of services of Ethio Telecom
+      - tell me the services of Ethio Telecom
+      - telm me about the services of Ethio Telecom
+      - can you tell me about Ethio Telecom services
+      - can you  list the services of Ethio Telecom
+      - can you list services by Ethio Telecom
+      - What kind of support does the Ethio Telecom give?
+      - support from Ethio Telecom
+      - what services does Ethio Telecom support?
+      - list support by Ethio Telecom
+      - tell me support of Ethio Telecom
+      - tell me about the support of Ethio Telecom
+      - What services does the Ethio Telecom provide?
+      - What services are provided by the Ethio Telecom?
+      - list services provided by  Ethio Telecom 
+      - Ethio Telecom provide?
+      - services provided by Ethio Telecom
+      - list services which Ethio Telecom provides 
+      - list the services which Ethio Telecom provides
+      - list of services which Ethio Telecom provides
+      - can u tell me the services which Ethio Telecom provides
+      - tell me the services which Ethio Telecom provides
+      - list of services provided by Ethio Telecom
+      - list the services provided by Ethio Telecom
+      - list services provided by Ethio Telecom
+      - can u list the services provided by Ethio Telecom
+      - can u tell me the services provided by Ethio Telecom
+      - can you tell me the services which Ethio Telecom provides
+      - can you tell me the services provided by Ethio Telecom
+      - What services does the Ethio Telecom offer?
+      - What are the services that the Ethio Telecom offers?
+      - Ethio Telecom offers? 
+      - What does the Ethio Telecom offer?
+      - list the services that Ethio Telecom offers
+      - list the services offered by Ethio Telecom
+      - list of services offered by Ethio Telecom
+      - can you list services offered by Ethio Telecom
+      - What services are offered by the Ethio Telecom?
+      - tell me services offered by Ethio Telecom
+      - can you tell me services offered by Ethio Telecom
+      - What services are available at the Ethio Telecom?
+      - what are the available services at Ethio Telecom
+      - available services at Ethio Telecom
+      - tell me available services of Ethio Telecom
+      - list of available services at Ethio Telecom
+      - list available services by Ethio Telecom
+      - list the available services of Ethio Telecom
+      - list the services that are  available at Ethio Telecom
+      - can u list available services at Ethio Telecom
+      - can you tell me available services at Ethio Telecom
+      - what servies are given by Ethio Telecom
+      - What services does the Ethio Telecom give?
+      - tell me what services Ethio Telecom gives
+      - tell me what services are given by Ethio Telecom
+      - can you list the services that Ethio Telecom gives
+      - can you tell me the services that Ethio Telecom gives
+      - can you tell me what services Ethio Telecom gives
+      - can u tell me what sevices can I get from Ethio Telecom
+      - Ethio Telecom gives services?
+      - what services can I get from Ethio Telecom?
+      - What services can I access at the Ethio Telecom?
+      - What are the main tasks of the Ethio Telecom
+      - What services can I access at the Ethio Telecom?
+      - main tasks of Ethio Telecom
+      - can u tell me the tasks of Ethio Telecom
+      - tasks of Ethio Telecom
+      - Tell me Ethio Telecom services
+      - services by Ethio Telecom
+      - Ethio Telecom services list 
+      - list of Ethio Telecom services
+      - tell me the lists of Ethio Telecom services
+      - Ethio Telecom services list 
+      - Role of the Ethio Telecom?
+      - What roles does the Ethio Telecom play?
+      - Ethio Telecom roles
+      - What roles does the Ethio Telecom have?
+      - What does the Ethio Telecom do
+      - Can you list the services offered by the Ethio Telecom?
+      - Which services are available at the Ethio Telecom?
+      - Tell me about the services of the Ethio Telecom
+      - What help can I get from the Ethio Telecom?
+      - Can you explain the services under Ethio Telecom?
+      - can you list the services of the Ethio Telecom?
+      - can you tell me about the services of the Ethio Telecom?
+      - please tell me the services of the Ethio Telecom?
+      - What services are included in the Ethio Telecom?
+      - give me the services of the Ethio Telecom
+      - give me the list of services of the Ethio Telecom
+      - give me the list of services provided by the Ethio Telecom
+      - send me the services of the Ethio Telecom
+      - send me the list of services of the Ethio Telecom
+      - send me the list of services provided by the Ethio Telecom
+      - provide me the services of the Ethio Telecom
+      - provide me the list of services of the Ethio Telecom
+      - provide me the list of services provided by the Ethio Telecom
+      - Can you list the services provided by Ethio Telecom?
+      - Details about services from Ethio Telecom
+      - Services available at Ethio Telecom
+      - What can I get from Ethio Telecom?
+      - Types of services in Ethio Telecom
+      - Which facilities are available at Ethio Telecom?
+      - What does Ethio Telecom provide for customers?
+      - Describe Ethio Telecom's services
+      - What are the main services of Ethio Telecom?
+
+- intent: ask_about_tele_birr_doc_en
+  examples: |
+    - What documents are required for Tele Birr?
+    - Which papers do I need for Tele Birr registration?
+    - Required documents for opening Tele Birr account
+    - Documents needed for Tele Birr services
+    - What should I bring to apply for Tele Birr?
+    - What identification is needed for Tele Birr?
+    - Tele Birr document requirements
+    - What files are necessary for Tele Birr?
+    - Which documents do I need to start using Tele Birr?
+    - Details of paperwork needed for Tele Birr
+    - Tell me the documents needed for Tele Birr
+    - What paperwork is necessary for Tele Birr services?
+    - Documents checklist for Tele Birr application
+    - What files must I submit for Tele Birr registration?
+    - Which documents are mandatory for Tele Birr services?
+    - What papers do I need to provide for Tele Birr account?
+    - Documents required to access Tele Birr services
+    - What documentation is needed for Tele Birr usage?
+    - List the required documents for Tele Birr
+    - What supporting documents do I need for Tele Birr?
+    - What forms are necessary for Tele Birr account opening?
+    - Which certificates are required for Tele Birr?
+    - What official documents should I bring for Tele Birr?
+    - What identification papers are accepted for Tele Birr?
+    - What must I submit to use Tele Birr services?
+    - What documents are mandatory for Tele Birr processing?
+    - Explain the documents required for Tele Birr
+    - Which files are needed for Tele Birr registration?
+    - Required documentation for Tele Birr services
+    - What documents do I need to register for Tele Birr?
+    - What papers are necessary for Tele Birr services?
+    - What documents are accepted for Tele Birr registration?
+    - Tell me what I need to provide for Tele Birr services
+    - What files are necessary for Tele Birr processing?
+    - Which documents should I prepare for Tele Birr services?
+    - What documentation must be submitted for Tele Birr?
+    - What certificates do I need for Tele Birr?
+    - What documents are required for Tele Birr?
+    - Which papers do I need for Tele Birr registration?
+    - Required documents for opening Tele Birr account
+    - Documents needed for Tele Birr services
+    - What should I bring to apply for Tele Birr?
+    - What identification is needed for Tele Birr?
+    - Tele Birr document requirements
+    - What files are necessary for Tele Birr?
+    - Which documents do I need to start using Tele Birr?
+    - Details of paperwork needed for Tele Birr
+
+- intent: ask_about_tele_birr_time_en
+  examples: |
+    - What are the working hours for Tele Birr?
+    - Tele Birr service opening and closing time
+    - When is Tele Birr service available?
+    - Operating hours of Tele Birr
+    - Service time for Tele Birr
+    - At what time can I get Tele Birr service?
+    - Is Tele Birr available on weekends?
+    - Business hours for Tele Birr services
+    - Tele Birr working schedule
+    - When can I visit for Tele Birr service?
+
+- intent: ask_about_tele_birr_fee_en
+  examples: |
+    - What is the service fee for Tele Birr?
+    - How much does Tele Birr cost?
+    - Tele Birr transaction charges
+    - Fee for using Tele Birr service
+    - Charges applied by Tele Birr
+    - Cost of Tele Birr services
+    - What are the payment fees for Tele Birr?
+    - Tele Birr service pricing
+    - Tell me the commission for Tele Birr
+    - What is the price for Tele Birr transactions?
+
+- intent: ask_Enterprise_solutions_doc_en
+  examples: |
+    - What documents are required for Enterprise Solutions?
+    - Papers needed for Enterprise Solutions services
+    - Enterprise Solutions document requirements
+    - Which documents must I bring for Enterprise Solutions?
+    - Application documents for Enterprise Solutions
+    - Files needed for Enterprise Solutions
+    - Identification needed for Enterprise Solutions
+    - Document checklist for Enterprise Solutions
+    - Required papers for Enterprise Solutions registration
+    - Supporting documents for Enterprise Solutions
+    - Tell me the documents needed for Enterprise Solutions
+    - What paperwork is necessary for Enterprise Solutions services?
+    - Documents checklist for Enterprise Solutions application
+    - What files must I submit for Enterprise Solutions registration?
+    - Which documents are mandatory for Enterprise Solutions?
+    - What papers do I need to provide for Enterprise Solutions?
+    - Documents required to access Enterprise Solutions services
+    - What documentation is needed for Enterprise Solutions usage?
+    - List the required documents for Enterprise Solutions
+    - What supporting documents do I need for Enterprise Solutions?
+    - What forms are necessary for Enterprise Solutions application?
+    - Which certificates are required for Enterprise Solutions?
+    - What official documents should I bring for Enterprise Solutions?
+    - What identification papers are accepted for Enterprise Solutions?
+    - What must I submit to use Enterprise Solutions services?
+    - What documents are mandatory for Enterprise Solutions processing?
+    - Explain the documents required for Enterprise Solutions
+    - Which files are needed for Enterprise Solutions registration?
+    - Required documentation for Enterprise Solutions services
+    - What documents do I need to register for Enterprise Solutions?
+    - What papers are necessary for Enterprise Solutions services?
+    - What documents are accepted for Enterprise Solutions registration?
+    - Tell me what I need to provide for Enterprise Solutions services
+    - What files are necessary for Enterprise Solutions processing?
+    - Which documents should I prepare for Enterprise Solutions services?
+    - What documentation must be submitted for Enterprise Solutions?
+    - What certificates do I need for Enterprise Solutions?
+    - What documents are required for Enterprise Solutions?
+    - Papers needed for Enterprise Solutions services
+    - Enterprise Solutions document requirements
+    - Which documents must I bring for Enterprise Solutions?
+    - Application documents for Enterprise Solutions
+    - Files needed for Enterprise Solutions
+    - Identification needed for Enterprise Solutions
+    - Document checklist for Enterprise Solutions
+    - Required papers for Enterprise Solutions registration
+    - Supporting documents for Enterprise Solutions
+
+- intent: ask_Enterprise_solutions_time_en
+  examples: |
+    - What documents are required for Enterprise Solutions?
+    - Papers needed for Enterprise Solutions services
+    - Enterprise Solutions document requirements
+    - Which documents must I bring for Enterprise Solutions?
+    - Application documents for Enterprise Solutions
+    - Files needed for Enterprise Solutions
+    - Identification needed for Enterprise Solutions
+
+- intent: ask_Enterprise_solutions_fee_en
+  examples: |
+    - What documents are required for Enterprise Solutions?
+    - Papers needed for Enterprise Solutions services
+    - Enterprise Solutions document requirements
+    - Which documents must I bring for Enterprise Solutions?
+    - Application documents for Enterprise Solutions
+    - Files needed for Enterprise Solutions
+    - Identification needed for Enterprise Solutions
+

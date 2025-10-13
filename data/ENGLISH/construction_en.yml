@@ -1,0 +1,881 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ethiopian_Construction_Authority_general_en
+  examples: |
+      - Ethiopian Construction Authority 
+      - everything about Ethiopian Construction Authority
+      - Ethiopian Construction Authority in mesob
+      - Ethiopian Construction Authority in general
+      - general information about Ethiopian Construction Authority
+      - general overview of Ethiopian Construction Authority
+      - can u tell me general information about Ethiopian Construction Authority
+      - can u give me general information about Ethiopian Construction Authority
+      - give me general information about Ethiopian Construction Authority
+      - provide me general information about Ethiopian Construction Authority
+      - send me general information about Ethiopian Construction Authority
+      - tell me general information about Ethiopian Construction Authority
+      - What does the  Ethiopian Construction Authority do?
+      - explain what the Ethiopian Construction Authority is?
+      - Ethiopian Construction Authority do?
+      - Ethiopian Construction Authority information
+      - information about Ethiopian Construction Authority
+      - information on Ethiopian Construction Authority
+      - Need information on Ethiopian Construction Authority
+      - What is Ethiopian Construction Authority?
+      - Ethiopian Construction Authority details
+      - details about Ethiopian Construction Authority
+      - overview of Ethiopian Construction Authority
+      - Ethiopian Construction Authority overview
+      - Ethiopian Construction Authority purpose
+      - purpose of Ethiopian Construction Authority
+      - Ethiopian Construction Authority help
+      - can u give me help with Ethiopian Construction Authority
+      - help me with Ethiopian Construction Authority
+      - Ethiopian Construction Authority assistance
+      - assistance with Ethiopian Construction Authority
+      - need help with Ethiopian Construction Authority
+      - tell me about Ethiopian Construction Authority
+      - What does the Ethiopian Construction Authority do, and what do I need?
+      - Ethiopian Construction Authority responsibilities
+      - What's the Ethiopian Construction Authority's job?
+      - What functions does the Ethiopian Construction Authority perform
+      - what are the services and requirements of the Ethiopian Construction Authority?
+      - What services does the Ethiopian Construction Authority offer and what documents do I need?
+      - Can you tell me about the Ethiopian Construction Authority's services, processing time, required papers, and fees?
+      - I want to know the service details, document requirements, duration, and cost at the Ethiopian Construction Authority.
+      - What documents are needed for services at the Ethiopian Construction Authority and how long do they take?
+      - Please provide information on the services, fees, required documents, and timeline for the Ethiopian Construction Authority.
+      - How much does it cost and what documents are required for Ethiopian Construction Authority services, and how long is the process?
+      - Could you explain the general services, necessary documents, processing time, and fees at the Ethiopian Construction Authority?
+      - What do I need to apply for services at the Ethiopian Construction Authority, including time and fees?
+      - Tell me about the Ethiopian Construction Authority services, what documents to bring, fees, and expected service time?
+      - What are the services available, document requirements, fees, and timelines at the Ethiopian Construction Authority?
+      - Ethiopian Construction Authority services and requirements?
+      - Ethiopian Construction Authority fees and steps?
+      - How much Ethiopian Construction Authority services cost?
+      - cost for Ethiopian Construction Authority?
+      - fee for Ethiopian Construction Authority?
+      - how long does it take for  Ethiopian Construction Authority?
+      - time for Ethiopian Construction Authority?
+      - What documents do I need for Ethiopian Construction Authority?
+      - What documents are needed for Ethiopian Construction Authority?
+      - What do I need for Ethiopian Construction Authority services?
+      - What papers do I need for Ethiopian Construction Authority?
+      - What documents are required for Ethiopian Construction Authority?
+      - What papers are needed for Ethiopian Construction Authority?
+      - What documents are required for Ethiopian Construction Authority services?
+      - can you send me general information about Ethiopian Construction Authority
+      - What services does the Ethiopian Construction Authority offer, and what documents do I need to provide along with the processing time and fees?
+      - Can you explain the services of the Ethiopian Construction Authority including required documents, how long the process takes, and the associated costs?
+      - I want to know about the services available at the Ethiopian Construction Authority, the necessary documents, service duration, and fee structure.
+      - What are the main services of the Ethiopian Construction Authority? Also, what documents are required, how long does it take, and what are the fees?
+      - Could you tell me about the Ethiopian Construction Authority’s services, required paperwork, processing time, and fees all together?
+      - Please provide details on the Ethiopian Construction Authority services, the documents I need, how long it will take, and what fees apply.
+      - What documents must I submit for services at the Ethiopian Construction Authority, what services are available, how long is the service time, and what fees should I expect?
+      - Can you provide information on Ethiopian Construction Authority services including required documents, the expected processing time, and any fees?
+      - Tell me about the Ethiopian Construction Authority services, the documents I need to bring, the time it takes, and the cost involved.
+      - I want full details on the Ethiopian Construction Authority services including required documents, service duration, and fees.
+
+- intent: ask_about_Ethiopian_Construction_Authority_service_en
+  examples: |
+      - Ethiopian Construction Authority services
+      - service of Ethiopian Construction Authority in mesob
+      - sercices of Ethiopian Construction Authority
+      - services by Ethiopian Construction Authority
+      - Ethiopian Construction Authority utilities
+      - utility of Ethiopian Construction Authority
+      - give me services of Ethiopian Construction Authority
+      - list services of Ethiopian Construction Authority in mesob
+      - list services by Ethiopian Construction Authority
+      - list out Ethiopian Construction Authority services
+      - list of services by Ethiopian Construction Authority
+      - tell me services by Ethiopian Construction Authority
+      - tell me list of services by Ethiopian Construction Authority
+      - tell me list of services of Ethiopian Construction Authority
+      - tell me the services of Ethiopian Construction Authority
+      - telm me about the services of Ethiopian Construction Authority
+      - can you tell me about Ethiopian Construction Authority services
+      - can you  list the services of Ethiopian Construction Authority
+      - can you list services by Ethiopian Construction Authority
+      - What kind of support does the Ethiopian Construction Authority give?
+      - support from Ethiopian Construction Authority
+      - what services does Ethiopian Construction Authority support?
+      - list support by Ethiopian Construction Authority
+      - tell me support of Ethiopian Construction Authority
+      - tell me about the support of Ethiopian Construction Authority
+      - What services does the Ethiopian Construction Authority provide?
+      - What services are provided by the Ethiopian Construction Authority?
+      - list services provided by  Ethiopian Construction Authority 
+      - Ethiopian Construction Authority provide?
+      - services provided by Ethiopian Construction Authority
+      - list services which Ethiopian Construction Authority provides 
+      - list the services which Ethiopian Construction Authority provides
+      - list of services which Ethiopian Construction Authority provides
+      - can u tell me the services which Ethiopian Construction Authority provides
+      - tell me the services which Ethiopian Construction Authority provides
+      - list of services provided by Ethiopian Construction Authority
+      - list the services provided by Ethiopian Construction Authority
+      - list services provided by Ethiopian Construction Authority
+      - can u list the services provided by Ethiopian Construction Authority
+      - can u tell me the services provided by Ethiopian Construction Authority
+      - can you tell me the services which Ethiopian Construction Authority provides
+      - can you tell me the services provided by Ethiopian Construction Authority
+      - What services does the Ethiopian Construction Authority offer?
+      - What are the services that the Ethiopian Construction Authority offers?
+      - Ethiopian Construction Authority offers? 
+      - What does the Ethiopian Construction Authority offer?
+      - list the services that Ethiopian Construction Authority offers
+      - list the services offered by Ethiopian Construction Authority
+      - list of services offered by Ethiopian Construction Authority
+      - can you list services offered by Ethiopian Construction Authority
+      - What services are offered by the Ethiopian Construction Authority?
+      - tell me services offered by Ethiopian Construction Authority
+      - can you tell me services offered by Ethiopian Construction Authority
+      - What services are available at the Ethiopian Construction Authority?
+      - what are the available services at Ethiopian Construction Authority
+      - available services at Ethiopian Construction Authority
+      - tell me available services of Ethiopian Construction Authority
+      - list of available services at Ethiopian Construction Authority
+      - list available services by Ethiopian Construction Authority
+      - list the available services of Ethiopian Construction Authority
+      - list the services that are  available at Ethiopian Construction Authority
+      - can u list available services at Ethiopian Construction Authority
+      - can you tell me available services at Ethiopian Construction Authority
+      - what servies are given by Ethiopian Construction Authority
+      - What services does the Ethiopian Construction Authority give?
+      - tell me what services Ethiopian Construction Authority gives
+      - tell me what services are given by Ethiopian Construction Authority
+      - can you list the services that Ethiopian Construction Authority gives
+      - can you tell me the services that Ethiopian Construction Authority gives
+      - can you tell me what services Ethiopian Construction Authority gives
+      - can u tell me what sevices can I get from Ethiopian Construction Authority
+      - Ethiopian Construction Authority gives services?
+      - what services can I get from Ethiopian Construction Authority?
+      - What services can I access at the Ethiopian Construction Authority?
+      - What are the main tasks of the Ethiopian Construction Authority
+      - What services can I access at the Ethiopian Construction Authority?
+      - main tasks of Ethiopian Construction Authority
+      - can u tell me the tasks of Ethiopian Construction Authority
+      - tasks of Ethiopian Construction Authority
+      - Tell me Ethiopian Construction Authority services
+      - services by Ethiopian Construction Authority
+      - Ethiopian Construction Authority services list 
+      - list of Ethiopian Construction Authority services
+      - tell me the lists of Ethiopian Construction Authority services
+      - Ethiopian Construction Authority services list 
+      - Role of the Ethiopian Construction Authority?
+      - What roles does the Ethiopian Construction Authority play?
+      - Ethiopian Construction Authority roles
+      - What roles does the Ethiopian Construction Authority have?
+      - What does the Ethiopian Construction Authority do
+      - Can you list the services offered by the Construction Authority?
+      - Which services are available at the Ethiopian Construction Authority?
+      - Tell me about the services of the Construction Authority
+      - What help can I get from the Ethiopian Construction Authority?
+      - Can you explain the services under Ethiopian Construction Authority?
+      - can you list the services of the Ethiopian Construction Authority?
+      - can you tell me about the services of the Ethiopian Construction Authority?
+      - please tell me the services of the Ethiopian Construction Authority?
+      - What services are included in the Ethiopian Construction Authority?
+      - give me the services of the Ethiopian Construction Authority
+      - give me the list of services of the Ethiopian Construction Authority
+      - give me the list of services provided by the Ethiopian Construction Authority
+      - send me the services of the Ethiopian Construction Authority
+      - send me the list of services of the Ethiopian Construction Authority
+      - send me the list of services provided by the Ethiopian Construction Authority
+      - provide me the services of the Ethiopian Construction Authority
+      - provide me the list of services of the Ethiopian Construction Authority
+      - provide me the list of services provided by the Ethiopian Construction Authority
+
+- intent: ask_about_New_Professional_Registration_en
+  examples: |
+    - new professional registration in construction
+    - new construction professional registration
+    - tell me about new professional registration in construction
+    - can you tell me about new professional registration in construction?
+    - give me the general information about new professional registration in construction
+    - general information about new professional registration in construction
+    - what is the process for new professional registration in construction?
+    - what is the process for new professional registration?
+    - what is the process for new professional registration in construction at mesob
+    - process for new professional registration in construction
+    - show me the steps for new professional registration in construction
+    - tell me the steps for new professional registration in construction
+    - tell me about the process for new professional registration in construction
+    - tell me about the process for new professional registration
+    - How can I register as a new construction professional?
+    - Steps for new professional registration in construction
+    - list the steps for new professional registration
+    - what are the steps for new professional registration?
+    - how do I register as a new construction professional?
+    - can you tell me how I can register as a new construction professional?
+    - What is the process for new professional registration in construction?
+    - How do I register as a new construction professional at mesob?
+    - show me the steps for new professional registration
+    - process for new professional registration in construction
+    - how to register as a new construction professional?
+    - What documents are needed for professional registration?
+    - what is the process for new professional registration?
+    - steps for new professional registration in construction
+    - give me the steps for new professional registration
+    - tell me how the process for new professional registration works
+    - tell me the process for new professional registration
+    - tell me the steps for new professional registration
+    - tell me about the process for new professional registration
+    - How do I apply for new professional registration in construction?
+    - How do I apply for a new professional license in the construction sector?
+    - I want to register as a new professional in construction
+    - Application process for new professional registration in construction
+    - How long does it take to get new professional registration?
+    - What are the requirements for new construction professional registration?
+    - Requirements to register as a construction professional
+    - What documents are needed to register as a construction professional?
+    - Fees for new professional registration in construction
+    - Where to apply for new construction professional registration?
+    - How to get certified as a new construction professional?
+    - How do I start the new professional registration process?
+    - I want to get registered as a new construction professional
+    - Registration process for new construction professionals
+    - What should I prepare for new construction professional registration?
+    - Guidelines for new professional registration in the construction field
+    - Tell me the application steps for new construction professional registration
+    - Where do I go to register as a construction professional?
+    - What is the timeline for new professional registration?
+    - Can you explain the steps for new professional registration?
+    - New Water Works professional registration process
+    - How do I apply for a Water Works professional license?
+    - Requirements for Water Works professional registration
+    - Documents needed to register as a Water Works professional
+    - Fees for Water Works professional registration
+
+- intent: ask_about_Renewal_Professional_Registration_en
+  examples: |
+    - renewal professional registration in construction
+    - renewal construction professional registration
+    - tell me about renewal professional registration in construction
+    - can you tell me about renewal professional registration in construction?
+    - give me the general information about renewal professional registration in construction
+    - general information about renewal professional registration in construction
+    - what is the process for renewal professional registration in construction?
+    - what is the process for renewal professional registration?
+    - what is the process for renewal professional registration in construction at mesob
+    - process for renewal professional registration in construction
+    - show me the steps for renewal professional registration in construction
+    - tell me the steps for renewal professional registration in construction
+    - tell me about the process for renewal professional registration in construction
+    - tell me about the process for renewal professional registration
+    - How can I register for renewal as a construction professional?
+    - Steps for renewal professional registration in construction
+    - list the steps for renewal professional registration
+    - what are the steps for renewal professional registration?
+    - what is the process for renewal professional registration?
+    - how do I register for renewal as a construction professional?
+    - can you tell me how I can register for renewal as a construction professional?
+    - What is the process for renewal professional registration in construction?
+    - How do I register for renewal as a construction professional at mesob?
+    - show me the steps for renewal professional registration
+    - process for renewal professional registration in construction
+    - how to register for renewal as a construction professional?
+    - What documents are needed for professional registration renewal?
+    - what is the process for renewal professional registration?
+    - steps for renewal professional registration in construction
+    - give me the steps for renewal professional registration
+    - tell me how the process for renewal professional registration works
+    - tell me the process for renewal professional registration
+    - tell me the steps for renewal professional registration
+    - tell me about the process for renewal professional registration
+    - How do I apply for renewal professional registration in construction?
+    - how do I register for renewal as a construction professional?
+    - How do I register for renewal as a construction professional at mesob?
+    - Steps for renewal professional registration in construction
+    - What documents are needed for professional registration renewal?
+    - Where to apply for a renewal professional registration certificate?
+    - Guidelines for renewal professional registration
+    - How long does it take to register for renewal as a construction professional?
+    - Fees for renewal professional registration
+    - Requirements for becoming a certified construction professional renewal
+    - Can you explain the process of renewal professional registration?
+    - How do I apply for professional registration renewal in construction?
+    - How can I renew my Water Works professional license?
+    - Steps to renew Water Works professional certification
+    - Renewal process for Water Works professional license
+    - What documents are needed to renew Water Works license?
+    - Where to apply for Water Works license renewal?
+    - Fees for renewing Water Works professional certification
+    - How long does Water Works license renewal take?
+    - Guidelines for renewing Water Works professional license
+    - Renewal application for Water Works professionals
+    - How to update expired Water Works license?
+
+- intent: ask_about_Lost_Replacement_Professional_Certificate_en
+  examples: |
+    - lost replacement professional certificate in construction
+    - lost professional certificate in construction
+    - tell me about lost replacement professional certificate in construction
+    - can you tell me about lost replacement professional certificate in construction?
+    - give me the general information about lost replacement professional certificate in construction
+    - general information about lost replacement professional certificate in construction
+    - what is the process for lost professional certificate replacement in construction?
+    - what is the process for lost professional certificate replacement?
+    - what is the process for lost professional certificate replacement in construction at mesob
+    - process for lost professional certificate replacement in construction
+    - show me the steps for lost professional certificate replacement in construction
+    - tell me the steps for lost professional certificate replacement in construction
+    - tell me about the process for lost professional certificate replacement in construction
+    - tell me about the process for lost professional certificate replacement
+    - How can I replace a lost professional certificate?
+    - How do I replace a lost professional certificate in construction?
+    - How do I register for lost professional certificate replacement in construction?
+    - Steps for lost professional certificate replacement in construction
+    - list the steps for lost professional certificate replacement
+    - what are the steps for lost professional certificate replacement?
+    - how do I apply for a lost professional certificate replacement?
+    - can you tell me how I can replace a lost professional certificate?
+    - can you tell me how to get a replacement for a lost professional certificate in construction?
+    - Where to get a replacement for a lost professional license?
+    - requirements for lost professional certificate replacement in construction
+    - What documents are needed for lost professional certificate replacement?
+    - what documents are needed for lost professional certificate replacement in construction?
+    - what documents are required for lost professional certificate replacement?
+    - what documents are required for lost professional certificate replacement in construction?
+    - what are the documents needed for lost professional certificate replacement?
+    - needed documents for lost professional certificate replacement in construction
+    - Fees for lost professional certificate replacement in construction
+    - What documents are needed for lost certificate substitution?
+    - How long does it take to replace a lost professional certificate?
+    - Guidelines for lost professional certificate replacement
+    - Can you explain how to get a duplicate certificate?
+    - How to report and replace a lost construction professional certificate?
+    - Process for lost professional certificate substitution
+    - What is the cost for replacing a lost professional certificate?
+    - Where do I apply for a replacement certificate if lost?
+    - How to apply for a duplicate professional certificate?
+    - What steps do I follow to replace a lost professional certificate?
+    - Can I get a replacement for my lost professional certificate online?
+    - Do I need to provide documents to replace a lost professional certificate?
+    - Is there a fee for replacing a lost professional certificate?
+    - How long does it take to get a replacement professional certificate?
+    - What are the official guidelines for lost professional certificate replacement?
+    - Can you guide me through the lost professional certificate replacement process?
+    - I want to replace my lost professional certificate
+    - How do I get a replacement certificate for a lost professional license?
+    - Lost professional certificate replacement application process
+    - Can I get a duplicate professional certificate for lost license?
+    - What is the timeline for lost professional certificate replacement?
+    - Tell me the process for lost certificate replacement in construction
+    - Where can I apply for lost professional certificate replacement in construction?
+    - Lost certificate replacement fees and requirements
+    - How do I start the lost professional certificate replacement process?
+    - Guidelines for lost certificate replacement in construction
+    - Who can help me replace a lost professional certificate?
+    - How to replace a lost Water Works professional certificate?
+    - Replacement process for lost Water Works professional certificate
+    - Documents needed for lost Water Works certificate replacement
+    - Fees for lost Water Works professional certificate replacement
+    - How long does lost Water Works certificate replacement take?
+    - Can you explain the steps for lost Water Works professional certificate replacement?
+
+- intent: ask_about_New_Registration_Water-Works_Professional_License_en
+  examples: |
+    - new registration water works professional license
+    - what is new Water Works professional license registration?
+    - new Water Works professional license registration
+    - how to register for new Water Works professional license?
+    - how to get new Water Works professional license?
+    - can you tell me about new Water Works professional license registration?
+    - can you explain new Water Works professional license registration?
+    - can you give me the steps for new Water Works professional license registration?
+    - can you tell me how to register for a new Water Works professional license?
+    - can you tell me how to get a new Water Works professional license?
+    - how can I register for a new Water Works professional license?
+    - how can I get a new Water Works professional license?
+    - process for new Water Works professional license registration
+    - steps for new Water Works professional license registration
+    - what is the process for new Water Works professional license registration?
+    - what is the process for new Water Works professional license registration in construction?
+    - what are the steps for new Water Works professional license registration?
+    - give me the steps for new Water Works professional license registration
+    - tell me the steps for new Water Works professional license registration
+    - tell me about the process for new Water Works professional license registration
+    - tell me about the process for new Water Works professional license registration in construction
+    - how is the process for new Water Works professional license registration in construction?
+    - How can I register for a new Water Works professional license in construction?
+    - explain the process for new Water Works professional license registration
+    - explain the steps for new Water Works professional license registration
+    - can you tell me how I can register for a new Water Works professional license in construction?
+    - can you tell me how I can register for a new Water Works professional license?
+    - can you tell me how I can get a new Water Works professional license?
+    - list the steps for new Water Works professional license registration
+    - what documents are needed for new Water Works professional license registration?
+    - what documents are needed for new Water Works professional license registration in construction?
+    - what papers are needed for new Water Works professional license registration?
+    - new Water Works professional license registration
+    - new Water Works professional license registration in construction
+    - tell me about new Water Works professional license registration
+    - tell me how to register for a new Water Works professional license
+    - how can I register for a new Water Works professional license?
+    - how to get new Water Works professional license?
+    - Steps for Water Works professional license registration
+    - What documents are needed for Water Works professional registration?
+    - Guidelines for new Water Works license
+    - Where to apply for Water Works professional certification?
+    - Fees for Water Works professional license registration
+    - How long does it take to get Water Works license?
+    - Requirements for new Water Works professional license
+    - fee for new Water Works professional license
+    - How to apply for a new Water Works professional license
+    - time for new Water Works professional license
+    - how much does it cost for new Water Works professional license?
+    - how long does it take to get a new Water Works professional license?
+    - what is the cost for new Water Works professional license?
+    - how many hours does it take to get a new Water Works professional license?
+    - Can you explain Water Works license application process?
+    - How to become a certified Water Works professional?
+    - I want to register for a new Water Works professional license
+    - Application process for new Water Works professional license
+    - What are the requirements for new Water Works license?
+    - Documents needed to register as a Water Works professional
+    - Fees required for Water Works professional license registration
+    - Where do I go to register for Water Works professional license?
+    - How long does it take to complete Water Works professional license registration?
+    - Can you guide me on new Water Works professional license registration?
+    - What should I prepare for Water Works professional license registration?
+    - Tell me the application steps for new Water Works professional license
+
+- intent: ask_about_Renewal_Water_Works_Professional_License_en
+  examples: |
+    - renewal Water Works professional license
+    - how to renew Water Works professional license?
+    - how to renew Water Works professional certification?
+    - how to renew Water Works license?
+    - can you tell me about Water Works professional license renewal?
+    - can you explain Water Works professional license renewal?
+    - can you give me the steps for Water Works professional license renewal?
+    - can you tell me how to renew Water Works professional license?
+    - can you tell me how to renew Water Works professional certification?
+    - tell me about Water Works professional license renewal
+    - tell me how to renew Water Works professional license?
+    - tell me how to renew Water Works professional certification?
+    - tell me how to renew Water Works license?
+    - give me the steps for Water Works professional license renewal
+    - give me the steps for Water Works professional certification renewal
+    - list the steps for Water Works professional license renewal
+    - process for Water Works professional license renewal
+    - what is the process for Water Works professional license renewal?
+    - what are the steps for Water Works professional license renewal?
+    - How can I renew my Water Works professional license?
+    - Steps to renew Water Works professional certification
+    - Renewal process for Water Works professional license
+    - What documents are needed to renew Water Works license?
+    - Where to apply for Water Works license renewal?
+    - Fees for renewing Water Works professional certification
+    - How long does Water Works license renewal take?
+    - Guidelines for renewing Water Works professional license
+    - Renewal application for Water Works professionals
+    - How to update expired Water Works license?
+    - Required documents for renewing Water Works license
+    - What is required for Water Works professional license renewal?
+    - Application form for renewing Water Works license
+    - Submission procedure for Water Works license renewal
+    - Time required to renew Water Works professional certification
+    - Cost to renew Water Works professional license
+    - Renewal charges for Water Works certification
+    - What’s the renewal fee for Water Works professional license?
+    - Payment needed to renew Water Works license
+    - Can I renew my Water Works license online?
+    - Where should I submit Water Works renewal documents?
+    - Duration of the Water Works license renewal process
+    - Required paperwork for Water Works certification renewal
+    - How to fill out Water Works license renewal application?
+    - Ministry contact for Water Works license renewal
+    - Who is eligible to renew a Water Works professional license?
+    - Can expired Water Works licenses be renewed?
+    - Deadline to renew Water Works professional certification
+    - When should I renew my Water Works license?
+    - Are there late fees for renewing Water Works license?
+    - How much time does it take to process Water Works license renewal?
+    - Tell me about Water Works license renewal: documents, time, and cost
+    - Explain the Water Works license renewal procedure step by step
+    - What are the documents, fee, and duration for renewing a Water Works license?
+
+- intent: ask_about_Upgrading_Water_Works_Professional_License_en
+  examples: |
+    - How do I upgrade my Water Works professional license?
+    - Steps to upgrade Water Works professional certification
+    - Water Works license upgrade procedure
+    - What is the process to upgrade Water Works license?
+    - Ministry of Water Works license upgrade steps
+    - Requirements to upgrade Water Works professional license
+    - What documents are needed for upgrading Water Works license?
+    - How long does it take to upgrade Water Works professional certification?
+    - Time required for Water Works license upgrade
+    - Fee for upgrading Water Works professional license
+    - How to apply for a Water Works license upgrade?
+    - Upgrade process for Water Works certification
+    - Cost of Water Works professional license upgrade
+    - Where to apply for Water Works license upgrade?
+    - What is needed to upgrade Water Works professional certification?
+    - Water Works professional license upgrade timeline
+    - What are the requirements to upgrade Water Works license?
+    - Documents required for Water Works professional license upgrade
+    - Processing time for upgrading Water Works license
+    - How much is the upgrade fee for Water Works certification?
+    - Water Works professional license upgrade requirements
+    - Upgrade steps for Water Works professionals
+    - Can I upgrade my Water Works license online?
+    - Online application for Water Works license upgrade
+    - Ministry process for upgrading Water Works license
+    - Renewal vs upgrade for Water Works professional license
+    - How soon can I upgrade my Water Works license?
+    - Steps to upgrade Water Works certification after expiry
+    - Water Works license upgrade service
+    - Who can apply for Water Works professional license upgrade?
+    - Water Works professional upgrade fee structure
+    - Total cost to upgrade Water Works license
+    - Validity period after Water Works license upgrade
+    - Where do I submit Water Works upgrade application?
+    - Required papers for Water Works professional upgrade
+    - How long does Water Works upgrade approval take?
+    - Do I need training to upgrade Water Works license?
+    - Water Works upgrade application process explained
+    - Supporting documents for Water Works license upgrade
+    - Timeframe for Water Works license upgrade process
+    - Steps for professional Water Works license upgrade
+    - Upgrade guidelines from Ministry for Water Works license
+    - How much time is needed for Water Works certification upgrade?
+    - Fee details for Water Works license upgrade
+    - Cost and time for Water Works professional upgrade
+    - Application form for Water Works license upgrade
+    - Where can I find upgrade form for Water Works license?
+    - Ministry of Water Works upgrade policy
+    - How to pay for Water Works license upgrade?
+    - Payment method for Water Works certification upgrade
+    - Eligibility for Water Works license upgrade
+    - Can you explain the Water Works professional license upgrade process?
+    - What steps do I follow to upgrade my Water Works license?
+    - Tell me about the procedure for upgrading Water Works license
+    - I want to upgrade my Water Works professional license
+    - What documents do I need to provide for Water Works license upgrade?
+    - How long does the upgrade process for Water Works license take?
+    - What fees are involved in upgrading Water Works professional license?
+    - Where do I apply to upgrade my Water Works professional license?
+    - Are there any guidelines for upgrading Water Works license?
+    - Can the Water Works license upgrade be done online?
+    - Is training required before upgrading my Water Works professional license?
+    - What is the validity period after upgrading Water Works license?
+    - How much does it cost to upgrade Water Works professional license?
+    - What is the total cost for upgrading Water Works license?
+    - Who is eligible to apply for a Water Works professional license upgrade?
+    - How can I pay the fees for Water Works license upgrade?
+    - Are there any forms required for Water Works license upgrade?
+    - How soon can I expect approval after submitting the Water Works license upgrade application?
+    - How can I upgrade my Water Works professional license?
+    - Steps for upgrading Water Works certification
+    - Process to upgrade Water Works license
+    - What documents are needed to upgrade Water Works professional license?
+    - Where to apply for Water Works license upgrade?
+    - Fees for upgrading Water Works professional certification
+    - How long does it take to upgrade Water Works license?
+    - Guidelines for upgrading Water Works professional certification
+    - Application for upgrading Water Works professional license
+    - Requirements for upgrading Water Works certification
+
+- intent: ask_about_New-Registration_Water_Works_Competency_Certificate_Company_en
+  examples: |
+    - New Registration water works competency certificate for company
+    - Register for water works competency certificate as a new company
+    - Company registration for Water Works competency certificate
+    - How can a company obtain a Water Works competency certificate?
+    - How can a company get a new Water Works competency certificate?
+    - How does a company apply for a Water Works competency certificate?
+    - What's the process to get a Water Works competency certificate for a company?
+    - How to apply for Water Works competency certificate as a company
+    - Application process for Water Works company competency
+    - Steps to register for Water Works company competency
+    - Step-by-step guide for Water Works competency registration
+    - What are the registration steps for Water Works competency?
+    - Process for new Water Works competency certification
+    - Certification process for Water Works companies
+    - How is Water Works competency certification done for companies?
+    - What documents are required for Water Works company certification?
+    - Documents needed for Water Works company certification?
+    - Required documents for new Water Works competency certificate
+    - List the documents for Water Works company certification
+    - What paperwork is needed for Water Works competency?
+    - Can you list the required documents for Water Works certification?
+    - What must a company submit for Water Works competency?
+    - Guidelines to register a new company for Water Works competency
+    - Registration guidelines for Water Works competency
+    - Rules for new company competency registration
+    - Steps for new company competency registration
+    - How to complete new Water Works competency registration
+    - Procedure to finish Water Works competency registration
+    - Fees for new Water Works company competency certificate
+    - Cost of Water Works competency certificate for companies
+    - What is the fee for Water Works company certification?
+    - Payment required for new Water Works competency certificate
+    - How much does Water Works competency certification cost?
+    - Where to apply for company Water Works competency certification?
+    - Application location for Water Works competency certificate
+    - Where do companies submit Water Works competency applications?
+    - Which office handles Water Works competency applications?
+    - How long does Water Works company certification take?
+    - Processing time for Water Works competency certificate
+    - Duration to get Water Works company certification
+    - Timeframe for new Water Works competency approval
+    - How many days for Water Works certification approval?
+    - Requirements for new Water Works company competency certificate
+    - What are the requirements for Water Works competency?
+    - Eligibility criteria for Water Works company certification
+    - Conditions to get a Water Works competency certificate
+    - What does a company need to qualify for Water Works competency?
+    - Can you explain new registration for Water Works companies?
+    - Explain the Water Works company registration process
+    - Describe how to register a company for Water Works competency
+    - Walk me through Water Works company registration
+    - What is the procedure to register for Water Works competency?
+    - Procedure for Water Works competency certificate registration
+    - Steps involved in company registration for Water Works competency
+    - What's the complete process for Water Works certification?
+    - List the steps to obtain a Water Works competency certificate
+    - Step-by-step guide for Water Works company certification
+    - Outline the process to get a Water Works competency certificate
+    - Can you list the requirements for Water Works certification?
+    - List all requirements for Water Works company certification
+    - What do I need to provide for Water Works competency?
+    - Give me the requirements for Water Works company certification
+    - Give me details on applying for Water Works competency certificate
+    - Details about Water Works company certification application
+    - Information on applying for Water Works competency
+    - Tell me about the Water Works certification application
+    - Show me how to register for Water Works competency
+    - Show me the process to register a company for Water Works competency
+    - Demonstrate the Water Works company registration process
+    - How does a company register for Water Works competency?
+    - What's the method to register for Water Works competency?
+    - What are the costs for Water Works competency certificate?
+    - Total expenses for Water Works company certification
+    - Breakdown of fees for Water Works competency certificate
+    - How much money is needed for Water Works certification?
+    - What's the payment structure for Water Works competency
+    - New competency certification process for Water Works companies
+    - What documents are needed for Water Works company certification?
+    - Guidelines for new company competency registration
+    - Fees for new Water Works company competency certificate
+    - Where to apply for company Water Works competency certification?
+    - How long does it take for Water Works company certification?
+    - Requirements for new Water Works company competency certificate
+    - Can you explain new registration for Water Works companies?
+
+- intent: ask_about_Renewal_Water_Works_Company_Competency_Certificate_en
+  examples: |
+    - How to renew a Water Works competency certificate?
+    - What are the steps to renew a Water Works competency certificate?
+    - What is the renewal process for a Water Works competency certificate?
+    - How does Water Works competency certificate renewal work?
+    - What is the procedure to renew a Water Works competency certificate?
+    - Can you explain the Water Works competency certificate renewal process?
+    - What is the method to renew a Water Works competency certificate?
+    - How do I complete renewal of my Water Works competency certificate?
+    - What are the stages in Water Works competency certificate renewal?
+    - Where can I find the guide for renewing a Water Works competency certificate?
+    - How should I apply for Water Works competency certificate renewal?
+    - What is the workflow for Water Works competency certificate renewal?
+    - How do I start renewing my Water Works competency certificate?
+    - What happens during Water Works competency certificate renewal?
+    - Is there an online process for Water Works competency certificate renewal?
+    - What is the standard way to renew a Water Works competency certificate?
+    - How is the Water Works competency certificate renewal handled?
+    - What are the phases of Water Works competency certificate renewal?
+    - Can you describe the Water Works competency certificate renewal steps?
+    - What actions are needed for Water Works competency certificate renewal?
+    - How long does Water Works competency certificate renewal take?
+    - What is the processing time for Water Works competency certificate renewal?
+    - How many days until my Water Works competency certificate renewal is complete?
+    - What is the average time for Water Works competency certificate renewal?
+    - How quick is the Water Works competency certificate renewal process?
+    - When will my Water Works competency certificate renewal be approved?
+    - Is Water Works competency certificate renewal faster than initial certification?
+    - What is the duration of Water Works competency certificate renewal?
+    - What is the timeframe for Water Works competency certificate renewal?
+    - How soon can I get my renewed Water Works competency certificate?
+    - What is the fee for Water Works competency certificate renewal?
+    - How much does Water Works competency certificate renewal cost?
+    - What are the charges for renewing a Water Works competency certificate?
+    - What payment is required for Water Works competency certificate renewal?
+    - What is the price to renew a Water Works competency certificate?
+    - Are there additional fees for Water Works competency certificate renewal?
+    - What is the total cost for Water Works competency certificate renewal?
+    - How much should I pay for Water Works competency certificate renewal?
+    - What is the payment structure for Water Works competency certificate renewal?
+    - Does Water Works competency certificate renewal have extra charges?
+    - What documents are needed for Water Works competency certificate renewal?
+    - What are the requirements to renew a Water Works competency certificate?
+    - What paperwork is required for Water Works competency certificate renewal?
+    - Do I need to submit new documents for Water Works competency certificate renewal?
+    - What forms are required for Water Works competency certificate renewal?
+    - What is the checklist for Water Works competency certificate renewal documents?
+    - What are the eligibility conditions for Water Works competency certificate renewal?
+    - What proofs are needed for Water Works competency certificate renewal?
+    - What information is required for Water Works competency certificate renewal?
+    - Are there mandatory items for Water Works competency certificate renewal?
+    - What supporting documents must accompany Water Works competency certificate renewal?
+    - Do I need updated documents for Water Works competency certificate renewal?
+    - What are the document requirements for Water Works competency certificate renewal?
+    - What must I provide for Water Works competency certificate renewal?
+    - What are the criteria for Water Works competency certificate renewal?
+    - How do I apply for Water Works competency certificate renewal?
+    - Where can I apply for Water Works competency certificate renewal?
+    - Where do I submit my Water Works competency certificate renewal application?
+    - Can I renew my Water Works competency certificate online?
+    - Is Water Works competency certificate renewal done online?
+    - What is the timeline for Water Works competency certificate renewal?
+    - What are the guidelines for Water Works competency certificate renewal?
+    - Are there any conditions for renewing Water Works competency certificate?
+    - How much time does it take to renew a Water Works competency certificate?
+    - How long does it take to get Water Works competency certificate renewed?
+    - What is the cost for renewing a Water Works competency certificate?
+    - Are there fees involved in Water Works competency certificate renewal?
+    - What payment methods are accepted for Water Works competency certificate renewal?
+    - What happens if I miss the renewal deadline for Water Works competency certificate?
+    - Is training required for Water Works competency certificate renewal?
+    - What happens if my Water Works competency certificate expires before renewal?
+    - How to prepare for Water Works competency certificate renewal?
+    - What documents do I need to prepare for renewing Water Works competency certificate?
+
+- intent: ask_about_Change_Grade_for_Water_Works_Companies_Competency_Certification_en
+  examples: |
+    - How to change grade for Water Works competency certificate?
+    - What are the steps to upgrade Water Works competency certificate grade?
+    - What is the process for changing Water Works competency certificate grade?
+    - How does Water Works competency certificate grade change work?
+    - What is the procedure to modify Water Works competency certificate grade?
+    - Can you explain the Water Works competency certificate grade change process?
+    - What is the method to upgrade Water Works competency certificate grade?
+    - How do I complete grade change for my Water Works competency certificate?
+    - What are the stages in Water Works competency certificate grade modification?
+    - Where can I find the guide for changing Water Works competency certificate grade?
+    - How should I apply for Water Works competency certificate grade upgrade?
+    - What is the workflow for Water Works competency certificate grade change?
+    - How do I start changing my Water Works competency certificate grade?
+    - What happens during Water Works competency certificate grade adjustment?
+    - Is there an online process for Water Works competency certificate grade change?
+    - What is the standard way to modify Water Works competency certificate grade?
+    - How is the Water Works competency certificate grade change handled?
+    - What are the phases of Water Works competency certificate grade upgrade?
+    - Can you describe the Water Works competency certificate grade change steps?
+    - What actions are needed for Water Works competency certificate grade modification?
+    - How long does Water Works competency certificate grade change take?
+    - What is the processing time for Water Works competency certificate grade modification?
+    - How many days until my Water Works competency certificate grade change is complete?
+    - What is the average time for Water Works competency certificate grade upgrade?
+    - How quick is the Water Works competency certificate grade change process?
+    - When will my Water Works competency certificate grade change be approved?
+    - Is Water Works competency certificate grade change faster than initial certification?
+    - What is the duration of Water Works competency certificate grade adjustment?
+    - What is the timeframe for Water Works competency certificate grade modification?
+    - How soon can I get my updated Water Works competency certificate after grade change?
+    - What is the fee for Water Works competency certificate grade change?
+    - How much does Water Works competency certificate grade modification cost?
+    - What are the charges for changing Water Works competency certificate grade?
+    - What payment is required for Water Works competency certificate grade upgrade?
+    - What is the price to modify Water Works competency certificate grade?
+    - Are there additional fees for Water Works competency certificate grade change?
+    - What is the total cost for Water Works competency certificate grade adjustment?
+    - How much should I pay for Water Works competency certificate grade modification?
+    - What is the payment structure for Water Works competency certificate grade change?
+    - Does Water Works competency certificate grade change have extra charges?
+    - What documents are needed for Water Works competency certificate grade change?
+    - What are the requirements to modify Water Works competency certificate grade?
+    - What paperwork is required for Water Works competency certificate grade upgrade?
+    - Do I need to submit new documents for Water Works competency certificate grade change?
+    - What forms are required for Water Works competency certificate grade modification?
+    - What is the checklist for Water Works competency certificate grade change documents?
+    - What are the eligibility conditions for Water Works competency certificate grade adjustment?
+    - What proofs are needed for Water Works competency certificate grade upgrade?
+    - What information is required for Water Works competency certificate grade change?
+    - Are there mandatory items for Water Works competency certificate grade modification?
+    - What supporting documents must accompany Water Works competency certificate grade change?
+    - Do I need updated documents for Water Works competency certificate grade adjustment?
+    - What are the document requirements for Water Works competency certificate grade upgrade?
+    - What must I provide for Water Works competency certificate grade change?
+    - What are the criteria for Water Works competency certificate grade modification?
+    - How can a company change its competency grade for Water Works?
+    - Steps for upgrading Water Works company competency grade
+    - Process for changing Water Works company certification grade
+    - What documents are needed to change competency grade?
+    - Fees for changing Water Works company competency certificate
+    - Where to apply for Water Works company grade change?
+    - Guidelines for upgrading Water Works company competency
+    - How long does changing Water Works company grade take?
+    - Requirements for changing Water Works company competency grade
+    - Can you explain competency grade change for Water Works companies?
+
+- intent: ask_about_Lost_certificate_Substitution_Water_Works_Companies_en
+  examples: |
+    - lost certificate substitution water works companies
+    - how to get lost  certificate substitution for  water works companies
+    - How to replace a lost Water Works competency certificate?
+    - What is the process for replacing a lost Water Works competency certificate?
+    - Steps to get a duplicate Water Works competency certificate
+    - Procedure for lost Water Works competency certificate replacement
+    - How does lost Water Works competency certificate replacement work?
+    - What is the method to replace a lost Water Works competency certificate?
+    - Can you explain the lost Water Works competency certificate replacement process?
+    - How do I get a replacement for my lost Water Works competency certificate?
+    - What are the stages in replacing a lost Water Works competency certificate?
+    - Where can I find the guide for lost Water Works competency certificate replacement?
+    - How should I apply for a duplicate Water Works competency certificate?
+    - What is the workflow for lost Water Works competency certificate substitution?
+    - How do I start the process to replace my lost Water Works competency certificate?
+    - What happens during lost Water Works competency certificate replacement?
+    - Is there an online process for lost Water Works competency certificate replacement?
+    - What is the standard way to replace a lost Water Works competency certificate?
+    - How is a lost Water Works competency certificate replacement handled?
+    - What are the phases of getting a duplicate Water Works competency certificate?
+    - Can you describe the steps to replace a lost Water Works competency certificate?
+    - What actions are needed for lost Water Works competency certificate substitution?
+    - How long does lost Water Works competency certificate replacement take?
+    - What is the processing time for lost Water Works competency certificate replacement?
+    - How many days until I get my replacement Water Works competency certificate?
+    - What is the average time for lost Water Works competency certificate substitution?
+    - How quick is the lost Water Works competency certificate replacement process?
+    - When will my duplicate Water Works competency certificate be ready?
+    - Is lost certificate replacement faster than initial certification?
+    - What is the duration for getting a duplicate Water Works competency certificate?
+    - What is the timeframe for lost Water Works competency certificate replacement?
+    - How soon can I get my replacement Water Works competency certificate?
+    - What is the fee for replacing a lost Water Works competency certificate?
+    - How much does lost Water Works competency certificate replacement cost?
+    - What are the charges for duplicate Water Works competency certificate?
+    - What payment is required for lost Water Works competency certificate substitution?
+    - What is the price to replace a lost Water Works competency certificate?
+    - Are there additional fees for lost Water Works competency certificate replacement?
+    - What is the total cost for duplicate Water Works competency certificate?
+    - How much should I pay for lost Water Works competency certificate replacement?
+    - What is the payment structure for lost Water Works competency certificate substitution?
+    - Does lost Water Works competency certificate replacement have extra charges?
+    - What documents are needed for lost Water Works competency certificate replacement?
+    - What are the requirements to replace a lost Water Works competency certificate?
+    - What paperwork is required for duplicate Water Works competency certificate?
+    - Do I need to submit new documents for lost certificate replacement?
+    - What forms are required for Water Works competency certificate substitution?
+    - What is the checklist for lost Water Works competency certificate replacement documents?
+    - What are the eligibility conditions for getting a duplicate certificate?
+    - What proofs are needed for lost Water Works competency certificate replacement?
+    - What information is required for Water Works competency certificate substitution?
+    - Are there mandatory items for lost certificate replacement?
+    - What supporting documents must accompany duplicate certificate application?
+    - Do I need a police report for lost Water Works competency certificate replacement?
+    - What are the document requirements for duplicate Water Works competency certificate?
+    - What must I provide to replace my lost Water Works competency certificate?
+    - What are the criteria for lost Water Works competency certificate substitution?
+    - How can a Water Works company replace a lost competency certificate?
+    - Steps for lost certificate substitution for Water Works companies
+    - Process to get a duplicate Water Works company competency certificate
+    - Fees for replacing lost Water Works company competency certificate
+    - What documents are required for lost certificate replacement?
+    - Where to apply for lost Water Works company competency certificate?
+    - Guidelines for lost Water Works company certificate substitution
+    - How long does it take to replace a lost Water Works company certificate

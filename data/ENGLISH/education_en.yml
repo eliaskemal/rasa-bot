@@ -1,0 +1,220 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Educational_Assessment_Examination_general_en
+  examples: |
+    - What services are offered under the Educational Assessment Examination?
+    - Which documents do I need to submit for the Educational Assessment service?
+    - How long does the Educational Assessment Examination process usually take?
+    - Can you tell me the fees for the Educational Assessment Examination service?
+    - What is included in the Educational Assessment Examination service package?
+    - Are there any specific documents required for the Educational Assessment service?
+    - How much time should I expect to complete the Educational Assessment Examination?
+    - What is the payment procedure for the Educational Assessment Examination fee?
+    - Do you provide details about service duration and fees for the Educational Assessment?
+    - What documents and fees are involved in applying for the Educational Assessment Examination?
+
+
+
+- intent: ask_about_Educational_Assessment_Examination_Service_en
+  examples: |
+    - Educational Assessment Examination services
+    - service of Educational Assessment Examination in mesob
+    - sercices of Educational Assessment Examination
+    - services by Educational Assessment Examination
+    - Educational Assessment Examination utilities
+    - utility of Educational Assessment Examination
+    - give me services of Educational Assessment Examination
+    - list services of Educational Assessment Examination in mesob
+    - list services by Educational Assessment Examination
+    - list out Educational Assessment Examination services
+    - list of services by Educational Assessment Examination
+    - tell me services by Educational Assessment Examination
+    - tell me list of services by Educational Assessment Examination
+    - tell me list of services of Educational Assessment Examination
+    - tell me the services of Educational Assessment Examination
+    - telm me about the services of Educational Assessment Examination
+    - can you tell me about Educational Assessment Examination services
+    - can you  list the services of Educational Assessment Examination
+    - can you list services by Educational Assessment Examination
+    - What kind of support does the Educational Assessment Examination give?
+    - support from Educational Assessment Examination
+    - what services does Educational Assessment Examination support?
+    - list support by Educational Assessment Examination
+    - tell me support of Educational Assessment Examination
+    - tell me about the support of Educational Assessment Examination
+    - What services does the Educational Assessment Examination provide?
+    - What services are provided by the Educational Assessment Examination?
+    - list services provided by  Educational Assessment Examination 
+    - Educational Assessment Examination provide?
+    - services provided by Educational Assessment Examination
+    - list services which Educational Assessment Examination provides 
+    - list the services which Educational Assessment Examination provides
+    - list of services which Educational Assessment Examination provides
+    - can u tell me the services which Educational Assessment Examination provides
+    - tell me the services which Educational Assessment Examination provides
+    - list of services provided by Educational Assessment Examination
+    - list the services provided by Educational Assessment Examination
+    - list services provided by Educational Assessment Examination
+    - can u list the services provided by Educational Assessment Examination
+    - can u tell me the services provided by Educational Assessment Examination
+    - can you tell me the services which Educational Assessment Examination provides
+    - can you tell me the services provided by Educational Assessment Examination
+    - What services does the Educational Assessment Examination offer?
+    - What are the services that the Educational Assessment Examination offers?
+    - Educational Assessment Examination offers? 
+    - What does the Educational Assessment Examination offer?
+    - list the services that Educational Assessment Examination offers
+    - list the services offered by Educational Assessment Examination
+    - list of services offered by Educational Assessment Examination
+    - can you list services offered by Educational Assessment Examination
+    - What services are offered by the Educational Assessment Examination?
+    - tell me services offered by Educational Assessment Examination
+    - can you tell me services offered by Educational Assessment Examination
+    - What services are available at the Educational Assessment Examination?
+    - what are the available services at Educational Assessment Examination
+    - available services at Educational Assessment Examination
+    - tell me available services of Educational Assessment Examination
+    - list of available services at Educational Assessment Examination
+    - list available services by Educational Assessment Examination
+    - list the available services of Educational Assessment Examination
+    - list the services that are  available at Educational Assessment Examination
+    - can u list available services at Educational Assessment Examination
+    - can you tell me available services at Educational Assessment Examination
+    - what servies are given by Educational Assessment Examination
+    - What services does the Educational Assessment Examination give?
+    - tell me what services Educational Assessment Examination gives
+    - tell me what services are given by Educational Assessment Examination
+    - can you list the services that Educational Assessment Examination gives
+    - can you tell me the services that Educational Assessment Examination gives
+    - can you tell me what services Educational Assessment Examination gives
+    - can u tell me what sevices can I get from Educational Assessment Examination
+    - Educational Assessment Examination gives services?
+    - what services can I get from Educational Assessment Examination?
+    - What services can I access at the Educational Assessment Examination?
+    - What are the main tasks of the Educational Assessment Examination
+    - What services can I access at the Educational Assessment Examination?
+    - main tasks of Educational Assessment Examination
+    - can u tell me the tasks of Educational Assessment Examination
+    - tasks of Educational Assessment Examination
+    - Tell me Educational Assessment Examination services
+    - services by Educational Assessment Examination
+    - Educational Assessment Examination services list 
+    - list of Educational Assessment Examination services
+    - tell me the lists of Educational Assessment Examination services
+    - Educational Assessment Examination services list 
+    - Role of the Educational Assessment Examination?
+    - What roles does the Educational Assessment Examination play?
+    - Educational Assessment Examination roles
+    - What roles does the Educational Assessment Examination have?
+    - What does the Educational Assessment Examination do
+    - Can you list the services offered by the Assessment Examination office?
+    - Which services are available at the Educational Assessment Examination?
+    - Tell me about the services of the Assessment Examination
+    - What help can I get from the Educational Assessment Examination?
+    - Can you explain the services under Educational Assessment Examination?
+    - can you list the services of the Educational Assessment Examination?
+    - can you tell me about the services of the Educational Assessment Examination?
+    - please tell me the services of the Educational Assessment Examination?
+    - What services are included in the Educational Assessment Examination?
+    - give me the services of the Educational Assessment Examination
+    - give me the list of services of the Educational Assessment Examination
+    - give me the list of services provided by the Educational Assessment Examination
+    - send me the services of the Educational Assessment Examination
+    - send me the list of services of the Educational Assessment Examination
+    - send me the list of services provided by the Educational Assessment Examination
+    - provide me the services of the Educational Assessment Examination
+    - provide me the list of services of the Educational Assessment Examination
+    - provide me the list of services provided by the Educational Assessment Examination
+
+- intent: ask_about_Educational_Assessment_Examination_time_en
+  examples: |
+    - What are the working hours of Educational Assessment Examination?
+    - When does the Educational Assessment Examination office open?
+    - What is the service time of Educational Assessment Examination?
+    - Office hours of Educational Assessment Examination
+    - Tell me the opening and closing time of Educational Assessment Examination
+    - When can I visit Educational Assessment Examination?
+    - What are their working hours?
+    - What time does the Educational Assessment Examination operate?
+    - What is the schedule for Educational Assessment Examination services?
+    - When is Educational Assessment Examination available?
+    - What time can I access Educational Assessment Examination services?
+    - What are the opening hours for Educational Assessment Examination?
+    - What time does the Educational Assessment Examination office start?
+    - What is the closing time for Educational Assessment Examination?
+    - What time is Educational Assessment Examination service offered?
+    - When can I access Educational Assessment Examination?
+    - When can I get Educational Assessment Examination services?
+    - What is the daily schedule for Educational Assessment Examination?
+    - Service availability hours for Educational Assessment Examination
+    - When is the best time to go to Educational Assessment Examination?
+    - How long is Educational Assessment Examination open?
+    - How many hours is Educational Assessment Examination available?
+    - Are Educational Assessment Examination services available on weekends?
+    - What time does the Educational Assessment Examination desk open?
+    - When does Educational Assessment Examination start and end?
+    - Duration of Educational Assessment Examination service
+    - Estimated time for Educational Assessment Examination service
+    - How long does it take to get service from Educational Assessment Examination?
+    - Time taken for Educational Assessment Examination service
+    - What are the hours of operation for Educational Assessment Examination?
+    - When is Educational Assessment Examination service available?
+    - Working time of Educational Assessment Examination services
+    - Operational hours of Educational Assessment Examination
+    - Can I get Educational Assessment Examination service in the afternoon?
+    - Can I get Educational Assessment Examination service in the morning?
+    - Tell me the exact time for Educational Assessment Examination services
+    - What time can I reach Educational Assessment Examination office?
+    - When is Educational Assessment Examination open to the public?
+    - Please tell me the working hours of Educational Assessment Examination
+    - Available hours for Educational Assessment Examination
+    - Are there fixed service hours for Educational Assessment Examination?
+    - What are the business hours of Educational Assessment Examination?
+    - When should I visit the Educational Assessment Examination office?
+    - When are Educational Assessment Examination services offered?
+    - What time does Educational Assessment Examination service end?
+    - From what time to what time is Educational Assessment Examination open?
+    - What time should I arrive for Educational Assessment Examination services?
+    - Can you provide the hours for Educational Assessment Examination?
+    - Give me the office hours for Educational Assessment Examination
+    - Service time for Educational Assessment Examination services
+    - How long is the Educational Assessment Examination office open each day?
+    - What is the time range for Educational Assessment Examination services?
+    - What is the earliest time to get Educational Assessment Examination service?
+    - What is the latest time for Educational Assessment Examination service?
+    - What time of day is Educational Assessment Examination available?
+    - When can I come in for Educational Assessment Examination?
+    - How long does Educational Assessment Examination service take?
+    - Is Educational Assessment Examination available every day?
+    - Are Educational Assessment Examination services available today?
+    - What time in the day is best for Educational Assessment Examination?
+    - Office availability for Educational Assessment Examination
+    - Educational Assessment Examination schedule and timing
+    - What hours does the Educational Assessment Examination department work?
+    - What’s the time window for Educational Assessment Examination services?
+    - When exactly can I get Educational Assessment Examination services?
+    - At what time can I use Educational Assessment Examination services?
+    - What are the working hours of Educational Assessment Examination?
+    - When does the Educational Assessment Examination office open?
+    - What is the service time of Educational Assessment Examination?
+    - Office hours of Educational Assessment Examination
+    - Tell me the opening and closing time of Educational Assessment Examination
+    - When can I visit Educational Assessment Examination?
+    - What are their working hours?
+    - What time does the Educational Assessment Examination operate?
+    - What is the schedule for Educational Assessment Examination services?
+    - When is Educational Assessment Examination available?
+
+- intent: ask_about_Educational_Assessment_Examination_fee_en
+  examples: |
+    - What is the fee for Educational Assessment Examination services?
+    - How much does Educational Assessment Examination charge?
+    - Tell me the service fees of Educational Assessment Examination
+    - What are the costs involved in Educational Assessment Examination?
+    - What is the price for Educational Assessment Examination services?
+    - How much do I pay for Educational Assessment Examination?
+    - What is the fee structure for Educational Assessment Examination?
+    - What fees apply to Educational Assessment Examination services?
+    - Are there any charges for Educational Assessment Examination?
+    - How expensive is the Educational Assessment Examination service?

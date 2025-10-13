@@ -1,0 +1,364 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_National_ID_general_en
+  examples: |
+    - National ID
+    - everything about National ID
+    - National ID in mesob
+    - National ID in general
+    - general information about National ID
+    - general overview of National ID
+    - can u tell me general information about National ID
+    - can u give me general information about National ID
+    - give me general information about National ID
+    - provide me general information about National ID
+    - send me general information about National ID
+    - tell me general information about National ID
+    - What does the National ID do?
+    - explain what the National ID is?
+    - National ID do?
+    - National ID information
+    - information about National ID
+    - information on National ID
+    - Need information on National ID
+    - What is National ID?
+    - National ID details
+    - details about National ID
+    - overview of National ID
+    - National ID overview
+    - National ID purpose
+    - purpose of National ID
+    - National ID help
+    - can u give me help with National ID
+    - help me with National ID
+    - National ID assistance
+    - assistance with National ID
+    - need help with National ID
+    - tell me about National ID
+    - What does the National ID do, and what do I need?
+    - National ID responsibilities
+    - What's the National ID's job?
+    - What functions does the National ID perform
+    - what are the services and requirements of the National ID?
+    - What services does the National ID offer and what documents do I need?
+    - Can you tell me about the National ID's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the National ID.
+    - What documents are needed for services at the National ID and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the National ID.
+    - How much does it cost and what documents are required for National ID services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the National ID?
+    - What do I need to apply for services at the National ID, including time and fees?
+    - Tell me about the National ID services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the National ID?
+    - National ID services and requirements?
+    - National ID fees and steps?
+    - How much National ID services cost?
+    - cost for National ID?
+    - fee for National ID?
+    - how long does it take for National ID?
+    - time for National ID?
+    - What documents do I need for National ID?
+    - What documents are needed for National ID?
+    - What do I need for National ID services?
+    - What papers do I need for National ID?
+    - What documents are required for National ID?
+    - What papers are needed for National ID?
+    - What documents are required for National ID services?
+    - can you send me general information about National ID
+    - Can you tell me the documents needed for National ID services?
+    - How long does it take to get service at National ID?
+    - What fees are charged for services at National ID?
+    - I want information on the services and required documents at National ID.
+    - Could you explain the processing time and fees for National ID services?
+    - What do I need to bring to access services at National ID?
+    - Tell me about the service duration and fees at National ID.
+    - What are the available services and related fees at National ID?
+    - Please provide details about National ID's service process, required documents, time, and fees.
+    - What services are provided for getting a National ID?
+    - What services are provided for getting a National ID?
+    - Can you tell me the documents needed for National ID registration?
+    - How long does it take to get a National ID card?
+    - What fees are required for National ID processing?
+    - What is the total cost and process duration for the National ID service?
+    - Which papers do I need to bring to apply for a National ID?
+    - Could you explain the National ID service and its required documents?
+    - How much does the National ID service cost and how long does it take?
+    - What is included in the National ID application process?
+    - What documents and fees are necessary for National ID registration?
+
+
+- intent: ask_about_NI_service_en
+  examples: |
+    - National ID services
+    - service of National ID in mesob
+    - sercices of National ID
+    - services by National ID
+    - National ID utilities
+    - utility of National ID
+    - give me services of National ID
+    - list services of National ID in mesob
+    - list services by National ID
+    - list out National ID services
+    - list of services by National ID
+    - tell me services by National ID
+    - tell me list of services by National ID
+    - tell me list of services of National ID
+    - tell me the services of National ID
+    - telm me about the services of National ID
+    - can you tell me about National ID services
+    - can you  list the services of National ID
+    - can you list services by National ID
+    - What kind of support does the National ID give?
+    - support from National ID
+    - what services does National ID support?
+    - list support by National ID
+    - tell me support of National ID
+    - tell me about the support of National ID
+    - What services does the National ID provide?
+    - What services are provided by the National ID?
+    - list services provided by  National ID 
+    - National ID provide?
+    - services provided by National ID
+    - list services which National ID provides 
+    - list the services which National ID provides
+    - list of services which National ID provides
+    - can u tell me the services which National ID provides
+    - tell me the services which National ID provides
+    - list of services provided by National ID
+    - list the services provided by National ID
+    - list services provided by National ID
+    - can u list the services provided by National ID
+    - can u tell me the services provided by National ID
+    - can you tell me the services which National ID provides
+    - can you tell me the services provided by National ID
+    - What services does the National ID offer?
+    - What are the services that the National ID offers?
+    - National ID offers? 
+    - What does the National ID offer?
+    - list the services that National ID offers
+    - list the services offered by National ID
+    - list of services offered by National ID
+    - can you list services offered by National ID
+    - What services are offered by the National ID?
+    - tell me services offered by National ID
+    - can you tell me services offered by National ID
+    - What services are available at the National ID?
+    - what are the available services at National ID
+    - available services at National ID
+    - tell me available services of National ID
+    - list of available services at National ID
+    - list available services by National ID
+    - list the available services of National ID
+    - list the services that are  available at National ID
+    - can u list available services at National ID
+    - can you tell me available services at National ID
+    - what servies are given by National ID
+    - What services does the National ID give?
+    - tell me what services National ID gives
+    - tell me what services are given by National ID
+    - can you list the services that National ID gives
+    - can you tell me the services that National ID gives
+    - can you tell me what services National ID gives
+    - can u tell me what sevices can I get from National ID
+    - National ID gives services?
+    - what services can I get from National ID?
+    - What services can I access at the National ID?
+    - What are the main tasks of the National ID
+    - What services can I access at the National ID?
+    - main tasks of National ID
+    - can u tell me the tasks of National ID
+    - tasks of National ID
+    - Tell me National ID services
+    - services by National ID
+    - National ID services list 
+    - list of National ID services
+    - tell me the lists of National ID services
+    - National ID services list 
+    - Role of the National ID?
+    - What roles does the National ID play?
+    - National ID roles
+    - What roles does the National ID have?
+    - What does the National ID do
+    - Can you list the services offered by the National ID?
+    - Which services are available at the National ID?
+    - Tell me about the services of the National ID
+    - What help can I get from the National ID?
+    - Can you explain the services under National ID?
+    - can you list the services of the National ID?
+    - can you tell me about the services of the National ID?
+    - please tell me the services of the National ID?
+    - What services are included in the National ID?
+    - give me the services of the National ID
+    - give me the list of services of the National ID
+    - give me the list of services provided by the National ID
+    - send me the services of the National ID
+    - send me the list of services of the National ID
+    - send me the list of services provided by the National ID
+    - provide me the services of the National ID
+    - provide me the list of services of the National ID
+    - provide me the list of services provided by the National ID
+    - What services does the National ID center provide?
+    - List the services offered by the National ID office
+    - What are the available services for National ID?
+    - Which services can I get from the National ID department?
+    - Tell me the services of National ID program
+    - What kind of support is provided for National ID?
+    - Can you explain the services under National ID?
+    - What applications can I make for National ID?
+    - What are the main functions of National ID office?
+    - Services included in National ID registration
+
+- intent: ask_about_NID_service_doc_en
+  examples: |
+    - national id service documents
+    - documents required for national id service
+    - what documents are required for national id?
+    - list the required papers for national id
+    - which files do I need to bring for national id?
+    - what documents should I prepare for national id?
+    - required documents for national id processing
+    - what supporting documents are needed for national id?
+    - tell me the paperwork for national id registration
+    - document checklist for national id application
+    - what ids are accepted for national id service?
+    - files needed to apply for national id
+    - what paperwork is required for national id?
+    - what documentation do I need for national id?
+    - what documents must I submit for national id service?
+    - what certificates are needed for national id application?
+    - which documents should I bring for national id registration?
+    - can you list the documents needed for national id?
+    - tell me the documents for national id application
+    - which forms are necessary for national id service?
+    - what documents should I carry for national id?
+    - documents to apply for national id card
+    - what legal documents are required for national id?
+    - what proof do I need for national id registration?
+    - provide the required documents for national id service
+    - which papers are necessary to get national id?
+    - list the files required for national id processing
+    - what documentation is mandatory for national id application?
+    - tell me the required files for national id
+    - required paperwork for national id
+    - accepted documents for national id application
+    - official documents needed for national id
+    - which identification papers are accepted for national id?
+    - what do I need to present for national id registration?
+    - list the necessary documents for national id
+    - explain what documents are needed for national id
+    - what are the document requirements for national id service?
+    - which documents are necessary to apply for national id?
+    - tell me what I need to provide for national id service
+    - what should I bring for the national id process?
+    - list the required forms for national id service
+    - required ids for national id application
+    - national id application supporting documents
+    - national id document requirements
+    - which id cards are accepted for national id registration?
+    - list of required files for national id processing
+    - what files must I provide for national id service?
+    - what papers should I prepare for national id application?
+    - tell me all the required documents for national id service
+    - what documentation should I gather for national id?
+    - What documents are required for National ID service?
+    - List the required papers for National ID
+    - Which files do I need to bring for National ID?
+    - What documents should I prepare for National ID?
+    - Required documents for National ID processing
+    - What supporting documents are needed for National ID?
+    - Tell me the paperwork for National ID registration
+    - Document checklist for National ID application
+    - What IDs are accepted for National ID service?
+    - Files needed to apply for National ID
+
+- intent: ask_about_National_ID_service_time_en
+  examples: |
+    - What are the working hours for National ID services?
+    - When is the National ID office open?
+    - Tell me the service time for National ID
+    - Opening and closing hours of National ID center
+    - At what time can I visit National ID office?
+    - Schedule for National ID registration
+    - Service hours for National ID program
+    - Operating time for National ID office
+    - National ID office working schedule
+    - Time slots available for National ID service
+    - What is the processing time for National ID service?
+    - How long does National ID service take?
+    - What time does the National ID center operate?
+    - When can I register for the National ID?
+    - Office hours for National ID registration
+    - National ID service availability hours
+    - What time can I go for National ID registration?
+    - When is the National ID registration desk open?
+    - How long is the National ID office open?
+    - From what time to what time is the National ID service available?
+    - What time of day can I get National ID services?
+    - What are the office hours for National ID registration?
+    - What time does National ID registration start?
+    - What time does National ID registration end?
+    - When can I receive National ID services?
+    - Can I get National ID service on weekends?
+    - When is the best time to visit the National ID office?
+    - What is the estimated time for National ID processing?
+    - National ID service duration
+    - What is the average time to complete National ID registration?
+    - Are National ID services available during weekdays?
+    - Can I visit the National ID office in the afternoon?
+    - When is National ID service not available?
+    - What are your National ID service hours?
+    - What time does the National ID office close?
+    - What time does the National ID office open?
+    - What hours is the National ID center in operation?
+    - Tell me the opening and closing times for National ID services
+    - Is National ID registration open today?
+    - What time can I access National ID registration services?
+    - When should I go for National ID registration?
+    - What is the National ID office operation schedule?
+    - How long is the National ID service available each day?
+    - What are the daily hours for National ID service?
+    - What is the total time required for National ID registration?
+    - When does National ID registration begin?
+    - When does National ID registration end?
+    - How many hours is the National ID office open?
+    - What time should I arrive for National ID registration?
+    - What’s the usual time for getting a National ID?
+    - Can I apply for a National ID in the morning?
+    - Can I apply for a National ID in the evening?
+    - Are there specific hours for National ID services?
+    - When are National ID services not operating?
+    - What time does the National ID registration counter open?
+    - What is the earliest time for National ID service?
+    - What is the latest time for National ID registration?
+    - Is there a time limit for National ID services?
+    - Give me the working time for the National ID program
+    - Time taken to complete National ID service
+    - Please tell me the hours for National ID services
+    - Can you tell me when the National ID service is available?
+    - What are the business hours for National ID registration?
+    - I want to know the National ID service hours
+    - How much time does National ID registration usually take?
+    - What are the working hours for National ID services?
+    - When is the National ID office open?
+    - Tell me the service time for National ID
+    - Opening and closing hours of National ID center
+    - At what time can I visit National ID office?
+    - Schedule for National ID registration
+    - Service hours for National ID program
+    - Operating time for National ID office
+    - National ID office working schedule
+    - Time slots available for National ID service
+
+- intent: ask_about_NID_service_fee_en
+  examples: |
+    - What is the service fee for National ID?
+    - How much does National ID cost?
+    - Tell me the price for National ID card
+    - What is the payment required for National ID?
+    - Fee for National ID processing
+    - How much should I pay for National ID?
+    - Cost of National ID application
+    - Price list for National ID services
+    - Charges for National ID registration
+    - What is the fee for National ID replacement?

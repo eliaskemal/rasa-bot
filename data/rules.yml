@@ -1,0 +1,1063 @@
+version: "3.1"
+
+rules:
+
+- rule: Fallback
+  steps:
+      - intent: nlu_fallback
+      - action: utter_default
+
+- rule: Check_for_bad_words
+  steps:
+      - intent: bad_words_en
+      - action: utter_bad_words_en
+
+- rule: Handle_abusive_language
+  steps:
+      - intent: abusive_language_en
+      - action: utter_abusive_language_en
+
+- rule: types_of_Services path 3
+  steps:
+      - intent: ask_services_one_en
+      - action: utter_services_summary_en
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye_en
+  - action: utter_goodbye_en
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge_en
+  - action: utter_iamabot_en
+
+- rule: Respond to Mesob Center info
+  steps:
+    - intent: ask_about_mesob_center_en
+    - action: utter_mesob_center_en
+
+- rule: Respond to Mesob Center location
+  steps:
+    - intent: ask_about_mesob_center_location_en
+    - action: utter_mesob_center_location_en
+
+- rule: Respond to Mesob Center service time
+  steps:
+    - intent: ask_about_mesob_center_service_time_en
+    - action: utter_mesob_center_service_time_en
+
+- rule: Respond to Mesob Center institutions
+  steps:
+    - intent: ask_about_mesob_center_institutions_en
+    - action: utter_mesob_center_institutions_en
+
+- rule: Respond to Mesob Center institutions
+  steps:
+    - intent: ask_about_national_id_for_service_en
+    - action: utter_national_id_for_service_en
+
+- rule: Provide General Info about Immigration and Citizenship
+  steps:
+    - intent: ask_about_ICS_general_en
+    - action: utter_ICS_general_en
+
+- rule: Respond to Immigration and Citizenship Service
+  steps:
+    - intent: ask_about_Immigration_Citizenship_Service_en
+    - action: utter_Immigration_Citizenship_service_en
+
+- rule: Provide Immigration Citizenship Service Time
+  steps:
+    - intent: ask_about_Immigration_Citizenship_time_en
+    - action: utter_Immigration_Citizenship_time_en
+
+- rule: Provide Immigration Citizenship Service Fee
+  steps:
+    - intent: ask_about_Immigration_Citizenship_fee_en
+    - action: utter_Immigration_Citizenship_fee_en
+
+- rule: Provide General Info about Ministry of Foreign Affairs
+  steps:
+    - intent: ask_about_Ministry_Foreign_Affairs_general_en
+    - action: utter_Ministry_Foreign_Affairs_general_en
+
+- rule: Respond to Ministry of Foreign Affairs
+  steps:
+    - intent: ask_about_Ministry_Foreign_Affairs_service_en
+    - action: utter_Ministry_Foreign_Affairs_service_en
+
+- rule: Provide Ministry Foreign Affairs Document Info
+  steps:
+    - intent: ask_about_Ministry_Foreign_Affairs_Doc_en
+    - action: utter_Ministry_Foreign_Affairs_Doc_en
+
+- rule: Provide Ministry Foreign Affairs Service Time
+  steps:
+    - intent: ask_about_Ministry_Foreign_Affairs_time_en
+    - action: utter_Ministry_Foreign_Affairs_time_en
+
+- rule: Provide Ministry Foreign Affairs Fee Info
+  steps:
+    - intent: ask_about_Ministry_Foreign_Affairs_fee_en
+    - action: utter_Ministry_Foreign_Affairs_fee_en
+
+- rule: Respond to Ministry of Revenue general inquiry
+  steps:
+    - intent: ask_about_Ministry_Revenue_general_en
+    - action: utter_Ministry_Revenue_general_en
+- rule: Respond to Ministry of Revenue questions
+  steps:
+    - intent: ask_about_Ministry_Revenue_service_en
+    - action: utter_Ministry_Revenue_service_en
+
+- rule: Provide Ministry Revenue Document Info
+  steps:
+    - intent: ask_about_Ministry_Revenue_Doc_en
+    - action: utter_Ministry_Revenue_Doc_en
+
+- rule: Provide Ministry Revenue Service Time
+  steps:
+    - intent: ask_about_Ministry_Revenue_time_en
+    - action: utter_Ministry_Revenue_time_en
+
+- rule: Provide Ministry Revenue Fee Info
+  steps:
+    - intent: ask_about_Ministry_Revenue_fee_en
+    - action: utter_Ministry_Revenue_fee_en
+- rule: Provide General Info about Document Authentication
+  steps:
+    - intent: ask_about_document_authentication_general_en
+    - action: utter_document_authentication_general_en
+
+- rule: Respond to document authentication questions
+  steps:
+    - intent: ask_about_document_authentication_service_en
+    - action: utter_document_authentication_service_en
+
+- rule: Provide Power of Attorney Document Info
+  steps:
+   - intent: ask_about_power_attorney_Doc_en
+   - action: utter_power_attorney_Doc_en
+
+- rule: Provide Power of Attorney Service Time
+  steps:
+    - intent: ask_about_power_attorney_time_en
+    - action: utter_power_attorney_time_en
+
+- rule: Provide Power of Attorney Fee Info
+  steps:
+    - intent: ask_about_power_attorney_fee_en
+    - action: utter_power_attorney_fee_en
+
+- rule: Provide contract loan document info
+  steps:
+    - intent: ask_about_contract_loan_Doc_en
+    - action: utter_contract_loan_Doc_en
+
+- rule: Provide contract loan service time info
+  steps:
+    - intent: ask_about_contract_loan_time_en
+    - action: utter_contract_loan_time_en
+
+- rule: Provide contract loan fee info
+  steps:
+    - intent: ask_about_contract_loan_fee_en
+    - action: utter_contract_loan_fee_en
+- rule: Provide Property Sales Document Info
+  steps:
+    - intent: ask_about_property_sales_Doc_en
+    - action: utter_property_sales_Doc_en
+
+- rule: Provide Property Sales Document Info
+  steps:
+    - intent: ask_about_property_sales_time_en
+    - action: utter_property_sales_time_en
+
+- rule: Provide Property Sales Fee Info
+  steps:
+    - intent: ask_about_property_sales_fee_en
+    - action: utter_property_sales_fee_en
+
+- rule: Respond to property sales questions
+  steps:
+    - intent: ask_about_property_sales_Doc_en
+    - action: utter_property_sales_Doc_en
+
+- rule: Provide Contract Lease Document Info
+  steps:
+    - intent: ask_about_contract_lease_Doc_en
+    - action: utter_contract_lease_Doc_en
+
+- rule: Provide Contract Lease Document Info
+  steps:
+    - intent: ask_about_contract_lease_time_en
+    - action: utter_contract_lease_time_en
+
+- rule: Provide Contract Lease Fee Info
+  steps:
+    - intent: ask_about_contract_lease_fee_en
+    - action: utter_contract_lease_fee_en
+
+- rule: Provide foreign document registration documents info
+  steps:
+    - intent: registration_foreign_document_Doc_en
+    - action: utter_registration_foreign_document_Doc_en
+
+- rule: Provide foreign document registration service time
+  steps:
+    - intent: registration_foreign_document_time_en
+    - action: utter_registration_foreign_document_time_en
+
+- rule: Provide foreign document registration fee info
+  steps:
+    - intent: registration_foreign_document_fee_en
+    - action: utter_registration_foreign_document_fee_en
+
+- rule: Provide General Info about Educational Assessment and Examination
+  steps:
+    - intent: ask_about_Educational_Assessment_Examination_general_en
+    - action: utter_Educational_Assessment_Examination_general_en
+
+- rule: Provide Educational Assessment Examination Service Info
+  steps:
+    - intent: ask_about_Educational_Assessment_Examination_Service_en
+    - action: utter_Educational_Assessment_Examination_Service_en
+
+- rule: Provide Educational Assessment Examination Service Time
+  steps:
+    - intent: ask_about_Educational_Assessment_Examination_time_en
+    - action: utter_Educational_Assessment_Examination_time_en
+
+- rule: Provide Educational Assessment Examination Service Fee
+  steps:
+    - intent: ask_about_Educational_Assessment_Examination_fee_en
+    - action: utter_Educational_Assessment_Examination_fee_en
+
+- rule: Provide General Info about Ethiopian Postal Service Enterprise
+  steps:
+    - intent: ask_about_Ethiopian_Postal_Service_Enterprise_general_en
+    - action: utter_Ethiopian_Postal_Service_Enterprise_general_en
+
+- rule: Provide Ethiopian Postal Service Enterprise Service Info
+  steps:
+    - intent: ask_about_Ethiopian_Postal_Service_Enterprise_service_en
+    - action: utter_Ethiopian_Postal_Service_Enterprise_service_en
+
+- rule: Provide National Examination Document Info
+  steps:
+    - intent: ask_about_National_Examination_Doc_en
+    - action: utter_National_Examination_Doc_en
+
+- rule: Provide National Examination Service Time
+  steps:
+    - intent: ask_about_National_Examination_time_en
+    - action: utter_National_Examination_time_en
+
+- rule: Provide National Examination Fee Info
+  steps:
+    - intent: ask_about_National_Examination_fee_en
+    - action: utter_National_Examination_fee_en
+
+- rule: Provide National ID Document Info
+  steps:
+    - intent: ask_about_National_ID_Doc_en
+    - action: utter_National_ID_Doc_en
+
+- rule: Provide National ID Service Time
+  steps:
+    - intent: ask_about_National_ID_time_en
+    - action: utter_National_ID_time_en
+
+- rule: Provide National ID Fee Info
+  steps:
+    - intent: ask_about_National_ID_fee_en
+    - action: utter_National_ID_fee_en
+
+- rule: Provide Ethiopian Investment Commission General Info
+  steps:
+    - intent: ask_about_Ethiopian_Investment_Commission_general_en
+    - action: utter_Ethiopian_Investment_Commission_general_en
+
+- rule: Provide EIC Services Info
+  steps:
+    - intent: ask_EIC_service_en
+    - action: utter_EIC_service_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_New_Investment_Permit_Application_Doc_en
+    - action: utter_New_Investment_Permit_Application_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_New_Investment_Permit_Application_fee_en
+    - action: utter_New_Investment_Permit_Application_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Capital_registration_Service_Doc_en
+    - action: utter_Capital_registration_Service_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Capital_registration_Service_fee_en
+    - action: utter_Capital_registration_Service_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_New_Technology_Transfer_Agreement_Registration_Doc_en
+    - action: utter_New_Technology_Transfer_Agreement_Registration_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_New_Technology_Transfer_Agreement_Registration_fee_en
+    - action: utter_New_Technology_Transfer_Agreement_Registration_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Extension_Technology_Transfer_Agreement_Registration_Doc_en
+    - action: utter_Extension_Technology_Transfer_Agreement_Registration_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Extension_Technology_Transfer_Agreement_Registration_fee_en
+    - action: utter_Extension_Technology_Transfer_Agreement_Registration_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Bill_Quantity_Doc_en
+    - action: utter_Bill_Quantity_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Bill_Quantity_fee_en
+    - action: utter_Bill_Quantity_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Spare_parts_doc_Doc_en
+    - action: utter_Spare_parts_doc_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Spare_parts_doc_fee_en
+    - action: utter_Spare_parts_doc_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Raw_Materials_commissioning_Doc_en
+    - action: utter_Raw_Materials_commissioning_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Raw_Materials_commissioning_fee_en
+    - action: utter_Raw_Materials_commissioning_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Income_Tax_Holiday_Doc_en
+    - action: utter_Income_Tax_Holiday_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Income_Tax_Holiday_fee_en
+    - action: utter_Income_Tax_Holiday_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Additional_Income_Tax_Doc_en
+    - action: utter_Additional_Income_Tax_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Additional_Income_Tax_fee_en
+    - action: utter_Additional_Income_Tax_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Tax_Holiday_Expansion_Doc_en
+    - action: utter_Tax_Holiday_Expansion_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Tax_Holiday_Expansion_fee_en
+    - action: utter_Tax_Holiday_Expansion_fee_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Loss_Carried_Forward_Doc_en
+    - action: utter_Loss_Carried_Forward_Doc_en
+
+- rule: Provide Capital Registration Documents Info
+  steps:
+    - intent: ask_about_Loss_Carried_Forward_fee_en
+    - action: utter_Loss_Carried_Forward_fee_en
+
+- rule: Provide Ministry of Health general info
+  steps:
+    - intent: ask_about_Ministry_Health_general_en
+    - action: utter_Ministry_Health_general_en
+
+- rule: Provide Ministry of Health services info
+  steps:
+    - intent: ask_about_Ministry_Health_service_en
+    - action: utter_Ministry_Health_service_en
+
+- rule: Provide Medical Treatment Abroad info
+  steps:
+    - intent: ask_about_Medical_Treatment_Abroad_en
+    - action: utter_Medical_Treatment_Abroad_en
+
+- rule: Provide Organ Transplant Abroad info
+  steps:
+    - intent: ask_about_Organ_Transplant_Abroad_en
+    - action: utter_Organ_Transplant_Abroad_en
+
+- rule: Provide Referral Document Renewal info
+  steps:
+    - intent: ask_about_Renewal_Referral_Document_en
+    - action: utter_Renewal_Referral_Document_en
+
+- rule: Provide Referral Document Replacement info
+  steps:
+    - intent: ask_about_Replacement_Referral_Document_en
+    - action: utter_Replacement_Referral_Document_en
+
+- rule: Provide New License info
+  steps:
+    - intent: ask_about_New_License_en
+    - action: utter_New_License_en
+
+- rule: Provide License Renewal info
+  steps:
+    - intent: ask_about_License_Renewal_en
+    - action: utter_License_Renewal_en
+
+- rule: Provide Replacement Lost License info
+  steps:
+    - intent: ask_about_Replacement_Lost_License_en
+    - action: utter_Replacement_Lost_License_en
+
+- rule: Provide Letter of Good Standing info
+  steps:
+    - intent: ask_about_Letter_Good_Standing_en
+    - action: utter_Letter_Good_Standing_en
+
+- rule: Provide Education Training Authority General Info
+  steps:
+    - intent: ask_about_Education_Training_Authority_general_en
+    - action: utter_Education_Training_Authority_general_en
+
+- rule: Provide Education Training Authority Services
+  steps:
+    - intent: ask_about_Education_Training_Authority_service_en
+    - action: utter_Education_Training_Authority_service_en
+
+- rule: Provide Authentication Educational Credentials Document Info
+  steps:
+    - intent: ask_about_Authentication_Educational_Credentials_doc_en
+    - action: utter_Authentication_Educational_Credentials_doc_en
+
+- rule: Provide Authentication Educational Credentials Time Info
+  steps:
+    - intent: ask_about_Authentication_Educational_Credentials_time_en
+    - action: utter_Authentication_Educational_Credentials_time_en
+
+
+- rule: Provide Authentication Educational Credentials Fee Info
+  steps:
+    - intent: ask_about_Authentication_Educational_Credentials_fee_en
+    - action: utter_Authentication_Educational_Credentials_fee_en
+
+- rule: Provide Equivalence Educational Credentials Document Info
+  steps:
+    - intent: ask_about_Equivalence_Educational_Credentials_doc_en
+    - action: utter_Equivalence_Educational_Credentials_doc_en
+
+- rule: Provide Equivalence Educational Credentials Time Info
+  steps:
+    - intent: ask_about_Equivalence_Educational_Credentials_time_en
+    - action: utter_Equivalence_Educational_Credentials_time_en
+
+- rule: Provide Equivalence Educational Credentials Fee Info
+  steps:
+    - intent: ask_about_Equivalence_Educational_Credentials_fee_en
+    - action: utter_Equivalence_Educational_Credentials_fee_en
+
+- rule: Provide Ministry Labor and Skills Service Info
+  steps:
+    - intent: ask_about_Ministry_Labor_Skills_service_en
+    - action: utter_Ministry_Labor_Skills_service_en
+
+- rule: Provide Ministry Trade and Regional Integration Service Info
+  steps:
+    - intent: ask_about_Ministry_Trade_Regional_Integration_service_en
+    - action: utter_Ministry_Trade_Regional_Integration_service_en
+
+- rule: Provide National ID General Info
+  steps:
+    - intent: ask_about_National_ID_general_en
+    - action: utter_National_ID_general_en
+
+- rule: Provide National ID Services
+  steps:
+    - intent: ask_about_NI_service_en
+    - action: utter_NI_service_en
+
+- rule: Provide National ID Service Documents
+  steps:
+    - intent: ask_about_NID_service_doc_en
+    - action: utter_NID_service_doc_en
+
+- rule: Provide National ID Service Time
+  steps:
+    - intent: ask_about_National_ID_service_time_en
+    - action: utter_National_ID_service_time_en
+
+- rule: Provide National ID Service Fee
+  steps:
+    - intent: ask_about_NID_service_fee_en
+    - action: utter_NID_service_fee_en
+
+- rule: Provide Commercial Bank of Ethiopia General Info
+  steps:
+    - intent: ask_about_Commercial_Bank_Ethiopia_general_en
+    - action: utter_Commercial_Bank_Ethiopia_general_en
+
+- rule: Provide Commercial Bank of Ethiopia Services
+  steps:
+    - intent: ask_about_Commercial_Bank_Ethiopia_service_en
+    - action: utter_Commercial_Bank_Ethiopia_service_en
+
+- rule: Provide Account Opening Document Info
+  steps:
+    - intent: ask_about_Acc_opening_doc_en
+    - action: utter_Acc_opening_doc_en
+
+- rule: Provide Account Opening Time
+  steps:
+    - intent: ask_about_Acc_opening_time_en
+    - action: utter_Acc_opening_time_en
+
+- rule: Provide Account Opening Fee
+  steps:
+    - intent: ask_about_Acc_opening_fee_en
+    - action: utter_Acc_opening_fee_en
+
+- rule: Provide Paid Service Document Info
+  steps:
+    - intent: ask_about_PAID_SERVICE_doc_en
+    - action: utter_PAID_SERVICE_doc_en
+
+- rule: Provide No Cash Service Time
+  steps:
+    - intent: ask_about_NO_CASH_time_en
+    - action: utter_NO_CASH_time_en
+
+- rule: Provide Paid Service Fee Info
+  steps:
+    - intent: ask_about_PAID_SERVICE_fee_en
+    - action: utter_PAID_SERVICE_fee_en
+
+- rule: Provide Ethio Telecom General Info
+  steps:
+    - intent: ask_about_Ethio_Telecom_general_en
+    - action: utter_Ethio_Telecom_general_en
+
+- rule: Provide Ethio Telecom Service Info
+  steps:
+    - intent: ask_about_Ethio_Telecom_service_en
+    - action: utter_Ethio_Telecom_service_en
+
+- rule: Provide Tele Birr Document Info
+  steps:
+    - intent: ask_about_tele_birr_doc_en
+    - action: utter_tele_birr_doc_en
+
+- rule: Provide Tele Birr Service Time
+  steps:
+    - intent: ask_about_tele_birr_time_en
+    - action: utter_tele_birr_time_en
+
+- rule: Provide Tele Birr Fee Info
+  steps:
+    - intent: ask_about_tele_birr_fee_en
+    - action: utter_tele_birr_fee_en
+
+- rule: Provide Enterprise Solutions Document Info
+  steps:
+    - intent: ask_Enterprise_solutions_doc_en
+    - action: utter_Enterprise_solutions_doc_en
+
+
+- rule: Provide Enterprise Solutions Document Info
+  steps:
+    - intent: ask_Enterprise_solutions_time_en
+    - action: utter_Enterprise_solutions_time_en
+
+
+- rule: Provide Enterprise Solutions Document Info
+  steps:
+    - intent: ask_Enterprise_solutions_fee_en
+    - action: utter_Enterprise_solutions_fee_en
+
+- rule: Respond to Ethiopian Environmental Protection Authority
+  steps:
+    - intent: ask_about_Ethiopian_Environmental_Protection_Authority_general_en
+    - action: utter_Ethiopian_Environmental_Protection_Authority_general_en
+
+- rule: Respond to Ethiopian Environmental Protection Authority service
+  steps:
+    - intent: ethiopian_environmental_protection_authority_service_en
+    - action: utter_ethiopian_environmental_protection_authority_service_en
+
+- rule: Respond to new license for organizations
+  steps:
+    - intent: new_license_organizations_en
+    - action: utter_new_license_organizations_en
+
+- rule: Respond to license renewal for organizations
+  steps:
+    - intent: license_renewal_organizations_en
+    - action: utter_license_renewal_organizations_en
+
+- rule: Respond to license upgrade for organizations
+  steps:
+    - intent: license_upgrade_organizations_en
+    - action: utter_license_upgrade_organizations_en
+
+- rule: Respond to license replacement for organizations
+  steps:
+    - intent: license_replacement_organizations_en
+    - action: utter_license_replacement_organizations_en
+
+- rule: Respond to new license for individuals
+  steps:
+    - intent: new_license_individuals_en
+    - action: utter_new_license_individuals_en
+
+- rule: Respond to license upgrade for individuals
+  steps:
+    - intent: license_upgrade_individuals_en
+    - action: utter_license_upgrade_individuals_en
+
+- rule: Respond to license renewal for individuals
+  steps:
+    - intent: license_renewal_individuals_en
+    - action: utter_license_renewal_individuals_en
+
+- rule: Respond to license replacement for individuals
+  steps:
+    - intent: license_replacement_individuals_en
+    - action: utter_license_replacement_individuals_en
+
+- rule: Respond to GMO-Free Live Organism Certification
+  steps:
+    - intent: gmo_free_live_organism_certification_en
+    - action: utter_gmo_free_live_organism_certification_en
+
+- rule: Provide Ministry Justice General Info
+  steps:
+    - intent: ask_about_Ministry_Justice_general_en
+    - action: utter_Ministry_Justice_general_en
+
+- rule: Provide Ministry Justice Services
+  steps:
+    - intent: ask_Ministry_Justice_service_en
+    - action: utter_Ministry_Justice_service_en
+
+- rule: Provide Documents for Issuance of Advocates License
+  steps:
+    - intent: ask_Issuance_Advocates_License_doc_en
+    - action: utter_Issuance_Advocates_License_doc_en
+
+- rule: Provide Time for Issuance of Advocates License
+  steps:
+    - intent: ask_about_Issuance_Advocates_License_time_en
+    - action: utter_Issuance_Advocates_License_time_en
+
+- rule: Provide Fee for Issuance of Advocates License
+  steps:
+    - intent: ask_about_Issuance_Advocates_License_fee_en
+    - action: utter_Issuance_Advocates_License_fee_en
+
+- rule: Provide Documents for Renewal of Advocates License
+  steps:
+    - intent: ask_Renewal_Licensing_Advocates_doc_en
+    - action: utter_Renewal_Licensing_Advocates_doc_en
+
+- rule: Provide Time for Renewal of Advocates License
+  steps:
+    - intent: ask_about_Renewal_Licensing_Advocates_time_en
+    - action: utter_Renewal_Licensing_Advocates_time_en
+
+- rule: Provide Fee for Renewal of Advocates License
+  steps:
+    - intent: ask_about_Renewal_Licensing_Advocates_fee_en
+    - action: utter_Renewal_Licensing_Advocates_fee_en
+
+- rule: Provide Documents for Upgrade of Advocates License
+  steps:
+    - intent: ask_about_Upgrade_Licensing_Advocates_doc_en
+    - action: utter_Upgrade_Licensing_Advocates_doc_en
+
+- rule: Provide Time for Upgrade of Advocates License
+  steps:
+    - intent: ask_about_Upgrade_Licensing_Advocates_time_en
+    - action: utter_Upgrade_Licensing_Advocates_time_en
+
+- rule: Provide Fee for Upgrade of Advocates License
+  steps:
+    - intent: ask_Upgrade_Licensing_Advocates_fee_en
+    - action: utter_Upgrade_Licensing_Advocates_fee_en
+
+- rule: Respond to Ethiopian Agricultural Authority
+  steps:
+    - intent: ask_about_Ethiopian_Agricultural_Authority_general_en
+    - action: utter_Ethiopian_Agricultural_Authority_general_en
+
+- rule: Ethiopian Agricultural Authority Service Info
+  steps:
+    - intent: ask_about_Ethiopian_Agricultural_Authority_service_en
+    - action: utter_Ethiopian_Agricultural_Authority_service_en
+
+- rule: New Certification Agrochemical Manufacturers
+  steps:
+    - intent: ask_about_New_Certification_Agrochemical_Manufacturers_en
+    - action: utter_New_Certification_Agrochemical_Manufacturers_en
+
+- rule: Renewal Certification Agrochemical Manufacturers
+  steps:
+    - intent: ask_about_Renewal_Certification_Agrochemical_Manufacturers_en
+    - action: utter_Renewal_Certification_Agrochemical_Manufacturers_en
+
+- rule: New Certification Fertilizer Manufacturers
+  steps:
+    - intent: ask_about_New_Certification_fertilizer_Manufacturers_en
+    - action: utter_New_Certification_fertilizer_Manufacturers_en
+
+- rule: Renewal Certification Fertilizer Manufacturers
+  steps:
+    - intent: ask_about_Renewal_Certification_fertilizer_manufacturers_en
+    - action: utter_Renewal_Certification_fertilizer_manufacturers_en
+
+- rule: New Certification Plant Products
+  steps:
+    - intent: ask_about_New_Certification_plant_products_en
+    - action: utter_New_Certification_plant_products_en
+
+- rule: Renewal Certification Plant Products
+  steps:
+    - intent: ask_about_Renewal_Certification_plant_products_en
+    - action: utter_Renewal_Certification_plant_products_en
+
+- rule: New Certification Seed Producers
+  steps:
+    - intent: ask_about_New_Certification_Seed_producers_en
+    - action: utter_New_Certification_Seed_producers_en
+
+- rule: Renewal Certification Seed Producers
+  steps:
+    - intent: ask_about_Renewal_Certification_Seed_producers_en
+    - action: utter_Renewal_Certification_Seed_producers_en
+
+- rule: New Certification Veterinary Drug Manufacturers
+  steps:
+    - intent: ask_about_New_Certification_Veterinary_Drug_Manufacturers_en
+    - action: utter_New_Certification_Veterinary_Drug_Manufacturers_en
+
+- rule: Provide Ministry Transport Logistics General Info
+  steps:
+    - intent: ask_about_Ministry_Transport_Logistics_general_en
+    - action: utter_Ministry_Transport_Logistics_general_en
+
+- rule: Provide Ministry Transport Logistics Service Info
+  steps:
+    - intent: ask_about_Ministry_Transport_Logistics_service_en
+    - action: utter_Ministry_Transport_Logistics_service_en
+
+- rule: Provide Public Transport Operator Document Info
+  steps:
+    - intent: ask_about_Road_Public_Transport_Operators_doc_en
+    - action: utter_Road_Public_Transport_Operators_doc_en
+
+- rule: Provide Public Transport Operator Service Time
+  steps:
+    - intent: ask_about_Road_Public_Transport_Operators_time_en
+    - action: utter_Road_Public_Transport_Operators_time_en
+
+- rule: Provide Public Transport Operator Fee Info
+  steps:
+    - intent: ask_about_Road_Public_Transport_Operators_fee_en
+    - action: utter_Road_Public_Transport_Operators_fee_en
+
+- rule: Provide Freight Transport Operator Document Info
+  steps:
+    - intent: ask_Road_Freight_Transport_Operators_doc_en
+    - action: utter_Road_Freight_Transport_Operators_doc_en
+
+- rule: Provide Freight Transport Operator Service Time
+  steps:
+    - intent: ask_Road_Freight_Transport_Operators_time_en
+    - action: utter_Road_Freight_Transport_Operators_time_en
+
+- rule: Provide Freight Transport Operator Fee Info
+  steps:
+    - intent: ask_Road_Freight_Transport_Operators_fee_en
+    - action: utter_Road_Freight_Transport_Operators_fee_en
+
+- rule: Provide Cross-Border Drivers and Assistants Document Info
+  steps:
+    - intent: ask_about_Drivers_Assistants_Cross-Border_doc_en
+    - action: utter_Drivers_Assistants_Cross_Border_doc_en
+
+- rule: Provide Cross-Border Drivers and Assistants Service Time
+  steps:
+    - intent: ask_about_Drivers_Assistants_Cross-Border_time_en
+    - action: utter_Drivers_Assistants_Cross_Border_time_en
+
+- rule: Provide Cross-Border Drivers and Assistants Fee Info
+  steps:
+    - intent: ask_about_Drivers_Assistants_Cross-Border_fee_en
+    - action: utter_Drivers_Assistants_Cross_Border_fee_en
+
+
+- rule: Respond to Ethiopian Construction Authority
+  steps:
+    - intent: ask_about_Ethiopian_Construction_Authority_general_en
+    - action: utter_Ethiopian_Construction_Authority_general_en
+
+- rule: Ethiopian Construction Authority Services
+  steps:
+    - intent: ask_about_Ethiopian_Construction_Authority_service_en
+    - action: utter_Ethiopian_Construction_Authority_service_en
+
+- rule: New Professional Registration
+  steps:
+    - intent: ask_about_New_Professional_Registration_en
+    - action: utter_New_Professional_Registration_en
+
+- rule: Renewal Professional Registration
+  steps:
+    - intent: ask_about_Renewal_Professional_Registration_en
+    - action: utter_Renewal_Professional_Registration_en
+
+- rule: Lost Professional Certificate Replacement
+  steps:
+    - intent: ask_about_Lost_Replacement_Professional_Certificate_en
+    - action: utter_Lost_Replacement_Professional_Certificate_en
+
+- rule: New Water Works Professional License
+  steps:
+    - intent: ask_about_New_Registration_Water-Works_Professional_License_en
+    - action: utter_New_Registration_Water_Works_Professional_License_en
+
+- rule: Renewal Water Works Professional License
+  steps:
+    - intent: ask_about_Renewal_Water_Works_Professional_License_en
+    - action: utter_Renewal_Water_Works_Professional_License_en
+
+- rule: Upgrade Water Works Professional License
+  steps:
+    - intent: ask_about_Upgrading_Water_Works_Professional_License_en
+    - action: utter_Upgrading_Water_Works_Professional_License_en
+
+- rule: New Water Works Competency Certificate for Company
+  steps:
+    - intent: ask_about_New-Registration_Water_Works_Competency_Certificate_Company_en
+    - action: utter_New_Registration_Water_Works_Competency_Certificate_Company_en
+
+- rule: Renewal Water Works Company Competency Certificate
+  steps:
+    - intent: ask_about_Renewal_Water_Works_Company_Competency_Certificate_en
+    - action: utter_Renewal_Water_Works_Company_Competency_Certificate_en
+
+- rule: Change Grade Water Works Company Competency
+  steps:
+    - intent: ask_about_Change_Grade_for_Water_Works_Companies_Competency_Certification_en
+    - action: utter_Change_Grade_for_Water_Works_Companies_Competency_Certification_en
+
+- rule: Lost Certificate Substitution Water Works Company
+  steps:
+    - intent: ask_about_Lost_certificate_Substitution_Water_Works_Companies_en
+    - action: utter_Lost_certificate_Substitution_Water_Works_Companies_en
+
+- rule: Ministry of Tourism general info
+  steps:
+    - intent: ministry_tourism_general_en
+    - action: utter_ministry_tourism_general_en
+
+- rule: Ministry of Tourism services
+  steps:
+    - intent: ministry_tourism_service_en
+    - action: utter_ministry_tourism_service_en
+
+- rule: Expat professionals in star-rated hotel
+  steps:
+    - intent: expat_professionals_in_star_rated_hotel_en
+    - action: utter_expat_professionals_in_star_rated_hotel_en
+
+- rule: Expat professionals in hotel
+  steps:
+    - intent: expat_professionals_hotel_en
+    - action: utter_expat_professionals_hotel_en
+
+- rule: Competency certificate for tour guides
+  steps:
+    - intent: competency_certificate_for_tour_guides_en
+    - action: utter_competency_certificate_for_tour_guides_en
+
+- rule: Competency certificate renewal for tour guides
+  steps:
+    - intent: competency_certificate_tour_guides_renewal_en
+    - action: utter_competency_certificate_tour_guides_renewal_en
+
+- rule: Support letter for tourist cameras
+  steps:
+    - intent: support_letter_for_tourist_cameras_en
+    - action: utter_support_letter_for_tourist_cameras_en
+
+- rule: Respond to Ethiopian Food and Drug Authority
+  steps:
+    - intent: ask_about_Ethiopian_Food_Drug_Authority_general_en
+    - action: utter_Ethiopian_Food_Drug_Authority_general_en
+
+- rule: Provide general information about EFDA
+  steps:
+    - intent: Federal_Public_Procurement_Property_Authority_general_en
+    - action: utter_Federal_Public_Procurement_Property_Authority_general_en
+
+- rule: Provide EFDA services information
+  steps:
+    - intent: Federal_Public_Procurement_Property_Authority_service_en
+    - action: utter_Federal_Public_Procurement_Property_Authority_service_en
+
+- rule: Provide supplier registration guidance
+  steps:
+    - intent: Supplier_Registration_Service_en
+    - action: utter_supplier_registration_service_en
+
+- rule: Provide supplier registration revision guidance
+  steps:
+    - intent: Supplier_Registration_Revision_service_en
+    - action: utter_supplier_registration_revision_service_en
+
+- rule: Respond to Ethiopian Customs Commission
+  steps:
+    - intent: ask_about_Ethiopian_Customs_Commission_general_en
+    - action: utter_Ethiopian_Customs_Commission_general_en
+- rule: Provide Ethiopian Customs Commission Service Info
+  steps:
+    - intent: ask_about_Ethiopian_Customs_Commission_service_en
+    - action: utter_Ethiopian_Customs_Commission_service_en
+
+- rule: Provide Temporary Bonded Customs Warehouse Info
+  steps:
+    - intent: ask_about_Temporary_Bonded_Customs_Warehouse_en
+    - action: utter_Temporary_Bonded_Customs_Warehouse_en
+
+- rule: Provide Bonded Customs Warehouse Info
+  steps:
+    - intent: ask_about_Bonded_Customs_Warehouse_en
+    - action: utter_Bonded_Customs_Warehouse_en
+
+- rule: Provide Private Temporary Customs Warehouse Info
+  steps:
+    - intent: ask_about_Private_Temporary_Customs_Warehouse_en
+    - action: utter_Private_Temporary_Customs_Warehouse_en
+
+- rule: Provide Private Bonded Customs Warehouse Info
+  steps:
+    - intent: ask_about_Private_Bonded_Customs_Warehouse_en
+    - action: utter_Private_Bonded_Customs_Warehouse_en
+- rule: Provide Bonded Warehouse License for Relief Items Info
+  steps:
+    - intent: ask_about_Bonded_Warehouse_License_for_Relief_Items_en
+    - action: utter_Bonded_Warehouse_License_for_Relief_Items_en
+
+- rule: Provide Bonded Export Factory License Info
+  steps:
+    - intent: ask_about_Bonded_Export_Factory_License_en
+    - action: utter_Bonded_Export_Factory_License_en
+
+- rule: Provide Bonded Export Factory Warehouse License Info
+  steps:
+    - intent: ask_about_Bonded_Export_Factory_Warehouse_License_en
+    - action: utter_Bonded_Export_Factory_Warehouse_License_en
+
+- rule: Provide Bonded Warehouse License for Gift Deliveries Info
+  steps:
+    - intent: ask_about_Bonded_Warehouse_License_for_Gift_Deliveries_en
+    - action: utter_Bonded_Warehouse_License_for_Gift_Deliveries_en
+
+- rule: Provide Duty Free Goods Warehouse License Info
+  steps:
+    - intent: ask_about_Duty_Free_Goods_Warehouse_License_en
+    - action: utter_Duty_Free_Goods_Warehouse_License_en
+
+- rule: Provide Duty Free Retail Outlet License Info
+  steps:
+    - intent: ask_about_Duty_Free_Retail_Outlet_License_en
+    - action: utter_Duty_Free_Retail_Outlet_License_en
+- rule: Renewal Temporary Bonded Customs Warehouse
+  steps:
+    - intent: ask_about_Renewal_Temporary_Bonded_Customs_Warehouse_en
+    - action: utter_Renewal_Temporary_Bonded_Customs_Warehouse_en
+
+- rule: Renewal Bonded Customs Warehouse
+  steps:
+    - intent: ask_about_Renewal_Bonded_Customs_Warehouse_en
+    - action: utter_Renewal_Bonded_Customs_Warehouse_en
+
+- rule: Renewal Private Temporary Customs Warehouse
+  steps:
+    - intent: ask_about_Renewal_Private_Temporary_Customs_Warehouse_en
+    - action: utter_Renewal_Private_Temporary_Customs_Warehouse_en
+
+- rule: Renewal Private Bonded Customs Warehouse
+  steps:
+    - intent: ask_about_Renewal_Private_Bonded_Customs_Warehouse_en
+    - action: utter_Renewal_Private_Bonded_Customs_Warehouse_en
+
+- rule: Renewal Bonded Warehouse License Relief
+  steps:
+    - intent: ask_about_Renewal_Bonded_Warehouse_License_Relief_en
+    - action: utter_Renewal_Bonded_Warehouse_License_Relief_en
+
+- rule: Renewal Bonded Export Factory
+  steps:
+    - intent: ask_about_Renewal_Bonded_Export_Factory_en
+    - action: utter_Renewal_Bonded_Export_Factory_en
+- rule: Renewal Bonded Export Factory Warehouse Info
+  steps:
+    - intent: ask_about_Renewal_Bonded_Export_Factory_Warehouse_en
+    - action: utter_Renewal_Bonded_Export_Factory_Warehouse_en
+
+- rule: Bonded Warehouse License Input Supply Info
+  steps:
+    - intent: ask_about_Bonded_Warehouse_License_Input_Supply_en
+    - action: utter_Bonded_Warehouse_License_Input_Supply_en
+
+- rule: Renewal Duty-Free Goods Warehouse Info
+  steps:
+    - intent: ask_about_Renewal_Duty-Free_Goods_Warehouse_en
+    - action: utter_Renewal_Duty-Free_Goods_Warehouse_en
+
+- rule: Renewal Duty-Free Retail Outlet Info
+  steps:
+    - intent: ask_about_Renewal_Duty-Free_Retail_Outlet_en
+    - action: utter_Renewal_Duty-Free_Retail_Outlet_en
+
+- rule: Customs Broker License Info
+  steps:
+    - intent: ask_about_Customs_Broker_License_en
+    - action: utter_Customs_Broker_License_en
+
+- rule: Renewal Customs Broker License Info
+  steps:
+    - intent: ask_about_Renewal_Customs_Broker_License_en
+    - action: utter_Renewal_Customs_Broker_License_en
+
+
+

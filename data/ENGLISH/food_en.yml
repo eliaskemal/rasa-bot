@@ -1,0 +1,87 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ethiopian_Food_Drug_Authority_general_en
+  examples: |
+    - Ethiopian Food and Drug Authority
+    - everything about Ethiopian Food and Drug Authority
+    - Ethiopian Food and Drug Authority in mesob
+    - Ethiopian Food and Drug Authority in general
+    - general information about Ethiopian Food and Drug Authority
+    - general overview of Ethiopian Food and Drug Authority
+    - can u tell me general information about Ethiopian Food and Drug Authority
+    - can u give me general information about Ethiopian Food and Drug Authority
+    - give me general information about Ethiopian Food and Drug Authority
+    - provide me general information about Ethiopian Food and Drug Authority
+    - send me general information about Ethiopian Food and Drug Authority
+    - tell me general information about Ethiopian Food and Drug Authority
+    - What does the Ethiopian Food and Drug Authority do?
+    - explain what the Ethiopian Food and Drug Authority is?
+    - Ethiopian Food and Drug Authority do?
+    - Ethiopian Food and Drug Authority information
+    - information about Ethiopian Food and Drug Authority
+    - information on Ethiopian Food and Drug Authority
+    - Need information on Ethiopian Food and Drug Authority
+    - What is Ethiopian Food and Drug Authority?
+    - Ethiopian Food and Drug Authority details
+    - details about Ethiopian Food and Drug Authority
+    - overview of Ethiopian Food and Drug Authority
+    - Ethiopian Food and Drug Authority overview
+    - Ethiopian Food and Drug Authority purpose
+    - purpose of Ethiopian Food and Drug Authority
+    - Ethiopian Food and Drug Authority help
+    - can u give me help with Ethiopian Food and Drug Authority
+    - help me with Ethiopian Food and Drug Authority
+    - Ethiopian Food and Drug Authority assistance
+    - assistance with Ethiopian Food and Drug Authority
+    - need help with Ethiopian Food and Drug Authority
+    - tell me about Ethiopian Food and Drug Authority
+    - What does the Ethiopian Food and Drug Authority do, and what do I need?
+    - Ethiopian Food and Drug Authority responsibilities
+    - What's the Ethiopian Food and Drug Authority's job?
+    - What functions does the Ethiopian Food and Drug Authority perform
+    - what are the services and requirements of the Ethiopian Food and Drug Authority?
+    - What services does the Ethiopian Food and Drug Authority offer and what documents do I need?
+    - Can you tell me about the Ethiopian Food and Drug Authority's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ethiopian Food and Drug Authority.
+    - What documents are needed for services at the Ethiopian Food and Drug Authority and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ethiopian Food and Drug Authority.
+    - How much does it cost and what documents are required for Ethiopian Food and Drug Authority services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ethiopian Food and Drug Authority?
+    - What do I need to apply for services at the Ethiopian Food and Drug Authority, including time and fees?
+    - Tell me about the Ethiopian Food and Drug Authority services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ethiopian Food and Drug Authority?
+    - Ethiopian Food and Drug Authority services and requirements?
+    - Ethiopian Food and Drug Authority fees and steps?
+    - How much Ethiopian Food and Drug Authority services cost?
+    - cost for Ethiopian Food and Drug Authority?
+    - fee for Ethiopian Food and Drug Authority?
+    - how long does it take for Ethiopian Food and Drug Authority?
+    - time for Ethiopian Food and Drug Authority?
+    - What documents do I need for Ethiopian Food and Drug Authority?
+    - What documents are needed for Ethiopian Food and Drug Authority?
+    - What do I need for Ethiopian Food and Drug Authority services?
+    - What papers do I need for Ethiopian Food and Drug Authority?
+    - What documents are required for Ethiopian Food and Drug Authority?
+    - What papers are needed for Ethiopian Food and Drug Authority?
+    - What documents are required for Ethiopian Food and Drug Authority services?
+    - can you send me general information about Ethiopian Food and Drug Authority
+    - Can you tell me the documents needed for Ethiopian Food and Drug Authority services?
+    - How long does it take to get service at Ethiopian Food and Drug Authority?
+    - What fees are charged for services at Ethiopian Food and Drug Authority?
+    - I want information on the services and required documents at Ethiopian Food and Drug Authority.
+    - Could you explain the processing time and fees for Ethiopian Food and Drug Authority services?
+    - What do I need to bring to access services at Ethiopian Food and Drug Authority?
+    - Tell me about the service duration and fees at Ethiopian Food and Drug Authority.
+    - What are the available services and related fees at Ethiopian Food and Drug Authority?
+    - Please provide details about Ethiopian Food and Drug Authority's service process, required documents, time, and fees.
+    - What services does the Ethiopian Food and Drug Authority provide and what documents do I need?
+    - Can you tell me the service time, fees, and required documents for Food and Drug Authority services?
+    - I want to know about the services, how long they take, and the fees for the Ethiopian FDA.
+    - What documents are needed and how much does it cost to get a service from the Food and Drug Authority?
+    - How long does it take to complete a service and what are the fees at the Ethiopian Food and Drug Authority?
+    - Could you explain the required documents, fees, and time frame for services at the Ethiopian Food and Drug Authority?
+    - Tell me about the Ethiopian Food and Drug Authority services, required papers, fees, and processing time.
+    - What do I need to bring, how long will it take, and what fees apply for services at the Food and Drug Authority?
+    - Please provide details on the service offerings, required documents, fee structure, and service time for Ethiopian FDA.
+    - What are the steps, documents, fees, and average processing times for Food and Drug Authority services?

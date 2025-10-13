@@ -1,0 +1,365 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ministry_Foreign_Affairs_general_en
+  examples: |
+    - Ministry of Foreign Affairs
+    - everything about Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs in mesob
+    - Ministry of Foreign Affairs in general
+    - general information about Ministry of Foreign Affairs
+    - general overview of Ministry of Foreign Affairs
+    - can u tell me general information about Ministry of Foreign Affairs
+    - can u give me general information about Ministry of Foreign Affairs
+    - give me general information about Ministry of Foreign Affairs
+    - provide me general information about Ministry of Foreign Affairs
+    - send me general information about Ministry of Foreign Affairs
+    - tell me general information about Ministry of Foreign Affairs
+    - What does the Ministry of Foreign Affairs do?
+    - explain what the Ministry of Foreign Affairs is?
+    - Ministry of Foreign Affairs do?
+    - Ministry of Foreign Affairs information
+    - information about Ministry of Foreign Affairs
+    - information on Ministry of Foreign Affairs
+    - Need information on Ministry of Foreign Affairs
+    - What is Ministry of Foreign Affairs?
+    - Ministry of Foreign Affairs details
+    - details about Ministry of Foreign Affairs
+    - overview of Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs overview
+    - Ministry of Foreign Affairs purpose
+    - purpose of Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs help
+    - can u give me help with Ministry of Foreign Affairs
+    - help me with Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs assistance
+    - assistance with Ministry of Foreign Affairs
+    - need help with Ministry of Foreign Affairs
+    - tell me about Ministry of Foreign Affairs
+    - What does the Ministry of Foreign Affairs do, and what do I need?
+    - Ministry of Foreign Affairs responsibilities
+    - What's the Ministry of Foreign Affairs's job?
+    - What functions does the Ministry of Foreign Affairs perform
+    - what are the services and requirements of the Ministry of Foreign Affairs?
+    - What services does the Ministry of Foreign Affairs offer and what documents do I need?
+    - Can you tell me about the Ministry of Foreign Affairs's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ministry of Foreign Affairs.
+    - What documents are needed for services at the Ministry of Foreign Affairs and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ministry of Foreign Affairs.
+    - How much does it cost and what documents are required for Ministry of Foreign Affairs services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ministry of Foreign Affairs?
+    - What do I need to apply for services at the Ministry of Foreign Affairs, including time and fees?
+    - Tell me about the Ministry of Foreign Affairs services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ministry of Foreign Affairs?
+    - Ministry of Foreign Affairs services and requirements?
+    - Ministry of Foreign Affairs fees and steps?
+    - How much Ministry of Foreign Affairs services cost?
+    - cost for Ministry of Foreign Affairs?
+    - fee for Ministry of Foreign Affairs?
+    - how long does it take for Ministry of Foreign Affairs?
+    - time for Ministry of Foreign Affairs?
+    - What documents do I need for Ministry of Foreign Affairs?
+    - What documents are needed for Ministry of Foreign Affairs?
+    - What do I need for Ministry of Foreign Affairs services?
+    - What papers do I need for Ministry of Foreign Affairs?
+    - What documents are required for Ministry of Foreign Affairs?
+    - What papers are needed for Ministry of Foreign Affairs?
+    - What documents are required for Ministry of Foreign Affairs services?
+    - can you send me general information about Ministry of Foreign Affairs
+    - Can you tell me the documents needed for Ministry of Foreign Affairs services?
+    - How long does it take to get service at Ministry of Foreign Affairs?
+    - What fees are charged for services at Ministry of Foreign Affairs?
+    - I want information on the services and required documents at Ministry of Foreign Affairs.
+    - Could you explain the processing time and fees for Ministry of Foreign Affairs services?
+    - What do I need to bring to access services at Ministry of Foreign Affairs?
+    - Tell me about the service duration and fees at Ministry of Foreign Affairs.
+    - What are the available services and related fees at Ministry of Foreign Affairs?
+    - Please provide details about Ministry of Foreign Affairs's service process, required documents, time, and fees.
+    - About Ministry of Foreign Affairs Service in general
+    - about Ministry of Foreign Affairs service time, fee and document requirement
+    - Ministry of Foreign Affairs Service time, fee and document requirement
+    - Ministry of Foreign Affairs Service in general
+    - tell me about Ministry of Foreign Affairs service, service time, fee and document required
+    - tell me about Ministry of Foreign Affairs service in general
+    - about Ministry of Foreign Affairs in general
+    - Can you give me a full overview of the Ministry of Foreign Affairs 
+    - I want general information about the services provided by the Ministry of Foreign Affairs including costs, time and documents needed
+    - Tell me everything about Ministry of Foreign Affairs services: documents required, service time, and fees
+    - Provide me with a general guide on all services offered by the Ministry of Foreign Affairs along with the requirements
+    - What are the available services at the Ministry of Foreign Affairs and what documents and fees are needed for each
+    - Can you explain all Ministry of Foreign Affairs services, required paperwork, duration, and charges
+    - I need complete details about the Ministry of Foreign Affairs services, including documents, fees, and processing time
+    - Give me an overview of all services, fees, and document requirements at the Ministry of Foreign Affairs
+    - What services does the Ministry of Foreign Affairs provide and what are the costs and requirements
+    - Share general information about services of the Ministry of Foreign Affairs including documents needed and service duration
+
+- intent: ask_about_Ministry_Foreign_Affairs_service_en
+  examples: |
+    - Ministry of Foreign Affairs services
+    - service of Ministry of Foreign Affairs in mesob
+    - sercices of Ministry of Foreign Affairs
+    - services by Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs utilities
+    - utility of Ministry of Foreign Affairs
+    - give me services of Ministry of Foreign Affairs
+    - list services of Ministry of Foreign Affairs in mesob
+    - list services by Ministry of Foreign Affairs
+    - list out Ministry of Foreign Affairs services
+    - list of services by Ministry of Foreign Affairs
+    - tell me services by Ministry of Foreign Affairs
+    - tell me list of services by Ministry of Foreign Affairs
+    - tell me list of services of Ministry of Foreign Affairs
+    - tell me the services of Ministry of Foreign Affairs
+    - telm me about the services of Ministry of Foreign Affairs
+    - can you tell me about Ministry of Foreign Affairs services
+    - can you  list the services of Ministry of Foreign Affairs
+    - can you list services by Ministry of Foreign Affairs
+    - What kind of support does the Ministry of Foreign Affairs give?
+    - support from Ministry of Foreign Affairs
+    - what services does Ministry of Foreign Affairs support?
+    - list support by Ministry of Foreign Affairs
+    - tell me support of Ministry of Foreign Affairs
+    - tell me about the support of Ministry of Foreign Affairs
+    - What services does the Ministry of Foreign Affairs provide?
+    - What services are provided by the Ministry of Foreign Affairs?
+    - list services provided by  Ministry of Foreign Affairs 
+    - Ministry of Foreign Affairs provide?
+    - services provided by Ministry of Foreign Affairs
+    - list services which Ministry of Foreign Affairs provides 
+    - list the services which Ministry of Foreign Affairs provides
+    - list of services which Ministry of Foreign Affairs provides
+    - can u tell me the services which Ministry of Foreign Affairs provides
+    - tell me the services which Ministry of Foreign Affairs provides
+    - list of services provided by Ministry of Foreign Affairs
+    - list the services provided by Ministry of Foreign Affairs
+    - list services provided by Ministry of Foreign Affairs
+    - can u list the services provided by Ministry of Foreign Affairs
+    - can u tell me the services provided by Ministry of Foreign Affairs
+    - can you tell me the services which Ministry of Foreign Affairs provides
+    - can you tell me the services provided by Ministry of Foreign Affairs
+    - What services does the Ministry of Foreign Affairs offer?
+    - What are the services that the Ministry of Foreign Affairs offers?
+    - Ministry of Foreign Affairs offers? 
+    - What does the Ministry of Foreign Affairs offer?
+    - list the services that Ministry of Foreign Affairs offers
+    - list the services offered by Ministry of Foreign Affairs
+    - list of services offered by Ministry of Foreign Affairs
+    - can you list services offered by Ministry of Foreign Affairs
+    - What services are offered by the Ministry of Foreign Affairs?
+    - tell me services offered by Ministry of Foreign Affairs
+    - can you tell me services offered by Ministry of Foreign Affairs
+    - What services are available at the Ministry of Foreign Affairs?
+    - what are the available services at Ministry of Foreign Affairs
+    - available services at Ministry of Foreign Affairs
+    - tell me available services of Ministry of Foreign Affairs
+    - list of available services at Ministry of Foreign Affairs
+    - list available services by Ministry of Foreign Affairs
+    - list the available services of Ministry of Foreign Affairs
+    - list the services that are  available at Ministry of Foreign Affairs
+    - can u list available services at Ministry of Foreign Affairs
+    - can you tell me available services at Ministry of Foreign Affairs
+    - what servies are given by Ministry of Foreign Affairs
+    - What services does the Ministry of Foreign Affairs give?
+    - tell me what services Ministry of Foreign Affairs gives
+    - tell me what services are given by Ministry of Foreign Affairs
+    - can you list the services that Ministry of Foreign Affairs gives
+    - can you tell me the services that Ministry of Foreign Affairs gives
+    - can you tell me what services Ministry of Foreign Affairs gives
+    - can u tell me what sevices can I get from Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs gives services?
+    - what services can I get from Ministry of Foreign Affairs?
+    - What services can I access at the Ministry of Foreign Affairs?
+    - What are the main tasks of the Ministry of Foreign Affairs
+    - What services can I access at the Ministry of Foreign Affairs?
+    - main tasks of Ministry of Foreign Affairs
+    - can u tell me the tasks of Ministry of Foreign Affairs
+    - tasks of Ministry of Foreign Affairs
+    - Tell me Ministry of Foreign Affairs services
+    - services by Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs services list 
+    - list of Ministry of Foreign Affairs services
+    - tell me the lists of Ministry of Foreign Affairs services
+    - Ministry of Foreign Affairs services list 
+    - Role of the Ministry of Foreign Affairs?
+    - What roles does the Ministry of Foreign Affairs play?
+    - Ministry of Foreign Affairs roles
+    - What roles does the Ministry of Foreign Affairs have?
+    - What does the Ministry of Foreign Affairs do
+    - Can you list the services offered by the Ministry of Foreign Affairs?
+    - Which services are available at the Ministry of Foreign Affairs?
+    - Tell me about the services of the Ministry of Foreign Affairs
+    - What help can I get from the Ministry of Foreign Affairs?
+    - Can you explain the services under Ministry of Foreign Affairs?
+    - can you list the services of the Ministry of Foreign Affairs?
+    - can you tell me about the services of the Ministry of Foreign Affairs?
+    - please tell me the services of the Ministry of Foreign Affairs?
+    - What services are included in the Ministry of Foreign Affairs?
+    - give me the services of the Ministry of Foreign Affairs
+    - give me the list of services of the Ministry of Foreign Affairs
+    - give me the list of services provided by the Ministry of Foreign Affairs
+    - send me the services of the Ministry of Foreign Affairs
+    - send me the list of services of the Ministry of Foreign Affairs
+    - send me the list of services provided by the Ministry of Foreign Affairs
+    - provide me the services of the Ministry of Foreign Affairs
+    - provide me the list of services of the Ministry of Foreign Affairs
+    - provide me the list of services provided by the Ministry of Foreign Affairs
+    - information about Ministry of Foreign Affairs services
+    - details on services provided by Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs service details
+    - available services at Ministry of Foreign Affairs
+    - What services does the Ministry of Foreign Affairs provide?
+    - Can you list the services offered by the Ministry of Foreign Affairs?
+    - What are the available services at the Ministry of Foreign Affairs?
+    - Which services can I get from the Ministry of Foreign Affairs?
+    - Tell me about the services provided by Foreign Affairs
+    - What kind of help can I get from Ministry of Foreign Affairs?
+    - What facilities are available at Foreign Affairs office?
+    - Can you explain the services under Ministry of Foreign Affairs?
+    - What services are included in the Ministry of Foreign Affairs department?
+    - What are the services provided by the Ministry of Foreign Affairs?
+
+
+- intent: ask_about_Ministry_Foreign_Affairs_Doc_en
+  examples: |
+    - Ministry of Foreign Affairs documents
+    - documents required for Ministry of Foreign Affairs services
+    - required documents for MoFA services
+    - what documents are required at the Ministry of Foreign Affairs?
+    - which papers do I need for Ministry of Foreign Affairs services?
+    - documents needed for Ministry of Foreign Affairs
+    - required files for Ministry of Foreign Affairs services
+    - list of documents needed at Ministry of Foreign Affairs
+    - documents needed for MoFA
+    - required papers for Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs document requirements
+    - what are the documents needed for MoFA services?
+    - tell me the documents required for MoFA
+    - what paperwork is necessary for Ministry of Foreign Affairs?
+    - what should I bring for MoFA services?
+    - needed documents for services at Ministry of Foreign Affairs
+    - what documentation do I need for Ministry of Foreign Affairs?
+    - can you list the documents required at Ministry of Foreign Affairs?
+    - what are the required files for MoFA services?
+    - what documents should I prepare for Ministry of Foreign Affairs?
+    - what legal documents are needed at MoFA?
+    - what documents must be submitted for MoFA services?
+    - which forms are required for Ministry of Foreign Affairs services?
+    - what documents do I need for services at the Ministry of Foreign Affairs?
+    - list the required documents for Ministry of Foreign Affairs services
+    - explain the documents required for MoFA processes
+    - tell me what paperwork I need for MoFA
+    - what supporting documents are necessary for Ministry of Foreign Affairs?
+    - what documents are needed for MoFA authentication services?
+    - required documentation for MoFA-related services
+    - what proof or IDs are needed at Ministry of Foreign Affairs?
+    - can you list all necessary documents for MoFA services?
+    - what documents do I need to access services at MoFA?
+    - which documents should I bring for Ministry of Foreign Affairs procedures?
+    - required paperwork for getting services from MoFA
+    - what documents do I need for appointments at Ministry of Foreign Affairs?
+    - tell me the papers needed at the Ministry of Foreign Affairs
+    - what forms or files are required at MoFA?
+    - what documents must be provided for Ministry of Foreign Affairs?
+    - documents needed to register at Ministry of Foreign Affairs
+    - what should I submit for Ministry of Foreign Affairs services?
+    - what documents are necessary to proceed at MoFA?
+    - Ministry of Foreign Affairs required documentation list
+    - list all paperwork required for Ministry of Foreign Affairs services
+    - What documents are required at the Ministry of Foreign Affairs?
+    - Which papers do I need for Ministry of Foreign Affairs services?
+    - Documents needed for Ministry of Foreign Affairs
+    - Required files for Ministry of Foreign Affairs services
+    - documents required for Ministry of Foreign Affairs services
+    - list of documents needed at Ministry of Foreign Affairs
+    - documents needed for MoFA
+    - required papers for Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs document requirements
+
+- intent: ask_about_Ministry_Foreign_Affairs_time_en
+  examples: |
+    - What are the service time of the Ministry of Foreign Affairs?
+    - Service time for Foreign Affairs office
+    - How long does the Ministry of Foreign Affairs service take?
+    - Ministry of Foreign Affairs service time
+    - Service duration for Ministry of Foreign Affairs
+    - Time taken to complete Ministry of Foreign Affairs services
+    - What are the working hours of the Ministry of Foreign Affairs?
+    - When does the Ministry of Foreign Affairs office open?
+    - What time does the Ministry of Foreign Affairs start?
+    - What time does the Ministry of Foreign Affairs close?
+    - When can I visit the Ministry of Foreign Affairs?
+    - Office hours of the Ministry of Foreign Affairs
+    - What is the schedule for the Ministry of Foreign Affairs?
+    - When is the Ministry of Foreign Affairs service available?
+    - What time does the Foreign Affairs service operate?
+    - What are the hours for Foreign Affairs services?
+    - When can I access Foreign Affairs services?
+    - What are the operating hours of the Ministry of Foreign Affairs?
+    - When are Ministry of Foreign Affairs services offered?
+    - Working time of the Ministry of Foreign Affairs
+    - Duration of service at the Ministry of Foreign Affairs
+    - Time required for Ministry of Foreign Affairs services
+    - How much time does it take to get Ministry of Foreign Affairs service?
+    - When should I go to the Ministry of Foreign Affairs for services?
+    - When is the best time to go to the Ministry of Foreign Affairs?
+    - What is the service schedule of the Ministry of Foreign Affairs?
+    - What are the available hours for Ministry of Foreign Affairs services?
+    - When can I get help from the Ministry of Foreign Affairs?
+    - What time does Ministry of Foreign Affairs open and close?
+    - Can you tell me the service time for the Ministry of Foreign Affairs?
+    - Please provide the working hours for the Ministry of Foreign Affairs
+    - Estimated time for services at the Ministry of Foreign Affairs
+    - Average time to complete services at the Ministry of Foreign Affairs
+    - Total time for Ministry of Foreign Affairs procedures
+    - What is the time frame for Ministry of Foreign Affairs services?
+    - From what time to what time is the Ministry of Foreign Affairs open?
+    - Are there fixed hours for Ministry of Foreign Affairs services?
+    - What is the earliest time I can visit the Ministry of Foreign Affairs?
+    - What is the latest time for Foreign Affairs services?
+    - What are the business hours of the Ministry of Foreign Affairs?
+    - When is the Foreign Affairs office open to the public?
+    - When exactly can I get Ministry of Foreign Affairs services?
+    - How long does it take at the Ministry of Foreign Affairs?
+    - What time does the Ministry of Foreign Affairs department work?
+    - Can I visit the Ministry of Foreign Affairs in the afternoon?
+    - Is the Ministry of Foreign Affairs open on weekends?
+    - Are services at the Ministry of Foreign Affairs available today?
+    - When does the Ministry of Foreign Affairs start service?
+    - When does the Ministry of Foreign Affairs finish service?
+    - At what time is Ministry of Foreign Affairs available?
+    - What is the daily schedule of the Ministry of Foreign Affairs?
+    - What time should I come for Foreign Affairs service?
+    - Give me the office hours of the Ministry of Foreign Affairs
+    - What time can I reach the Ministry of Foreign Affairs?
+    - When can I go to the Ministry of Foreign Affairs for help?
+    - Can I get Ministry of Foreign Affairs service in the morning?
+    - What time of day is best to visit the Ministry of Foreign Affairs?
+    - Time slot for Ministry of Foreign Affairs service
+    - What is the timing for Foreign Affairs appointments?
+    - Opening and closing hours of Ministry of Foreign Affairs
+    - What hours does the Foreign Affairs office serve the public?
+    - When is the Ministry of Foreign Affairs office working?
+    - When should I arrive for Ministry of Foreign Affairs services?
+    - Can you tell me the exact time to visit Ministry of Foreign Affairs?
+    - Time range for services at the Ministry of Foreign Affairs
+    - Availability hours for Foreign Affairs services
+    - What are the service time of the Ministry of Foreign Affairs?
+    - Service time for Foreign Affairs office
+    - how long does the Ministry of Foreign Affairs service take
+    - Ministry of Foreign Affairs service time
+    - service duration for Ministry of Foreign Affairs
+    - time taken to complete Ministry of Foreign Affairs services
+
+- intent: ask_about_Ministry_Foreign_Affairs_fee_en
+  examples: |
+    - What is the service fee at the Ministry of Foreign Affairs?
+    - How much does Ministry of Foreign Affairs service cost?
+    - Fee for the service processing at Ministry of Foreign Affairs
+    - Service charge for Ministry of Foreign Affairs
+    - Price of Ministry of Foreign Affairs services
+    - Ministry of Foreign Affairs service fees
+    - fees charged by Ministry of Foreign Affairs
+    - cost of services at Ministry of Foreign Affairs
+    - explanation of service charges at Ministry of Foreign Affairs
+    - Ministry of Foreign Affairs fee structure
+    - charges for Ministry of Foreign Affairs services

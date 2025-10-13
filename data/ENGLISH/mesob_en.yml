@@ -1,0 +1,157 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_mesob_center_en
+  examples: |
+    - mesob center
+    - mesob
+    - info about mesob center
+    - info about mesob
+    - info mesob ceneter
+    - info mesob
+    - what is the mesob center
+    - what is the mesob
+    - can you tell me about mesob center
+    - can you tell me about mesob
+    - tell me about the mesob center
+    - tell me about the mesob
+    - information about mesob center
+    - information about mesob
+    - what does mesob center do
+    - what does mesob do
+    - describe mesob center
+    - describe mesob
+    - explain mesob center
+    - explain mesob
+    - where can I find mesob center info
+    - where can I find mesob info
+    - details about mesob center
+    - details about mesob
+    - can you give me a brief about mesob center
+    - can you give me a brief about mesob
+    - what services does mesob center provide
+    - what services does mesob provide
+
+
+- intent: ask_about_mesob_center_location_en
+  examples: |
+    - where is it
+    - location
+    - ok where 
+    - ok where is mesob center
+    - ok where is mesob
+    - location of mesob center
+    - location of mesob
+    - where is the mesob center located
+    - where is the mesob  located
+    - where is mesob center 
+    - where is mesob
+    - where can I find mesob center
+    - where can I find mesob
+    - address of mesob center
+    - address of mesob
+    - mesob center location please
+    - mesob location please
+    - mesob center's location
+    - mesob location
+    - tell me the location of mesob center
+    - tell me the location of mesob
+    - whereabouts of mesob center
+    - whereabouts of mesob
+    - location details of mesob center
+    - location details of mesob
+    - mesob center address
+    - mesob address
+
+- intent: ask_services_one_en
+  examples: |
+      - mesob center servies
+      - mesob  servies
+      - service of mesob center
+      - service of mesob
+      - service mesob
+      - service mesob center
+      - What services can you offer?
+      - Can you tell me about your services?
+      - What can you do for me?
+      - i want to know about your services
+      - What specific services do you provide?
+      - Could you elaborate on your service offerings?
+      - Tell me about the services available.
+      - What specific services do you specialize in?
+      - Could you provide details about the services you offer?
+      - Tell me more about your service portfolio.
+      - Are there any unique services you provide?
+      - What kind of assistance can I expect from your services?
+      - Share some insights into your service capabilities.
+      - Do you have any customized service options?
+      - How can your services benefit me?
+
+- intent: ask_about_mesob_center_service_time_en
+  examples: |
+    - What are the working  time of mesob center
+    - What are the working  time of mesob
+    - Service time of mesob center
+    - Service time of mesob
+    - service time mesob center
+    - service time mesob
+    - what time do you open and close of mesob center
+    - what time do you open of mesob center
+    - what time do you open of mesob 
+    - what time do you close of mesob center
+    - what time do you close of mesob 
+    - what time do you open and close of mesob
+    - when do services start and end of mesob center
+    - when do services start and end of mesob
+    - when do services start of mesob center
+    - when do services start of mesob 
+    - when do services end of mesob center
+    - when do services end of mesob
+    - what are your business hours of mesob
+    - what are your business hours of mesob center
+    - hours of operation of mesob
+    - hours of operation of mesob center
+    - tell me your working hours
+    - tell me your working hours of mesob center
+    - service availability time
+    - service availability timeof mesob center
+    - office hours of mesob center
+    - office hours of mesob
+    - timings of mesob center
+    - timings of mesob
+
+- intent: ask_about_mesob_center_institutions_en
+  examples: |
+    - What institutions are available at the Mesob Center
+    - What institutions are available at the Mesob
+    - Can you list the institutions at Mesob Center
+    - Can you list the institutions at Mesob
+    - Which government offices are located in Mesob Center
+    - Which government offices are located in Mesob
+    - Tell me about the institutions in Mesob Center
+    - Tell me about the institutions in Mesob
+    - What services do the institutions in Mesob Center provide
+    - What services do the institutions in Mesob provide
+    - I want to know which organizations are in MesobCenter
+    - I want to know which organizations are in Mesob
+    - Which departments can I find at Mesob Center
+    - Which departments can I find at Mesob
+    - Are there any public institutions in Mesob Center
+    - Are there any public institutions in Mesob
+    - What kind of institutions are in the Mesob Center compound
+    - What kind of institutions are in the Mesob compound
+    - Give me a list of institutions at Mesob Center
+    - Give me a list of institutions at Mesob
+    - What organizations are part of Mesob Center
+    - What organizations are part of Mesob
+    - Who is available at the Mesob service center
+    - Which offices are included in the Mesob center
+    - Which offices are included in the Mesob
+    - Where can I find the Mesob Center institutions
+    - Any government services at Mesob Center
+    - Any government services at Mesob
+    - I need info on Mesob Center institutions
+    - Name some institutions located at Mesob Center
+    - Name some institutions located at Mesob
+    - What is available at the Mesob Center service center
+    - What is available at the Mesob service center

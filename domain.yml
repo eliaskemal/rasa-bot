@@ -1,0 +1,3752 @@
+version: "3.1"
+
+intents:
+  - bad_words_en
+  - greet_en
+  - goodbye_en
+  - affirm_en
+  - deny_en
+  - mood_great_en
+  - mood_unhappy_en
+  - bot_challenge_en
+  - abusive_language_en
+  - ask_about_mesob_center_en
+  - ask_about_mesob_center_location_en
+  - ask_services_one_en
+  - ask_about_mesob_center_service_time_en
+  - ask_about_mesob_center_institutions_en
+  - ask_about_national_id_for_service_en
+  - ask_about_ICS_general_en
+  - ask_about_Immigration_Citizenship_service_en
+  - ask_about_Immigration_Citizenship_time_en
+  - ask_about_Immigration_Citizenship_fee_en
+  - ask_about_Ministry_Foreign_Affairs_general_en
+  - ask_about_Ministry_Foreign_Affairs_service_en
+  - ask_about_Ministry_Foreign_Affairs_Doc_en
+  - ask_about_Ministry_Foreign_Affairs_time_en
+  - ask_about_Ministry_Foreign_Affairs_fee_en
+  - ask_about_Ministry_Revenue_general_en
+  - ask_about_Ministry_Revenue_service_en
+  - ask_about_Ministry_Revenue_Doc_en
+  - ask_about_Ministry_Revenue_time_en
+  - ask_about_Ministry_Revenue_fee_en
+  - ask_about_document_authentication_general_en
+  - ask_about_document_authentication_service_en
+  - ask_about_power_attorney_Doc_en
+  - ask_about_power_attorney_time_en
+  - ask_about_power_attorney_fee_en
+  - ask_about_contract_loan_Doc_en
+  - ask_about_contract_loan_time_en
+  - ask_about_contract_loan_fee_en
+  - ask_about_property_sales_Doc_en
+  - ask_about_property_sales_time_en
+  - ask_about_property_sales_fee_en
+  - ask_about_contract_lease_Doc_en
+  - ask_about_contract_lease_time_en
+  - ask_about_contract_lease_fee_en
+  - registration_foreign_document_Doc_en
+  - registration_foreign_document_time_en
+  - registration_foreign_document_fee_en
+  - ask_about_Educational_Assessment_Examination_general_en
+  - ask_about_Educational_Assessment_Examination_Service_en
+  - ask_about_Educational_Assessment_Examination_time_en
+  - ask_about_Educational_Assessment_Examination_fee_en
+  - ask_about_Ethiopian_Postal_Service_Enterprise_general_en
+  - ask_about_Ethiopian_Postal_Service_Enterprise_service_en
+  - ask_about_National_Examination_Doc_en
+  - ask_about_National_Examination_time_en
+  - ask_about_National_Examination_fee_en
+  - ask_about_National_ID_Doc_en
+  - ask_about_National_ID_time_en
+  - ask_about_National_ID_fee_en
+  - ask_about_Ethiopian_Investment_Commission_general_en
+  - ask_EIC_service_en
+  - ask_about_New_Investment_Permit_Application_Doc_en
+  - ask_about_New_Investment_Permit_Application_fee_en
+  - ask_about_Capital_registration_Service_doc_en
+  - ask_about_Capital_registration_Service_fee_en
+  - ask_about_New_Technology_Transfer_Agreement_Registration_doc_en
+  - ask_about_New_Technology_Transfer_Agreement_Registration_fee_en
+  - ask_about_Extension_Technology_Transfer_Agreement_Registration_doc_en
+  - ask_about_Extension_Technology_Transfer_Agreement_Registration_fee_en
+  - ask_about_Bill_Quantity_doc_en
+  - ask_about_Bill_Quantity_fee_en
+  - ask_about_Spare_parts_doc_en
+  - ask_about_Spare_parts_fee_en
+  - ask_about_Raw_Materials_commissioning_doc_en
+  - ask_about_Raw_Materials_commissioning_fee_en
+  - ask_about_Income_Tax_Holiday_doc_en
+  - ask_about_Income_Tax_Holiday_fee_en
+  - ask_about_Additional_Income_Tax_doc_en
+  - ask_about_Additional_Income_Tax_fee_en
+  - ask_about_Tax_Holiday_Expansion_doc_en
+  - ask_about_Tax_Holiday_Expansion_fee_en
+  - ask_about_Loss_Carried_Forward_doc_en
+  - ask_about_Loss_Carried_Forward_fee_en
+  - ask_about_Ministry_Health_general_en
+  - ask_about_Ministry_Health_service_en
+  - ask_about_Medical_Treatment_Abroad_en
+  - ask_about_Organ_Transplant_Abroad_en
+  - ask_about_Renewal_Referral_Document_en
+  - ask_about_Replacement_Referral_Document_en
+  - ask_about_New_License_en
+  - ask_about_License_Renewal_en
+  - ask_about_Replacement_Lost_License_en
+  - ask_about_Letter_Good_Standing_en
+  - ask_about_Education_Training_Authority_general_en
+  - ask_about_Education_Training_Authority_service_en
+  - ask_about_Authentication_Educational_Credentials_doc_en
+  - ask_about_Authentication_Educational_Credentials_time_en
+  - ask_about_Authentication_Educational_Credentials_fee_en
+  - ask_about_Equivalence_Educational_Credentials_doc_en
+  - ask_about_Equivalence_Educational_Credentials_time_en
+  - ask_about_Equivalence_Educational_Credentials_fee_en
+  - ask_about_Ministry_Labor_Skills_service_en
+  - ask_about_Ministry_Trade_Regional_Integration_service_en
+  - ask_about_National_ID_general_en
+  - ask_about_NI_service_en
+  - ask_about_NID_service_doc_en
+  - ask_about_National_ID_service_time_en
+  - ask_about_NID_service_fee_en
+  - ask_about_Commercial_Bank_Ethiopia_general_en
+  - ask_about_Commercial_Bank_Ethiopia_service_en
+  - ask_about_Acc_opening_doc_en
+  - ask_about_Acc_opening_time_en
+  - ask_about_Acc_opening_fee_en
+  - ask_about_PAID_SERVICE_doc_en
+  - ask_about_NO_CASH_time_en
+  - ask_about_PAID_SERVICE_fee_en
+  - ask_about_Ethio_Telecom_general_en
+  - ask_about_Ethio_Telecom_service_en
+  - ask_about_tele_birr_doc_en
+  - ask_about_tele_birr_time_en
+  - ask_about_tele_birr_fee_en
+  - ask_Enterprise_solutions_doc_en
+  - ask_Enterprise_solutions_time_en
+  - ask_Enterprise_solutions_fee_en
+  - ask_about_Ethiopian_Environmental_Protection_Authority_general_en
+  - ask_about_Ethiopian_Environmental_Protection_Authority_service_en
+  - ask_about_New_License_Organizations_en
+  - ask_about_License_Renewal_Organizations_en
+  - ask_about_License_Upgrade_Organizations_en
+  - ask_about_License_Replacement_Organizations_en
+  - ask_about_New_License_Individuals_en
+  - ask_about_license_upgrade_individuals_en
+  - ask_about_License_Renewal_Individuals_en
+  - ask_about_License_Replacement_Individuals_en
+  - ask_about_GMO-Free_Live_Organism_Certification_en
+  - ask_about_Ministry_Justice_general_en
+  - ask_Ministry_Justice_service_en
+  - ask_Issuance_Advocates_License_doc_en
+  - ask_about_Issuance_Advocates_License_time_en
+  - ask_about_Issuance_Advocates_License_fee_en
+  - ask_Renewal_Licensing_Advocates_doc_en
+  - ask_about_Renewal_Licensing_Advocates_time_en
+  - ask_about_Renewal_Licensing_Advocates_fee_en
+  - ask_about_Upgrade_Licensing_Advocates_doc_en
+  - ask_about_Upgrade_Licensing_Advocates_time_en
+  - ask_Upgrade_Licensing_Advocates_fee_en
+  - ask_about_Ethiopian_Agricultural_Authority_general_en
+  - ask_about_Ethiopian_Agricultural_Authority_service_en
+  - ask_about_New_Certification_Agrochemical_Manufacturers_en
+  - ask_about_Renewal_Certification_Agrochemical_Manufacturers_en
+  - ask_about_New_Certification_fertilizer_Manufacturers_en
+  - ask_about_Renewal_Certification_fertilizer_manufacturers_en
+  - ask_about_New_Certification_plant_products_en
+  - ask_about_Renewal_Certification_plant_products_en
+  - ask_about_New_Certification_Seed_producers_en
+  - ask_about_Renewal_Certification_Seed_producers_en
+  - ask_about_New_Certification_Veterinary_Drug_Manufacturers_en
+  - ask_about_Ministry_Transport_Logistics_general_en
+  - ask_about_Ministry_Transport_Logistics_service_en
+  - ask_about_Road_Public_Transport_Operators_doc_en
+  - ask_about_Road_Public_Transport_Operators_time_en
+  - ask_about_Road_Public_Transport_Operators_fee_en
+  - ask_Road_Freight_Transport_Operators_doc_en
+  - ask_Road_Freight_Transport_Operators_time_en
+  - ask_Road_Freight_Transport_Operators_fee_en
+  - ask_about_Drivers_Assistants_Cross-Border_doc_en
+  - ask_about_Drivers_Assistants_Cross-Border_time_en
+  - ask_about_Drivers_Assistants_Cross-Border_fee_en
+  - ask_about_Ethiopian_Construction_Authority_general_en
+  - ask_about_Ethiopian_Construction_Authority_service_en
+  - ask_about_New_Professional_Registration_en
+  - ask_about_Renewal_Professional_Registration_en
+  - ask_about_Lost_Replacement_Professional_Certificate_en
+  - ask_about_New_Registration_Water-Works_Professional_License_en
+  - ask_about_Renewal_Water_Works_Professional_License_en
+  - ask_about_Upgrading_Water_Works_Professional_License_en
+  - ask_about_New-Registration_Water_Works_Competency_Certificate_Company_en
+  - ask_about_Renewal_Water_Works_Company_Competency_Certificate_en
+  - ask_about_Change_Grade_for_Water_Works_Companies_Competency_Certification_en
+  - ask_about_Lost_certificate_Substitution_Water_Works_Companies_en
+  - ministry_tourism_general_en
+  - ministry_tourism_service_en
+  - expat_professionals_in_star_rated_hotel_en
+  - expat_professionals_hotel_en
+  - competency_certificate_for_tour_guides_en
+  - competency_certificate_tour_guides_renewal_en
+  - support_letter_for_tourist_cameras_en
+  - ask_about_Ethiopian_Food_Drug_Authority_general_en
+  - Federal_Public_Procurement_Property_Authority_general_en
+  - Federal_Public_Procurement_Property_Authority_service_en
+  - Supplier_Registration_Service_en
+  - Supplier_Registration_Revision_service_en
+  - ask_about_Ethiopian_Customs_Commission_general_en
+  - ask_about_Ethiopian_Customs_Commission_service_en
+  - ask_about_Temporary_Bonded_Customs_Warehouse_en
+  - ask_about_Bonded_Customs_Warehouse_en
+  - ask_about_Private_Temporary_Customs_Warehouse_en
+  - ask_about_Private_Bonded_Customs_Warehouse_en
+  - ask_about_Bonded_Warehouse_License_for_Relief_Items_en
+  - ask_about_Bonded_Export_Factory_License_en
+  - ask_about_Bonded-Export_Factory_Warehouse_License_en
+  - ask_about_Bonded_Warehouse-License_for_Gift_Deliveries_en
+  - ask_about_Duty-Free-Goods_Warehouse_License_en
+  - ask_about_Duty-Free_Retail_Outlet_License_en
+  - ask_about_Renewal_Temporary_Bonded_Customs_Warehouse_en
+  - ask_about_Renewal_Bonded_Customs_Warehouse_en
+  - ask_about_Renewal_Private_Temporary_Customs_Warehouse_en
+  - ask_about_Renewal_Private_Bonded_Customs_Warehouse_en
+  - ask_about_Renewal_Bonded_Warehouse_License_Relief_en
+  - ask_about_Renewal_Bonded_Export_Factory_en
+  - ask_about_Renewal_Bonded_Export_Factory_Warehouse_en
+  - ask_about_Bonded_Warehouse_License_Input_Supply_en
+  - ask_about_Renewal_Duty-Free_Goods_Warehouse_en
+  - ask_about_Renewal_Duty-Free_Retail_Outlet_en
+  - ask_about_Customs_Broker_License_en
+  - ask_about_Renewal_Customs_Broker_License_en
+
+responses:
+
+  utter_default:
+  - text: "Sorry, I didn’t understand. Can you rephrase?"
+  - text: "I didn’t quite get that. You can ask me about documents, services, or fees."
+
+  utter_bad_words_en:
+  - text: "PLEASE AVOID USING OFFENSIVE LANGUAGE, LET'S KEEP THE CONVERSATION RESPECTFULLY!"
+
+  utter_greet_en:
+  - text: "Hey! How Are You?, How Can I Help You"
+
+  utter_cheer_up_en:
+  - text: "Here is something to cheer you up:"
+
+  utter_did_that_help_en:
+  - text: "Did that help you?"
+
+  utter_happy_en:
+  - text: "Great, carry on!"
+
+  utter_goodbye_en:
+  - text: "Bye"
+
+  utter_iamabot_en:
+  - text: "I am a bot, powered by ELIAS."
+
+  utter_abusive_language_en:
+  - text: |
+        - I understand that you might be feeling frustrated, 
+        I'm here to help you with your request—let's try to solve the issue together. 
+        Could you please tell me what you need assistance with?
+
+  utter_mesob_center_en:
+  - text: "The MESOB Center is a one-stop government service hub in Ethiopia where 23 federal institutions provide over 120 services under one roof. 
+           It aims to streamline service delivery, reduce bureaucracy, and enhance efficiency for citizens and businesses.for more information check this website,https://mesobcenter.et/en/ "
+
+  utter_mesob_center_location_en:
+  - text: "The MESOB Center is located in Imperial Gergi, Addis Ababa. You can find it on Google Maps here: https://www.google.com/maps/dir/
+           9.0046464,38.8038656/MESOB+center,+Mesob+center,+Addis+Ababa/@9.0039002,38.7962213,1638m/data=!3m2!1e3!4b1!4m10!4m9!1m1!4e1!1m5!
+           1m1!1s0x164b85006e9cfdbd:0xfad648311c9f71d4!2m2!1d38.8001962!2d9.0032995!3e0?entry=ttu&g_ep=EgoyMDI1MDgxMS4wIKXMDSoASAFQAw%3D%3D"
+
+  utter_services_summary_en:
+  - text: |
+        - At the Mesob Center, you can access services from  23 different public institutions in one convenient location. 
+        While each institution provides its own specific services, the Mesob Center is designed to make it easier for you 
+        to get multiple government services without visiting different offices separately. 
+        This means you can handle various tasks like document processing, permits, registrations, and more 
+        all in one place, saving you time and effort.
+
+  utter_mesob_center_service_time_en:
+  - text: |
+      Working Hours
+           - Monday to Friday: 2:30 AM – 11:30 AM (local time)
+           - Saturday: 2:30 AM – 6:30 AM (local time)
+
+  utter_mesob_center_institutions_en:
+  - text: |
+        1. Immigration and Citizenship Service (ICS)
+        2. Ministry of Foreign Affairs (MoFA)
+        3. Ministry of Revenue (MoR)
+        4. Documents Authentication and Registration Service (DARS)
+        5. Educational Assessment and Examination Service (EAES)
+        6. Ethiopian Postal Service Enterprise (EPSE)
+        7. Ethiopian Investment Commission (EIC)
+        8. Ministry of Health (MoH)
+        9. Education and Training Authority (ETA)
+        10. Ministry of Labor and Skills (MoLS)
+        11. Ministry of Trade & Regional Integration (MoRI)
+        12. National ID (NID)
+        13. Commercial Bank of Ethiopia (CBE)
+        14. Ethio Telecom (ET)
+        15. Ethiopian Environmental Protection Authority (EEPA)
+        16. Ministry of Justice (MoJ)
+        17. Ethiopian Agricultural Authority (EAA)
+        18. Ministry of Transport and Logistics (MoTL)
+        19. Ethiopian Construction Authority
+        20. Ministry of Tourism (MoT)
+        21. Ethiopian Food and Drug Authority (EFDA)
+        22. Federal Public Procurement and Property Authority (PPPA)
+        23. Ethiopian Customs Commission (ECC)
+
+  utter_national_id_for_service_en:
+  - text: "Yes, a National ID is required for this Service."
+
+  utter_ICS_general_en:
+  - text: |
+        SERVICES:
+          1. 2 day urgent Passport Renewal Service 
+          2. 5 day urgent Passport Renewal Service 
+          3. Urgent Service for Damaged or Defaced Passports 
+          4. Service for Lost or Stolen Passport Replacement 
+          5. Urgent Temporary Residence Permit Card Issuance 
+          6. Urgent Permanent Residence Permit Card Issuance 
+          7. Urgent Investment Visa (IV) Issuance 
+          8. Urgent Work Visa (WV) for Private Sector Employment 
+          9. Urgent Issuance of Ethiopian Origin ID (Yellow Card) 
+          10. Issuance of Ethiopian Origin ID for Individuals Under 18 Years Old 
+      
+          Processing Time: All services take 1-5 days
+          Fee For The Services:
+            - Passport renewal costs 28,000-33,000 ETB
+            - Visa renewal ranges from 150-750 USD
+            - Ethiopian Origin ID costs 200-400 USD
+            - Residence permit fees range from 1,000-3,000 USD
+
+
+  utter_Immigration_Citizenship_service_en:
+  - text: |
+        SERVICES:
+          1. 2 day urgent Passport Renewal Service 
+          2. 5 day urgent Passport Renewal Service 
+          3. Urgent Service for Damaged or Defaced Passports 
+          4. Service for Lost or Stolen Passport Replacement 
+          5. Urgent Temporary Residence Permit Card Issuance 
+          6. Urgent Permanent Residence Permit Card Issuance 
+          7. Urgent Investment Visa (IV) Issuance 
+          8. Urgent Work Visa (WV) for Private Sector Employment 
+          9. Urgent Issuance of Ethiopian Origin ID (Yellow Card) 
+          10. Issuance of Ethiopian Origin ID for Individuals Under 18 Years Old
+  utter_Immigration_Citizenship_time_en:
+  - text: "Processing Time: All services take 1-5 days"
+
+  utter_Immigration_Citizenship_fee_en:
+  - text: |
+        Fee For The Services:
+          - Passport renewal costs 28,000-33,000 ETB
+          - Visa renewal ranges from 150-750 USD
+          - Ethiopian Origin ID costs 200-400 USD
+          - Residence permit fees range from 1,000-3,000 USD
+
+  utter_Ministry_Foreign_Affairs_general_en:
+  - text: |
+        SERVICES:
+          - Ministry of Foreign Affairs services Issuance Document authentication services.
+        
+        DOCUMENTS REQUIRED:
+          - National ID / Passport
+          - Document to be authenticated
+        
+           Processing Time: The service is processed immediately.
+           Fee For The Services:
+            - 150-162 ETB for Ethiopian nationals
+            - 300-324 ETB for foreign nationals.
+  utter_Ministry_Foreign_Affairs_service_en:
+  - text: |
+        SERVICES:
+          - Ministry of Foreign Affairs services Issuance Document authentication services.
+
+  utter_Ministry_Foreign_Affairs_Doc_en:
+  - text: |
+        DOCUMENTS REQUIRED:
+          - National ID / Passport
+          - Document to be authenticated
+
+
+  utter_Ministry_Foreign_Affairs_time_en:
+  - text: "Processing Time: The service is processed immediately."
+
+
+  utter_Ministry_Foreign_Affairs_fee_en:
+  - text: |
+        Fee For The Services:
+         - 150-162 ETB for Ethiopian nationals
+         - 300-324 ETB for foreign nationals.
+  utter_Ministry_Revenue_general_en:
+  - text: |
+        SERVICES:
+         - The Ministry of Revenue offers Taxpayer Identification Number (TIN) registration services to individuals and businesses for legal and tax-related purposes.
+
+        DOCUMENTS REQUIRED:
+         - National ID or Passport
+         - Business registration certificate for businesses
+
+           Processing Time: 30-45 minutes
+           Fee For The Services: Free of Charge
+
+  utter_Ministry_Revenue_service_en:
+  - text: |
+        SERVICES:
+         - The Ministry of Revenue offers Taxpayer Identification Number (TIN) registration services to individuals and businesses for legal and tax-related purposes.
+
+  utter_Ministry_Revenue_Doc_en:
+  - text: |
+        DOCUMENTS REQUIRED:
+           - National ID or Passport
+           - Business registration certificate for businesses
+
+  utter_Ministry_Revenue_time_en:
+  - text: "Processing Time: 30-45 minutes"
+
+  utter_Ministry_Revenue_fee_en:
+  - text: "Fee For The Services:Free of Charge"
+
+  utter_document_authentication_general_en:
+  - text: |
+        SERVICES: 
+          The Documents Authentication and Registration Service provides the following services:
+            1. Authentication of Power of Attorney
+            2. Authentication of Contract of loan
+            3. Authentication of Contract of Property Sales
+            4. Authentication of Contract of Lease
+            5. Registration of Foreign Document
+        1. Authentication of Power of Attorney 
+                  Documents Required for This Service:
+                    - National ID or Passport
+                    - Power of Attorney Document
+                    - Marital status document (if applicable)
+                    - Additional documents for organizations and special cases
+
+                   Processing Time: 25 minutes
+
+                   Fee For The Services:
+                    - 100 ETB per copy plus 35 ETB customs duty and 5 ETB per individual
+                    - 200 ETB per copy plus 35 ETB customs duty and 5 ETB per individual (for foreign nationals)
+        2. Authentication of Contract of loan
+                  Documents Required for This Service:
+                    - National ID or Passport
+                    - Loan contract
+                    - Power of Attorney (if applicable)
+                    - Additional documents for businesses or organizations
+
+                    Processing Time: 45 minutes  
+
+                    Fee For The Services: 
+                     - 500 ETB per copy plus 1% of the loan amount for Ethiopian nationals
+                     - 1000 ETB per copy plus 1% of the loan amount for foreign nationals
+        3. Authentication of Contract of Property Sales
+                  Documents Required for This Service:
+                    - National ID or Passport
+                    - Ownership or title deed
+                    - Power of Attorney (if applicable)
+                    - Witnesses for house or building sales
+
+                     Processing Time: 45 minutes  
+
+                     Fee For The Services: 
+                       - 500 ETB per copy plus 2% of the sales amount for Ethiopian nationals
+                       - 1000 ETB per copy plus 2% of the sales amount for foreign nationals.
+        4. Authentication of Contract of Lease
+                  Documents Required for This Service:
+                   - National ID or Passport
+                   - Lease agreement
+                   - Power of Attorney (if applicable)
+
+                   Processing Time: 45 minutes
+
+                   Fee For The Services:
+                     - 200 ETB per copy plus 0.5% of the rent amount for Ethiopian nationals
+                     - 400 ETB per copy plus 0.5% of the rent amount for foreign nationals.
+        5. Registration of Foreign Document
+                  Documents Required for This Service:
+                    - National ID or Passport
+                    - The original document authenticated by the Ministry of Foreign Affairs
+
+                    Processing Time: 15 minutes  
+
+                    Fee For The Services: 
+                     - 200 ETB for Ethiopian nationals
+                     - 400 ETB for foreign nationals
+  utter_document_authentication_service_en:
+  - text: |
+        SERVICES: 
+          The Documents Authentication and Registration Service provides the following services:
+            1. Authentication of Power of Attorney
+            2. Authentication of Contract of loan
+            3. Authentication of Contract of Property Sales
+            4. Authentication of Contract of Lease
+            5. Registration of Foreign Document
+
+
+  utter_power_attorney_Doc_en:
+  - text: |
+        Documents Required for Authentication of Power of Attorney Service:
+          - National ID or Passport
+          - Power of Attorney Document
+          - Marital status document (if applicable)
+          - Additional documents for organizations and special cases
+
+  utter_power_attorney_time_en:
+  - text: "Processing Time: 25 minutes"
+
+  utter_power_attorney_fee_en:
+  - text: |
+        Fee For The Services:
+            - 100 ETB per copy plus 35 ETB customs duty and 5 ETB per individual
+            - 200 ETB per copy plus 35 ETB customs duty and 5 ETB per individual (for foreign nationals)
+
+  utter_contract_loan_Doc_en:
+  - text: |
+        Documents Required for Authentication of Contract of loan Service:
+          - National ID or Passport
+          - Loan contract
+          - Power of Attorney (if applicable)
+          - Additional documents for businesses or organizations
+
+  utter_contract_loan_time_en:
+  - text: "Processing Time: 45 minutes"
+
+  utter_contract_loan_fee_en:
+  - text: |
+        Fee For The Services:
+            - 500 ETB per copy plus 1% of the loan amount for Ethiopian nationals
+            - 1000 ETB per copy plus 1% of the loan amount for foreign nationals
+
+
+  utter_property_sales_Doc_en:
+  - text: |
+        Documents Required for Authentication of Contract of Property Sales Service:
+          - National ID or Passport
+          - Ownership or title deed
+          - Power of Attorney (if applicable)
+          - Witnesses for house or building sales
+
+  utter_property_sales_time_en:
+  - text: "Processing Time: 45 minutes"
+
+  utter_property_sales_fee_en:
+  - text: |
+        Fee For The Services:
+             - 500 ETB per copy plus 2% of the sales amount for Ethiopian nationals.
+             - 1000 ETB per copy plus 2% of the sales amount for foreign nationals.
+
+  utter_contract_lease_Doc_en:
+  - text: |
+        Documents Required for Authentication of Contract of Lease Service:
+         - National ID or Passport
+         - Lease agreement
+         - Power of Attorney (if applicable)
+
+  utter_contract_lease_time_en:
+  - text: "Processing Time: 45 minutes"
+
+  utter_contract_lease_fee_en:
+  - text: |
+        Fee For The Services:
+             - 200 ETB per copy plus 0.5% of the rent amount for Ethiopian nationals
+             - 400 ETB per copy plus 0.5% of the rent amount for foreign nationals.
+
+  utter_registration_foreign_document_Doc_en:
+  - text: |
+        Documents Required for Registration of Foreign Document Service:
+          - National ID or Passport
+          - The original document authenticated by the Ministry of Foreign Affairs
+
+  utter_registration_foreign_document_time_en:
+  - text: "Processing Time: 15 minutes"
+
+  utter_registration_foreign_document_fee_en:
+  - text: |
+        Fee For The Services:
+             - 200 ETB for Ethiopian nationals
+             - 400 ETB for foreign nationals
+
+  utter_Educational_Assessment_Examination_general_en:
+  - text: |
+        Services:
+          Available	services	provided	by	the	Educational	Assessment	and Examination Service include:
+           1. Educational Document Replacement Certificate
+           2. Educational Document Replacement with True Copy
+           3. Educational Document Authentication
+           4. Giving a Supporting Letter
+           5. Official Transcript
+           6. True Copy
+
+               Processing Time: 5-50 minutes
+
+               Fee For The Services:
+                  - 400 ETB for recertification
+                  - 200 ETB for authentication
+                  - 200 ETB for official local transcripts
+                  - 50 USD for official international transcripts.
+
+  utter_Educational_Assessment_Examination_Service_en:
+  - text: |
+        Services:
+          Available	services	provided	by	the	Educational	Assessment	and Examination Service include:
+           1. Educational Document Replacement Certificate
+           2. Educational Document Replacement with True Copy
+           3. Educational Document Authentication
+           4. Giving a Supporting Letter
+           5. Official Transcript
+           6. True Copy
+
+  utter_Educational_Assessment_Examination_time_en:
+  - text: "Processing Time: 5-50 minutes"
+
+  utter_Educational_Assessment_Examination_fee_en:
+  - text: |
+        Fee For The Services:
+             - 400 ETB for recertification
+             - 200 ETB for authentication
+             - 200 ETB for official local transcripts
+             - 50 USD for official international transcripts.
+
+  utter_Ethiopian_Postal_Service_Enterprise_general_en:
+  - text: |
+        Services:
+          Available services provided by The Ethiopian Postal Service Enterprise (EPSE) include:
+            1. National Examination Document Handling
+            2. National ID (NID) Card Printing & Distribution
+
+          1. National Examination Document Handling
+
+            Documents Required:
+              - National ID/passport
+              - Support letters for registration/booking/printing
+              - Full address of recipient
+
+                  TIME: The size of the document/shipment matters but if it is too much it could take 15min to give the service to the client.
+
+                  Fee For The Services:
+                    - The services have different cost. Some services don't charge.
+                    - EMS=450
+
+          2. National ID (NID) Card Printing & Distribution
+
+            Documents Required:
+               - Support letters for registration/booking/printing
+               - Full address of recipient
+
+             Processing Time: 5-10 minutes
+
+             Fee For The Services:
+                - National id booking=free
+                - National id delivery=free
+                - National id printing
+                    Premier>600
+                    Ordinary>324
+
+  utter_Ethiopian_Postal_Service_Enterprise_service_en:
+  - text: |
+        Services:
+          Available services provided by The Ethiopian Postal Service Enterprise (EPSE) include:
+            1. National Examination Document Handling
+            2. National ID (NID) Card Printing & Distribution
+
+  utter_National_Examination_Doc_en:
+  - text: |
+        Documents Required for National Examination Document Handling service:
+            - National ID/passport
+            - Support letters for registration/booking/printing
+            - Full address of recipient
+
+  utter_National_Examination_time_en:
+  - text: "Processing Time: The size of the document/shipment matters but if it is too much it could take 15min to give the service to the client."
+
+  utter_National_Examination_fee_en:
+  - text: |
+        Fee For The Services:
+            - The services have different cost. Some services don't charge.
+            - EMS=450
+
+  utter_National_ID_Doc_en:
+  - text: |
+        Documents Required for National ID (NID) Card Printing & Distribution service:
+           - Support letters for registration/booking/printing
+           - Full address of recipient
+
+  utter_National_ID_time_en:
+  - text: "Processing Time: 5-10 minutes"
+
+  utter_National_ID_fee_en:
+  - text: |
+        Fee For The Services:
+             - National id booking=free
+             - National id delivery=free
+             - National id printing
+                   Premier>600
+                   Ordinary>324
+
+  utter_Ethiopian_Investment_Commission_general_en:
+  - text: |
+        Services:
+           The Ethiopian Investment Commission (EIC) provides the following services:
+             1. New Investment Permit Application
+             2. Capital Registration 
+             3. New Technology Transfer Agreement Registration
+             4. Extension Technology Transfer Agreement Registration
+             5. Investment Incentive Requirement
+                5.1 Bill of Quantity
+                5.2 Spare parts
+                5.3 Raw Materials for commissioning
+                5.4 Income Tax Holiday
+                5.5 Additional Income Tax Holiday for investors exporting products or services
+                5.6 Tax Holiday for Expansion
+                5.7 Loss Carried Forward
+        
+        1. New Investment Permit Application
+        
+          Documents Required:
+            For Sole Proprietorship 
+               • Valid Passport/ID
+               • Valid Investment Visa
+               • Business background/ Bank Statement
+               • Minimum Capital Requirement as per the Investment Law
+               • If it is By Representative notarized power of Attorney
+            For Branch Company
+               • Valid Passport/ID of the legal representative
+               • Notarized Certificate of Incorporation
+               • Notarized Minute of Resolution
+               • Notarized MOA/AOA/ Relevant document
+               • Notarized Power of Attorney
+               • Minimum Capital Requirement as per the Investment Law
+            For One Member Private Limited Company
+             For Individual as Shareholder
+              Valid Passport/ID
+              Valid Investment Visa
+              Business background/ Bank Statement
+              Minimum Capital Requirement as per the Investment Law
+              If it is By Representative notarized power of Attorney
+              Draft Declaration Form and Nominee Letter
+             For a Company as a Shareholder
+              Valid Passport/ID of the legal representative
+              Notarized Certificate of Incorporation
+              Notarized Minute of Resolution
+              Notarized MOA/AOA/ Relevant document
+              Notarized Power of Attorney
+              Minimum Capital Requirement as per the Investment Law
+              Draft Declaration Form and Nominee Letter
+           For Private Limited Company/Share company
+            For Individual as Shareholder
+              Valid Passport/ID
+              Valid Investment Visa
+              Business background/ Bank Statement
+              Minimum Capital Requirement as per the Investment Law
+              If it is By Representative notarized power of Attorney
+              Draft Memorandum of Association
+            For foreign Company as a Shareholder
+              Valid Passport/ID of the legal representative
+              Notarized Certificate of Incorporation
+              Notarized Minute of Resolution
+              Notarized MOA/AOA/ Relevant document
+              Notarized Power of Attorney
+              Minimum Capital Requirement as per the Investment Law
+              Draft Memorandum of Association
+           For Local Company as a Shareholder
+              Valid Passport/ID of the legal representative
+              Commercial Registration Certificate
+              Notarized Minute of Resolution
+              Notarized MOA/AOA/ Relevant document
+              Notarized Power of Attorney
+              Evidence for contribution in cash or in Kind 
+              Draft Memorandum of Association
+        
+               Service Time: 1 hr
+               Service Payment amount for New Investment Permit…. USD 100
+        
+        2. Capital Registration
+        
+          Documents Required:
+            - For Cash 
+              • Bank Credit Advice
+            - For in Kind
+              • Ethiopian Electronics Single Window duty free Approval 
+              • Commercial Invoice
+              • Customs Declaration
+            - For Profit
+              • Audit Report
+              • Confirmation Letter from National Bank of Ethiopia
+            - For Registration of Cancelled Loan as a Capital
+              • Bank Credit Advice
+              • Confirmation of loan cancellation Letter from National Bank of Ethiopia
+              Service Time: 2 hr
+              Service Payment amount for capital registration…. USD 50
+        
+        3. New Technology Transfer Agreement Registration
+        
+           Documents Required:
+             • Technology Transfer Agreement concluded between the recipients and Technology provider and registered with notary public.
+             • Valid Business license/investment permit of technology recipient
+             • Commercial registration certificate/business license/document ascertaining ownership of technology provider.
+        
+                Service Payment amount for New …. USD 50
+        
+        4. Extension Technology Transfer Agreement Registration
+        
+          Documents Required:
+            • The extension of Technology Transfer Agreement concluded between the recipients and Technology provider and registered with notary public.
+            • Valid Business license/investment permit of technology recipient
+            • Commercial registration certificate/business license/document ascertaining ownership of technology provider.
+        
+                Service Payment amount for Extension…. USD 50
+        5. Investment Incentive Requirement
+          5.1 Bill of Quantity
+        
+           Documents Required:
+              • Title deed
+              • Construction Permit
+              • Approved BOQ with support letter from Construction office
+              • Valid business and competence certificate of the consultant
+        
+              Service Payment Amount…...USD 20
+        
+          5.2 Spare parts
+        
+           Documents Required:
+             • Approved duty-free letter for capital goods.
+        
+             Service Time: 1 day
+             Service Payment Amount…...USD 20
+        
+          5.3 Raw Materials for commissioning
+        
+            Documents Required:
+             • Commercial invoice 
+        
+              Service Payment Amount…...USD 20
+        
+          5.4 Income Tax Holiday
+        
+             Documents Required:
+              • Investment Permit
+              • Valid Business License
+              • Commercial registration
+              • TIN certificate
+              • VAT Certificate
+              • Title deed or factory shed rent Agreement.
+          Service Time: 3 hrs
+          Service Payment Amount…...USD 25
+        
+          5.5 Additional Income Tax Holiday for investors exporting products or services
+        
+            Documents Required:
+              • Export performance from customs Commission
+              • Previous Tax holiday Letter
+              • External Auditor performance Report
+              • Valid Auditor license and Competence Certificate
+              • Investment Permit
+              • Business license
+              • Commercial registration Certificate
+              • VAT Certificate
+              • TIN Certificate
+        
+           Service payment amount……USD 25
+        
+        
+          5.6 Tax Holiday for Expansion
+        
+            Documents Required:
+             • Expansion Investment Permit
+             • Business License for the expansion
+             • Valid Auditor license and Competence Certificate
+             • External Auditor performance Report
+             • VAT Certificate
+             • TIN Certificate
+             • Valid Auditor license and Competence Certificate
+        
+             Service payment amount……USD 25
+        
+          5.7Loss Carried Forward
+        
+            Documents Required:
+              • Previous tax holiday letter
+              • External Auditor Report
+              • Investment Permit
+              • Business license
+              • Commercial Registration
+              • VAT certificate
+              • Valid Auditor license and Competence Certificate
+              • Evidence for the Loss from the Ministry of Revenue
+        
+             Service payment amount……USD 25
+  utter_EIC_service_en:
+   - text: |
+        Services:
+          The Ethiopian Investment Commission (EIC) provides the following services:
+            1. New Investment Permit Application
+            2. Capital Registration 
+            3. New Technology Transfer Agreement Registration
+            4. Extension Technology Transfer Agreement Registration
+            5. Investment Incentive Requirement
+               5.1 Bill of Quantity
+               5.2 Spare parts
+               5.3 Raw Materials for commissioning
+               5.4 Income Tax Holiday
+               5.5 Additional Income Tax Holiday for investors exporting products or services
+               5.6 Tax Holiday for Expansion
+               5.7 Loss Carried Forward
+
+  utter_New_Investment_Permit_Application_Doc_en:
+  - text: |
+        1. New Investment Permit Application
+        
+                Documents Required:
+                  Sole Proprietorship 
+                     • Valid Passport/ID
+                     • Valid Investment Visa
+                     • Business background/ Bank Statement
+                     • Minimum Capital Requirement as per the Investment Law
+                     • If it is By Representative notarized power of Attorney
+                  Branch Company
+                     • Valid Passport/ID of the legal representative
+                     • Notarized Certificate of Incorporation
+                     • Notarized Minute of Resolution
+                     • Notarized MOA/AOA/ Relevant document
+                     • Notarized Power of Attorney
+                     • Minimum Capital Requirement as per the Investment Law
+               One Member Private Limited Company
+                  For Individual as Shareholder
+                    Valid Passport/ID
+                    Valid Investment Visa
+                    Business background/ Bank Statement
+                    Minimum Capital Requirement as per the Investment Law
+                    If it is By Representative notarized power of Attorney
+                    Draft Declaration Form and Nominee Letter
+                  For a Company as a Shareholder
+                    Valid Passport/ID of the legal representative
+                    Notarized Certificate of Incorporation
+                    Notarized Minute of Resolution
+                    Notarized MOA/AOA/ Relevant document
+                    Notarized Power of Attorney
+                    Minimum Capital Requirement as per the Investment Law
+                    Draft Declaration Form and Nominee Letter
+               Private Limited Company/Share company
+                  For Individual as Shareholder
+                    Valid Passport/ID
+                    Valid Investment Visa
+                    Business background/ Bank Statement
+                    Minimum Capital Requirement as per the Investment Law
+                    If it is By Representative notarized power of Attorney
+                    Draft Memorandum of Association
+                  For foreign Company as a Shareholder
+                    Valid Passport/ID of the legal representative
+                    Notarized Certificate of Incorporation
+                    Notarized Minute of Resolution
+                    Notarized MOA/AOA/ Relevant document
+                    Notarized Power of Attorney
+                    Minimum Capital Requirement as per the Investment Law
+                    Draft Memorandum of Association
+                 For Local Company as a Shareholder
+                    Valid Passport/ID of the legal representative
+                    Commercial Registration Certificate
+                    Notarized Minute of Resolution
+                    Notarized MOA/AOA/ Relevant document
+                    Notarized Power of Attorney
+                    Evidence for contribution in cash or in Kind 
+                    Draft Memorandum of Association
+  utter_New_Investment_Permit_Application_fee_en:
+  - text: "Service Payment amount for New Investment Permit…. USD 50"
+
+  utter_Capital_registration_Service_Doc_en:
+  - text: |
+        2. Capital Registration
+        
+        Documents Required:
+           For Cash 
+             • Bank Credit Advice
+           For in Kind
+             • Ethiopian Electronics Single Window duty free Approval 
+             • Commercial Invoice
+             • Customs Declaration
+           For Profit
+             • Audit Report
+             • Confirmation Letter from National Bank of Ethiopia
+           For Registration of Cancelled Loan as a Capital
+             • Bank Credit Advice
+             • Confirmation of loan cancellation Letter from National Bank of Ethiopia
+
+  utter_Capital_registration_Service_fee_en:
+  - text: "Service Payment amount for New Investment Permit…. USD 50"
+
+  utter_New_Technology_Transfer_Agreement_Registration_Doc_en:
+  - text: |
+        3. New Technology Transfer Agreement Registration
+        
+           Documents Required:
+             • Technology Transfer Agreement concluded between the recipients and Technology provider and registered with notary public.
+             • Valid Business license/investment permit of technology recipient
+             • Commercial registration certificate/business license/document ascertaining ownership of technology provider.
+
+  utter_New_Technology_Transfer_Agreement_Registration_fee_en:
+  - text: "Service Payment amount for New …. USD 50"
+
+  utter_Extension_Technology_Transfer_Agreement_Registration_Doc_en:
+  - text: |
+        4. Extension Technology Transfer Agreement Registration
+        
+                Documents Required:
+                  • The extension of Technology Transfer Agreement concluded between the recipients and Technology provider and registered with notary public.
+                  • Valid Business license/investment permit of technology recipient
+                  • Commercial registration certificate/business license/document ascertaining ownership of technology provider.
+
+  utter_Extension_Technology_Transfer_Agreement_Registration_fee_en:
+  - text: "Service Payment amount for New …. USD 50"
+
+  utter_Bill_Quantity_Doc_en:
+  - text: |
+        5.1 Bill of Quantity
+        
+           Documents Required:
+              • Title deed
+              • Construction Permit
+              • Approved BOQ with support letter from Construction office
+              • Valid business and competence certificate of the consultant
+
+  utter_Bill_Quantity_fee_en:
+  - text: "Service Payment Amount…...USD 20"
+
+  utter_Spare_parts_doc_Doc_en:
+  - text: |
+        5.2 Spare parts
+           Documents Required:
+             • Approved duty-free letter for capital goods.
+
+  utter_Spare_parts_doc_fee_en:
+  - text: "Service Payment Amount…...USD 20"
+
+  utter_Raw_Materials_commissioning_Doc_en:
+  - text: |
+        5.3 Raw Materials for commissioning
+           Documents Required:
+            • Commercial invoice
+
+  utter_Raw_Materials_commissioning_fee_en:
+  - text: "Service Payment Amount…...USD 20"
+
+  utter_Income_Tax_Holiday_Doc_en:
+  - text: |
+        5.4 Income Tax Holiday
+        
+             Documents Required:
+              • Investment Permit
+              • Valid Business License
+              • Commercial registration
+              • TIN certificate
+              • VAT Certificate
+              • Title deed or factory shed rent Agreement.
+
+  utter_Income_Tax_Holiday_fee_en:
+  - text: "Service Payment Amount…...USD 25"
+
+  utter_Additional_Income_Tax_Doc_en:
+  - text: |
+        5.5 Additional Income Tax Holiday for investors exporting products or services
+        
+                  Documents Required:
+                    • Export performance from customs Commission
+                    • Previous Tax holiday Letter
+                    • External Auditor performance Report
+                    • Valid Auditor license and Competence Certificate
+                    • Investment Permit
+                    • Business license
+                    • Commercial registration Certificate
+                    • VAT Certificate
+                    • TIN Certificate
+
+  utter_Additional_Income_Tax_fee_en:
+    - text: "Service Payment Amount…...USD 25"
+
+  utter_Tax_Holiday_Expansion_Doc_en:
+  - text: |
+        5.6 Tax Holiday for Expansion
+        
+                 Documents Required:
+                  • Expansion Investment Permit
+                  • Business License for the expansion
+                  • Valid Auditor license and Competence Certificate
+                  • External Auditor performance Report
+                  • VAT Certificate
+                  • TIN Certificate
+                  • Valid Auditor license and Competence Certificate
+
+  utter_Tax_Holiday_Expansion_fee_en:
+  - text: "Service Payment Amount…...USD 25"
+
+  utter_Loss_Carried_Forward_Doc_en:
+  - text: |
+        5.7Loss Carried Forward
+        
+           Documents Required:
+             • Previous tax holiday letter
+             • External Auditor Report
+             • Investment Permit
+             • Business license
+             • Commercial Registration
+             • VAT certificate
+             • Valid Auditor license and Competence Certificate
+             • Evidence for the Loss from the Ministry of Revenue
+
+  utter_Loss_Carried_Forward_fee_en:
+  - text: "Service Payment Amount…...USD 25"
+
+  utter_Ministry_Health_general_en:
+  - text: |
+        Services:
+          The Ministry of Health (MoH) provides the following services:
+            1. Medical Treatment Abroad (Non-Transplant)
+            2. Organ Transplant Abroad
+            3. Renewal of Referral Document
+            4. Replacement of Referral Document
+            5. New License
+            6. License Renewal
+            7. Replacement for Lost/Damaged License
+            8. Letter of Good Standing
+        
+          1. Medical Treatment Abroad (Non-Transplant)
+        
+             Documents Required:
+              - National ID
+              - Kebele ID
+              - Passport or Birth Certificate
+              - A Hospital Board Certificate
+              - The client's CBE bank account details
+              - A bank statement showing over 500,000 ETB
+              - A legal custody document (if applicable)
+        
+              Processing Time: 40 minutes
+              Fee For The Services: Free
+        
+          2. Organ Transplant Abroad
+        
+             Documents Required:
+               - National ID
+               - Kebele ID
+               - Passport
+               - Birth Certificate
+               - Hospital Board Certificate
+               - client's CBE bank account details
+               - a bank statement showing over 1,000,000 ETB
+               - legal custody document (if applicable)
+               - a legal agreement between the receiver
+               - donor, and donor's family
+               - the donor's medical compatibility certificate
+        
+              Processing Time: 40 minutes
+              Fee For The Services: Free
+        
+          3. Renewal of Referral Document
+        
+              Documents Required:
+                - National ID or Passport
+                - previous Ministry of Health documents older than six months
+                - legal reason for non-use of the document
+                - renewed hospital board certificate legal document confirming the attendant's inability
+                - CBE confirmation that no foreign currency has been issued
+                - updated CBE account
+        
+               Processing Time: 40 minutes
+               Fee For The Services: Free
+        
+          4. Replacement of Referral Document
+        
+             Documents Required:
+               - National ID or Passport
+               - a police report for the lost document
+        
+               Processing Time: 40 minutes
+               Fee For The Services: Free
+        
+          5. New License
+        
+             For Foreigners
+                Documents Required:
+                   - Passport
+                   - authenticated education documents and license
+                   - equivalency certificate, work experience
+                   - English proficiency
+                   - medical certificate
+                   - institutional support letter
+                   - translated documents
+                   - a service fee receipt
+        
+                  Processing Time: 40 minutes
+                  Fee For The Services:
+                      - no fee for stays under 3 months
+                      - 100 USD fee for stays of 3 months or more
+        
+              For Ethiopians From Abroad
+               Documents Required:
+                  - ID
+                  - Passport
+                  - driver's license
+                  - authenticated education documents
+                  - equivalency certificate
+                  - license if applicable
+                  - work experience
+                  - medical certificate
+                  - translated documents
+                  - a service fee receipt, Time
+        
+                Processing Time: 1 hours
+                Fee For The Services: 100 ETB
+        
+          6. License Renewal
+        
+             Documents Required:
+                - previous license
+                - new work experience
+                - CPD certificate
+                - medical certificate
+                - service fee receipt
+                - A 3x4 cm photograph taken within the last six months
+        
+               Processing Time: 45 minutes
+               Fee For The Services: 50 USD
+        
+          7. Replacement for Lost/Damaged License
+        
+               Documents Required:
+                 - police report
+                 - damaged license
+                 - Photo
+                 - service fee receipt
+        
+                 Processing Time: 30 minutes
+                 Fee For The Services:
+                   - 50 USD for foreigners
+                   - 50 ETB for Ethiopians
+        
+          8. Letter of Good Standing
+        
+              Documents Required:
+                - License
+                - detailed work history including any legal or malpractice information
+                - service fee receipt
+                - Contract and Supporting Documents (include donor, recipient and donor's family members)
+                - Medical Examination Report of the Donor
+        
+                 Processing Time: 30 minutes
+                 Fee For The Services: 
+                     - 50 ETB for Ethiopians
+                     - 50 USD for foreigners
+  
+
+  utter_Ministry_Health_service_en:
+  - text: |
+        Services:
+          The Ministry of Health (MoH) provides the following services:
+            1. Medical Treatment Abroad (Non-Transplant)
+            2. Organ Transplant Abroad
+            3. Renewal of Referral Document
+            4. Replacement of Referral Document
+            5. New License
+            6. License Renewal
+            7. Replacement for Lost/Damaged License
+            8. Letter of Good Standing
+
+  utter_Medical_Treatment_Abroad_en:
+  - text: |
+        1. Medical Treatment Abroad (Non-Transplant)
+        
+           Documents Required:
+            - National ID
+            - Kebele ID
+            - Passport or Birth Certificate
+            - A Hospital Board Certificate
+            - The client's CBE bank account details
+            - A bank statement showing over 500,000 ETB
+            - A legal custody document (if applicable)
+        
+            Processing Time: 40 minutes
+            Fee For The Services: Free
+  utter_Organ_Transplant_Abroad_en:
+  - text: |
+        2. Organ Transplant Abroad
+          Documents Required:
+             - National ID
+             - Kebele ID
+             - Passport
+             - Birth Certificate
+             - Hospital Board Certificate
+             - client's CBE bank account details
+             - a bank statement showing over 1,000,000 ETB
+             - legal custody document (if applicable)
+             - a legal agreement between the receiver
+             - donor, and donor's family
+             - the donor's medical compatibility certificate
+        
+            Processing Time: 40 minutes
+            Fee For The Services: Free
+
+  utter_Renewal_Referral_Document_en:
+  - text: |
+        3. Renewal of Referral Document
+          Documents Required:
+                - National ID or Passport
+                - previous Ministry of Health documents older than six months
+                - legal reason for non-use of the document
+                - renewed hospital board certificate legal document confirming the attendant's inability
+                - CBE confirmation that no foreign currency has been issued
+                - updated CBE account
+               Processing Time: 40 minutes
+               Fee For The Services: Free
+
+  utter_Replacement_Referral_Document_en:
+  - text: |
+        4. Replacement of Referral Document
+            Documents Required:
+                     - National ID or Passport
+                     - a police report for the lost document
+                     Processing Time: 40 minutes
+                     Fee For The Services: Free
+  utter_New_License_en:
+  - text: |
+        5. New License
+                  For Foreigners
+                      Documents Required:
+                         - Passport
+                         - authenticated education documents and license
+                         - equivalency certificate, work experience
+                         - English proficiency
+                         - medical certificate
+                         - institutional support letter
+                         - translated documents
+                         - a service fee receipt
+                        Processing Time: 40 minutes
+                        Fee For The Services:
+                            - no fee for stays under 3 months
+                            - 100 USD fee for stays of 3 months or more
+        
+                    For Ethiopians From Abroad
+                     Documents Required:
+                        - ID
+                        - Passport
+                        - driver's license
+                        - authenticated education documents
+                        - equivalency certificate
+                        - license if applicable
+                        - work experience
+                        - medical certificate
+                        - translated documents
+                        - a service fee receipt, Time
+                      Processing Time: 1 hours
+                      Fee For The Services: 100 ETB
+  utter_License_Renewal_en:
+  - text: |
+        6. License Renewal
+          Documents Required:
+              - previous license
+              - new work experience
+              - CPD certificate
+              - medical certificate
+              - service fee receipt
+              - A 3x4 cm photograph taken within the last six months
+        
+             Processing Time: 45 minutes
+             Fee For The Services: 50 USD
+  utter_Replacement_Lost_License_en:
+  - text: |
+        7. Replacement for Lost/Damaged License
+           Documents Required:
+              - police report
+              - damaged license
+              - Photo
+              - service fee receipt
+
+              Processing Time: 30 minutes
+              Fee For The Services:
+                - 50 USD for foreigners
+                - 50 ETB for Ethiopians
+
+  utter_Letter_Good_Standing_en:
+  - text: |
+        8. Letter of Good Standing
+           Documents Required:
+             - License
+             - detailed work history including any legal or malpractice information
+             - service fee receipt
+             - Contract and Supporting Documents (include donor, recipient and donor's family members)
+             - Medical Examination Report of the Donor
+        
+                       Processing Time: 30 minutes
+                       Fee For The Services: 
+                         - 50 ETB for Ethiopians
+                         - 50 USD for foreigners
+
+  utter_Education_Training_Authority_general_en:
+  - text: |
+        Services:
+          The Education and Training Authority (ETA) provides the following services:
+             1. Authentication of Educational Credentials
+             2. Equivalence of Educational Credentials
+        
+        1. Authentication of Educational Credentials
+        
+           Documents Required:
+               - National ID
+               - Local ID or Passport
+               - Power of Attorney if not the applicant
+               - original signed and stamped degree and transcript
+               - admission documents such as a 12th grade certificate or diploma
+               - COC certificate for diploma holders
+               - equivalence letter for foreign degrees
+               - court decision for name changes if applicable
+        
+              Processing Time: 50 minutes
+              Fee For The Services:
+                 - 200 ETB for Ethiopians
+                 - 400 ETB for foreign use
+        
+        2. Equivalence of Educational Credentials
+        
+             Documents Required:
+                 - a Passport or ID,
+                 - visa or residence permit,
+                 - proof of name change (if applicable),
+                 - all original academic credentials authenticated by the Ministry of Foreign Affairs, and attendance proof from the issuing country;
+                 - degree-level requirements include a graduation certificate and passport/visa for secondary education,
+                 - degree and transcript for bachelor's,
+                 - full academic documents for master's and PhD—all authenticated;
+        
+                Processing Time: 50 minutes
+                Fee For The Services:
+                  - 225 ETB for Ethiopians
+                  - 450 ETB for foreign use
+
+  utter_Education_Training_Authority_service_en:
+  - text: |
+        Services:
+          The Education and Training Authority (ETA) provides the following services:
+             1. Authentication of Educational Credentials
+             2. Equivalence of Educational Credentials
+
+  utter_Authentication_Educational_Credentials_doc_en:
+  - text: |
+        1. Authentication of Educational Credentials
+        
+             Documents Required:
+                 - National ID
+                 - Local ID or Passport
+                 - Power of Attorney if not the applicant
+                 - original signed and stamped degree and transcript
+                 - admission documents such as a 12th grade certificate or diploma
+                 - COC certificate for diploma holders
+                 - equivalence letter for foreign degrees
+                 - court decision for name changes if applicable
+
+  utter_Authentication_Educational_Credentials_time_en:
+  - text: "Processing Time: 50 minutes"
+
+  utter_Authentication_Educational_Credentials_fee_en:
+  - text: |
+        Fee For The Services:
+                   - 200 ETB for Ethiopians
+                   - 400 ETB for foreign use
+
+  utter_Equivalence_Educational_Credentials_doc_en:
+  - text: |
+        2. Equivalence of Educational Credentials
+        
+               Documents Required:
+                   - a Passport or ID,
+                   - visa or residence permit,
+                   - proof of name change (if applicable),
+                   - all original academic credentials authenticated by the Ministry of Foreign Affairs, and attendance proof from the issuing country;
+                   - degree-level requirements include a graduation certificate and passport/visa for secondary education,
+                   - degree and transcript for bachelor's,
+                   - full academic documents for master's and PhD—all authenticated;
+  
+
+  utter_Equivalence_Educational_Credentials_time_en:
+  - text: "Processing Time: 50 minutes"
+
+  utter_Equivalence_Educational_Credentials_fee_en:
+  - text: |
+        Fee For The Services:
+                         - 225 ETB for Ethiopians
+                         - 450 ETB for foreign use
+
+  utter_Ministry_Labor_Skills_service_en:
+  - text: |
+        Services:
+         Available services provided by The Ministry of Labor and Skills (MoLS) Service include:
+           1. Expat Work Permit System 
+           2. Enterprise Development service
+
+  utter_Ministry_Trade_Regional_Integration_service_en:
+  - text: |
+        Services:
+          Available services provided by The Ministry of Trade & Regional (MoTRI) Integration Service include:
+            1. Business Registration Service
+            2. Business License Issuance Service
+            3. Business License Renewal Service
+            4. Business Amendment Service
+
+  utter_National_ID_general_en:
+  - text: |
+        Services:
+           The National ID provides the following services:
+             1. Registration for National ID
+             2. Updating an Existing National ID
+             3. Accepting Feedback and Inquiries
+        
+              DOCUMENTS REQUIRED:
+                - Required Documents for Registration for National ID Updating an Existing National ID (any one of the following):
+                - Kebele ID
+                - Passport
+                - Birth Certificate
+                - Student ID
+                - Driving License
+                - Car Ownership Document
+                - Bank Book
+        
+                  Processing Time: 8-10 minutes
+                  Fee For The Services: Free
+
+  utter_NI_service_en:
+  - text: |
+        Services:
+           The National ID provides the following services:
+             1. Registration for National ID
+             2. Updating an Existing National ID
+             3. Accepting Feedback and Inquiries
+
+  utter_NID_service_doc_en:
+  - text: |
+        DOCUMENTS REQUIRED:
+                - Required Documents for Registration for National ID Updating an Existing National ID (any one of the following):
+                - Kebele ID
+                - Passport
+                - Birth Certificate
+                - Student ID
+                - Driving License
+                - Car Ownership Document
+                - Bank Book
+
+  utter_National_ID_service_time_en:
+  - text: "Processing Time: 8-10 minutes"
+
+  utter_NID_service_fee_en:
+  - text: "Fee For The Services: Free"
+
+  utter_Commercial_Bank_Ethiopia_general_en:
+  - text: |
+        Services:
+         The Commercial Bank of Ethiopia (CBE) provides the following services:
+           1. Account Opening
+           2. Digital channels mobile banking, CBE Birr, Debit Card and Internet banking
+        
+        1. Account Opening
+        
+            DOCUMENTS REQUIRED:
+              - National ID
+              - the client must be above 18
+        
+                Processing Time: 15 minutes
+                Fee For The Services: Free
+        
+        2. PAID SERVICE (NO CASH)
+        
+            Documents Required:
+               - National id
+               - the client must be above 18
+        
+                  Processing Time: 2-5 minutes
+
+  utter_Commercial_Bank_Ethiopia_service_en:
+  - text: |
+        Services:
+         The Commercial Bank of Ethiopia (CBE) provides the following services:
+             1. Account opening service 
+             2. Digital Banking service 
+                 2.1. Mobile banking 
+                 2.2. Internet banking 
+                 2.3. CBEbirr
+  utter_Acc_opening_doc_en:
+  - text: |
+        1. Account Opening
+           DOCUMENTS REQUIRED:
+             - National ID
+             - the client must be above 18
+
+  utter_Acc_opening_time_en:
+  - text: "Processing Time: 15 minutes"
+
+  utter_Acc_opening_fee_en:
+  - text: "Fee For The Services: Free"
+
+  utter_PAID_SERVICE_doc_en:
+  - text: |
+        2. Digital Banking service
+             Documents Required:
+                - National id
+                - the client must be above 18
+
+  utter_NO_CASH_time_en:
+  - text: "Processing Time: 2-5 minutes"
+
+  utter_PAID_SERVICE_fee_en:
+  - text: "Fee For The Services: Free, But, If the client is using any type of service that requires transfer of money more than 2000 they will have to charge the client 100 birr. mesob derejet takes 5% from every service."
+
+  utter_Ethio_Telecom_general_en:
+  - text: |
+        Services:
+         Ethio Telecom provides the following services:
+            1. Tele Birr service
+            2. Enterprise solutions
+        
+        1. Tele Birr
+        
+            Documents Required:
+              - National id
+        
+              Processing Time: 5 minutes
+              Fee For The Services: Free
+        
+        2. Enterprise solutions
+        
+             Documents Required:
+                - National id
+                - Enterprise license
+                - Tin certificate
+                - Registration paper
+                - Stamp with application letter
+                - Delegator with id
+        
+             Processing Time: 5 minutes
+             Fee For The Services: Free
+
+  utter_Ethio_Telecom_service_en:
+  - text: |
+        Services:
+         Ethio Telecom provides the following services:
+            1. Tele Birr service
+            2. Enterprise solutions
+
+  utter_tele_birr_doc_en:
+  - text: |
+        1. Tele Birr
+         Documents Required:
+                - National id
+
+  utter_tele_birr_time_en:
+  - text: "Processing Time: 5 minutes"
+
+  utter_tele_birr_fee_en:
+  - text: "Fee For The Services: Free"
+
+  utter_Enterprise_solutions_doc_en:
+  - text: |
+        2. Enterprise solutions
+              Documents Required:
+                 - National id
+                 - Enterprise license
+                 - Tin certificate
+                 - Registration paper
+                 - Stamp with application letter
+                 - Delegator with id
+  utter_Enterprise_solutions_time_en:
+  - text: "Processing Time: 5 minutes"
+
+  utter_Enterprise_solutions_fee_en:
+  - text: "Fee For The Services: Free"
+
+  utter_Ethiopian_Environmental_Protection_Authority_general_en:
+    - text: |
+        Services:
+          The Ethiopian Environmental Protection Authority (EEPA) offers a comprehensive range of services, including:
+             1. Environmental and Social Impact Assessment Approval Service – New License for Organizations
+             2. Environmental and Social Impact Assessment Approval Service – License Renewal for Organizations
+             3. Environmental and Social Impact Assessment Approval Service – License Upgrade for Organizations
+             4. Environmental and Social Impact Assessment Approval Service – License Replacement for Organizations
+             5. Environmental and Social Impact Assessment Approval Service – New License for Individuals
+             6. Environmental and Social Impact Assessment Approval Service – License Upgrade for Individuals
+             7. Environmental and Social Impact Assessment Approval Service – License Renewal for Individuals
+             8. Environmental and Social Impact Assessment Approval Service – License Replacement for Individuals
+             9. GMO-Free (Non-GMO) Live Organism Certification Service
+
+        1. Environmental and Social Impact Assessment Approval Service – New License for Organizations
+             Documents Required:
+               - Business License
+               - Digital ID
+               - Trade Registration Certificate
+               - Personal Certificates and Affidavits
+               - Legal Office Lease Agreement
+               - Bank Statement (Office Capital)
+               - Operational Guidelines
+               - Memorandum of Association
+               - Three (3) passport-size photos of the manager (3x4 cm)
+               - Legal Power of Attorney (if applicable)
+
+                 Processing Time: 120 minutes
+                 Fee For The Services: Free
+
+        2. Environmental and Social Impact Assessment Approval Service – License Renewal for Organizations
+             Documents Required:
+               - Digital ID of the Manager
+               - Business Registration
+               - Personal Certificates and Agreements
+               - Legal Office/Bureau Rental Agreement
+               - 3x4 Photo of the Manager
+               - Bank Support Letter
+               - Previous Service Certificate
+               - Workplace Safety Report from Local Authorities
+               - Tax Payment Confirmation
+               - Trade License Certificate
+               - Operational Guidelines
+               - Founding Document
+               - Legal Power of Attorney Document
+
+                 Processing Time: 120 minutes
+                 Fee For The Services: Free
+
+        3. Environmental and Social Impact Assessment Approval Service – License Upgrade for Organizations
+              Documents Required:
+               - Manager's Digital ID
+               - Business Registration
+               - Personal Certificates and Agreements
+               - Legal Office/Bureau Rental Agreement
+               - 3x4 Photo of the Manager
+               - Bank Letter for Working Capital
+               - Previous Clearance Service Certificate
+               - Work Report from Local Security Authority
+               - Tax Payment Confirmation Certificate
+               - Business License Certificate
+               - Operational Guidelines
+               - Founding Document
+               - Legal Power of Attorney Document
+
+                    Processing Time: 120 minutes
+                    Fee For The Services: Free
+
+        4. Environmental and Social Impact Assessment Approval Service – License Replacement for Organizations
+            Documents Required:
+              - Police Clearance Certificate
+              - Copy of Previous Certificate
+              - Manager's Digital ID
+              - Identification Card
+              - Manager's 3x4 Photograph
+              - Legal Power of Attorney Document
+
+               Processing Time: 120 minutes
+               Fee For The Services: Free
+
+        5. Environmental and Social Impact Assessment Approval Service – New License for Individuals
+           Documents Required:
+             - Personal Digital Identification
+             - Educational Certificate (for foreign graduates)
+             - Upload of Criminal Record Clearance
+             - Legal Work Experience Certificate
+             - Personal 3x4 Legal Photograph
+
+              Processing Time: 40 minutes
+              Fee For The Services: Free
+
+        6. Environmental and Social Impact Assessment Approval Service – License Upgrade for Individuals
+            Documents Required:
+              - Individual's Digital ID
+              - Educational Certificate (if obtained abroad)
+              - Upload Resume/Curriculum Vitae (CV)
+              - Legal Proof of Work Experience
+              - Local Security Support Letter
+              - Research Publication in the Relevant Field
+              - Copy of Previous Certificate
+              - Individual's 3x4 Legal Photograph
+              - Power of Attorney Document
+
+             Processing Time: 40 minutes
+             Fee For The Services: Free
+
+        7. Environmental and Social Impact Assessment Approval Service – License Renewal for Individuals
+              Documents Required:
+                - Police Clearance Certificate
+                - Copy of Previous Certificate
+                - Individual's Digital ID
+                - Individual's 3x4 Photograph
+
+               Processing Time: 40 minutes
+               Fee For The Services: Free
+
+        8. Environmental and Social Impact Assessment Approval Service – License Replacement for Individuals
+             Documents Required:
+               - Individual's Digital ID
+               - Educational Credentials
+               - Legal Proof of Work Experience
+               - Support Letter from Local Security Authority
+               - Field-Specific Research Publication (if applicable)
+               - Copy of Previous Certificate
+               - Individual's 3x4 Photograph (Legal)
+               - Legal Power of Attorney Document
+
+                Processing Time: 20 minutes
+                Fee For The Services: Free
+
+        9. GMO-Free (Non-GMO) Live Organism Certification Service
+              Documents Required:
+                - Business License
+                - ECX Delivery or Agricultural Contract
+                - Business Registration
+                - Tax Clearance Certificate
+                - Ongoing Contract Letter
+                - Legal Power of Attorney Document
+
+                 Processing Time: 30 minutes
+                 Fee For The Services: Free
+
+  utter_ethiopian_environmental_protection_authority_service_en:
+    - text: |
+        Services:
+          The Ethiopian Environmental Protection Authority (EEPA) offers a comprehensive range of services, including:
+             1. Environmental and Social Impact Assessment Approval Service – New License for Organizations
+             2. Environmental and Social Impact Assessment Approval Service – License Renewal for Organizations
+             3. Environmental and Social Impact Assessment Approval Service – License Upgrade for Organizations
+             4. Environmental and Social Impact Assessment Approval Service – License Replacement for Organizations
+             5. Environmental and Social Impact Assessment Approval Service – New License for Individuals
+             6. Environmental and Social Impact Assessment Approval Service – License Upgrade for Individuals
+             7. Environmental and Social Impact Assessment Approval Service – License Renewal for Individuals
+             8. Environmental and Social Impact Assessment Approval Service – License Replacement for Individuals
+             9. GMO-Free (Non-GMO) Live Organism Certification Service
+
+  utter_new_license_organizations_en:
+    - text: |
+        1. Environmental and Social Impact Assessment Approval Service – New License for Organizations
+             Documents Required:
+               - Business License
+               - Digital ID
+               - Trade Registration Certificate
+               - Personal Certificates and Affidavits
+               - Legal Office Lease Agreement
+               - Bank Statement (Office Capital)
+               - Operational Guidelines
+               - Memorandum of Association
+               - Three (3) passport-size photos of the manager (3x4 cm)
+               - Legal Power of Attorney (if applicable)
+
+                Processing Time: 120 minutes
+                 Fee For The Services: Free
+
+  utter_license_renewal_organizations_en:
+    - text: |
+        2. Environmental and Social Impact Assessment Approval Service – License Renewal for Organizations
+             Documents Required:
+               - Digital ID of the Manager
+               - Business Registration
+               - Personal Certificates and Agreements
+               - Legal Office/Bureau Rental Agreement
+               - 3x4 Photo of the Manager
+               - Bank Support Letter
+               - Previous Service Certificate
+               - Workplace Safety Report from Local Authorities
+               - Tax Payment Confirmation
+               - Trade License Certificate
+               - Operational Guidelines
+               - Founding Document
+               - Legal Power of Attorney Document
+
+                 Processing Time: 120 minutes
+                 Fee For The Services: Free
+
+  utter_license_upgrade_organizations_en:
+    - text: |
+        3. Environmental and Social Impact Assessment Approval Service – License Upgrade for Organizations
+              Documents Required:
+               - Manager's Digital ID
+               - Business Registration
+               - Personal Certificates and Agreements
+               - Legal Office/Bureau Rental Agreement
+               - 3x4 Photo of the Manager
+               - Bank Letter for Working Capital
+               - Previous Clearance Service Certificate
+               - Work Report from Local Security Authority
+               - Tax Payment Confirmation Certificate
+               - Business License Certificate
+               - Operational Guidelines
+               - Founding Document
+               - Legal Power of Attorney Document
+
+                   Processing Time: 120 minutes
+                    Fee For The Services: Free
+
+  utter_license_replacement_organizations_en:
+    - text: |
+        4. Environmental and Social Impact Assessment Approval Service – License Replacement for Organizations
+            Documents Required:
+              - Police Clearance Certificate
+              - Copy of Previous Certificate
+              - Manager's Digital ID
+              - Identification Card
+              - Manager's 3x4 Photograph
+              - Legal Power of Attorney Document
+
+               Processing Time: 120 minutes
+               Fee For The Services: Free
+
+  utter_new_license_individuals_en:
+    - text: |
+        5. Environmental and Social Impact Assessment Approval Service – New License for Individuals
+           Documents Required:
+             - Personal Digital Identification
+             - Educational Certificate (for foreign graduates)
+             - Upload of Criminal Record Clearance
+             - Legal Work Experience Certificate
+             - Personal 3x4 Legal Photograph
+
+              Processing Time: 40 minutes
+              Fee For The Services: Free
+
+  utter_license_upgrade_individuals_en:
+    - text: |
+        6. Environmental and Social Impact Assessment Approval Service – License Upgrade for Individuals
+            Documents Required:
+              - Individual's Digital ID
+              - Educational Certificate (if obtained abroad)
+              - Upload Resume/Curriculum Vitae (CV)
+              - Legal Proof of Work Experience
+              - Local Security Support Letter
+              - Research Publication in the Relevant Field
+              - Copy of Previous Certificate
+              - Individual's 3x4 Legal Photograph
+              - Power of Attorney Document
+
+             Processing Time: 40 minutes
+             Fee For The Services: Free
+
+  utter_license_renewal_individuals_en:
+    - text: |
+        7. Environmental and Social Impact Assessment Approval Service – License Renewal for Individuals
+              Documents Required:
+                - Police Clearance Certificate
+                - Copy of Previous Certificate
+                - Individual's Digital ID
+                - Individual's 3x4 Photograph
+
+               Processing Time: 40 minutes
+               Fee For The Services: Free
+
+  utter_license_replacement_individuals_en:
+    - text: |
+        8. Environmental and Social Impact Assessment Approval Service – License Replacement for Individuals
+             Documents Required:
+               - Individual's Digital ID
+               - Educational Credentials
+               - Legal Proof of Work Experience
+               - Support Letter from Local Security Authority
+               - Field-Specific Research Publication (if applicable)
+               - Copy of Previous Certificate
+               - Individual's 3x4 Photograph (Legal)
+               - Legal Power of Attorney Document
+
+                Processing Time: 20 minutes
+                Fee For The Services: Free
+
+  utter_gmo_free_live_organism_certification_en:
+    - text: |
+        9. GMO-Free (Non-GMO) Live Organism Certification Service
+              Documents Required:
+                - Business License
+                - ECX Delivery or Agricultural Contract
+                - Business Registration
+                - Tax Clearance Certificate
+                - Ongoing Contract Letter
+                - Legal Power of Attorney Document
+
+                Processing Time: 30 minutes
+                 Fee For The Services: Free
+
+  utter_Ministry_Justice_general_en:
+    - text: |
+        Services:
+         The Ministry of Justice (MoJ) offers a comprehensive range of services, including:
+           1. Issuance of Advocates License
+           2. Renewal of Licensing Advocates
+           3. Upgrade the Licensing of Advocates
+
+        1. New Advocates License
+           Documents Required:
+             - having Ethiopian citizenship
+             - having first degree by law
+             - non criminal record from the recent company he/she work on
+             - having disciplined personality
+             - work experience is mandatory
+
+             Processing Time: Not specified
+             Fee For The Services: is not decided yet
+
+        2. Renewal of Licensing Advocates
+            Documents Required:
+              - tax clearance
+              - advocates membership association
+              - pro-bono attach report
+
+              Processing Time: Not specified
+              Fee For The Services: 628 ETB
+
+        3. Upgrade the Licensing of Advocates
+             Documents Required:
+                - previous Advocates License
+
+               Processing Time: Not specified
+               Fee For The Services: is not decided yet
+
+  utter_Ministry_Justice_service_en:
+    - text: |
+        Services:
+         The Ministry of Justice (MoJ) offers a comprehensive range of services, including:
+           1. Issuance of Advocates License
+           2. Renewal of Licensing Advocates
+           3. Upgrade the Licensing of Advocates
+
+  utter_Issuance_Advocates_License_doc_en:
+    - text: |
+        1. New Advocates License
+            Documents Required:
+              - having Ethiopian citizenship
+              - having first degree by law
+              - non criminal record from the recent company he/she work on
+              - having disciplined personality
+              - work experience is mandatory
+
+  utter_Issuance_Advocates_License_time_en:
+    - text: "Processing Time: Not specified"
+
+  utter_Issuance_Advocates_License_fee_en:
+    - text: "Fee For The Services: is not decided yet"
+
+  utter_Renewal_Licensing_Advocates_doc_en:
+    - text: |
+        2. Renewal of Licensing Advocates
+             Documents Required:
+               - tax clearance
+               - advocates membership association
+               - pro-bono attach report
+
+  utter_Renewal_Licensing_Advocates_time_en:
+    - text: "Processing Time: Not specified"
+
+  utter_Renewal_Licensing_Advocates_fee_en:
+    - text: "Fee For The Services: 628 ETB"
+
+  utter_Upgrade_Licensing_Advocates_doc_en:
+    - text: |
+        3. Upgrade the Licensing of Advocates
+              Documents Required:
+                 - previous Advocates License
+
+  utter_Upgrade_Licensing_Advocates_time_en:
+    - text: "Processing Time: Not specified"
+
+  utter_Upgrade_Licensing_Advocates_fee_en:
+    - text: "Fee For The Services: is not decided yet"
+
+  utter_Ethiopian_Agricultural_Authority_general_en:
+    - text: |
+        Services:
+          The Ethiopian Agricultural Authority (EAA)offers a comprehensive range of services, including:
+             1. New Certification of Agrochemical Manufacturers and Importers
+             2. Renewal Certification of Agrochemical Manufacturers and Importers
+             3. New Certification of fertilizer manufacturers and importers
+             4. Renewal Certification of fertilizer manufacturers and importers
+             5. New Certification of plant and plant products importers and Exporters
+             6. Renewal Certification of plant and plant products importers and Exporters
+             7. New Certification of Seed producers, importers, distributors, and processors
+             8. Renewal Certification of Seed producers, importers, distributors, and processors
+             9. New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers
+
+        1. New Certification of Agrochemical Manufacturers and Importers
+           Documents Required:
+             - National ID, Kebele ID, Passport, or Driver's License
+             - Office rental agreement certified by contract and supporting documents or
+             - property ownership confirmation document/map
+             - Storage rental agreement for anti-pest warehouse certified by contract and
+             - supporting documents or property ownership confirmation document/map
+             - Professional recommendation letter, academic certificate, and related work
+             - experience in the field of Agricultural Science, Chemistry, or Toxicology
+             - Completed education in the field of Secretarial Science, Office
+             - Administration, or related studies
+             - Professional recommendation letter and educational certificate
+             - Bank statement/proof showing sufficient capital to operate the business
+             - Organizational governance and establishment document (if PLC)
+             - Environmental and social impact assessment report (for anti-pest product manufacturing companies)
+             - Investment license (for manufacturing companies)
+             - Document verifying the existence of an adequate anti-pest
+             - production/preparation section (for anti-pest product manufacturers)
+             - Document verifying the existence of an adequate anti-pest packaging section (for anti-pest product manufacturers)
+             - Document verifying the existence of a quality assurance laboratory for anti-pest products (for anti-pest product manufacturers)
+             - Document verifying the existence of occupational health insurance coverage (for anti-pest product manufacturers)
+             - A 3x4 photo of the organization's general manager
+
+              Processing Time: 24 hours
+              Fee For The Services: Free
+
+        2. Renewal Certification of Agrochemical Manufacturers and Importers
+           Documents Required:
+             - National ID, Kebele ID, Passport, or Driver's License
+             - Office rental contract certified by agreement and supporting documentation, or proof of ownership document/map (if previous address change exists)
+             - Storage facility (for anti-pest products) rental agreement certified by contract and supporting documents or ownership confirmation document/map (if previous address change exists)
+             - For those with an academic background in Agricultural Science, Chemistry, or Toxicology: professional recommendation letter, educational certificate, and work experience (if there is a change in professional personnel)
+             - For those with an academic background in Secretarial Science, Office Administration, or related fields: professional recommendation letter and educational certificate (if there is a change in administrative professional)
+             - Environmental and Social Impact Assessment Report (for anti-pest product manufacturing companies)
+             - Document verifying the existence of a sufficient anti-pest production/preparation section (for anti-pest product manufacturers) (if previous address change exists)
+             - Document verifying the existence of a sufficient anti-pest packaging section (for anti-pest product manufacturers) (if previous address change exists)
+             - Document showing the presence of an anti-pest product quality control laboratory (for anti-pest product manufacturers) (if previous address change exists)
+             - Document proving the presence of professional health insurance guarantee (for anti-pest product manufacturers)
+             - Previously issued competency verification certificate
+
+              Processing Time: 16 hours
+              Fee For The Services: Free
+
+        3. New Certification of fertilizer manufacturers and importers
+            Documents Required:
+             - National ID, Kebele ID, Passport, or Driver's License
+             - Office rental agreement certified by contract and supporting documentation, or property ownership confirmation document/map
+             - Warehouse/storage rental agreement certified by contract and supporting documentation, or property ownership confirmation document/map
+             - Professional recommendation letter, educational certificate, and work experience in Agricultural Science, Chemistry, or Toxicology
+             - Professional recommendation letter and educational certificate in Secretarial Science, Office Administration, or related fields
+             - Bank statement or evidence showing sufficient capital to operate the business
+             - Governance and establishment document (if PLC)
+             - Investment license (for manufacturing company)
+             - Environmental and social impact assessment report (for manufacturing company)
+             - Document confirming the existence of a sufficient production/preparation unit (for manufacturing company)
+             - Document confirming the existence of a sufficient packaging unit (for manufacturing company)
+             - Document showing the presence of a quality control laboratory (for manufacturing company)
+             - Document proving the existence of occupational health insurance coverage (for manufacturing company)
+             - A 3x4 photograph of the company's general manager
+             - Document showing that the company has fulfilled manufacturing level requirements as per the Ethiopian Standards Agency (for manufacturing company)
+
+                Processing Time: 24 hours
+                Fee For The Services: Free
+
+        4. Renewal Certification of fertilizer manufacturers and importers
+             Documents Required:
+                - National ID, Kebele ID, Passport, or Driver's License
+                - Certified office rental agreement or property ownership confirmation document/map (if there was a previous address change)
+                - Certified warehouse/storage rental agreement or property ownership confirmation document/map (if there was a previous address change)
+                - Professional recommendation letter, educational certificate, and work experience for those who have completed studies in Agricultural Science, Agronomy, or related fields (if there is a change in the professional)
+                - Professional recommendation letter and educational certificate for those who have completed studies in Secretarial Science, Office Administration, or related fields (if there is a change in the administrative professional)
+                - Environmental and Social Impact Assessment Report (for manufacturers)
+                - Document confirming the existence of a sufficient production/preparation section (for manufacturers) (if there was a previous address change)
+                - Document confirming the existence of a sufficient packaging section (for manufacturers) (if there was a previous address change)
+                - Document confirming the presence of a quality control laboratory (for manufacturers) (if there was a previous address change)
+                - Document showing the existence of professional health insurance coverage (for manufacturers)
+                - Performance level certificate verified by the Ethiopian Standards Agency (for manufacturers)
+                - Document showing that the manufacturer meets the level requirements set by the Ethiopian Standards Agency (for manufacturers)
+                - Previously issued certificate of competency
+
+                 Processing Time: 16 minutes
+                 Fee For The Services: free
+
+        5. New Certification of plant and plant products importers and Exporters
+             Documents Required:
+               - Reference letter
+               - Bank letter confirming the existence of capital
+               - Office secretary's educational certificate and recommendation letter — holding a diploma or degree in any field of study
+               - Agricultural professional's educational certificate and recommendation letter — holding a diploma or degree in Crop Protection; if providing pest control services, must have 5 years of work experience in crop protection
+               - Ownership map or signed rental agreement for the warehouse, to be submitted together
+              - Ownership map or signed rental agreement for the office, to be submitted together
+
+        For Pesticide and White Polythene Distributors (if applicable):
+            - Valid and renewed crop handling license issued by the Ethiopian Quality and Standards Authority
+            - Valid and renewed certificate indicating 100kg, 200kg, etc. measuring scale issued by the Ethiopian Quality and Standards Authority
+            - Letter of environmental compliance issued by the local environmental protection authority
+
+        If the applicant is a cooperative association:
+           - Founding document and internal bylaw of the association, to be submitted together
+
+        All documents must be valid, up-to-date, and not expired.
+
+               Processing Time: 24 hours
+               Fee For The Services: free
+
+        6. Renewal Certification of plant and plant products importers and Exporters
+             Documents Required:
+                 - Bank letter-confirming the existence of capital,
+                 - Office secretary's educational certificate and recommendation letter, holding a diploma or degree in any field of study
+                 - Agricultural professional's educational certificate and recommendation letter, holding a diploma or degree in Crop Protection; if providing pest control services, must have 5 years of work experience in pest control,
+                 - Ownership map or signed rental agreement for the warehouse to be submitted together,
+                 - Ownership map or signed rental agreement for the office to be submitted together,
+                 - If licensed for pesticide and white polythene distribution, a valid and renewed license for agricultural product handling issued by the Ethiopian Quality and Standards Authority,
+                 - If licensed for pesticide and white polythene distribution, a valid and renewed certificate indicating scale weights such as 100kg, 200kg, etc., issued by the Ethiopian Quality and Standards Authority,
+                 - If licensed for pesticide and white polythene distribution, a letter of environmental compliance issued by the local environmental protection authority
+
+                Processing Time: 15 hours
+                Fee For The Services: free
+
+        7. New Certification of Seed producers, importers, distributors, and processors
+              Documents Required:
+        For Importers of Plant Seeds (Companies, Individuals, Organizations):
+            - Must submit an application
+            - Must fill out a questionnaire
+            - Must have a qualified professional with education related to agriculture
+            - The professional's work permit, a new recommendation letter, and work experience must be submitted
+            - Must submit a warehouse ownership map or a valid rental agreement for seed service
+            - Must pay the service fee
+            - Two passport-size photos
+
+        For Plant Seed Producers:
+            - Must submit an application
+            - Must fill out a questionnaire
+            - If approved from more than one region, a competency certificate from the authority must be provided, along with an inspection report from the regions and a recommendation letter from the market
+            - Must have a qualified professional with education related to agriculture
+            - The professional's work permit, a new recommendation letter, and work experience must be submitted
+            - Must submit a valid map or rental agreement for the seed service warehouse
+            - Must submit a land ownership map or rental agreement
+            - Must submit the quantity and type of agricultural equipment
+            - Must pay the service fee
+            - Two passport-size photos
+
+        For Plant Seed Preparation and Distribution:
+            - Must submit an application
+            - Must fill out a questionnaire
+            - Must have a qualified professional with education related to agriculture
+            - The professional's work permit, a new recommendation letter, and work experience must be submitted
+            - Must submit a valid map or rental agreement for the seed service warehouse
+            - Must submit a land ownership map or rental agreement
+            - Must submit the quantity and type of seed processing equipment
+            - Must pay the service fee
+            - Two passport-size photos
+
+               Processing Time: 24 hours
+               Fee For The Services: free
+
+        8. Renewal Certificate of competency Issuance for Veterinary Drug Importers and Wholesalers
+             Documents Required:
+        For Importers and Wholesale Distributors of Veterinary Drugs:
+            - Competency certificate renewal application
+            - Valid lease agreement for veterinary drug warehouse
+            - Work tax paid by professionals
+            - Valid or renewed trade license in the relevant sector
+            - Annual inspection report
+            - Payment of the required fees
+
+                   Processing Time: 16 hours
+                   Fee For The Services: free
+
+        9. New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers
+              Documents Required:
+        For Importers and Wholesale Distributors of Veterinary Drugs Application for competency certificate:
+            - Submission of Form 1 (Schedule 1) duly filled
+            - For responsible entities: Private associations, share companies, and unions (including management regulations and founding documents)
+        For individuals: Identification document
+             - Lease agreement or contract for technical managers and warehouse professionals
+             - Two photos for assistant manager
+             - Four photos for technical manager
+             - Lease agreement or ownership map for veterinary drug warehouse
+             - Professional registration license application for both professionals
+             - Educational certificates
+             - Work experience letters
+             - Recommendation letters
+             - Certificate of Service Completion (for level 4 supervisors)
+             - Payment of required fees
+
+                 Processing Time: 24 hours
+                 Fee For The Services: free
+  utter_Ethiopian_Agricultural_Authority_service_en:
+    - text: |
+        Services:
+          The Ethiopian Agricultural Authority (EAA)offers a comprehensive range of services, including:
+             1. New Certification of Agrochemical Manufacturers and Importers
+             2. Renewal Certification of Agrochemical Manufacturers and Importers
+             3. New Certification of fertilizer manufacturers and importers
+             4. Renewal Certification of fertilizer manufacturers and importers
+             5. New Certification of plant and plant products importers and Exporters
+             6. Renewal Certification of plant and plant products importers and Exporters
+             7. New Certification of Seed producers, importers, distributors, and processors
+             8. Renewal Certification of Seed producers, importers, distributors, and processors
+             9. New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers
+
+  utter_New_Certification_Agrochemical_Manufacturers_en:
+    - text: |
+        1. New Certification of Agrochemical Manufacturers and Importers
+           Documents Required:
+             - National ID, Kebele ID, Passport, or Driver's License
+             - Office rental agreement certified by contract and supporting documents or
+             - property ownership confirmation document/map
+             - Storage rental agreement for anti-pest warehouse certified by contract and
+             - supporting documents or property ownership confirmation document/map
+             - Professional recommendation letter, academic certificate, and related work
+             - experience in the field of Agricultural Science, Chemistry, or Toxicology
+             - Completed education in the field of Secretarial Science, Office
+             - Administration, or related studies
+             - Professional recommendation letter and educational certificate
+             - Bank statement/proof showing sufficient capital to operate the business
+             - Organizational governance and establishment document (if PLC)
+             - Environmental and social impact assessment report (for anti-pest product manufacturing companies)
+             - Investment license (for manufacturing companies)
+             - Document verifying the existence of an adequate anti-pest
+             - production/preparation section (for anti-pest product manufacturers)
+             - Document verifying the existence of an adequate anti-pest packaging section (for anti-pest product manufacturers)
+             - Document verifying the existence of a quality assurance laboratory for anti-pest products (for anti-pest product manufacturers)
+             - Document verifying the existence of occupational health insurance coverage (for anti-pest product manufacturers)
+             - A 3x4 photo of the organization's general manager
+
+              Processing Time: 24 hours
+              Fee For The Services: Free
+
+  utter_Renewal_Certification_Agrochemical_Manufacturers_en:
+    - text: |
+        2. Renewal Certification of Agrochemical Manufacturers and Importers
+           Documents Required:
+             - National ID, Kebele ID, Passport, or Driver's License
+             - Office rental contract certified by agreement and supporting documentation, or proof of ownership document/map (if previous address change exists)
+             - Storage facility (for anti-pest products) rental agreement certified by contract and supporting documents or ownership confirmation document/map (if previous address change exists)
+             - For those with an academic background in Agricultural Science, Chemistry, or Toxicology: professional recommendation letter, educational certificate, and work experience (if there is a change in professional personnel)
+             - For those with an academic background in Secretarial Science, Office Administration, or related fields: professional recommendation letter and educational certificate (if there is a change in administrative professional)
+             - Environmental and Social Impact Assessment Report (for anti-pest product manufacturing companies)
+             - Document verifying the existence of a sufficient anti-pest production/preparation section (for anti-pest product manufacturers) (if previous address change exists)
+             - Document verifying the existence of a sufficient anti-pest packaging section (for anti-pest product manufacturers) (if previous address change exists)
+             - Document showing the presence of an anti-pest product quality control laboratory (for anti-pest product manufacturers) (if previous address change exists)
+             - Document proving the presence of professional health insurance guarantee (for anti-pest product manufacturers)
+             - Previously issued competency verification certificate
+
+              Processing Time: 16 hours
+              Fee For The Services: Free
+
+  utter_New_Certification_fertilizer_Manufacturers_en:
+    - text: |
+        3. New Certification of fertilizer manufacturers and importers
+            Documents Required:
+             - National ID, Kebele ID, Passport, or Driver's License
+             - Office rental agreement certified by contract and supporting documentation, or property ownership confirmation document/map
+             - Warehouse/storage rental agreement certified by contract and supporting documentation, or property ownership confirmation document/map
+             - Professional recommendation letter, educational certificate, and work experience in Agricultural Science, Chemistry, or Toxicology
+             - Professional recommendation letter and educational certificate in Secretarial Science, Office Administration, or related fields
+             - Bank statement or evidence showing sufficient capital to operate the business
+             - Governance and establishment document (if PLC)
+             - Investment license (for manufacturing company)
+             - Environmental and social impact assessment report (for manufacturing company)
+             - Document confirming the existence of a sufficient production/preparation unit (for manufacturing company)
+             - Document confirming the existence of a sufficient packaging unit (for manufacturing company)
+             - Document showing the presence of a quality control laboratory (for manufacturing company)
+             - Document proving the existence of occupational health insurance coverage (for manufacturing company)
+             - A 3x4 photograph of the company's general manager
+             - Document showing that the company has fulfilled manufacturing level requirements as per the Ethiopian Standards Agency (for manufacturing company)
+
+                Processing Time: 24 hours
+                Fee For The Services: Free
+
+  utter_Renewal_Certification_fertilizer_manufacturers_en:
+    - text: |
+        4. Renewal Certification of fertilizer manufacturers and importers
+             Documents Required:
+                - National ID, Kebele ID, Passport, or Driver's License
+                - Certified office rental agreement or property ownership confirmation document/map (if there was a previous address change)
+                - Certified warehouse/storage rental agreement or property ownership confirmation document/map (if there was a previous address change)
+                - Professional recommendation letter, educational certificate, and work experience for those who have completed studies in Agricultural Science, Agronomy, or related fields (if there is a change in the professional)
+                - Professional recommendation letter and educational certificate for those who have completed studies in Secretarial Science, Office Administration, or related fields (if there is a change in the administrative professional)
+                - Environmental and Social Impact Assessment Report (for manufacturers)
+                - Document confirming the existence of a sufficient production/preparation section (for manufacturers) (if there was a previous address change)
+                - Document confirming the existence of a sufficient packaging section (for manufacturers) (if there was a previous address change)
+                - Document confirming the presence of a quality control laboratory (for manufacturers) (if there was a previous address change)
+                - Document showing the existence of professional health insurance coverage (for manufacturers)
+                - Performance level certificate verified by the Ethiopian Standards Agency (for manufacturers)
+                - Document showing that the manufacturer meets the level requirements set by the Ethiopian Standards Agency (for manufacturers)
+                - Previously issued certificate of competency
+
+                 Processing Time: 16 minutes
+                 Fee For The Services: free
+
+  utter_New_Certification_plant_products_en:
+    - text: |
+        5. New Certification of plant and plant products importers and Exporters
+             Documents Required:
+               - Reference letter
+               - Bank letter confirming the existence of capital
+               - Office secretary's educational certificate and recommendation letter — holding a diploma or degree in any field of study
+               - Agricultural professional's educational certificate and recommendation letter — holding a diploma or degree in Crop Protection; if providing pest control services, must have 5 years of work experience in crop protection
+               - Ownership map or signed rental agreement for the warehouse, to be submitted together
+              - Ownership map or signed rental agreement for the office, to be submitted together
+
+        For Pesticide and White Polythene Distributors (if applicable):
+            - Valid and renewed crop handling license issued by the Ethiopian Quality and Standards Authority
+            - Valid and renewed certificate indicating 100kg, 200kg, etc. measuring scale issued by the Ethiopian Quality and Standards Authority
+            - Letter of environmental compliance issued by the local environmental protection authority
+
+        If the applicant is a cooperative association:
+           - Founding document and internal bylaw of the association, to be submitted together
+
+        All documents must be valid, up-to-date, and not expired.
+
+               Processing Time: 24 hours
+               Fee For The Services: free
+
+  utter_Renewal_Certification_plant_products_en:
+    - text: |
+        6. Renewal Certification of plant and plant products importers and Exporters
+             Documents Required:
+                 - Bank letter-confirming the existence of capital,
+                 - Office secretary's educational certificate and recommendation letter, holding a diploma or degree in any field of study
+                 - Agricultural professional's educational certificate and recommendation letter, holding a diploma or degree in Crop Protection; if providing pest control services, must have 5 years of work experience in pest control,
+                 - Ownership map or signed rental agreement for the warehouse to be submitted together,
+                 - Ownership map or signed rental agreement for the office to be submitted together,
+                 - If licensed for pesticide and white polythene distribution, a valid and renewed license for agricultural product handling issued by the Ethiopian Quality and Standards Authority,
+                 - If licensed for pesticide and white polythene distribution, a valid and renewed certificate indicating scale weights such as 100kg, 200kg, etc., issued by the Ethiopian Quality and Standards Authority,
+                 - If licensed for pesticide and white polythene distribution, a letter of environmental compliance issued by the local environmental protection authority
+
+                Processing Time: 15 hours
+                Fee For The Services: free
+
+  utter_New_Certification_Seed_producers_en:
+    - text: |
+        7. New Certification of Seed producers, importers, distributors, and processors
+              Documents Required:
+        For Importers of Plant Seeds (Companies, Individuals, Organizations):
+            - Must submit an application
+            - Must fill out a questionnaire
+            - Must have a qualified professional with education related to agriculture
+            - The professional's work permit, a new recommendation letter, and work experience must be submitted
+            - Must submit a warehouse ownership map or a valid rental agreement for seed service
+            - Must pay the service fee
+            - Two passport-size photos
+
+        For Plant Seed Producers:
+            - Must submit an application
+            - Must fill out a questionnaire
+            - If approved from more than one region, a competency certificate from the authority must be provided, along with an inspection report from the regions and a recommendation letter from the market
+            - Must have a qualified professional with education related to agriculture
+            - The professional's work permit, a new recommendation letter, and work experience must be submitted
+            - Must submit a valid map or rental agreement for the seed service warehouse
+            - Must submit a land ownership map or rental agreement
+            - Must submit the quantity and type of agricultural equipment
+            - Must pay the service fee
+            - Two passport-size photos
+
+        For Plant Seed Preparation and Distribution:
+            - Must submit an application
+            - Must fill out a questionnaire
+            - Must have a qualified professional with education related to agriculture
+            - The professional's work permit, a new recommendation letter, and work experience must be submitted
+            - Must submit a valid map or rental agreement for the seed service warehouse
+            - Must submit a land ownership map or rental agreement
+            - Must submit the quantity and type of seed processing equipment
+            - Must pay the service fee
+            - Two passport-size photos
+
+               Processing Time: 24 hours
+               Fee For The Services: free
+
+  utter_Renewal_Certification_Seed_producers_en:
+    - text: |
+        8. Renewal Certificate of competency Issuance for Veterinary Drug Importers and Wholesalers
+             Documents Required:
+        For Importers and Wholesale Distributors of Veterinary Drugs:
+            - Competency certificate renewal application
+            - Valid lease agreement for veterinary drug warehouse
+            - Work tax paid by professionals
+            - Valid or renewed trade license in the relevant sector
+            - Annual inspection report
+            - Payment of the required fees
+
+                   Processing Time: 16 hours
+                   Fee For The Services: free
+
+  utter_New_Certification_Veterinary_Drug_Manufacturers_en:
+    - text: |
+        9. New Certification of Veterinary Drug Manufacturers, Importers, Exporters, and Wholesalers
+              Documents Required:
+        For Importers and Wholesale Distributors of Veterinary Drugs Application for competency certificate:
+            - Submission of Form 1 (Schedule 1) duly filled
+            - For responsible entities: Private associations, share companies, and unions (including management regulations and founding documents)
+        For individuals: Identification document
+             - Lease agreement or contract for technical managers and warehouse professionals
+             - Two photos for assistant manager
+             - Four photos for technical manager
+             - Lease agreement or ownership map for veterinary drug warehouse
+             - Professional registration license application for both professionals
+             - Educational certificates
+             - Work experience letters
+             - Recommendation letters
+             - Certificate of Service Completion (for level 4 supervisors)
+             - Payment of required fees
+
+                 Processing Time: 24 hours
+                 Fee For The Services: free
+  utter_Ministry_Transport_Logistics_general_en:
+    - text: |
+        Services:
+          The Ministry of Transport and Logistics (MoTL) provides the following services:
+             1. Issuance and Renewal of Commercial Road Public Transport Operators Competency License
+             2. Issuance and Renewal of Commercial Road Freight Transport Operators Competency License
+             3. Issuance and Renewal of Drivers and Assistants Cross-Border Entry Permits
+        
+          1. Issuance and Renewal of Commercial Road Public Transport Operators Competency License
+             Documents Required:
+               - Business registration license certificate
+               - Renewed business license certificate
+               - Tax Identification Number (TIN) certificate
+               - Vehicle ownership verification document (logbook)
+               - Vehicle technical inspection certificate
+               - Third-party insurance certificate for the vehicle
+               - Valid driver's license for the drivers
+               - Special training certificate for the drivers
+               - Identification cards and employment contracts for drivers, assistants, and cashiers
+               - Legal document confirming that all vehicles are equipped with GPS
+               - Legally certified vehicle rental agreement (employment contract) from the relevant legal body
+               - If the operator's office is rented: legally certified lease agreement with supporting documentation
+               - If the office is privately owned: ownership verification document
+               - Educational credentials and employment contracts of human resource staff as specified in the directive
+        
+               Processing Time: 40 minutes
+               Fee For The Services:
+                 - 500 ETB for Vehicles ranging from 1-50
+                 - 1000 ETB for Vehicles ranging from 51-100
+                 - 2000 ETB for Vehicles above from 101
+        
+          2. Issuance and Renewal of Commercial Road Freight Transport Operators Competency License
+               Documents Required:
+                 - Business registration license certificate and business sector identification code
+                 - Renewed business license certificate
+                 - Tax Identification Number (TIN) certificate
+                  - Vehicle ownership verification document (logbook)
+                 - Vehicle technical inspection certificate
+                 - Third-party insurance certificate for the vehicle
+                 - Legal document confirming that all vehicles are equipped with GPS
+                 - House rent agreement or property map
+                 - Valid driver's licenses for the drivers
+                 - Legal document confirming that all vehicles are equipped with GPS Employment contracts for staff
+                 - Driver and assistant benefit identification numbers
+                 - Detailed list of vehicles
+        
+                  Processing Time: 2 hours
+                  Fee For The Services:
+                    - 500 ETB for Vehicles ranging from 1-50
+                    - 1000 ETB for Vehicles ranging from 51-100
+                    - 2000 ETB for Vehicles above from 101
+        
+          3. Issuance and Renewal of Drivers and Assistants Cross-Border Entry Permits
+              Documents Required:
+                  - Vehicle ownership verification document (logbook)
+                  - Renewed identification card
+                  - Driver's passport-size photograph
+                  - Competency certificate
+                  - Detailed list of vehicles
+                  - Renewed driver's license
+                  - Benefit identification card
+                  - For a lost ID, a Police Report must be submitted — only for renewal purposes
+        
+                   Processing Time: 2 hours
+                   Fee For The Services: 100 birr per driver
+
+  utter_Ministry_Transport_Logistics_service_en:
+    - text: |
+        Services:
+          The Ministry of Transport and Logistics (MoTL) provides the following services:
+             1. Issuance and Renewal of Commercial Road Public Transport Operators Competency License
+             2. Issuance and Renewal of Commercial Road Freight Transport Operators Competency License
+             3. Issuance and Renewal of Drivers and Assistants Cross-Border Entry Permits
+
+  utter_Road_Public_Transport_Operators_doc_en:
+    - text: |
+        1. Issuance and Renewal of Commercial Road Public Transport Operators Competency License
+           Documents Required:
+             - Business registration license certificate
+             - Renewed business license certificate
+             - Tax Identification Number (TIN) certificate
+             - Vehicle ownership verification document (logbook)
+             - Vehicle technical inspection certificate
+             - Third-party insurance certificate for the vehicle
+             - Valid driver's license for the drivers
+             - Special training certificate for the drivers
+             - Identification cards and employment contracts for drivers, assistants, and cashiers
+             - Legal document confirming that all vehicles are equipped with GPS
+             - Legally certified vehicle rental agreement (employment contract) from the relevant legal body
+             - If the operator's office is rented: legally certified lease agreement with supporting documentation
+             - If the office is privately owned: ownership verification document
+             - Educational credentials and employment contracts of human resource staff as specified in the directive
+
+  utter_Road_Public_Transport_Operators_time_en:
+    - text: "Processing Time: 40 minutes"
+
+  utter_Road_Public_Transport_Operators_fee_en:
+    - text: |
+        Fee For The Services:
+               - 500 ETB for Vehicles ranging from 1-50
+               - 1000 ETB for Vehicles ranging from 51-100
+               - 2000 ETB for Vehicles above from 101
+
+  utter_Road_Freight_Transport_Operators_doc_en:
+    - text: |
+        2. Issuance and Renewal of Commercial Road Freight Transport Operators Competency License
+             Documents Required:
+               - Business registration license certificate and business sector identification code
+               - Renewed business license certificate
+               - Tax Identification Number (TIN) certificate
+                - Vehicle ownership verification document (logbook)
+               - Vehicle technical inspection certificate
+               - Third-party insurance certificate for the vehicle
+               - Legal document confirming that all vehicles are equipped with GPS
+               - House rent agreement or property map
+               - Valid driver's licenses for the drivers
+               - Legal document confirming that all vehicles are equipped with GPS Employment contracts for staff
+               - Driver and assistant benefit identification numbers
+               - Detailed list of vehicles
+
+  utter_Road_Freight_Transport_Operators_time_en:
+    - text: "Processing Time: 2 hours"
+
+  utter_Road_Freight_Transport_Operators_fee_en:
+    - text: |
+        Fee For The Services:
+              - 500 ETB for Vehicles ranging from 1-50
+              - 1000 ETB for Vehicles ranging from 51-100
+              - 2000 ETB for Vehicles above from 101
+
+  utter_Drivers_Assistants_Cross_Border_doc_en:
+    - text: |
+        3. Issuance and Renewal of Drivers and Assistants Cross-Border Entry Permits
+            Documents Required:
+                - Vehicle ownership verification document (logbook)
+                - Renewed identification card
+                - Driver's passport-size photograph
+                - Competency certificate
+                - Detailed list of vehicles
+                - Renewed driver's license
+                - Benefit identification card
+                - For a lost ID, a Police Report must be submitted — only for renewal purposes
+
+  utter_Drivers_Assistants_Cross_Border_time_en:
+    - text: "Processing Time: 2 hours"
+
+  utter_Drivers_Assistants_Cross_Border_fee_en:
+    - text: "Fee For The Services: 100 birr per driver"
+
+  utter_Ethiopian_Construction_Authority_general_en:
+    - text: |
+        Services:
+         The Ethiopian Construction Authority	(ECA) provides the following services:
+           1. New Professional Registration
+           2. Renewal Professional Registration
+           3. Lost Replacement of Professional Certificate
+           4. New Registration for Water Works Professional License
+           5. Renewal of Water Works Professional License.
+           6. Upgrading for Water Works Professional License
+           7. New Registration of Water Works Competency Certificate for Company
+           8. Renewal of Water Works Company Competency Certificate
+           9. Change Grade for Water Works Companies Competency Certification
+           10. Lost certificate Substitution for Water Works Companies
+
+        1. New Professional Registration
+             Documents Required:
+              - Fayda ID
+              - education evidence
+              - work Experience
+              - service Payment,
+              - for abroad Country Citizen Residence Work Permission
+
+              Processing Time: 45 minutes
+              Fee For The Services:
+               - National - 315ETB
+               - Foreign National - 105.00USD
+
+        2. Renewal Professional Registration
+             Documents Required:
+              - Fayda ID
+              - education Evidence
+              - work Experience
+              - service Payment
+              - for abroad Country Citizen Residence Work Permission
+
+                Processing Time: 8 minutes
+                Fee For The Services:
+                 - National - 262.5ETB
+                 - Foreign National - 52.50USD
+
+        3. Lost Replacement of Professional Certificate
+               Documents Required:
+                - Fayda ID
+                - education Evidence
+                - work Experience
+                - service Payment
+                - for abroad Country Citizen Residence Work Permission
+
+               Processing Time: 30 minutes
+               Fee For The Services:
+                 - National - 105ETB
+                 - Foreign National - 105.00USD
+
+        4. New Registration for Water Works Professional License
+              Documents Required:
+               - Fayda ID
+               - education Evidence
+               - work Experience
+               - service Payment
+               - for abroad Country Citizen Residence Work Permission
+
+               Processing Time: 45 minutes
+               Fee For The Services:
+                - National - 70.5ETB
+                - Foreign National - 70.35USD
+
+        5. Renewal of Water Works Professional License.
+             Documents Required:
+              - Fayda ID
+              - education Evidence
+              - work Experience
+              - service Payment
+              - for abroad Country Citizen Residence Work Permission
+
+            Processing Time: 60 minutes
+            Fee For The Services:
+             - National - 54.6ETB
+             - Foreign National - 54.6USD
+
+        6. Upgrading for Water Works Professional License
+             Documents Required:
+              - Fayda ID
+              - education Evidence
+              - work Experience
+              - service Payment
+              - for abroad Country Citizen Residence Work Permission
+
+             Processing Time: 45 minutes
+             Fee For The Services:
+               - National - 70.35ETB
+               - Foreign National - 70.35USD
+
+        7. New Registration of Water Works Competency Certificate for Company
+              Documents Required:
+                - Fayda ID
+                - TIN Number
+                - sector Business Registration
+                - human Power
+                - Good building Project Performance capital or / and Machinery Vehicle
+                - for foreign Country Citizen professionals Residence Work Permission
+
+              Processing Time: 60 minutes
+              Fee For The Services:
+                - National - 170.1ETB
+                - Foreign National - 170.1USD
+
+        8. Renewal of Water Works Company Competency Certificate
+              Documents Required:
+                - Fayda ID
+                - TIN Number
+                - sector Business Registration
+                - human Power
+                - Good building Project Performance capital or / and Machinery Vehicle
+                - for foreign Country Citizen professionals Residence Work Permission
+
+              Processing Time: 60 minutes
+              Fee For The Services:
+                - National - 170.1ETB
+                - Foreign National - 170.1USD
+
+        9. Change Grade for Water Works Companies Competency Certification
+                Documents Required:
+                 - Fayda ID
+                 - TIN Number
+                 - sector Business Registration
+                 - human Power
+                 - Good building Project Performance capital or / and Machinery Vehicle
+                 - for foreign Country Citizen professionals Residence Work Permission
+
+                 Processing Time: 90 minutes
+                 Fee For The Services:
+                   - National - 170.1ETB
+                   - Foreign National - 170.1USD
+
+        10. Lost certificate Substitution for Water Works Companies
+               Documents Required:
+                  - Fayda ID
+                  - TIN Number
+                  - sector Business Registration
+                  - human Power
+                  - Good building Project Performance capital or / and Machinery Vehicle
+                  - for foreign Country Citizen professionals Residence Work Permission
+
+                Processing Time: 45 minutes
+                Fee For The Services:
+                  - National - 170.1ETB
+                  - Foreign National - 170.1USD
+  utter_Ethiopian_Construction_Authority_service_en:
+    - text: |
+        Services:
+         The Ethiopian Construction Authority	(ECA) provides the following services:
+           1. New Professional Registration
+           2. Renewal Professional Registration
+           3. Lost Replacement of Professional Certificate
+           4. New Registration for Water Works Professional License
+           5. Renewal of Water Works Professional License.
+           6. Upgrading for Water Works Professional License
+           7. New Registration of Water Works Competency Certificate for Company
+           8. Renewal of Water Works Company Competency Certificate
+           9. Change Grade for Water Works Companies Competency Certification
+           10. Lost certificate Substitution for Water Works Companies
+
+  utter_New_Professional_Registration_en:
+    - text: |
+        1. New Professional Registration
+           Documents Required:
+            - Fayda ID
+            - education evidence
+            - work Experience
+            - service Payment,
+            - for abroad Country Citizen Residence Work Permission
+
+            Processing Time: 45 minutes
+            Fee For The Services:
+             - National - 315ETB
+             - Foreign National - 105.00USD
+
+  utter_Renewal_Professional_Registration_en:
+    - text: |
+        2. Renewal Professional Registration
+             Documents Required:
+              - Fayda ID
+              - education Evidence
+              - work Experience
+              - service Payment
+              - for abroad Country Citizen Residence Work Permission
+
+                Processing Time: 8 minutes
+                Fee For The Services:
+                 - National - 262.5ETB
+                 - Foreign National - 52.50USD
+
+  utter_Lost_Replacement_Professional_Certificate_en:
+    - text: |
+        3. Lost Replacement of Professional Certificate
+               Documents Required:
+                - Fayda ID
+                - education Evidence
+                - work Experience
+                - service Payment
+                - for abroad Country Citizen Residence Work Permission
+
+               Processing Time: 30 minutes
+               Fee For The Services:
+                 - National - 105ETB
+                 - Foreign National - 105.00USD
+
+  utter_New_Registration_Water_Works_Professional_License_en:
+    - text: |
+        4. New Registration for Water Works Professional License
+              Documents Required:
+               - Fayda ID
+               - education Evidence
+               - work Experience
+               - service Payment
+               - for abroad Country Citizen Residence Work Permission
+
+               Processing Time: 45 minutes
+               Fee For The Services:
+                - National - 70.5ETB
+                - Foreign National - 70.35USD
+
+  utter_Renewal_Water_Works_Professional_License_en:
+    - text: |
+        5. Renewal of Water Works Professional License.
+             Documents Required:
+              - Fayda ID
+              - education Evidence
+              - work Experience
+              - service Payment
+              - for abroad Country Citizen Residence Work Permission
+
+            Processing Time: 60 minutes
+            Fee For The Services:
+             - National - 54.6ETB
+             - Foreign National - 54.6USD
+
+  utter_Upgrading_Water_Works_Professional_License_en:
+    - text: |
+        6. Upgrading for Water Works Professional License
+             Documents Required:
+              - Fayda ID
+              - education Evidence
+              - work Experience
+              - service Payment
+              - for abroad Country Citizen Residence Work Permission
+
+             Processing Time: 45 minutes
+             Fee For The Services:
+               - National - 70.35ETB
+               - Foreign National - 70.35USD
+
+  utter_New_Registration_Water_Works_Competency_Certificate_Company_en:
+    - text: |
+        7. New Registration of Water Works Competency Certificate for Company
+              Documents Required:
+                - Fayda ID
+                - TIN Number
+                - sector Business Registration
+                - human Power
+                - Good building Project Performance capital or / and Machinery Vehicle
+                - for foreign Country Citizen professionals Residence Work Permission
+
+              Processing Time: 60 minutes
+              Fee For The Services:
+                - National - 170.1ETB
+                - Foreign National - 170.1USD
+
+  utter_Renewal_Water_Works_Company_Competency_Certificate_en:
+    - text: |
+        8. Renewal of Water Works Company Competency Certificate
+              Documents Required:
+                - Fayda ID
+                - TIN Number
+                - sector Business Registration
+                - human Power
+                - Good building Project Performance capital or / and Machinery Vehicle
+                - for foreign Country Citizen professionals Residence Work Permission
+
+              Processing Time: 60 minutes
+              Fee For The Services:
+                - National - 170.1ETB
+                - Foreign National - 170.1USD
+
+  utter_Change_Grade_for_Water_Works_Companies_Competency_Certification_en:
+    - text: |
+        9. Change Grade for Water Works Companies Competency Certification
+                Documents Required:
+                 - Fayda ID
+                 - TIN Number
+                 - sector Business Registration
+                 - human Power
+                 - Good building Project Performance capital or / and Machinery Vehicle
+                 - for foreign Country Citizen professionals Residence Work Permission
+
+                 Processing Time: 90 minutes
+                 Fee For The Services:
+                   - National - 170.1ETB
+                   - Foreign National - 170.1USD
+
+
+  utter_Lost_certificate_Substitution_Water_Works_Companies_en:
+    - text: |
+        10. Lost certificate Substitution for Water Works Companies
+               Documents Required:
+                  - Fayda ID
+                  - TIN Number
+                  - sector Business Registration
+                  - human Power
+                  - Good building Project Performance capital or / and Machinery Vehicle
+                  - for foreign Country Citizen professionals Residence Work Permission
+
+                Processing Time: 45 minutes
+                Fee For The Services:
+                  - National - 170.1ETB
+                  - Foreign National - 170.1USD
+  utter_ministry_tourism_general_en:
+    - text: |
+        Services:
+          Available services provided by The Ministry of Tourism include:
+            1. Support letter for expat professionals in star rated hotel, resort, lodge, motel, tour operators and restaurant
+            2. Support letter for expat professionals in hotel, resort, lodge, motel, tour operators and restaurant
+            3. Issuance of competency certificate for tour guides
+            4. Issuance of competency certificate for tour guides renewal
+            5. Issuance of support letter for tourist cameras, videos, binocular and camera lense
+        
+         1. Support letter for expat professionals in star rated hotel, resort, lodge, motel, tour operators and restaurant
+            Documents Required:
+              - Investment License
+              - Business Registration Certificate
+              - Business License
+              - TIN Number and VAT Certificate Map (House Rent Agreement
+              - Trade License
+              - Employment Contract
+              - Passport
+              - Authenticated Education and Work Experience Certificates
+              - Substitute Professional (Local/Ethiopian): Work and Educational Certificates
+        
+                 Processing Time: 60 minutes
+                 Fee For The Services: free
+        
+         2. Support letter for expat professionals in hotel, resort, lodge, motel, tour operators and restaurant
+               Documents Required:
+                  - Investment License
+                  - Business Registration Certificate
+                  - Business License
+                  - TIN Number and VAT Certificate Map (House Rent Agreement
+                  - Map (House Rent Agreement)
+                  - Trade License
+                  - Employment Contract
+                  - Passport
+                  - Authenticated Education and Work Experience Certificates
+                  - For Substitute Professional (Local/Ethiopian): Work and Educational Certificates
+                  - Substitute's Work Performance Report
+        
+                   Processing Time: 60 minutes
+                   Fee For The Services: free
+        
+         3. Issuance of competency certificate for tour guides
+                  Documents Required:
+                   - Identification Card (ID)
+                   - Tax Identification Number (TIN)
+                   - Medical Examination Certificate
+                   - Fingerprint / Forensic Record
+                   - 3×4 Photograph (both soft copy and hard copy)
+                   - Level 3 Education in the Tourism Sector
+                   - Level 3 COC (Certificate of Competency)
+        
+                   Processing Time: 60 minutes
+                   Fee For The Services: free
+        
+         4. Issuance of competency certificate for tour guides renewal
+                Documents Required:
+                  - Identification Card (ID)
+                  - Tax Identification Number (TIN)
+                  - Medical Examination Certificate
+                  - Fingerprint / Forensic Record
+                  - 3×4 Photograph (both soft copy and hard copy)
+                  - Level 3 Education in the Tourism Sector
+                  - Level 3 COC (Certificate of Competency)
+                  - Minimum of 5 Years Work Experience or More
+        
+                    Processing Time: 60 minutes
+                    Fee For The Services: free
+        
+         5. Issuance of support letter for tourist cameras, videos, binocular and camera lense
+                  Documents Required:
+                    - Agent/Guide Organization Competency Certificate
+                    - Copy of Tourist's Passport
+                    - Travel Program / Itinerary
+                    - Camera / Drone / Binocular Specifications
+        
+                   Processing Time: 30 minutes
+                   Fee For The Services: free
+
+  utter_ministry_tourism_service_en:
+    - text: |
+        Services:
+           Available services provided by The Ministry of Tourism include:
+             1. Support letter for expat professionals in star rated hotel, resort, lodge, motel, tour operators and restaurant
+             2. Support letter for expat professionals in hotel, resort, lodge, motel, tour operators and restaurant
+             3. Issuance of competency certificate for tour guides
+             4. Issuance of competency certificate for tour guides renewal
+             5. Issuance of support letter for tourist cameras, videos, binocular and camera lense
+
+  utter_expat_professionals_in_star_rated_hotel_en:
+    - text: |
+        1. Support letter for expat professionals in star rated hotel, resort, lodge, motel, tour operators and restaurant
+            Documents Required:
+              - Investment License
+              - Business Registration Certificate
+              - Business License
+              - TIN Number and VAT Certificate Map (House Rent Agreement
+              - Trade License
+              - Employment Contract
+              - Passport
+              - Authenticated Education and Work Experience Certificates
+              - Substitute Professional (Local/Ethiopian): Work and Educational Certificates
+        
+                 Processing Time: 60 minutes
+                 Fee For The Services: free
+
+  utter_expat_professionals_hotel_en:
+    - text: |
+        2. Support letter for expat professionals in hotel, resort, lodge, motel, tour operators and restaurant
+              Documents Required:
+                 - Investment License
+                 - Business Registration Certificate
+                 - Business License
+                 - TIN Number and VAT Certificate Map (House Rent Agreement
+                 - Map (House Rent Agreement)
+                 - Trade License
+                 - Employment Contract
+                 - Passport
+                 - Authenticated Education and Work Experience Certificates
+                 - For Substitute Professional (Local/Ethiopian): Work and Educational Certificates
+                 - Substitute's Work Performance Report
+
+                  Processing Time: 60 minutes
+                  Fee For The Services: free
+
+  utter_competency_certificate_for_tour_guides_en:
+    - text: |
+        3. Issuance of competency certificate for tour guides
+                  Documents Required:
+                   - Identification Card (ID)
+                   - Tax Identification Number (TIN)
+                   - Medical Examination Certificate
+                   - Fingerprint / Forensic Record
+                   - 3×4 Photograph (both soft copy and hard copy)
+                   - Level 3 Education in the Tourism Sector
+                   - Level 3 COC (Certificate of Competency)
+        
+                   Processing Time: 60 minutes
+                   Fee For The Services: free
+
+  utter_competency_certificate_tour_guides_renewal_en:
+    - text: |
+        4. Issuance of competency certificate for tour guides renewal
+               Documents Required:
+                 - Identification Card (ID)
+                 - Tax Identification Number (TIN)
+                 - Medical Examination Certificate
+                 - Fingerprint / Forensic Record
+                 - 3×4 Photograph (both soft copy and hard copy)
+                 - Level 3 Education in the Tourism Sector
+                 - Level 3 COC (Certificate of Competency)
+                 - Minimum of 5 Years Work Experience or More
+
+                   Processing Time: 60 minutes
+                   Fee For The Services: free
+
+  utter_support_letter_for_tourist_cameras_en:
+    - text: |
+        5. Issuance of support letter for tourist cameras, videos, binocular and camera lense
+                         Documents Required:
+                           - Agent/Guide Organization Competency Certificate
+                           - Copy of Tourist's Passport
+                           - Travel Program / Itinerary
+                           - Camera / Drone / Binocular Specifications
+        
+                          Processing Time: 30 minutes
+                          Fee For The Services: free
+  utter_Ethiopian_Food_Drug_Authority_general_en:
+    - text: |
+        SERVICES:
+          Available services provided by The Ethiopian Food and Drug Authority (EFDA) include:
+
+             DOCUMENTS REQUIRED:
+              - National ID or Passport
+              - Business registration certificate for businesses
+
+                Processing Time: 30-45 minutes
+                Fee For The Services: Free
+
+  utter_Federal_Public_Procurement_Property_Authority_general_en:
+    - text: |
+        Services:
+         Available services provided by The Federal Public Procurement and Property Authority (FPPPA) include:
+             1. Providing Supplier Registration Service
+             2. Providing Supplier Registration Revision Service
+        
+        1. Providing Supplier Registration Service
+              Documents Required:
+                  - Ethiopia Digital ID Card
+                  - Tax Identification Number (TIN)
+                  - Value Added Tax (VAT) Certificate
+                  - Email and Password
+                  - Competency Certificate (applicable only to certain qualified business sectors)
+                  - Bank Account Number
+        
+        For Partnerships (PLC):
+            - Full names of all shareholders
+            - Emails
+            - Identification numbers
+            - Share amounts or operational regulations
+        
+        For Share Companies:
+           - Full names of all board directors
+           - Emails
+           - Phone numbers
+           - Job responsibilities
+           - Owner or Manager of the Company
+        
+        For various reasons, the applicant cannot appear in person, they must submit a validated Power of Attorney document along with supporting agreements and evidence.
+        
+        For a foreign representative, the following must be provided:
+             - Valid business registration
+             - Capital documentation
+             - Country of business registration
+             - Relevant business sector and related documents
+             - A Power of Attorney letter prepared and submitted based on the sample form available in the system
+        
+                    Processing Time: 45 minutes
+                    Fee For The Services: free
+        
+        2. Providing Supplier Registration Revision Service
+             Documents Required:
+               - Ethiopia Digital ID Card / Payment Card
+               - Email and Password
+               - Competency Certificate (applicable only for certain qualified business sectors)
+        
+        For Partnerships (PLC):
+           - Full names of all shareholders
+           - Emails
+           - Identification numbers
+           - Share amounts
+        
+        For Share Companies:
+           - Full names of all board directors
+           - Emails
+           - Phone numbers
+           - Job responsibilities
+        
+        For Foreign Representatives:
+           - Valid business registration and related documents
+           - Power of Attorney letter prepared based on the system sample
+        
+             Processing Time: 30 minutes
+             Fee For The Services: free
+
+  utter_Federal_Public_Procurement_Property_Authority_service_en:
+    - text: |
+        Services:
+         Available services provided by The Federal Public Procurement and Property Authority (FPPPA) include:
+             1. Providing Supplier Registration Service
+             2. Providing Supplier Registration Revision Service
+
+  utter_supplier_registration_service_en:
+    - text: |
+        1. Providing Supplier Registration Service
+                Documents Required:
+                    - Ethiopia Digital ID Card
+                    - Tax Identification Number (TIN)
+                    - Value Added Tax (VAT) Certificate
+                    - Email and Password
+                    - Competency Certificate (applicable only to certain qualified business sectors)
+                    - Bank Account Number
+        
+          For Partnerships (PLC):
+              - Full names of all shareholders
+              - Emails
+              - Identification numbers
+              - Share amounts or operational regulations
+        
+          For Share Companies:
+             - Full names of all board directors
+             - Emails
+             - Phone numbers
+             - Job responsibilities
+             - Owner or Manager of the Company
+        
+          For various reasons, the applicant cannot appear in person, they must submit a validated Power of Attorney document along with supporting agreements and evidence.
+        
+          For a foreign representative, the following must be provided:
+               - Valid business registration
+               - Capital documentation
+               - Country of business registration
+               - Relevant business sector and related documents
+               - A Power of Attorney letter prepared and submitted based on the sample form available in the system
+        
+                      Processing Time: 45 minutes
+                      Fee For The Services: free
+
+  utter_supplier_registration_revision_service_en:
+    - text: |
+        2. Providing Supplier Registration Revision Service
+                      Documents Required:
+                        - Ethiopia Digital ID Card / Payment Card
+                        - Email and Password
+                        - Competency Certificate (applicable only for certain qualified business sectors)
+        
+                 For Partnerships (PLC):
+                    - Full names of all shareholders
+                    - Emails
+                    - Identification numbers
+                    - Share amounts
+        
+                 For Share Companies:
+                    - Full names of all board directors
+                    - Emails
+                    - Phone numbers
+                    - Job responsibilities
+        
+                 For Foreign Representatives:
+                    - Valid business registration and related documents
+                    - Power of Attorney letter prepared based on the system sample
+        
+                      Processing Time: 30 minutes
+                      Fee For The Services: free
+
+  utter_Ethiopian_Customs_Commission_general_en:
+    - text: |
+        Services:
+           The Ethiopian Customs Commission (ECC) offers a comprehensive range of services, including:
+             1. Temporary Bonded Customs Warehouse License
+                 Documents Required:
+                     - Approved warehouse by the Ethiopian Customs Commission under Proclamation No. 859/2006 and Regulation No. 518/2014
+                     - Valid trade license
+                     - Warehouse insurance
+                     - Confirmation of no pending penalties or violations
+
+                     Processing Time: 50 minutes
+                     Fee For The Services: 1,250 ETB per year
+
+             2. Bonded Customs Warehouse License
+                Documents Required:
+                  - Valid trade license
+                  - Approved warehouse meeting customs standards
+                  - Warehouse insurance
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+            3. Private Temporary Customs Warehouse License
+                  Documents Required:
+                    - Valid trade license
+                    - Warehouse approved by ECC
+                    - Insurance coverage
+                    - Confirmation of compliance with customs regulations
+
+                      Processing Time: 50 minutes
+                      Fee For The Services: 1,250 ETB per year
+
+            4. Private Bonded Customs Warehouse License
+                   Documents Required:
+                    - Approved warehouse under customs laws
+                    - Valid trade license
+                    - Warehouse insurance
+                    - No outstanding penalties
+
+                     Processing Time: 50 minutes
+                     Fee For The Services: 1,250 ETB per year
+
+           5. Bonded Warehouse License for Relief Items
+                Documents Required:
+                  - Valid relief organization license
+                  - Approved warehouse meeting customs requirements
+                  - Confirmation of debt-free status related to the bonded warehouse
+                  - Annual report of goods entry into the warehouse
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: Not specified
+
+            6. Bonded Export Factory License
+               Documents Required:
+                - Valid operational trade license
+                - Approved bonded premises by customs
+                - Confirmation of debt-free status related to bonded premises
+                - Annual inventory report of goods under bonded premises
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+            7. Bonded Export Factory Warehouse License
+                Documents Required:
+                 - Valid trade and bonded factory license
+                 - Approved warehouse under customs standards
+                 - Confirmation of debt-free status
+                 - Annual report on inventory
+
+                   Processing Time: 50 minutes
+                   Fee For The Services: 1,250 ETB per year
+
+            8. Bonded Warehouse License for Gift Deliveries
+                 Documents Required:
+                   - Valid trade license
+                   - Approved warehouse
+                   - Debt-free certification
+                   - Annual inventory report
+
+                    Processing Time: 50 minutes
+                    Fee For The Services: 1,250 ETB per year
+
+            9. Duty-Free Goods Warehouse License
+                Documents Required:
+                  - Warehouse approved by Ethiopian Customs under Proclamation No. 859/2006 and Regulation No. 518/2014
+                  - Valid importer's trade license
+                  - Warehouse insurance
+                  - Authorization to sell duty-free goods
+
+                    Processing Time: 50 minutes
+                     Fee For The Services: 1,250 ETB per year
+
+            10. Duty-Free Retail Outlet License
+              Documents Required:
+                - Valid importer's trade license
+                - Customs clearance and warehouse approval
+                - Annual financial report
+                - Debt-free certification linked to duty-free operations
+
+                Processing Time: 50 minutes
+                Fee For The Services: 1,250 ETB per year
+
+            11. Renewal of Temporary Bonded Customs Warehouse License
+                  Documents Required:
+                    - Compliance with all relevant customs laws
+                    - Valid trade license and warehouse compliance certificates
+
+                 Processing Time: 50 minutes
+                 Fee For The Services: 1,250 ETB per year
+
+            12. Renewal of Bonded Customs Warehouse License
+                Documents Required:
+                 - Valid trade license
+                 - Compliance certificate from customs
+                 - Insurance and debt-free certification
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+            13. Renewal of Private Temporary Customs Warehouse License
+                Documents Required:
+                  - Trade license
+                  - Warehouse insurance and compliance
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+            14. Renewal of Private Bonded Customs Warehouse License
+                Documents Required:
+                   - Valid trade license
+                   - Warehouse insurance and customs clearance
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+            15. Renewal of Bonded Warehouse License for Relief Items
+                Documents Required:
+                   - Valid relief organization license
+                   - Compliance certificate from customs
+                   - Debt-free certification
+
+                   Processing Time: 50 minutes
+                   Fee For The Services: 1,250 ETB per year
+
+            16. Renewal of Bonded Export Factory License
+                 Documents Required:
+                   - Trade license
+                   - Debt-free certification
+                   - Customs clearance
+
+                    Processing Time: 50 minutes
+                    Fee For The Services: 1,250 ETB per year
+
+            17. Renewal of Bonded Export Factory Warehouse License
+                Documents Required:
+                  - Trade license
+                  - Customs approval and debt-free certification
+
+                   Processing Time: 50 minutes
+                   Fee For The Services: 1,250 ETB per year
+
+            18. Bonded Warehouse License for Input Supply
+                 Documents Required:
+                  - Trade license
+                  - Debt-free certification
+
+                   Processing Time: 50 minutes
+                   Fee For The Services: 1,250 ETB per year
+
+            19. Renewal of Duty-Free Goods Warehouse License
+                 Documents Required:
+                   - Valid importer's license
+                   - Customs compliance certificates
+
+                       Processing Time: 50 minutes
+                       Fee For The Services: 1,250 ETB per year
+
+            20. Renewal of Duty-Free Retail Outlet License
+                 Documents Required:
+                    - Valid trade license
+                    - Annual financial reports
+                    - Debt-free certification
+
+                    Processing Time: 50 minutes
+                    Fee For The Services: 1,250 ETB per year
+
+            21. Customs Broker License
+                Documents Required:
+                  - Fully equipped and verified customs office and equipment
+                  - Valid trade license in the relevant field
+                  - Organizational establishment documents and regulations
+                  - At least 2 qualified professionals employed
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+            22. Renewal of Customs Broker License
+                 Documents Required:
+                    - Valid trade license
+                    - Payroll and tax payment proof for last 3 months
+
+                    Processing Time: 50 minutes
+                    Fee For The Services: 1,250 ETB per year
+  utter_Ethiopian_Customs_Commission_service_en:
+    - text: |
+        Services:
+           The Ethiopian Customs Commission (ECC) offers a comprehensive range of services, including:
+               1. Temporary Bonded Customs Warehouse License
+               2. Bonded Customs Warehouse License
+               3. Private Temporary Customs Warehouse License
+               4. Private Bonded Customs Warehouse License
+               5. Bonded Warehouse License for Relief Items
+               6. Bonded Export Factory License
+               7. Bonded Export Factory Warehouse License
+               8. Bonded Warehouse License for Gift Deliveries
+               9. Duty-Free Goods Warehouse License
+               10. Duty-Free Retail Outlet License
+               11. Renewal of Temporary Bonded Customs Warehouse License
+               12. Renewal of Bonded Customs Warehouse License
+               13. Renewal of Private Temporary Customs Warehouse License
+               14. Renewal of Private Bonded Customs Warehouse License
+               15. Renewal of Bonded Warehouse License for Relief Items
+               16. Renewal of Bonded Export Factory License
+               17. Renewal of Bonded Export Factory Warehouse License
+               18. Bonded Warehouse License for Input Supply
+               19. Renewal of Duty-Free Goods Warehouse License
+               20. Renewal of Duty-Free Retail Outlet License
+               21. Customs Broker License
+               22. Renewal of Customs Broker License
+  utter_Temporary_Bonded_Customs_Warehouse_en:
+    - text: |
+        Services:
+             1. Temporary Bonded Customs Warehouse License
+                 Documents Required:
+                     - Approved warehouse by the Ethiopian Customs Commission under Proclamation No. 859/2006 and Regulation No. 518/2014
+                     - Valid trade license
+                     - Warehouse insurance
+                     - Confirmation of no pending penalties or violations
+
+                     Processing Time: 50 minutes
+                     Fee For The Services: 1,250 ETB per year
+
+  utter_Bonded_Customs_Warehouse_en:
+    - text: |
+        Services:
+           2. Bonded Customs Warehouse License
+                Documents Required:
+                  - Valid trade license
+                  - Approved warehouse meeting customs standards
+                  - Warehouse insurance
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+  utter_Private_Temporary_Customs_Warehouse_en:
+    - text: |
+        Services:
+           3. Private Temporary Customs Warehouse License
+                  Documents Required:
+                    - Valid trade license
+                    - Warehouse approved by ECC
+                    - Insurance coverage
+                    - Confirmation of compliance with customs regulations
+
+                      Processing Time: 50 minutes
+                      Fee For The Services: 1,250 ETB per year
+
+  utter_Private_Bonded_Customs_Warehouse_en:
+    - text: |
+        Services:
+           4. Private Bonded Customs Warehouse License
+                   Documents Required:
+                    - Approved warehouse under customs laws
+                    - Valid trade license
+                    - Warehouse insurance
+                    - No outstanding penalties
+
+                     Processing Time: 50 minutes
+                     Fee For The Services: 1,250 ETB per year
+
+  utter_Bonded_Warehouse_License_for_Relief_Items_en:
+    - text: |
+        Services:
+           5. Bonded Warehouse License for Relief Items
+                Documents Required:
+                  - Valid relief organization license
+                  - Approved warehouse meeting customs requirements
+                  - Confirmation of debt-free status related to the bonded warehouse
+                  - Annual report of goods entry into the warehouse
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: Not specified
+
+  utter_Bonded_Export_Factory_License_en:
+    - text: |
+        Services:
+           6. Bonded Export Factory License
+               Documents Required:
+                - Valid operational trade license
+                - Approved bonded premises by customs
+                - Confirmation of debt-free status related to bonded premises
+                - Annual inventory report of goods under bonded premises
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+  utter_Bonded_Export_Factory_Warehouse_License_en:
+    - text: |
+        Services:
+           7. Bonded Export Factory Warehouse License
+                Documents Required:
+                 - Valid trade and bonded factory license
+                 - Approved warehouse under customs standards
+                 - Confirmation of debt-free status
+                 - Annual report on inventory
+
+                   Processing Time: 50 minutes
+                   Fee For The Services: 1,250 ETB per year
+
+  utter_Bonded_Warehouse_License_for_Gift_Deliveries_en:
+    - text: |
+        Services:
+           8. Bonded Warehouse License for Gift Deliveries
+                 Documents Required:
+                   - Valid trade license
+                   - Approved warehouse
+                   - Debt-free certification
+                   - Annual inventory report
+
+                    Processing Time: 50 minutes
+                    Fee For The Services: 1,250 ETB per year
+
+  utter_Duty_Free_Goods_Warehouse_License_en:
+    - text: |
+        Services:
+           9. Duty-Free Goods Warehouse License
+                Documents Required:
+                  - Warehouse approved by Ethiopian Customs under Proclamation No. 859/2006 and Regulation No. 518/2014
+                  - Valid importer's trade license
+                  - Warehouse insurance
+                  - Authorization to sell duty-free goods
+
+                    Processing Time: 50 minutes
+                     Fee For The Services: 1,250 ETB per year
+
+  utter_Duty_Free_Retail_Outlet_License_en:
+    - text: |
+        Services:
+           10. Duty-Free Retail Outlet License
+              Documents Required:
+                - Valid importer's trade license
+                - Customs clearance and warehouse approval
+                - Annual financial report
+                - Debt-free certification linked to duty-free operations
+
+                Processing Time: 50 minutes
+                Fee For The Services: 1,250 ETB per year
+  utter_Renewal_Temporary_Bonded_Customs_Warehouse_en:
+    - text: |
+        Services:
+           11. Renewal of Temporary Bonded Customs Warehouse License
+                  Documents Required:
+                    - Compliance with all relevant customs laws
+                    - Valid trade license and warehouse compliance certificates
+
+                 Processing Time: 50 minutes
+                 Fee For The Services: 1,250 ETB per year
+
+  utter_Renewal_Bonded_Customs_Warehouse_en:
+    - text: |
+        Services:
+           12. Renewal of Bonded Customs Warehouse License
+                Documents Required:
+                 - Valid trade license
+                 - Compliance certificate from customs
+                 - Insurance and debt-free certification
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+  utter_Renewal_Private_Temporary_Customs_Warehouse_en:
+    - text: |
+        Services:
+           13. Renewal of Private Temporary Customs Warehouse License
+                Documents Required:
+                  - Trade license
+                  - Warehouse insurance and compliance
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+  utter_Renewal_Private_Bonded_Customs_Warehouse_en:
+    - text: |
+        Services:
+           14. Renewal of Private Bonded Customs Warehouse License
+                Documents Required:
+                   - Valid trade license
+                   - Warehouse insurance and customs clearance
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+  utter_Renewal_Bonded_Warehouse_License_Relief_en:
+    - text: |
+        Services:
+           15. Renewal of Bonded Warehouse License for Relief Items
+                Documents Required:
+                   - Valid relief organization license
+                   - Compliance certificate from customs
+                   - Debt-free certification
+
+                   Processing Time: 50 minutes
+                   Fee For The Services: 1,250 ETB per year
+
+  utter_Renewal_Bonded_Export_Factory_en:
+    - text: |
+        Services:
+           16. Renewal of Bonded Export Factory License
+                 Documents Required:
+                   - Trade license
+                   - Debt-free certification
+                   - Customs clearance
+
+                    Processing Time: 50 minutes
+                    Fee For The Services: 1,250 ETB per year
+  utter_Renewal_Bonded_Export_Factory_Warehouse_en:
+    - text: |
+        Services:
+           17. Renewal of Bonded Export Factory Warehouse License
+                Documents Required:
+                  - Trade license
+                  - Customs approval and debt-free certification
+
+                   Processing Time: 50 minutes
+                   Fee For The Services: 1,250 ETB per year
+
+  utter_Bonded_Warehouse_License_Input_Supply_en:
+    - text: |
+        Services:
+           18. Bonded Warehouse License for Input Supply
+                 Documents Required:
+                  - Trade license
+                  - Debt-free certification
+
+                   Processing Time: 50 minutes
+                   Fee For The Services: 1,250 ETB per year
+
+  utter_Renewal_Duty-Free_Goods_Warehouse_en:
+    - text: |
+        Services:
+           19. Renewal of Duty-Free Goods Warehouse License
+                 Documents Required:
+                   - Valid importer's license
+                   - Customs compliance certificates
+
+                       Processing Time: 50 minutes
+                       Fee For The Services: 1,250 ETB per year
+
+  utter_Renewal_Duty-Free_Retail_Outlet_en:
+    - text: |
+        Services:
+           20. Renewal of Duty-Free Retail Outlet License
+                 Documents Required:
+                    - Valid trade license
+                    - Annual financial reports
+                    - Debt-free certification
+
+                    Processing Time: 50 minutes
+                    Fee For The Services: 1,250 ETB per year
+
+  utter_Customs_Broker_License_en:
+    - text: |
+        Services:
+          21. Customs Broker License
+                Documents Required:
+                  - Fully equipped and verified customs office and equipment
+                  - Valid trade license in the relevant field
+                  - Organizational establishment documents and regulations
+                  - At least 2 qualified professionals employed
+
+                  Processing Time: 50 minutes
+                  Fee For The Services: 1,250 ETB per year
+
+  utter_Renewal_Customs_Broker_License_en:
+    - text: |
+        Services:
+          22. Renewal of Customs Broker License
+                 Documents Required:
+                    - Valid trade license
+                    - Payroll and tax payment proof for last 3 months
+
+                    Processing Time: 50 minutes
+                    Fee For The Services: 1,250 ETB per year
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

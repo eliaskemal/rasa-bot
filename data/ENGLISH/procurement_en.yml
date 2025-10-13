@@ -1,0 +1,360 @@
+version: "3.1"
+
+nlu:
+- intent: Federal_Public_Procurement_Property_Authority_general_en
+  examples: |
+    - Federal Public Procurement Property Authority
+    - everything about Federal Public Procurement Property Authority
+    - Federal Public Procurement Property Authority in mesob
+    - Federal Public Procurement Property Authority in general
+    - general information about Federal Public Procurement Property Authority
+    - general overview of Federal Public Procurement Property Authority
+    - can u tell me general information about Federal Public Procurement Property Authority
+    - can u give me general information about Federal Public Procurement Property Authority
+    - give me general information about Federal Public Procurement Property Authority
+    - provide me general information about Federal Public Procurement Property Authority
+    - send me general information about Federal Public Procurement Property Authority
+    - tell me general information about Federal Public Procurement Property Authority
+    - What does the Federal Public Procurement Property Authority do?
+    - explain what the Federal Public Procurement Property Authority is?
+    - Federal Public Procurement Property Authority do?
+    - Federal Public Procurement Property Authority information
+    - information about Federal Public Procurement Property Authority
+    - information on Federal Public Procurement Property Authority
+    - Need information on Federal Public Procurement Property Authority
+    - What is Federal Public Procurement Property Authority?
+    - Federal Public Procurement Property Authority details
+    - details about Federal Public Procurement Property Authority
+    - overview of Federal Public Procurement Property Authority
+    - Federal Public Procurement Property Authority overview
+    - Federal Public Procurement Property Authority purpose
+    - purpose of Federal Public Procurement Property Authority
+    - Federal Public Procurement Property Authority help
+    - can u give me help with Federal Public Procurement Property Authority
+    - help me with Federal Public Procurement Property Authority
+    - Federal Public Procurement Property Authority assistance
+    - assistance with Federal Public Procurement Property Authority
+    - need help with Federal Public Procurement Property Authority
+    - tell me about Federal Public Procurement Property Authority
+    - What does the Federal Public Procurement Property Authority do, and what do I need?
+    - Federal Public Procurement Property Authority responsibilities
+    - What's the Federal Public Procurement Property Authority's job?
+    - What functions does the Federal Public Procurement Property Authority perform
+    - what are the services and requirements of the Federal Public Procurement Property Authority?
+    - What services does the Federal Public Procurement Property Authority offer and what documents do I need?
+    - Can you tell me about the Federal Public Procurement Property Authority's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Federal Public Procurement Property Authority.
+    - What documents are needed for services at the Federal Public Procurement Property Authority and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Federal Public Procurement Property Authority.
+    - How much does it cost and what documents are required for Federal Public Procurement Property Authority services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Federal Public Procurement Property Authority?
+    - What do I need to apply for services at the Federal Public Procurement Property Authority, including time and fees?
+    - Tell me about the Federal Public Procurement Property Authority services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Federal Public Procurement Property Authority?
+    - Federal Public Procurement Property Authority services and requirements?
+    - Federal Public Procurement Property Authority fees and steps?
+    - How much Federal Public Procurement Property Authority services cost?
+    - cost for Federal Public Procurement Property Authority?
+    - fee for Federal Public Procurement Property Authority?
+    - how long does it take for Federal Public Procurement Property Authority?
+    - time for Federal Public Procurement Property Authority?
+    - What documents do I need for Federal Public Procurement Property Authority?
+    - What documents are needed for Federal Public Procurement Property Authority?
+    - What do I need for Federal Public Procurement Property Authority services?
+    - What papers do I need for Federal Public Procurement Property Authority?
+    - What documents are required for Federal Public Procurement Property Authority?
+    - What papers are needed for Federal Public Procurement Property Authority?
+    - What documents are required for Federal Public Procurement Property Authority services?
+    - can you send me general information about Federal Public Procurement Property Authority
+    - Can you tell me the documents needed for Federal Public Procurement Property Authority services?
+    - How long does it take to get service at Federal Public Procurement Property Authority?
+    - What fees are charged for services at Federal Public Procurement Property Authority?
+    - I want information on the services and required documents at Federal Public Procurement Property Authority.
+    - Could you explain the processing time and fees for Federal Public Procurement Property Authority services?
+    - What do I need to bring to access services at Federal Public Procurement Property Authority?
+    - Tell me about the service duration and fees at Federal Public Procurement Property Authority.
+    - What are the available services and related fees at Federal Public Procurement Property Authority?
+    - Please provide details about Federal Public Procurement Property Authority's service process, required documents, time, and fees.
+    - What services does the Federal Public Procurement Property Authority provide, and what documents are needed?
+
+    - What services does the Federal Public Procurement Property Authority provide, and what documents are needed?
+    - Can you tell me the required documents, service duration, and fees for procurement services?
+    - How long does the property procurement process take, and what fees apply?
+    - What documents should I prepare for the public procurement services, and what is the estimated time?
+    - Could you explain the fees, necessary documents, and services offered by the authority?
+    - What is the typical processing time and cost for procurement property services, and what documents are required?
+    - Which documents are mandatory for the procurement services, and what fees will I be charged?
+    - How much does the procurement service cost, and what is the time frame including required documents?
+    - What are the available services, fees, and document requirements of the Federal Public Procurement Property Authority?
+    - Please provide details on procurement service fees, required documentation, and processing times.
+    - What services does the Federal Public Procurement Property Authority provide, and what documents are needed?
+    - Can you tell me the required documents, service duration, and fees for procurement services?
+    - How long does the property procurement process take, and what fees apply?
+    - What documents should I prepare for the public procurement services, and what is the estimated time?
+    - Could you explain the fees, necessary documents, and services offered by the authority?
+    - What is the typical processing time and cost for procurement property services, and what documents are required?
+    - Which documents are mandatory for the procurement services, and what fees will I be charged?
+    - How much does the procurement service cost, and what is the time frame including required documents?
+    - What are the available services, fees, and document requirements of the Federal Public Procurement Property Authority?
+    - Please provide details on procurement service fees, required documentation, and processing times.
+
+
+- intent: Federal_Public_Procurement_Property_Authority_service_en
+  examples: |
+
+    - Federal Public Procurement Property Authority services
+    - service of Federal Public Procurement Property Authority in mesob
+    - sercices of Federal Public Procurement Property Authority
+    - services by Federal Public Procurement Property Authority
+    - Federal Public Procurement Property Authority utilities
+    - utility of Federal Public Procurement Property Authority
+    - give me services of Federal Public Procurement Property Authority
+    - list services of Federal Public Procurement Property Authority in mesob
+    - list services by Federal Public Procurement Property Authority
+    - list out Federal Public Procurement Property Authority services
+    - list of services by Federal Public Procurement Property Authority
+    - tell me services by Federal Public Procurement Property Authority
+    - tell me list of services by Federal Public Procurement Property Authority
+    - tell me list of services of Federal Public Procurement Property Authority
+    - tell me the services of Federal Public Procurement Property Authority
+    - telm me about the services of Federal Public Procurement Property Authority
+    - can you tell me about Federal Public Procurement Property Authority services
+    - can you  list the services of Federal Public Procurement Property Authority
+    - can you list services by Federal Public Procurement Property Authority
+    - What kind of support does the Federal Public Procurement Property Authority give?
+    - support from Federal Public Procurement Property Authority
+    - what services does Federal Public Procurement Property Authority support?
+    - list support by Federal Public Procurement Property Authority
+    - tell me support of Federal Public Procurement Property Authority
+    - tell me about the support of Federal Public Procurement Property Authority
+    - What services does the Federal Public Procurement Property Authority provide?
+    - What services are provided by the Federal Public Procurement Property Authority?
+    - list services provided by  Federal Public Procurement Property Authority 
+    - Federal Public Procurement Property Authority provide?
+    - services provided by Federal Public Procurement Property Authority
+    - list services which Federal Public Procurement Property Authority provides 
+    - list the services which Federal Public Procurement Property Authority provides
+    - list of services which Federal Public Procurement Property Authority provides
+    - can u tell me the services which Federal Public Procurement Property Authority provides
+    - tell me the services which Federal Public Procurement Property Authority provides
+    - list of services provided by Federal Public Procurement Property Authority
+    - list the services provided by Federal Public Procurement Property Authority
+    - list services provided by Federal Public Procurement Property Authority
+    - can u list the services provided by Federal Public Procurement Property Authority
+    - can u tell me the services provided by Federal Public Procurement Property Authority
+    - can you tell me the services which Federal Public Procurement Property Authority provides
+    - can you tell me the services provided by Federal Public Procurement Property Authority
+    - What services does the Federal Public Procurement Property Authority offer?
+    - What are the services that the Federal Public Procurement Property Authority offers?
+    - Federal Public Procurement Property Authority offers? 
+    - What does the Federal Public Procurement Property Authority offer?
+    - list the services that Federal Public Procurement Property Authority offers
+    - list the services offered by Federal Public Procurement Property Authority
+    - list of services offered by Federal Public Procurement Property Authority
+    - can you list services offered by Federal Public Procurement Property Authority
+    - What services are offered by the Federal Public Procurement Property Authority?
+    - tell me services offered by Federal Public Procurement Property Authority
+    - can you tell me services offered by Federal Public Procurement Property Authority
+    - What services are available at the Federal Public Procurement Property Authority?
+    - what are the available services at Federal Public Procurement Property Authority
+    - available services at Federal Public Procurement Property Authority
+    - tell me available services of Federal Public Procurement Property Authority
+    - list of available services at Federal Public Procurement Property Authority
+    - list available services by Federal Public Procurement Property Authority
+    - list the available services of Federal Public Procurement Property Authority
+    - list the services that are  available at Federal Public Procurement Property Authority
+    - can u list available services at Federal Public Procurement Property Authority
+    - can you tell me available services at Federal Public Procurement Property Authority
+    - what servies are given by Federal Public Procurement Property Authority
+    - What services does the Federal Public Procurement Property Authority give?
+    - tell me what services Federal Public Procurement Property Authority gives
+    - tell me what services are given by Federal Public Procurement Property Authority
+    - can you list the services that Federal Public Procurement Property Authority gives
+    - can you tell me the services that Federal Public Procurement Property Authority gives
+    - can you tell me what services Federal Public Procurement Property Authority gives
+    - can u tell me what sevices can I get from Federal Public Procurement Property Authority
+    - Federal Public Procurement Property Authority gives services?
+    - what services can I get from Federal Public Procurement Property Authority?
+    - What services can I access at the Federal Public Procurement Property Authority?
+    - What are the main tasks of the Federal Public Procurement Property Authority
+    - What services can I access at the Federal Public Procurement Property Authority?
+    - main tasks of Federal Public Procurement Property Authority
+    - can u tell me the tasks of Federal Public Procurement Property Authority
+    - tasks of Federal Public Procurement Property Authority
+    - Tell me Federal Public Procurement Property Authority services
+    - services by Federal Public Procurement Property Authority
+    - Federal Public Procurement Property Authority services list 
+    - list of Federal Public Procurement Property Authority services
+    - tell me the lists of Federal Public Procurement Property Authority services
+    - Federal Public Procurement Property Authority services list 
+    - Role of the Federal Public Procurement Property Authority?
+    - What roles does the Federal Public Procurement Property Authority play?
+    - Federal Public Procurement Property Authority roles
+    - What roles does the Federal Public Procurement Property Authority have?
+    - What does the Federal Public Procurement Property Authority do
+    - Can you list the services offered by the Federal Public Procurement Property Authority?
+    - Which services are available at the Federal Public Procurement Property Authority?
+    - Tell me about the services of the Federal Public Procurement Property Authority
+    - What help can I get from the Federal Public Procurement Property Authority?
+    - Can you explain the services under Federal Public Procurement Property Authority?
+    - can you list the services of the Federal Public Procurement Property Authority?
+    - can you tell me about the services of the Federal Public Procurement Property Authority?
+    - please tell me the services of the Federal Public Procurement Property Authority?
+    - What services are included in the Federal Public Procurement Property Authority?
+    - give me the services of the Federal Public Procurement Property Authority
+    - give me the list of services of the Federal Public Procurement Property Authority
+    - give me the list of services provided by the Federal Public Procurement Property Authority
+    - send me the services of the Federal Public Procurement Property Authority
+    - send me the list of services of the Federal Public Procurement Property Authority
+    - send me the list of services provided by the Federal Public Procurement Property Authority
+    - provide me the services of the Federal Public Procurement Property Authority
+    - provide me the list of services of the Federal Public Procurement Property Authority
+    - provide me the list of services provided by the Federal Public Procurement Property Authority
+    - What services does EFDA provide?
+    - Tell me the services of Ethiopian Food and Drug Authority
+    - List the services offered by EFDA
+    - What can I do at EFDA?
+    - Which services are available at EFDA?
+    - Describe the main services of the Food and Drug Authority
+    - Services provided by EFDA
+    - What help can EFDA offer?
+    - What are EFDA's functions?
+    - Can you list EFDA services?
+
+- intent: Supplier_Registration_Service_en
+  examples: |
+    - How do I register as a supplier?
+    - Supplier registration process
+    - Steps to register as a supplier
+    - What is needed for supplier registration?
+    - Supplier registration guide
+    - Can you explain supplier registration?
+    - How can I become a registered supplier?
+    - Supplier registration requirements
+    - Procedure for supplier registration
+    - Where to register as a supplier?
+    - How to apply for supplier registration?
+    - Application steps for supplier registration
+    - Ministry of Health supplier registration process
+    - What are the requirements for supplier registration?
+    - Required documents for supplier registration
+    - Document checklist for supplier registration
+    - What paperwork is needed to register as a supplier?
+    - List of documents required for supplier registration
+    - What do I need to bring for supplier registration?
+    - How long does supplier registration take?
+    - Processing time for supplier registration
+    - Supplier registration timeline
+    - Duration of supplier registration process
+    - When will I receive confirmation of supplier registration?
+    - How many days does it take to register as a supplier?
+    - What is the fee for supplier registration?
+    - How much does supplier registration cost?
+    - Supplier registration charges
+    - Payment details for supplier registration
+    - What’s the cost of registering as a supplier?
+    - Are there any fees for supplier registration?
+    - Total service cost for supplier registration
+    - Tell me about supplier registration with documents, fee, and time
+    - What are the documents, cost, and duration for supplier registration?
+    - Provide details on supplier registration process including time, fee, and paperwork
+    - I need information on supplier registration: documents, fee, and time
+    - What are the requirements, cost, and duration for becoming a registered supplier?
+    - What’s the full process for supplier registration?
+    - Explain the supplier registration procedure step by step
+    - Help me with the supplier registration application
+    - Can you assist me with registering as a supplier?
+    - I need help completing my supplier registration
+    - Support for supplier registration process
+    - Where to submit the supplier registration form?
+    - How to complete the supplier registration form?
+    - Ministry of Health contact for supplier registration
+    - Overview of supplier registration requirements
+    - Supplier registration process and fee
+    - Application steps for supplier registration with time and cost
+    - Cost and duration of becoming a registered supplier
+    - Where do I go to apply for supplier registration?
+    - Steps, documents, and fees for supplier registration
+    - Timeline for supplier registration confirmation
+    - How to fill out the supplier registration form
+    - Supplier registration issuance timeline and payment
+    - Application form and requirements for supplier registration
+    - How do I register as a supplier?
+    - Supplier registration process
+    - Steps to register as a supplier
+    - What is needed for supplier registration?
+    - Supplier registration guide
+    - Can you explain supplier registration?
+    - How can I become a registered supplier?
+    - Supplier registration requirements
+    - Procedure for supplier registration
+    - Where to register as a supplier?
+
+- intent: Supplier_Registration_Revision_service_en
+  examples: |
+    - How to revise my supplier registration?
+    - Steps to update supplier registration
+    - Can I revise my supplier information?
+    - Modify existing supplier registration
+    - How do I change my supplier details?
+    - Supplier registration revision process
+    - Update supplier profile
+    - Procedure for supplier revision
+    - Correct supplier registration details
+    - Revise my supplier account info
+    - How to apply for supplier registration revision?
+    - Application steps for supplier registration update
+    - Ministry of Health supplier registration update process
+    - What are the requirements for supplier registration revision?
+    - Required documents for supplier registration update
+    - Document checklist for revising supplier registration
+    - What paperwork is needed to update supplier registration?
+    - List of documents required to revise supplier registration
+    - What do I need to bring to update my supplier info?
+    - How long does supplier registration revision take?
+    - Processing time for updating supplier registration
+    - Supplier registration update timeline
+    - Duration of supplier revision process
+    - When will I receive confirmation of supplier registration revision?
+    - How many days does it take to revise supplier registration?
+    - What is the fee for supplier registration revision?
+    - How much does it cost to update supplier information?
+    - Charges for supplier registration revision
+    - Payment details for revising supplier registration
+    - What’s the cost of updating supplier registration?
+    - Are there any fees for modifying supplier information?
+    - Total service cost for supplier registration update
+    - Tell me about supplier registration revision with documents, fee, and time
+    - What are the documents, cost, and duration for supplier registration update?
+    - Provide details on supplier revision process including time, fee, and paperwork
+    - I need information on updating supplier registration: documents, fee, and time
+    - What are the requirements, cost, and duration for revising supplier registration?
+    - What’s the full process for supplier registration update?
+    - Explain the supplier revision procedure step by step
+    - Help me with the supplier registration revision application
+    - Can you assist me with updating my supplier information?
+    - I need help updating my supplier registration
+    - Support for supplier registration update
+    - Where to submit the supplier revision form?
+    - How to complete the supplier update form?
+    - Ministry of Health contact for supplier registration revision
+    - Overview of supplier registration update requirements
+    - Supplier registration revision process and fee
+    - Application steps for supplier info update with time and cost
+    - Cost and duration of modifying supplier registration
+    - Where do I go to revise supplier registration?
+    - Steps, documents, and fees for supplier registration update
+    - Timeline for supplier registration update confirmation
+    - How to fill out the supplier update form
+    - Supplier registration revision issuance timeline and payment
+    - Application form and requirements for supplier revision
+    - How to revise my supplier registration?
+    - Steps to update supplier registration
+    - Can I revise my supplier information?
+    - Modify existing supplier registration
+    - How do I change my supplier details?
+    - Supplier registration revision process
+    - Update supplier profile
+    - Procedure for supplier revision
+    - Correct supplier registration details
+    - Revise my supplier account info

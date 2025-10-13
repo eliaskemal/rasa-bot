@@ -1,0 +1,499 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_Ethiopian_Postal_Service_Enterprise_general_en
+  examples: |
+    - Ethiopian Postal Service Enterprise
+    - everything about Ethiopian Postal Service Enterprise
+    - Ethiopian Postal Service Enterprise in mesob
+    - Ethiopian Postal Service Enterprise in general
+    - general information about Ethiopian Postal Service Enterprise
+    - general overview of Ethiopian Postal Service Enterprise
+    - can u tell me general information about Ethiopian Postal Service Enterprise
+    - can u give me general information about Ethiopian Postal Service Enterprise
+    - give me general information about Ethiopian Postal Service Enterprise
+    - provide me general information about Ethiopian Postal Service Enterprise
+    - send me general information about Ethiopian Postal Service Enterprise
+    - tell me general information about Ethiopian Postal Service Enterprise
+    - What does the Ethiopian Postal Service Enterprise do?
+    - explain what the Ethiopian Postal Service Enterprise is?
+    - Ethiopian Postal Service Enterprise do?
+    - Ethiopian Postal Service Enterprise information
+    - information about Ethiopian Postal Service Enterprise
+    - information on Ethiopian Postal Service Enterprise
+    - Need information on Ethiopian Postal Service Enterprise
+    - What is Ethiopian Postal Service Enterprise?
+    - Ethiopian Postal Service Enterprise details
+    - details about Ethiopian Postal Service Enterprise
+    - overview of Ethiopian Postal Service Enterprise
+    - Ethiopian Postal Service Enterprise overview
+    - Ethiopian Postal Service Enterprise purpose
+    - purpose of Ethiopian Postal Service Enterprise
+    - Ethiopian Postal Service Enterprise help
+    - can u give me help with Ethiopian Postal Service Enterprise
+    - help me with Ethiopian Postal Service Enterprise
+    - Ethiopian Postal Service Enterprise assistance
+    - assistance with Ethiopian Postal Service Enterprise
+    - need help with Ethiopian Postal Service Enterprise
+    - tell me about Ethiopian Postal Service Enterprise
+    - What does the Ethiopian Postal Service Enterprise do, and what do I need?
+    - Ethiopian Postal Service Enterprise responsibilities
+    - What's the Ethiopian Postal Service Enterprise's job?
+    - What functions does the Ethiopian Postal Service Enterprise perform
+    - what are the services and requirements of the Ethiopian Postal Service Enterprise?
+    - What services does the Ethiopian Postal Service Enterprise offer and what documents do I need?
+    - Can you tell me about the Ethiopian Postal Service Enterprise's services, processing time, required papers, and fees?
+    - I want to know the service details, document requirements, duration, and cost at the Ethiopian Postal Service Enterprise.
+    - What documents are needed for services at the Ethiopian Postal Service Enterprise and how long do they take?
+    - Please provide information on the services, fees, required documents, and timeline for the Ethiopian Postal Service Enterprise.
+    - How much does it cost and what documents are required for Ethiopian Postal Service Enterprise services, and how long is the process?
+    - Could you explain the general services, necessary documents, processing time, and fees at the Ethiopian Postal Service Enterprise?
+    - What do I need to apply for services at the Ethiopian Postal Service Enterprise, including time and fees?
+    - Tell me about the Ethiopian Postal Service Enterprise services, what documents to bring, fees, and expected service time?
+    - What are the services available, document requirements, fees, and timelines at the Ethiopian Postal Service Enterprise?
+    - Ethiopian Postal Service Enterprise services and requirements?
+    - Ethiopian Postal Service Enterprise fees and steps?
+    - How much Ethiopian Postal Service Enterprise services cost?
+    - cost for Ethiopian Postal Service Enterprise?
+    - fee for Ethiopian Postal Service Enterprise?
+    - how long does it take for Ethiopian Postal Service Enterprise?
+    - time for Ethiopian Postal Service Enterprise?
+    - What documents do I need for Ethiopian Postal Service Enterprise?
+    - What documents are needed for Ethiopian Postal Service Enterprise?
+    - What do I need for Ethiopian Postal Service Enterprise services?
+    - What papers do I need for Ethiopian Postal Service Enterprise?
+    - What documents are required for Ethiopian Postal Service Enterprise?
+    - What papers are needed for Ethiopian Postal Service Enterprise?
+    - What documents are required for Ethiopian Postal Service Enterprise services?
+    - can you send me general information about Ethiopian Postal Service Enterprise
+    - Can you tell me the documents needed for Ethiopian Postal Service Enterprise services?
+    - How long does it take to get service at Ethiopian Postal Service Enterprise?
+    - What fees are charged for services at Ethiopian Postal Service Enterprise?
+    - I want information on the services and required documents at Ethiopian Postal Service Enterprise.
+    - Could you explain the processing time and fees for Ethiopian Postal Service Enterprise services?
+    - What do I need to bring to access services at Ethiopian Postal Service Enterprise?
+    - Tell me about the service duration and fees at Ethiopian Postal Service Enterprise.
+    - What are the available services and related fees at Ethiopian Postal Service Enterprise?
+    - Please provide details about Ethiopian Postal Service Enterprise's service process, required documents, time, and fees.
+    - What services does the Ethiopian Postal Service Enterprise provide?
+    - What services does the Ethiopian Postal Service Enterprise provide?  
+    - Can you tell me the documents needed for postal services in Ethiopia?  
+    - How long does it take to complete a service at the Ethiopian Postal Service Enterprise?  
+    - What fees are charged for the different postal services here?  
+    - Could you give me an overview of the Ethiopian Postal Service, including required documents and fees?  
+    - What types of postal services are available, and what do I need to bring with me?  
+    - How much time and money should I expect when using Ethiopian Postal services?  
+    - What are the general requirements and costs for postal services in Ethiopia?  
+    - Can you explain the services, fees, and document requirements for the Ethiopian Postal Enterprise?  
+    - I want to know about the postal service procedures, including timing and payment details.  
+
+
+
+- intent: ask_about_Ethiopian_Postal_Service_Enterprise_service_en
+  examples: |
+    - Ethiopian Postal Service Enterprise services
+    - service of Ethiopian Postal Service Enterprise in mesob
+    - sercices of Ethiopian Postal Service Enterprise
+    - services by Ethiopian Postal Service Enterprise
+    - Ethiopian Postal Service Enterprise utilities
+    - utility of Ethiopian Postal Service Enterprise
+    - give me services of Ethiopian Postal Service Enterprise
+    - list services of Ethiopian Postal Service Enterprise in mesob
+    - list services by Ethiopian Postal Service Enterprise
+    - list out Ethiopian Postal Service Enterprise services
+    - list of services by Ethiopian Postal Service Enterprise
+    - tell me services by Ethiopian Postal Service Enterprise
+    - tell me list of services by Ethiopian Postal Service Enterprise
+    - tell me list of services of Ethiopian Postal Service Enterprise
+    - tell me the services of Ethiopian Postal Service Enterprise
+    - telm me about the services of Ethiopian Postal Service Enterprise
+    - can you tell me about Ethiopian Postal Service Enterprise services
+    - can you  list the services of Ethiopian Postal Service Enterprise
+    - can you list services by Ethiopian Postal Service Enterprise
+    - What kind of support does the Ethiopian Postal Service Enterprise give?
+    - support from Ethiopian Postal Service Enterprise
+    - what services does Ethiopian Postal Service Enterprise support?
+    - list support by Ethiopian Postal Service Enterprise
+    - tell me support of Ethiopian Postal Service Enterprise
+    - tell me about the support of Ethiopian Postal Service Enterprise
+    - What services does the Ethiopian Postal Service Enterprise provide?
+    - What services are provided by the Ethiopian Postal Service Enterprise?
+    - list services provided by  Ethiopian Postal Service Enterprise 
+    - Ethiopian Postal Service Enterprise provide?
+    - services provided by Ethiopian Postal Service Enterprise
+    - list services which Ethiopian Postal Service Enterprise provides 
+    - list the services which Ethiopian Postal Service Enterprise provides
+    - list of services which Ethiopian Postal Service Enterprise provides
+    - can u tell me the services which Ethiopian Postal Service Enterprise provides
+    - tell me the services which Ethiopian Postal Service Enterprise provides
+    - list of services provided by Ethiopian Postal Service Enterprise
+    - list the services provided by Ethiopian Postal Service Enterprise
+    - list services provided by Ethiopian Postal Service Enterprise
+    - can u list the services provided by Ethiopian Postal Service Enterprise
+    - can u tell me the services provided by Ethiopian Postal Service Enterprise
+    - can you tell me the services which Ethiopian Postal Service Enterprise provides
+    - can you tell me the services provided by Ethiopian Postal Service Enterprise
+    - What services does the Ethiopian Postal Service Enterprise offer?
+    - What are the services that the Ethiopian Postal Service Enterprise offers?
+    - Ethiopian Postal Service Enterprise offers? 
+    - What does the Ethiopian Postal Service Enterprise offer?
+    - list the services that Ethiopian Postal Service Enterprise offers
+    - list the services offered by Ethiopian Postal Service Enterprise
+    - list of services offered by Ethiopian Postal Service Enterprise
+    - can you list services offered by Ethiopian Postal Service Enterprise
+    - What services are offered by the Ethiopian Postal Service Enterprise?
+    - tell me services offered by Ethiopian Postal Service Enterprise
+    - can you tell me services offered by Ethiopian Postal Service Enterprise
+    - What services are available at the Ethiopian Postal Service Enterprise?
+    - what are the available services at Ethiopian Postal Service Enterprise
+    - available services at Ethiopian Postal Service Enterprise
+    - tell me available services of Ethiopian Postal Service Enterprise
+    - list of available services at Ethiopian Postal Service Enterprise
+    - list available services by Ethiopian Postal Service Enterprise
+    - list the available services of Ethiopian Postal Service Enterprise
+    - list the services that are  available at Ethiopian Postal Service Enterprise
+    - can u list available services at Ethiopian Postal Service Enterprise
+    - can you tell me available services at Ethiopian Postal Service Enterprise
+    - what servies are given by Ethiopian Postal Service Enterprise
+    - What services does the Ethiopian Postal Service Enterprise give?
+    - tell me what services Ethiopian Postal Service Enterprise gives
+    - tell me what services are given by Ethiopian Postal Service Enterprise
+    - can you list the services that Ethiopian Postal Service Enterprise gives
+    - can you tell me the services that Ethiopian Postal Service Enterprise gives
+    - can you tell me what services Ethiopian Postal Service Enterprise gives
+    - can u tell me what sevices can I get from Ethiopian Postal Service Enterprise
+    - Ethiopian Postal Service Enterprise gives services?
+    - what services can I get from Ethiopian Postal Service Enterprise?
+    - What services can I access at the Ethiopian Postal Service Enterprise?
+    - What are the main tasks of the Ethiopian Postal Service Enterprise
+    - What services can I access at the Ethiopian Postal Service Enterprise?
+    - main tasks of Ethiopian Postal Service Enterprise
+    - can u tell me the tasks of Ethiopian Postal Service Enterprise
+    - tasks of Ethiopian Postal Service Enterprise
+    - Tell me Ethiopian Postal Service Enterprise services
+    - services by Ethiopian Postal Service Enterprise
+    - Ethiopian Postal Service Enterprise services list 
+    - list of Ethiopian Postal Service Enterprise services
+    - tell me the lists of Ethiopian Postal Service Enterprise services
+    - Ethiopian Postal Service Enterprise services list 
+    - Role of the Ethiopian Postal Service Enterprise?
+    - What roles does the Ethiopian Postal Service Enterprise play?
+    - Ethiopian Postal Service Enterprise roles
+    - What roles does the Ethiopian Postal Service Enterprise have?
+    - What does the Ethiopian Postal Service Enterprise do
+    - Can you list the services offered by the Ethiopian Postal Service Enterprise?
+    - Which services are available at the Ethiopian Postal Service Enterprise?
+    - Tell me about the services of the Ethiopian Postal Service Enterprise
+    - What help can I get from the Ethiopian Postal Service Enterprise?
+    - Can you explain the services under Ethiopian Postal Service Enterprise?
+    - can you list the services of the Ethiopian Postal Service Enterprise?
+    - can you tell me about the services of the Ethiopian Postal Service Enterprise?
+    - please tell me the services of the Ethiopian Postal Service Enterprise?
+    - What services are included in the Ethiopian Postal Service Enterprise?
+    - give me the services of the Ethiopian Postal Service Enterprise
+    - give me the list of services of the Ethiopian Postal Service Enterprise
+    - give me the list of services provided by the Ethiopian Postal Service Enterprise
+    - send me the services of the Ethiopian Postal Service Enterprise
+    - send me the list of services of the Ethiopian Postal Service Enterprise
+    - send me the list of services provided by the Ethiopian Postal Service Enterprise
+    - provide me the services of the Ethiopian Postal Service Enterprise
+    - provide me the list of services of the Ethiopian Postal Service Enterprise
+    - provide me the list of services provided by the Ethiopian Postal Service Enterprise
+    - What services does the Ethiopian Postal Service Enterprise provide?
+    - List the services offered by Ethiopian Postal Service
+    - Available services at Ethiopian Postal Service Enterprise
+    - Can you explain the services of Ethiopian Postal Service?
+    - Tell me about the postal services in Ethiopia
+    - What facilities are provided by Ethiopian Postal Service Enterprise?
+    - Which services can I get from Ethiopian Postal Service?
+    - Provide details on Ethiopian Postal Service offerings
+    - What are the main services at Ethiopian Postal Service?
+    - Services available through Ethiopian Postal Service Enterprise
+
+- intent: ask_about_National_Examination_Doc_en
+  examples: |
+    - national examination registration documents
+    - what documents are required for national examination registration?
+    - which papers do I need for the national examination?
+    - documents needed for exam registration
+    - what files should I bring for national examination?
+    - tell me the document requirements for national examination
+    - required forms for national examination
+    - which ids are accepted for national examination?
+    - what proofs do I need for exam application?
+    - what documentation is needed for national examination service?
+    - required certificates for national examination
+    - what paperwork is necessary for national examination registration?
+    - list the required documents for national examination registration
+    - which files must I submit for national examination?
+    - what documents must I bring for national examination?
+    - what documents do I need to provide for national examination registration?
+    - tell me the documents needed for national examination application
+    - document checklist for national examination registration
+    - which forms are required for national examination?
+    - what legal documents are needed for national examination?
+    - what identification documents are accepted for national examination?
+    - list the necessary documents for national examination registration
+    - what papers do I need for national examination?
+    - documents required for national examination processing
+    - required certificates for national examination application
+    - what files do I need to bring for national examination?
+    - what supporting documents are needed for national examination registration?
+    - tell me the documentation required for national examination
+    - which proofs must I provide for national examination?
+    - what official documents are required for national examination?
+    - what forms do I need to complete for national examination registration?
+    - which documents should I prepare for national examination application?
+    - what papers are necessary for national examination registration?
+    - what documents are mandatory for national examination registration?
+    - what documents should I submit for national examination service?
+    - explain the documents required for national examination registration
+    - what documents do I need to apply for national examination?
+    - required paperwork for national examination registration
+    - what certificates should I bring for national examination?
+    - what documents are accepted for national examination registration?
+    - what files are needed for national examination process?
+    - tell me what documents I need for national examination registration
+    - which documents must be submitted for national examination registration?
+    - provide the list of documents for national examination registration
+    - what documentation is necessary for national examination?
+    - what are the document requirements for national examination registration?
+    - What documents are required for National Examination registration?
+    - Which papers do I need for the National Examination?
+    - Documents needed for exam registration
+    - What files should I bring for National Examination?
+    - Tell me the document requirements for National Examination
+    - Required forms for National Examination
+    - Which IDs are accepted for National Examination?
+    - What proofs do I need for exam application?
+    - What documentation is needed for National Examination service?
+    - Required certificates for National Examination
+
+- intent: ask_about_National_Examination_time_en
+  examples: |
+    - What are the working hours for National Examination services?
+    - When does the National Examination office operate?
+    - Opening and closing time for National Examination center
+    - Service time for National Examination
+    - Office hours of National Examination
+    - At what time can I visit the National Examination office?
+    - Tell me the schedule of National Examination services
+    - Working time for National Examination department
+    - What are the operating hours for National Examination?
+    - When is the National Examination office open?
+    - What time does the National Examination office open?
+    - What time does the National Examination office close?
+    - When is the National Examination office open during the day?
+    - What are the daily hours for National Examination services?
+    - How long does the National Examination service take?
+    - What is the processing time for National Examination services?
+    - When can I register for the National Examination?
+    - What time does National Examination registration start?
+    - What time does National Examination registration end?
+    - Are National Examination services available on weekends?
+    - From what time to what time is the National Examination office open?
+    - What is the schedule for National Examination processing?
+    - When is the best time to visit the National Examination office?
+    - Can I access National Examination services in the afternoon?
+    - When do National Examination services begin and end each day?
+    - How many hours per day does the National Examination office operate?
+    - When does the National Examination registration desk open?
+    - When does the National Examination registration desk close?
+    - What are the office hours for the National Examination department?
+    - Are National Examination services available during lunch hours?
+    - How many hours does it take to complete National Examination registration?
+    - What is the estimated time to complete National Examination processing?
+    - When can I come to the National Examination office?
+    - What time slots are available for National Examination services?
+    - What is the operating schedule for the National Examination center?
+    - Is the National Examination office open early in the morning?
+    - What time should I arrive for National Examination registration?
+    - When do National Examination services usually close?
+    - Is there a specific cutoff time for National Examination applications?
+    - How long is the National Examination registration open each day?
+    - Can I get National Examination services after regular hours?
+    - What are the National Examination office hours on holidays?
+    - When does the National Examination office reopen after breaks?
+    - What time does the National Examination department close for the day?
+    - What are the National Examination center’s working hours on weekdays?
+    - Are National Examination services offered on weekends?
+    - What time does the National Examination office open after lunch?
+    - When does National Examination processing start and finish?
+    - How long should I expect to wait during National Examination registration?
+    - What are the operating hours of the National Examination service desk?
+    - Can I register for the National Examination on weekends?
+    - When is the National Examination office least busy?
+    - How late can I apply for the National Examination?
+    - What time does the National Examination service desk close?
+    - What are the hours of operation for National Examination registration?
+    - How many hours a day does the National Examination office work?
+    - When is the last time to submit National Examination registration?
+    - What time does the National Examination office open in the morning?
+    - What time does the National Examination office close in the evening?
+    - What are the working hours for National Examination services?
+    - When does the National Examination office operate?
+    - Opening and closing time for National Examination center
+    - Service time for National Examination
+    - Office hours of National Examination
+    - At what time can I visit the National Examination office?
+    - Tell me the schedule of National Examination services
+    - Working time for National Examination department
+    - What are the operating hours for National Examination?
+    - When is the National Examination office open?
+
+- intent: ask_about_National_Examination_fee_en
+  examples: |
+    - What is the fee for National Examination registration?
+    - How much does it cost to apply for the National Examination?
+    - Examination charges for National test
+    - Service fee for National Examination
+    - Payment required for National Examination
+    - Tell me the cost of National Examination services
+    - What is the price of registering for the exam?
+    - Fee structure for National Examination
+    - How much should I pay for National Examination?
+    - Charges applicable for National Examination
+
+- intent: ask_about_National_ID_Doc_en
+  examples: |
+    - national id application documents
+    - what documents are required to apply for a national id?
+    - which papers are needed for national id registration?
+    - document requirements for national id
+    - what should I bring for national id application?
+    - required files for getting a national id
+    - which ids or proofs are accepted for national id issuance?
+    - tell me the documents needed for national id service
+    - what certificates do I need for national id?
+    - forms and documents for national id application
+    - supporting papers for national id process
+    - what paperwork is needed for national id application?
+    - list the required documents for national id registration
+    - which files must I submit for national id?
+    - what documents must I bring for national id?
+    - what documents do I need to provide for national id application?
+    - tell me the documents needed for national id application
+    - document checklist for national id application
+    - which forms are required for national id registration?
+    - what legal documents are needed for national id?
+    - what identification documents are accepted for national id?
+    - list the necessary documents for national id application
+    - what papers do I need for national id?
+    - documents required for national id processing
+    - required certificates for national id application
+    - what files do I need to bring for national id?
+    - what supporting documents are needed for national id application?
+    - tell me the documentation required for national id
+    - which proofs must I provide for national id?
+    - what official documents are required for national id?
+    - what forms do I need to complete for national id application?
+    - which documents should I prepare for national id application?
+    - what papers are necessary for national id application?
+    - what documents are mandatory for national id registration?
+    - what documents should I submit for national id service?
+    - explain the documents required for national id application
+    - what documents do I need to apply for national id?
+    - required paperwork for national id issuance
+    - what certificates should I bring for national id?
+    - what documents are accepted for national id issuance?
+    - what files are needed for national id process?
+    - tell me what documents I need for national id application
+    - which documents must be submitted for national id application?
+    - provide the list of documents for national id application
+    - what documentation is necessary for national id issuance?
+    - what are the document requirements for national id application?
+    - What documents are required to apply for a National ID?
+    - Which papers are needed for National ID registration?
+    - Document requirements for National ID
+    - What should I bring for National ID application?
+    - Required files for getting a National ID
+    - Which IDs or proofs are accepted for National ID issuance?
+    - Tell me the documents needed for National ID service
+    - What certificates do I need for National ID?
+    - Forms and documents for National ID application
+    - Supporting papers for National ID process
+
+- intent: ask_about_National_ID_time_en
+  examples: |
+    - What are the working hours for National ID service?
+    - When does the National ID office operate?
+    - Opening and closing times for National ID office
+    - Service time for National ID processing
+    - Office hours for National ID registration
+    - When can I visit the National ID center?
+    - Tell me the schedule for National ID services
+    - National ID department working hours
+    - What is the operating time for National ID?
+    - At what hours is National ID office open?
+    - What time does the National ID office open?
+    - What time does the National ID office close?
+    - When is the National ID office open?
+    - What are the hours for National ID processing?
+    - How long does National ID service take?
+    - What is the processing time for National ID?
+    - When can I register for a National ID?
+    - What time does National ID registration start?
+    - What time does National ID registration end?
+    - National ID service availability hours
+    - From what time to what time is the National ID office open?
+    - What are the daily working hours for National ID service?
+    - When is the best time to visit the National ID office?
+    - Can I access National ID services on weekends?
+    - How long is the National ID service available each day?
+    - When does National ID service start and end?
+    - Is National ID registration available in the afternoon?
+    - When can I get National ID services?
+    - What is the estimated time to complete National ID registration?
+    - What are the National ID office hours on weekdays?
+    - What are the National ID office hours on weekends?
+    - When does the National ID registration counter open?
+    - When does the National ID registration counter close?
+    - What time does the National ID department open?
+    - What time does the National ID department close?
+    - Tell me the opening and closing times for National ID services
+    - Are National ID services open during lunch hours?
+    - How many hours a day is the National ID office open?
+    - When is the National ID department not available?
+    - What is the total time required for National ID processing?
+    - Can I visit the National ID office in the morning?
+    - Can I visit the National ID office in the evening?
+    - What are the National ID center's hours of operation?
+    - How many hours does it take to process a National ID?
+    - What time should I arrive for National ID registration?
+    - What time does National ID service usually close?
+    - Is there a specific schedule for National ID service?
+    - What time slots are available for National ID service?
+    - What time is best to apply for National ID?
+    - When are National ID services busiest?
+    - What is the typical duration of National ID registration?
+    - What time can I expect National ID service to finish?
+    - What hours does the National ID center work on holidays?
+    - Is the National ID office open early in the morning?
+    - Is there a cutoff time for National ID applications?
+    - How late can I apply for a National ID?
+    - Are National ID services available after hours?
+    - What time does the National ID registration desk close?
+    - When does the National ID office open after lunch?
+    - What are the working hours for National ID service?
+    - When does the National ID office operate?
+    - Opening and closing times for National ID office
+    - Service time for National ID processing
+    - Office hours for National ID registration
+    - When can I visit the National ID center?
+    - Tell me the schedule for National ID services
+    - National ID department working hours
+    - What is the operating time for National ID?
+    - At what hours is National ID office open?
+
+- intent: ask_about_National_ID_fee_en
+  examples: |
+    - What is the fee for National ID application?
+    - How much does it cost to get a National ID?
+    - Service fee for National ID processing
+    - Payment required for issuing a National ID
+    - Tell me the cost of National ID service
+    - Charges for applying for a National ID
+    - How much should I pay for a National ID?
+    - Fee structure for National ID registration
+    - What is the price of obtaining a National ID?
+    - Amount payable for National ID issuance
