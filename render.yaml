@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rasa-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt && rasa train"
+    startCommand: "rasa run --enable-api --cors '*' --port 10000"
+    plan: free
